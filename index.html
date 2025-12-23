@@ -343,8 +343,9 @@
             cursor: pointer;
             transition: all 0.3s ease;
             font-size: 1.1em;
-            display: flex;
-            align-items: center;
+            line-height: 1.6;
+            word-wrap: break-word;
+            text-align: left;
         }
 
         .option:hover {
@@ -1161,9 +1162,15 @@
                 optionsDiv.appendChild(optionDiv);
             });
 
-            // Ẩn navigation buttons vì giờ tự động chuyển câu
-            document.getElementById('prevBtn').style.display = 'none';
+            // Hiển thị nút navigation
+            // Nút "Quay lại" chỉ hiện khi đã trả lời và không phải câu đầu
+            document.getElementById('prevBtn').style.display =
+                isAnswered && currentQuestionIndex > 0 ? 'block' : 'none';
+
+            // Ẩn nút "Câu sau" vì tự động chuyển
             document.getElementById('nextBtn').style.display = 'none';
+
+            // Nút "Nộp bài" chỉ hiện ở câu cuối và đã trả lời
             document.getElementById('submitBtn').style.display =
                 currentQuestionIndex === shuffledQuestions.length - 1 && isAnswered ? 'block' : 'none';
         }
