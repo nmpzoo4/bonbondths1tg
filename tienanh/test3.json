@@ -1,0 +1,198 @@
+{
+  "testName": "Test 3",
+  "subject": "Tiếng Anh",
+  "questions": [
+    {
+      "id": 1,
+      "type": "reading",
+      "passage": "THE ISSUES OF THE EARTH\n\nEarth's problems are becoming more urgent as we face environmental challenges like global warming and pollution. Deforestation, fossil fuel burning, and waste production (1) ________ severe damage to ecosystems recently. (2) ________ the warnings for years, many nations are now realizing the need for immediate change. We need to act quickly to reduce carbon emissions and promote sustainable living. Governments and organizations (3) ________ take action to implement policies that protect natural resources. In addition to environmental policies, individuals must also take responsibility for their actions and contribute to preserving the planet for future generations. Only through collective efforts can we hope to address these (4) ________.",
+      "question": "Question 1.",
+      "options": ["A. have caused", "B. caused", "C. cause", "D. had caused"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "type": "reading",
+      "passage": "THE ISSUES OF THE EARTH\n\nEarth's problems are becoming more urgent as we face environmental challenges like global warming and pollution. Deforestation, fossil fuel burning, and waste production (1) ________ severe damage to ecosystems recently. (2) ________ the warnings for years, many nations are now realizing the need for immediate change. We need to act quickly to reduce carbon emissions and promote sustainable living. Governments and organizations (3) ________ take action to implement policies that protect natural resources. In addition to environmental policies, individuals must also take responsibility for their actions and contribute to preserving the planet for future generations. Only through collective efforts can we hope to address these (4) ________.",
+      "question": "Question 2.",
+      "options": ["A. To ignore", "B. Ignore", "C. Ignoring", "D. Ignored"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "type": "reading",
+      "passage": "THE ISSUES OF THE EARTH\n\nEarth's problems are becoming more urgent as we face environmental challenges like global warming and pollution. Deforestation, fossil fuel burning, and waste production (1) ________ severe damage to ecosystems recently. (2) ________ the warnings for years, many nations are now realizing the need for immediate change. We need to act quickly to reduce carbon emissions and promote sustainable living. Governments and organizations (3) ________ take action to implement policies that protect natural resources. In addition to environmental policies, individuals must also take responsibility for their actions and contribute to preserving the planet for future generations. Only through collective efforts can we hope to address these (4) ________.",
+      "question": "Question 3.",
+      "options": ["A. can", "B. shouldn't", "C. mustn't", "D. must"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "type": "reading",
+      "passage": "THE ISSUES OF THE EARTH\n\nEarth's problems are becoming more urgent as we face environmental challenges like global warming and pollution. Deforestation, fossil fuel burning, and waste production (1) ________ severe damage to ecosystems recently. (2) ________ the warnings for years, many nations are now realizing the need for immediate change. We need to act quickly to reduce carbon emissions and promote sustainable living. Governments and organizations (3) ________ take action to implement policies that protect natural resources. In addition to environmental policies, individuals must also take responsibility for their actions and contribute to preserving the planet for future generations. Only through collective efforts can we hope to address these (4) ________.",
+      "question": "Question 4.",
+      "options": ["A. issues critical current", "B. current issues critical", "C. critical current issues", "D. current critical issues"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "type": "reading",
+      "passage": "Official Announcement from An Khanh School: ASEAN Education Exchange Program 2024\n\nDear Students and Parents,\n\nWe are excited to announce that our school has been selected to (5) ________ part in the ASEAN Education Exchange Program 2024! This program offers students a unique opportunity to engage (6) ________ cross-cultural learning experiences with schools across Southeast Asia.\n\nProgram Details:\n\n· Application Period: October 1-15, 2024\n\n· Exchange Duration: March 2025 (One month)\n\n· Eligibility: Open to students in grades 9-12 with a passion for global learning and cultural (7) ________.\n\nHow to Apply: You can access to the school's website for (8) ________ application forms and program details",
+      "question": "Question 5.",
+      "options": ["A. take", "B. give", "C. put", "D. look"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "type": "reading",
+      "passage": "Official Announcement from An Khanh School: ASEAN Education Exchange Program 2024\n\nDear Students and Parents,\n\nWe are excited to announce that our school has been selected to (5) ________ part in the ASEAN Education Exchange Program 2024! This program offers students a unique opportunity to engage (6) ________ cross-cultural learning experiences with schools across Southeast Asia.\n\nProgram Details:\n\n· Application Period: October 1-15, 2024\n\n· Exchange Duration: March 2025 (One month)\n\n· Eligibility: Open to students in grades 9-12 with a passion for global learning and cultural (7) ________.\n\nHow to Apply: You can access to the school's website for (8) ________ application forms and program details",
+      "question": "Question 6.",
+      "options": ["A. on", "B. in", "C. of", "D. to"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "type": "reading",
+      "passage": "Official Announcement from An Khanh School: ASEAN Education Exchange Program 2024\n\nDear Students and Parents,\n\nWe are excited to announce that our school has been selected to (5) ________ part in the ASEAN Education Exchange Program 2024! This program offers students a unique opportunity to engage (6) ________ cross-cultural learning experiences with schools across Southeast Asia.\n\nProgram Details:\n\n· Application Period: October 1-15, 2024\n\n· Exchange Duration: March 2025 (One month)\n\n· Eligibility: Open to students in grades 9-12 with a passion for global learning and cultural (7) ________.\n\nHow to Apply: You can access to the school's website for (8) ________ application forms and program details",
+      "question": "Question 7.",
+      "options": ["A. engagement", "B. cooperation", "C. contribution", "D. exchange"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "type": "reading",
+      "passage": "Official Announcement from An Khanh School: ASEAN Education Exchange Program 2024\n\nDear Students and Parents,\n\nWe are excited to announce that our school has been selected to (5) ________ part in the ASEAN Education Exchange Program 2024! This program offers students a unique opportunity to engage (6) ________ cross-cultural learning experiences with schools across Southeast Asia.\n\nProgram Details:\n\n· Application Period: October 1-15, 2024\n\n· Exchange Duration: March 2025 (One month)\n\n· Eligibility: Open to students in grades 9-12 with a passion for global learning and cultural (7) ________.\n\nHow to Apply: You can access to the school's website for (8) ________ application forms and program details",
+      "question": "Question 8.",
+      "options": ["A. take", "B. takes", "C. to take", "D. taking"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 9\n\na. Nick: I'm reading some predictions about New York in 2050.\n\nb. Nick: I think so because at present buildings account for three quarters of the city's greenhouse gas emissions.\n\nc. Mai: I think air pollution is a big problem in New York.\n\nd. Mai: What are you reading, Nick?",
+      "options": ["A. a-b-d-c", "B. d-a-b-c", "C. a-c-d-b", "D. d-a-c-b"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 10,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 10\n\na. Tom: Hi, Linda! Long time no see. What have you been up to?\n\nb. Tom: Wow, that's awesome! Any big projects coming up?\n\nc. Linda: Hi, Tom! I've been working on a new app with my team at work.",
+      "options": ["A. b-a-c", "B. a-c-b", "C. c-a-b", "D. a-b-c"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "type": "arrangement",
+      "passage": "Dear ASEAN colleagues,\n\na. First, Vietnam has long been committed to the goals of ASEAN, striving to enhance cooperation across various sectors.\n\nb. I firmly believe that ASEAN will play an essential role in shaping the future of Southeast Asia.\n\nc. Dear ASEAN colleagues,\n\nd. Furthermore, Vietnam's contributions to regional stability and economic growth have strengthened its position as a key ASEAN member.\n\ne. Thank you for supporting Vietnam's role within ASEAN as we continue to promote peace and development.\n\nf. Second, by engaging in ASEAN activities, Vietnam is actively participating in building a prosperous future for the region.",
+      "question": "Question 11",
+      "options": ["A. c - d - a - f - e – b", "B. c - a - f - d - b - e", "C. c - a - d - f - b – e", "D. c - f - a - b - d – e"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 12\n\na. ASEAN plays a vital role in promoting economic development and cooperation across Southeast Asia.\n\nb. Through ASEAN, Vietnam has expanded its trade networks and attracted foreign investment, particularly in key sectors like manufacturing and agriculture.\n\nc. Furthermore, ASEAN's regional trade agreements have allowed Vietnam to increase its exports and engage in global markets.\n\nd. First, Vietnam, as a member of ASEAN, has leveraged these partnerships to boost its economic growth.\n\ne. Finally, this economic collaboration has been crucial in helping Vietnam become one of the fastest-growing economies in the region.",
+      "options": ["A. a - d - c - b – e", "B. b - a - e - c - d", "C. b - c - d - a – e", "D. e - d - a - b – c"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "type": "reading",
+      "passage": "Global warming and deforestation are destroying our valuable ecosystems and harming the animals and plants (13) ________ live in them. There are many things we can do to stop these problems and protect the Earth's ecosystems.\n\nFirstly, we must try to use only (14) ________ products. For example, we should use electric cars and everyday products like refrigerators and televisions that are energy-saving. These products don't use (15) ________ electricity that produces greenhouse gases. In this way, we reduce greenhouse gas emissions that harm ecosystems.\n\nAnother way to protect our ecosystems is to plant trees. The more trees we have, the more we can cut down on the CO2 already in the air. By doing this, we reduce global warming and its (16) ________ effects on the environment.",
+      "question": "Question 13.",
+      "options": ["A. whose", "B. that", "C. who", "D. Whom"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "type": "reading",
+      "passage": "Global warming and deforestation are destroying our valuable ecosystems and harming the animals and plants (13) ________ live in them. There are many things we can do to stop these problems and protect the Earth's ecosystems.\n\nFirstly, we must try to use only (14) ________ products. For example, we should use electric cars and everyday products like refrigerators and televisions that are energy-saving. These products don't use (15) ________ electricity that produces greenhouse gases. In this way, we reduce greenhouse gas emissions that harm ecosystems.\n\nAnother way to protect our ecosystems is to plant trees. The more trees we have, the more we can cut down on the CO2 already in the air. By doing this, we reduce global warming and its (16) ________ effects on the environment.",
+      "question": "Question 14.",
+      "options": ["A. energy-saving", "B. well-preserved", "C. eye-opening", "D. high-rise"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "type": "reading",
+      "passage": "Global warming and deforestation are destroying our valuable ecosystems and harming the animals and plants (13) ________ live in them. There are many things we can do to stop these problems and protect the Earth's ecosystems.\n\nFirstly, we must try to use only (14) ________ products. For example, we should use electric cars and everyday products like refrigerators and televisions that are energy-saving. These products don't use (15) ________ electricity that produces greenhouse gases. In this way, we reduce greenhouse gas emissions that harm ecosystems.\n\nAnother way to protect our ecosystems is to plant trees. The more trees we have, the more we can cut down on the CO2 already in the air. By doing this, we reduce global warming and its (16) ________ effects on the environment.",
+      "question": "Question 15.",
+      "options": ["A. a lot of", "B. many", "C. some", "D. each"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "type": "reading",
+      "passage": "Global warming and deforestation are destroying our valuable ecosystems and harming the animals and plants (13) ________ live in them. There are many things we can do to stop these problems and protect the Earth's ecosystems.\n\nFirstly, we must try to use only (14) ________ products. For example, we should use electric cars and everyday products like refrigerators and televisions that are energy-saving. These products don't use (15) ________ electricity that produces greenhouse gases. In this way, we reduce greenhouse gas emissions that harm ecosystems.\n\nAnother way to protect our ecosystems is to plant trees. The more trees we have, the more we can cut down on the CO2 already in the air. By doing this, we reduce global warming and its (16) ________ effects on the environment.",
+      "question": "Question 16.",
+      "options": ["A. harmfully", "B. harm", "C. harmfulness", "D. harmful"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 17. Which of the following can be the best title for the passage?",
+      "options": ["A. The Crisis of Overpopulation", "B. The Concept and Benefits of Smart cities", "C. Artificial Intelligence and Human Needs", "D. Planning and Building Smart Cities"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 18. The word \"dearth\" in paragraph 2 is closest in meaning to ______.",
+      "options": ["A. scarcity", "B. surplus", "C. balance", "D. abundance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 19. According to paragraph 2, what is the purpose of a smart city?",
+      "options": ["A. To separate administration and population", "B. To replace current cities completely", "C. To maximise the usage of space and resources and enhance connectivity among citizens", "D. To increase government control over citizens"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 20. The word \"it\" in paragraph 2 refers to ______.",
+      "options": ["A. the building of a smart city", "B. the government", "C. conscious implementation", "D. the usage of spaces and resources"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 21. Which of the following is NOT mentioned as Public properties that need to be improved?",
+      "options": ["A. schools", "B. hospitals", "C. roads", "D. cinemas"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 22. According to the passage, which of the following statements is NOT true?",
+      "options": ["A. Smart cities promote efficient use of resources and improved public infrastructure.", "B. Artificial Intelligence and the Internet of Things play a role in smart city development.", "C. Smart cities help reduce unemployment rates by providing new job opportunities.", "D. Environmental monitoring is an important aspect of smart city planning."],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 23. The word \"purity\" in paragraph 2 is OPPOSITE in meaning to ______.",
+      "options": ["A. cleanliness", "B. pollution", "C. dirtiness", "D. fresh"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "type": "comprehension",
+      "passage": "Several cities are dealing with the crisis of overpopulation, causing a dearth of resources. Social and economic imbalance among citizens creates problems in a community. As technology grows, the concept of Artificial Intelligence and Internet of Things can be used in planning Smart cities, which can gradually tackle several issues in a coexistent society.\n\nThe building of a smart city requires large investments by the government. Nonetheless, it is one of the best changes possible in lifestyles if done with conscious implementation. Smart cities are designed for optimum usage of space and resources, along with an efficient and optimum distribution of benefits. It also aims at increasing connectivity at various levels among citizens, as well as between the administration and population. Public properties such as schools, roads, and hospitals are improved. The system can tackle several redundancies of the present system and save time and money. As technology is rapidly advancing, one can acknowledge that one needs to develop their lifestyles accordingly to adapt to present-day demands.\n\nSmart cities are meant to be environmentally friendly. There are devices which can keep track of air purity levels, as well as other environmental and health-related factors. The investment in such a city should also include the maintenance of a conscious workforce which shall review and amend the system. Therefore, a smart city shall only reach a wholesome stage if it stands up to the social and psychological needs of the population.",
+      "question": "Question 24. It can be inferred from the passage that ______.",
+      "options": ["A. The success of smart cities depends not only on technology but also on human involvement.", "B. Smart cities can function effectively without government investment.", "C. The main purpose of smart cities is to replace human labor with machines.", "D. Overpopulation will immediately be solved once smart cities are established."],
+      "correctAnswer": 0
+    }
+  ]
+}

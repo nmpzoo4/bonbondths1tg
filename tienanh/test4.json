@@ -1,0 +1,198 @@
+{
+  "testName": "Test 4",
+  "subject": "Tiếng Anh",
+  "questions": [
+    {
+      "id": 1,
+      "type": "reading",
+      "passage": "A long history of cooperation between Vietnam and Thailand\n\nVietnam and Thailand have a long history of cooperation, which (1) ________ in recent years. Economically, both countries have engaged in extensive trade and investment partnerships. In 2022, Vietnam and Thailand pledged to increase their bilateral trade to $25 billion by 2025, focusing on sectors such as agriculture, tourism, and manufacturing. Thailand is one of Vietnam's top trading partners in ASEAN, and both nations have collaborated on numerous projects to enhance economic growth and regional stability. (2) ________ the flow of goods, services, and capital between the two countries, joint ventures and cross-border investments have been promoted.\n\nBeyond economics, Vietnam and Thailand have also focused on cultural exchange and people-to-people ties. The two nations have organized various cultural events, festivals, and (3) ________ deepen mutual understanding and friendship. Programs like student exchanges and joint cultural exhibitions (4) ________ allow citizens to appreciate each other's traditions and values, fostering a sense of regional unity. This cultural cooperation has not only strengthened diplomatic relations but also contributed to a more cohesive ASEAN community, where member countries support each other's growth and development",
+      "question": "Question 1.",
+      "options": ["A. have strengthened", "B. strengthened", "C. strengthen", "D. has strengthened"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "type": "reading",
+      "passage": "A long history of cooperation between Vietnam and Thailand\n\nVietnam and Thailand have a long history of cooperation, which (1) ________ in recent years. Economically, both countries have engaged in extensive trade and investment partnerships. In 2022, Vietnam and Thailand pledged to increase their bilateral trade to $25 billion by 2025, focusing on sectors such as agriculture, tourism, and manufacturing. Thailand is one of Vietnam's top trading partners in ASEAN, and both nations have collaborated on numerous projects to enhance economic growth and regional stability. (2) ________ the flow of goods, services, and capital between the two countries, joint ventures and cross-border investments have been promoted.\n\nBeyond economics, Vietnam and Thailand have also focused on cultural exchange and people-to-people ties. The two nations have organized various cultural events, festivals, and (3) ________ deepen mutual understanding and friendship. Programs like student exchanges and joint cultural exhibitions (4) ________ allow citizens to appreciate each other's traditions and values, fostering a sense of regional unity. This cultural cooperation has not only strengthened diplomatic relations but also contributed to a more cohesive ASEAN community, where member countries support each other's growth and development",
+      "question": "Question 2.",
+      "options": ["A. To facilitating", "B. to facilitate", "C. facilitating", "D. facilitate"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "reading",
+      "passage": "A long history of cooperation between Vietnam and Thailand\n\nVietnam and Thailand have a long history of cooperation, which (1) ________ in recent years. Economically, both countries have engaged in extensive trade and investment partnerships. In 2022, Vietnam and Thailand pledged to increase their bilateral trade to $25 billion by 2025, focusing on sectors such as agriculture, tourism, and manufacturing. Thailand is one of Vietnam's top trading partners in ASEAN, and both nations have collaborated on numerous projects to enhance economic growth and regional stability. (2) ________ the flow of goods, services, and capital between the two countries, joint ventures and cross-border investments have been promoted.\n\nBeyond economics, Vietnam and Thailand have also focused on cultural exchange and people-to-people ties. The two nations have organized various cultural events, festivals, and (3) ________ deepen mutual understanding and friendship. Programs like student exchanges and joint cultural exhibitions (4) ________ allow citizens to appreciate each other's traditions and values, fostering a sense of regional unity. This cultural cooperation has not only strengthened diplomatic relations but also contributed to a more cohesive ASEAN community, where member countries support each other's growth and development",
+      "question": "Question 3.",
+      "options": ["A. can", "B. shouldn't", "C. need", "D. must"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "type": "reading",
+      "passage": "A long history of cooperation between Vietnam and Thailand\n\nVietnam and Thailand have a long history of cooperation, which (1) ________ in recent years. Economically, both countries have engaged in extensive trade and investment partnerships. In 2022, Vietnam and Thailand pledged to increase their bilateral trade to $25 billion by 2025, focusing on sectors such as agriculture, tourism, and manufacturing. Thailand is one of Vietnam's top trading partners in ASEAN, and both nations have collaborated on numerous projects to enhance economic growth and regional stability. (2) ________ the flow of goods, services, and capital between the two countries, joint ventures and cross-border investments have been promoted.\n\nBeyond economics, Vietnam and Thailand have also focused on cultural exchange and people-to-people ties. The two nations have organized various cultural events, festivals, and (3) ________ deepen mutual understanding and friendship. Programs like student exchanges and joint cultural exhibitions (4) ________ allow citizens to appreciate each other's traditions and values, fostering a sense of regional unity. This cultural cooperation has not only strengthened diplomatic relations but also contributed to a more cohesive ASEAN community, where member countries support each other's growth and development",
+      "question": "Question 4.",
+      "options": ["A. educational exchange programs", "B. programs exchange educational", "C. educational programs exchange", "D. programs educational exchange"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "type": "reading",
+      "passage": "Attention all students!\n\nJoin our meeting on (5) ________ the environment.\n\n· Learn to cycle to school to (6) ________ pollution.\n\n· Dispose (7) ________ waste properly to keep our campus clean.\n\n· Exciting prizes await active participants.\n\nThe meeting is scheduled on Thursday, March 12th at 3 P.M. at the school auditorium.\n\nLet's (8) ________ together for a greener future!",
+      "question": "Question 5.",
+      "options": ["A. protects", "B. protecting", "C. to protecting", "D. to protect"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "type": "reading",
+      "passage": "Attention all students!\n\nJoin our meeting on (5) ________ the environment.\n\n· Learn to cycle to school to (6) ________ pollution.\n\n· Dispose (7) ________ waste properly to keep our campus clean.\n\n· Exciting prizes await active participants.\n\nThe meeting is scheduled on Thursday, March 12th at 3 P.M. at the school auditorium.\n\nLet's (8) ________ together for a greener future!",
+      "question": "Question 6.",
+      "options": ["A. recover", "B. reduce", "C. affect", "D. increase"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "type": "reading",
+      "passage": "Attention all students!\n\nJoin our meeting on (5) ________ the environment.\n\n· Learn to cycle to school to (6) ________ pollution.\n\n· Dispose (7) ________ waste properly to keep our campus clean.\n\n· Exciting prizes await active participants.\n\nThe meeting is scheduled on Thursday, March 12th at 3 P.M. at the school auditorium.\n\nLet's (8) ________ together for a greener future!",
+      "question": "Question 7.",
+      "options": ["A. to", "B. for", "C. from", "D. of"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "type": "reading",
+      "passage": "Attention all students!\n\nJoin our meeting on (5) ________ the environment.\n\n· Learn to cycle to school to (6) ________ pollution.\n\n· Dispose (7) ________ waste properly to keep our campus clean.\n\n· Exciting prizes await active participants.\n\nThe meeting is scheduled on Thursday, March 12th at 3 P.M. at the school auditorium.\n\nLet's (8) ________ together for a greener future!",
+      "question": "Question 8.",
+      "options": ["A. work", "B. do", "C. put", "D. take"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 9\n\na. Mai: Do you think eco-friendly public transport will produce less carbon dioxide or waste?\n\nb. Nam: Maybe the infrastructure will become smarter thanks to sensor technology.\n\nc. Mai: I think so. What will the infrastructure be like?\n\nd. Nam: I am not really sure about it. However, I think the public transport in the future will be controlled by computers.",
+      "options": ["A. a-b-d-c", "B. d-a-b-c", "C. a-c-d-b", "D. a-d-c-b"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 10,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 10\n\na. David: Hey, Sarah! You've been traveling a lot lately, right?\n\nb. David: That's amazing! How was the experience?\n\nc. Sarah: Hi, David! Yes, I just got back from Europe.",
+      "options": ["A. a-b-c", "B. c-a-b", "C. a-c-b", "D. b-a-c"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "type": "arrangement",
+      "passage": "Dear Eco-Conscious Friends,\n\na. By reducing waste and conserving resources, we can help create a cleaner, healthier world.\n\nb. Together, let's work towards a sustainable future and inspire others to do the same.\n\nc. As global citizens, it's our responsibility to take action against environmental degradation.\n\nd. Dear Eco-Conscious Friends,\n\ne. Thank you for your commitment to preserving our planet.\n\nf. The consequences of pollution and deforestation are affecting ecosystems and biodiversity.",
+      "question": "Question 11",
+      "options": ["A. d - f - c - a - e – b", "B. d - c - f - a - b – e", "C. d - f - a - c - b – e", "D. d - c - e - f - b – a"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 12\n\na. First, reducing carbon footprints at an individual level can make a meaningful impact on global warming.\n\nb. Additionally, small daily actions, like conserving energy and reducing waste, contribute to overall emissions reduction.\n\nc. In conclusion, these efforts help combat climate change and preserve the environment for future generations.\n\nd. Many people are unaware of how their daily habits contribute to global warming.\n\ne. With greater awareness and small lifestyle changes, everyone can play a role in slowing down global warming.",
+      "options": ["A. d - a - b - e – c", "B. a - d - e - c - b", "C. d - a - c - b – e", "D. a - c - b - d – e"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "type": "reading",
+      "passage": "Smart cities improve the usage of resources such as electricity or water by predicting their demand. (13) ________ sensors are installed inside commercial and residential buildings like smart meters, they can analyze the amount of energy consumed, central management systems are able to (14) ________ patterns and demand, thus limiting wasted resources.\n\nTransportation can be made more efficient with connected traffic management systems and new types of mobility, (15) ________ of which include shared vehicles (cars, bikes, e-scooters). Trains, trams, buses, or taxis can inform citizens of precise arrival times and delays, meaning people will waste less time waiting for transportation. Additionally, these shared vehicles can help reduce the number of cars on the street and improve the flow of traffic.\n\nInfrastructure such as streets, bridges, and buildings can be made safer and cheaper to maintain. With sensors installed throughout the structure, (16) ________ use AI data analysis, maintenance issues can be predicted before they occur. Therefore, these problems can be repaired or rebuilt without causing serious damage to the infrastructure or risking the safety of citizens.",
+      "question": "Question 13.",
+      "options": ["A. Although", "B. However", "C. Because of", "D. Because"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "type": "reading",
+      "passage": "Smart cities improve the usage of resources such as electricity or water by predicting their demand. (13) ________ sensors are installed inside commercial and residential buildings like smart meters, they can analyze the amount of energy consumed, central management systems are able to (14) ________ patterns and demand, thus limiting wasted resources.\n\nTransportation can be made more efficient with connected traffic management systems and new types of mobility, (15) ________ of which include shared vehicles (cars, bikes, e-scooters). Trains, trams, buses, or taxis can inform citizens of precise arrival times and delays, meaning people will waste less time waiting for transportation. Additionally, these shared vehicles can help reduce the number of cars on the street and improve the flow of traffic.\n\nInfrastructure such as streets, bridges, and buildings can be made safer and cheaper to maintain. With sensors installed throughout the structure, (16) ________ use AI data analysis, maintenance issues can be predicted before they occur. Therefore, these problems can be repaired or rebuilt without causing serious damage to the infrastructure or risking the safety of citizens.",
+      "question": "Question 14.",
+      "options": ["A. increase", "B. predict", "C. produce", "D. manage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "type": "reading",
+      "passage": "Smart cities improve the usage of resources such as electricity or water by predicting their demand. (13) ________ sensors are installed inside commercial and residential buildings like smart meters, they can analyze the amount of energy consumed, central management systems are able to (14) ________ patterns and demand, thus limiting wasted resources.\n\nTransportation can be made more efficient with connected traffic management systems and new types of mobility, (15) ________ of which include shared vehicles (cars, bikes, e-scooters). Trains, trams, buses, or taxis can inform citizens of precise arrival times and delays, meaning people will waste less time waiting for transportation. Additionally, these shared vehicles can help reduce the number of cars on the street and improve the flow of traffic.\n\nInfrastructure such as streets, bridges, and buildings can be made safer and cheaper to maintain. With sensors installed throughout the structure, (16) ________ use AI data analysis, maintenance issues can be predicted before they occur. Therefore, these problems can be repaired or rebuilt without causing serious damage to the infrastructure or risking the safety of citizens.",
+      "question": "Question 15.",
+      "options": ["A. other", "B. much", "C. each", "D. some"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 16,
+      "type": "reading",
+      "passage": "Smart cities improve the usage of resources such as electricity or water by predicting their demand. (13) ________ sensors are installed inside commercial and residential buildings like smart meters, they can analyze the amount of energy consumed, central management systems are able to (14) ________ patterns and demand, thus limiting wasted resources.\n\nTransportation can be made more efficient with connected traffic management systems and new types of mobility, (15) ________ of which include shared vehicles (cars, bikes, e-scooters). Trains, trams, buses, or taxis can inform citizens of precise arrival times and delays, meaning people will waste less time waiting for transportation. Additionally, these shared vehicles can help reduce the number of cars on the street and improve the flow of traffic.\n\nInfrastructure such as streets, bridges, and buildings can be made safer and cheaper to maintain. With sensors installed throughout the structure, (16) ________ use AI data analysis, maintenance issues can be predicted before they occur. Therefore, these problems can be repaired or rebuilt without causing serious damage to the infrastructure or risking the safety of citizens.",
+      "question": "Question 16.",
+      "options": ["A. which", "B. whose", "C. who", "D. when"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 17. Which of the following can be the best title for the passage?",
+      "options": ["A. Cultural Celebrations in ASEAN Countries", "B. Cultural Practices in ASEAN Countries", "C. Popular Activities in Cultural Celebrations in ASEAN Countries", "D. The Development of Culture in ASEAN Countries."],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 18. The word 'promote' in paragraph 1 is closest in meaning to _________.",
+      "options": ["A. discourage", "B. encourage", "C. exclude", "D. avoid"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 19. According to paragraph 3, what is the Water Festival in ASEAN countries?",
+      "options": ["A. A festival that celebrates the start of the rainy season", "B. A festival that celebrates the end of the rainy season", "C. A festival that celebrates the power of the wind", "D. A festival that celebrates the start of the dry season"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 20. What is the alternative name for the Water Festival in Thailand?",
+      "options": ["A. Lunar New Year", "B. Mid-Autumn Festival", "C. Songkran", "D. Idul Fitri"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 21. The word 'that' in paragraph 4 refers to _________.",
+      "options": ["A. celebrations", "B. countries", "C. cultural practices", "D. traditions and practices"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 22. The word \"prosperity\" in paragraph 2 is OPPOSITE in meaning to ______.",
+      "options": ["A. wealth", "B. success", "C. development", "D. poverty"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 23,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 23. According to the passage, which of the following statements is NOT true?",
+      "options": ["A. The Lunar New Year is celebrated in several ASEAN countries and includes activities like dragon dances and lighting firecrackers.", "B. The Water Festival, also known as Songkran, marks the beginning of the rainy season and involves splashing water.", "C. All ASEAN countries celebrate the Mid-Autumn Festival by releasing lanterns into the sky.", "D. Cultural celebrations in ASEAN countries help promote unity and cultural understanding."],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "type": "comprehension",
+      "passage": "ASEAN countries are known for their rich cultural traditions and celebrations. These celebrations, often marked by colourful parades and performances, are an important way to honour ancestors, strengthen community bonds, and promote regional cooperation and understanding.\n\nOne of the most popular cultural celebrations in many ASEAN countries is the Lunar New Year, which takes place in late January or early February. Based on the lunar calendar, this holiday is a time to honour ancestors, make offerings of food and gifts, and wish for prosperity and good fortune in the coming year. During the Lunar New Year, people often take part in traditional activities such as tug of war, bamboo dancing, stilt walking, dragon and lion dances, and the lighting of firecrackers to scare away bad luck.\n\nAnother popular cultural celebration in many ASEAN countries is the Water Festival, which takes place in April or May. This festival, also known as Songkran in Thailand, celebrates the start of the rainy season and the power of water to wash away bad luck and start fresh. During the festival, people splash water on each other in the streets and participate in other fun activities.\n\nIn addition to these celebrations, many ASEAN countries also have unique cultural traditions and practices that are specific to their region or community. For example, in Viet Nam, people often release lanterns into the sky during the Mid-Autumn Festival to symbolize the desire for a bright future. In Indonesia, people celebrate the end of Ramadan with a feast known as Idul Fitri, which is a time to strengthen community bonds and forgive past grievances.\n\nOverall, cultural celebrations are an important part of life in ASEAN countries, promoting regional identity, cultural exchange, and mutual support among communities.",
+      "question": "Question 24. It can be inferred from the passage that ______.",
+      "options": ["A. Cultural celebrations help maintain harmony and shared identity among ASEAN countries.", "B. ASEAN countries no longer value their traditional festivals in modern times.", "C. Only religious events are celebrated in ASEAN countries.", "D. Most ASEAN festivals are identical in customs and timing."],
+      "correctAnswer": 0
+    }
+  ]
+}
