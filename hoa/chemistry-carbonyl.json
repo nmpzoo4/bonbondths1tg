@@ -1,0 +1,240 @@
+{
+  "testName": "Andehit - Xeton - Axit cacboxylic",
+  "subject": "Chemistry",
+  "description": "YCCĐ 11.3-11.4: Hợp chất có nhóm C=O và nhóm -COOH",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Công thức tổng quát của andehit no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₊₁CHO",
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙCOOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Andehit axetic có công thức phân tử là",
+      "options": [
+        "HCHO",
+        "CH₃CHO",
+        "C₂H₅CHO",
+        "C₃H₇CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Andehit có tính khử mạnh, có thể khử được",
+      "options": [
+        "Dung dịch AgNO₃/NH₃",
+        "Dung dịch NaCl",
+        "Dung dịch NaOH",
+        "Dung dịch HCl"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Khi oxi hóa hoàn toàn andehit thu được sản phẩm là",
+      "options": [
+        "Ancol",
+        "Xeton",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.3",
+      "question": "Cho 0,1 mol HCHO tác dụng với dung dịch AgNO₃/NH₃ dư. Khối lượng Ag thu được là",
+      "options": [
+        "10,8 gam",
+        "21,6 gam",
+        "32,4 gam",
+        "43,2 gam"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Công thức tổng quát của xeton no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙCO",
+        "RCOR'"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Xeton không có tính khử vì",
+      "options": [
+        "Không có nguyên tử H liên kết với nhóm C=O",
+        "Có nhóm C=O",
+        "Là chất lỏng",
+        "Tan trong nước"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.3",
+      "question": "Đốt cháy hoàn toàn 0,1 mol hợp chất X (chứa C, H, O) thu được 0,3 mol CO₂ và 0,3 mol H₂O. X là",
+      "options": [
+        "CH₃CHO",
+        "C₂H₅CHO",
+        "CH₃COCH₃",
+        "HCHO"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.4",
+      "question": "Công thức tổng quát của axit cacboxylic no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO₂",
+        "CₙH₂ₙ₊₁COOH",
+        "CₙH₂ₙCOOH",
+        "RCOOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.4",
+      "question": "Axit axetic có công thức phân tử là",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₃H₇COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit cacboxylic có tính axit vì",
+      "options": [
+        "Có nhóm -COOH có thể phân li ra H⁺",
+        "Có nguyên tử C",
+        "Tan trong nước",
+        "Có mùi chua"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit axetic tác dụng với ancol etylic (xúc tác H₂SO₄ đặc) tạo thành",
+      "options": [
+        "CH₃COOC₂H₅",
+        "C₂H₅COOCH₃",
+        "HCOOC₂H₅",
+        "CH₃COOCH₃"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Cho 0,1 mol CH₃COOH tác dụng với dung dịch NaOH dư. Khối lượng muối thu được là",
+      "options": [
+        "8,2 gam",
+        "6,0 gam",
+        "4,0 gam",
+        "10,0 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit nào sau đây có tính axit mạnh nhất?",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₆H₅COOH"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Đốt cháy hoàn toàn 0,1 mol axit X thu được 0,2 mol CO₂ và 0,2 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₃H₇COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Xét tính đúng/sai của các phát biểu sau về andehit và xeton:",
+      "statements": [
+        "Andehit và xeton đều có nhóm chức C=O",
+        "Xeton có tính khử mạnh như andehit",
+        "Andehit tác dụng được với AgNO₃/NH₃",
+        "HCHO tạo 4 mol Ag khi phản ứng với AgNO₃/NH₃"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Để trung hòa 6 gam CH₃COOH cần bao nhiêu gam NaOH?",
+      "correctAnswer": "4",
+      "unit": "gam"
+    }
+  ]
+}

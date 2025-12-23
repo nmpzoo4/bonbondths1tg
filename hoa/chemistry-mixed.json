@@ -1,0 +1,1251 @@
+{
+  "testName": "Tổng hợp Hóa học hữu cơ",
+  "subject": "Chemistry",
+  "description": "Trộn tất cả 80 câu hỏi từ các chủ đề: Cơ bản, Hidrocacbon, Ancol-Phenol, Andehit-Xeton-Axit, Este-Lipit",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.1",
+      "question": "Tính chất nào sau đây không phải là đặc điểm của hợp chất hữu cơ?",
+      "options": [
+        "Nhiệt độ nóng chảy và nhiệt độ sôi thấp",
+        "Dễ cháy",
+        "Kém bền với nhiệt",
+        "Tan nhiều trong nước"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.1",
+      "question": "Nguyên tử cacbon trong hợp chất hữu cơ có hóa trị là",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.1",
+      "question": "Chất nào sau đây là hợp chất vô cơ?",
+      "options": [
+        "C₂H₅OH",
+        "CH₃COOH",
+        "CO₂",
+        "CH₄"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.1",
+      "question": "Công thức đơn giản nhất của hợp chất hữu cơ có chứa 40% C, 6,67% H và 53,33% O theo khối lượng là",
+      "options": [
+        "CH₂O",
+        "C₂H₄O₂",
+        "C₃H₆O₃",
+        "C₆H₁₂O₆"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.2",
+      "question": "Tên gọi của CH₃-CH₂-CH₂-CH₃ là",
+      "options": [
+        "Propan",
+        "Butan",
+        "Pentan",
+        "Hexan"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.2",
+      "question": "Tên gọi của CH₃-CH(CH₃)-CH₃ là",
+      "options": [
+        "Propan",
+        "Butan",
+        "2-metylpropan",
+        "Isobutan"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.2",
+      "question": "Tên thay thế của CH₃-CH₂-CH(CH₃)-CH₂-CH₃ là",
+      "options": [
+        "2-metylpentan",
+        "3-metylpentan",
+        "4-metylpentan",
+        "Pentan"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.2",
+      "question": "Công thức cấu tạo của 2,2-đimetylpropan là",
+      "options": [
+        "CH₃-C(CH₃)₂-CH₃",
+        "(CH₃)₃C-CH₃",
+        "CH₃-CH(CH₃)-CH(CH₃)-CH₃",
+        "CH₃-CH₂-C(CH₃)₃"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.3",
+      "question": "Đồng phân là gì?",
+      "options": [
+        "Các chất có cùng công thức phân tử nhưng khác công thức cấu tạo",
+        "Các chất có cùng công thức cấu tạo",
+        "Các chất có cùng tính chất",
+        "Các chất có cùng khối lượng phân tử"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.3",
+      "question": "Số đồng phân cấu tạo của C₄H₁₀ là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.3",
+      "question": "Số đồng phân cấu tạo của C₅H₁₂ là",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "8.3",
+      "question": "Công thức phân tử C₄H₁₀O có bao nhiêu đồng phân ancol?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.4",
+      "question": "Phản ứng thế là phản ứng",
+      "options": [
+        "Có sự thay thế nguyên tử hay nhóm nguyên tử này bằng nguyên tử hay nhóm nguyên tử khác",
+        "Có sự cắt đứt liên kết đơn",
+        "Có sự tạo liên kết đôi",
+        "Có sự giảm số nguyên tử H"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.4",
+      "question": "Phản ứng cộng là phản ứng",
+      "options": [
+        "Có sự phá vỡ liên kết bội để tạo liên kết đơn",
+        "Có sự tạo liên kết bội",
+        "Có sự thay thế nguyên tử",
+        "Có sự tách ra phân tử nhỏ"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.4",
+      "question": "Phản ứng CH₄ + Cl₂ → CH₃Cl + HCl (ánh sáng) thuộc loại phản ứng",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng oxi hóa-khử"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.4",
+      "question": "Phản ứng C₂H₄ + Br₂ → C₂H₄Br₂ thuộc loại phản ứng",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng trùng hợp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "8.4",
+      "question": "Phản ứng C₂H₅OH → C₂H₄ + H₂O (H₂SO₄ đặc, 170°C) thuộc loại phản ứng",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng este hóa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "8.4",
+      "question": "Cho sơ đồ: C₂H₅OH → X → Y → CH₃COOH. X và Y lần lượt là",
+      "options": [
+        "C₂H₄ và CH₃CHO",
+        "CH₃CHO và C₂H₄",
+        "C₂H₆ và C₂H₄",
+        "C₂H₄ và C₂H₆"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "8.1",
+      "question": "Phần trăm khối lượng cacbon trong CH₄ là",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "90%"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "8.3",
+      "question": "Số đồng phân cấu tạo mạch hở của C₃H₆ là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.1",
+      "question": "Công thức tổng quát của ankan là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.1",
+      "question": "Ankan có phản ứng đặc trưng là",
+      "options": [
+        "Phản ứng cộng",
+        "Phản ứng thế",
+        "Phản ứng trùng hợp",
+        "Phản ứng tách"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.1",
+      "question": "Khi cho metan tác dụng với clo (có ánh sáng) thu được sản phẩm chính là",
+      "options": [
+        "CH₃Cl",
+        "CH₂Cl₂",
+        "CHCl₃",
+        "CCl₄"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.1",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ankan X thu được 0,3 mol CO₂. Công thức phân tử của X là",
+      "options": [
+        "CH₄",
+        "C₂H₆",
+        "C₃H₈",
+        "C₄H₁₀"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Công thức tổng quát của anken là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Anken có phản ứng đặc trưng là",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng este hóa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Khi cho etilen tác dụng với nước (xúc tác H₂SO₄, t°) thu được sản phẩm là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "CH₃CHO",
+        "CH₃COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Phản ứng nào sau đây dùng để phân biệt ankan và anken?",
+      "options": [
+        "Phản ứng với O₂",
+        "Phản ứng với dung dịch Br₂",
+        "Phản ứng với dung dịch NaOH",
+        "Phản ứng với dung dịch HCl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Cho 0,1 mol anken X tác dụng với dung dịch brom dư thì có 32 gam Br₂ phản ứng. Công thức phân tử của X là",
+      "options": [
+        "C₂H₄",
+        "C₃H₆",
+        "C₄H₈",
+        "C₅H₁₀"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Công thức tổng quát của ankin là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Ankin có liên kết ba đầu mạch tác dụng được với",
+      "options": [
+        "Dung dịch NaCl",
+        "Dung dịch AgNO₃/NH₃",
+        "Dung dịch NaOH",
+        "Dung dịch HCl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ankin X thu được 0,4 mol CO₂. Công thức phân tử của X là",
+      "options": [
+        "C₂H₂",
+        "C₃H₄",
+        "C₄H₆",
+        "C₅H₈"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Benzen có công thức phân tử là",
+      "options": [
+        "C₆H₆",
+        "C₆H₁₂",
+        "C₆H₁₄",
+        "C₆H₁₀"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Benzen tác dụng với Br₂ (có bột Fe) tạo thành",
+      "options": [
+        "C₆H₅Br + HBr",
+        "C₆H₆Br₆",
+        "C₆H₄Br₂ + H₂",
+        "Không phản ứng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Hỗn hợp X gồm C₂H₄ và C₃H₆. Đốt cháy hoàn toàn 0,3 mol X thu được 0,7 mol CO₂. Số mol C₂H₄ trong X là",
+      "options": [
+        "0,1 mol",
+        "0,2 mol",
+        "0,15 mol",
+        "0,25 mol"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Công thức tổng quát của ancol no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙ₊₁OH",
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₋₂O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Ancol etylic có công thức phân tử là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₃H₇OH",
+        "C₄H₉OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Khi oxi hóa ancol bậc I thu được sản phẩm là",
+      "options": [
+        "Xeton",
+        "Andehit",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Khi oxi hóa ancol bậc II thu được sản phẩm là",
+      "options": [
+        "Andehit",
+        "Xeton",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Phản ứng nào sau đây là phản ứng tách nước của ancol?",
+      "options": [
+        "C₂H₅OH + O₂ → CH₃CHO + H₂O",
+        "C₂H₅OH → C₂H₄ + H₂O (H₂SO₄ đặc, 170°C)",
+        "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O (H₂SO₄ đặc, 140°C)",
+        "C₂H₅OH + Na → C₂H₅ONa + ½H₂"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.1",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ancol X thu được 0,2 mol CO₂ và 0,3 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₃H₇OH",
+        "C₄H₉OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 42,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Ancol nào sau đây là ancol đa chức?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₂H₄(OH)₂",
+        "C₃H₇OH"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 43,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Số đồng phân ancol ứng với công thức phân tử C₃H₇OH là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 44,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.1",
+      "question": "Cho 0,2 mol ancol X tác dụng với Na dư thu được 2,24 lít H₂ (đktc). Số nhóm -OH trong X là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 45,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.2",
+      "question": "Phenol có công thức phân tử là",
+      "options": [
+        "C₆H₅OH",
+        "C₆H₆O",
+        "C₆H₅O",
+        "C₆H₇O"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 46,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "Phenol có tính axit yếu, tác dụng được với",
+      "options": [
+        "Dung dịch HCl",
+        "Dung dịch NaOH",
+        "Dung dịch NaCl",
+        "Nước"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 47,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "Phenol tác dụng với Br₂ tạo kết tủa trắng là",
+      "options": [
+        "C₆H₅Br",
+        "C₆H₄Br₂",
+        "C₆H₃Br₃",
+        "C₆H₂Br₄"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 48,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Cho 0,1 mol phenol tác dụng với dung dịch Br₂ dư. Khối lượng kết tủa thu được là",
+      "options": [
+        "33,1 gam",
+        "16,55 gam",
+        "24,8 gam",
+        "49,6 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 49,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "So sánh tính axit của phenol và axit axetic",
+      "options": [
+        "Phenol > CH₃COOH",
+        "Phenol < CH₃COOH",
+        "Phenol = CH₃COOH",
+        "Không so sánh được"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 50,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Để nhận biết phenol trong dung dịch, ta dùng thuốc thử nào sau đây?",
+      "options": [
+        "Dung dịch NaCl",
+        "Dung dịch HCl",
+        "Dung dịch FeCl₃",
+        "Dung dịch NaHCO₃"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 51,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Công thức tổng quát của andehit no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₊₁CHO",
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙCOOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 52,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Andehit axetic có công thức phân tử là",
+      "options": [
+        "HCHO",
+        "CH₃CHO",
+        "C₂H₅CHO",
+        "C₃H₇CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 53,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Andehit có tính khử mạnh, có thể khử được",
+      "options": [
+        "Dung dịch AgNO₃/NH₃",
+        "Dung dịch NaCl",
+        "Dung dịch NaOH",
+        "Dung dịch HCl"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 54,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Khi oxi hóa hoàn toàn andehit thu được sản phẩm là",
+      "options": [
+        "Ancol",
+        "Xeton",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 55,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.3",
+      "question": "Cho 0,1 mol HCHO tác dụng với dung dịch AgNO₃/NH₃ dư. Khối lượng Ag thu được là",
+      "options": [
+        "10,8 gam",
+        "21,6 gam",
+        "32,4 gam",
+        "43,2 gam"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 56,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.3",
+      "question": "Công thức tổng quát của xeton no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙCO",
+        "RCOR'"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 57,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Xeton không có tính khử vì",
+      "options": [
+        "Không có nguyên tử H liên kết với nhóm C=O",
+        "Có nhóm C=O",
+        "Là chất lỏng",
+        "Tan trong nước"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 58,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.3",
+      "question": "Đốt cháy hoàn toàn 0,1 mol hợp chất X (chứa C, H, O) thu được 0,3 mol CO₂ và 0,3 mol H₂O. X là",
+      "options": [
+        "CH₃CHO",
+        "C₂H₅CHO",
+        "CH₃COCH₃",
+        "HCHO"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 59,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.4",
+      "question": "Công thức tổng quát của axit cacboxylic no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙO₂",
+        "CₙH₂ₙ₊₁COOH",
+        "CₙH₂ₙCOOH",
+        "RCOOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 60,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.4",
+      "question": "Axit axetic có công thức phân tử là",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₃H₇COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 61,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit cacboxylic có tính axit vì",
+      "options": [
+        "Có nhóm -COOH có thể phân li ra H⁺",
+        "Có nguyên tử C",
+        "Tan trong nước",
+        "Có mùi chua"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 62,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit axetic tác dụng với ancol etylic (xúc tác H₂SO₄ đặc) tạo thành",
+      "options": [
+        "CH₃COOC₂H₅",
+        "C₂H₅COOCH₃",
+        "HCOOC₂H₅",
+        "CH₃COOCH₃"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 63,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Cho 0,1 mol CH₃COOH tác dụng với dung dịch NaOH dư. Khối lượng muối thu được là",
+      "options": [
+        "8,2 gam",
+        "6,0 gam",
+        "4,0 gam",
+        "10,0 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 64,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.4",
+      "question": "Axit nào sau đây có tính axit mạnh nhất?",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₆H₅COOH"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 65,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Đốt cháy hoàn toàn 0,1 mol axit X thu được 0,2 mol CO₂ và 0,2 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "HCOOH",
+        "CH₃COOH",
+        "C₂H₅COOH",
+        "C₃H₇COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 66,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Công thức tổng quát của este no, đơn chức, mạch hở là",
+      "options": [
+        "RCOOR'",
+        "CₙH₂ₙO₂",
+        "CₙH₂ₙ₊₂O₂",
+        "Cả A và B"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 67,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Este được tạo thành từ phản ứng giữa",
+      "options": [
+        "Axit và ancol",
+        "Axit và bazơ",
+        "Ancol và bazơ",
+        "Axit và muối"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 68,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng thủy phân este trong môi trường axit tạo thành",
+      "options": [
+        "Axit và ancol",
+        "Muối và ancol",
+        "Axit và nước",
+        "Muối và nước"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 69,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng thủy phân este trong môi trường kiềm (xà phòng hóa) tạo thành",
+      "options": [
+        "Axit và ancol",
+        "Muối và ancol",
+        "Axit và nước",
+        "Muối và nước"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 70,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Cho 0,1 mol CH₃COOC₂H₅ tác dụng với dung dịch NaOH dư. Khối lượng muối thu được là",
+      "options": [
+        "8,2 gam",
+        "6,0 gam",
+        "4,6 gam",
+        "10,0 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 71,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Este nào sau đây có mùi chuối chín?",
+      "options": [
+        "CH₃COOC₂H₅",
+        "CH₃COOCH₃",
+        "CH₃COOC₅H₁₁",
+        "HCOOC₂H₅"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 72,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Đốt cháy hoàn toàn 0,1 mol este X thu được 0,4 mol CO₂ và 0,3 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "C₂H₄O₂",
+        "C₃H₆O₂",
+        "C₄H₆O₂",
+        "C₄H₈O₂"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 73,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Lipit là tên gọi chung của",
+      "options": [
+        "Chất béo và chất béo tương tự",
+        "Este của glycerol với axit béo",
+        "Hợp chất hữu cơ không tan trong nước",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 74,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Chất béo là",
+      "options": [
+        "Este của glycerol với axit béo",
+        "Este của ancol đơn chức với axit béo",
+        "Muối của axit béo",
+        "Axit béo"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 75,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Chất béo lỏng (dầu) chứa nhiều gốc axit béo",
+      "options": [
+        "No",
+        "Không no",
+        "Thơm",
+        "Vòng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 76,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Chất béo rắn chứa nhiều gốc axit béo",
+      "options": [
+        "No",
+        "Không no",
+        "Thơm",
+        "Vòng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 77,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng xà phòng hóa chất béo tạo thành",
+      "options": [
+        "Glycerol và muối của axit béo",
+        "Glycerol và axit béo",
+        "Nước và muối",
+        "Ancol và este"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 78,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Cho 0,1 mol chất béo X tác dụng với dung dịch NaOH dư, thu được 0,3 mol muối. Số gốc axit béo trong X là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 79,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Để chuyển dầu thành mở cứng (margarin), người ta thực hiện phản ứng",
+      "options": [
+        "Xà phòng hóa",
+        "Este hóa",
+        "Hidro hóa",
+        "Oxi hóa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 80,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Thủy phân hoàn toàn 0,1 mol triglixerit X cần 0,3 mol NaOH. Khối lượng glycerol thu được là",
+      "options": [
+        "9,2 gam",
+        "4,6 gam",
+        "18,4 gam",
+        "27,6 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "8.1",
+      "question": "Xét tính đúng/sai của các phát biểu sau về hợp chất hữu cơ:",
+      "statements": [
+        "Hợp chất hữu cơ là hợp chất của cacbon",
+        "Tất cả hợp chất có chứa C đều là hợp chất hữu cơ",
+        "Hợp chất hữu cơ thường có nhiệt độ nóng chảy và sôi cao",
+        "Hợp chất hữu cơ dễ cháy và kém bền với nhiệt"
+      ],
+      "correctAnswers": ["Đ", "S", "S", "Đ"]
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "10.1",
+      "question": "Xét tính đúng/sai của các phát biểu sau về ankan:",
+      "statements": [
+        "Ankan có công thức tổng quát CₙH₂ₙ₊₂",
+        "Ankan có phản ứng thế với halogen ở nhiệt độ thường",
+        "Metan không tác dụng với dung dịch KMnO₄",
+        "Ankan đều nhẹ hơn nước"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Xét tính đúng/sai của các phát biểu sau về ancol:",
+      "statements": [
+        "Ancol no, đơn chức có công thức CₙH₂ₙ₊₁OH",
+        "Ancol bậc I bị oxi hóa thành xeton",
+        "Glycerol là ancol ba chức",
+        "Ancol tác dụng được với Na giải phóng H₂"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.3",
+      "question": "Xét tính đúng/sai của các phát biểu sau về andehit và xeton:",
+      "statements": [
+        "Andehit và xeton đều có nhóm chức C=O",
+        "Xeton có tính khử mạnh như andehit",
+        "Andehit tác dụng được với AgNO₃/NH₃",
+        "HCHO tạo 4 mol Ag khi phản ứng với AgNO₃/NH₃"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 85,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Xét tính đúng/sai của các phát biểu sau về este và lipit:",
+      "statements": [
+        "Este được tạo thành từ axit và ancol",
+        "Phản ứng xà phòng hóa là phản ứng thuận nghịch",
+        "Chất béo lỏng chứa nhiều gốc axit béo không no",
+        "Triglixerit là este ba chức của glycerol"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 86,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "8.1",
+      "question": "Một hợp chất hữu cơ có công thức CₓHᵧOᵧ. Biết phần trăm khối lượng của C là 40%, H là 6,67%. Tìm giá trị của x.",
+      "correctAnswer": "1",
+      "unit": ""
+    },
+    {
+      "id": 87,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "8.2",
+      "question": "Ankan X có khối lượng phân tử là 72. Tính số nguyên tử cacbon trong phân tử X.",
+      "correctAnswer": "5",
+      "unit": "nguyên tử"
+    },
+    {
+      "id": 88,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Đốt cháy hoàn toàn 5,6 lít anken X (đktc), thu được 11,2 lít CO₂ (đktc). Tính số nguyên tử C trong phân tử X.",
+      "correctAnswer": "2",
+      "unit": "nguyên tử"
+    },
+    {
+      "id": 89,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Cho 9,4 gam phenol phản ứng với dung dịch Br₂ dư. Tính khối lượng kết tủa thu được (gam).",
+      "correctAnswer": "33.1",
+      "unit": "gam"
+    },
+    {
+      "id": 90,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.4",
+      "question": "Để trung hòa 6 gam CH₃COOH cần bao nhiêu gam NaOH?",
+      "correctAnswer": "4",
+      "unit": "gam"
+    },
+    {
+      "id": 91,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Xà phòng hóa hoàn toàn 8,8 gam etyl axetat cần bao nhiêu gam NaOH?",
+      "correctAnswer": "4",
+      "unit": "gam"
+    }
+  ]
+}

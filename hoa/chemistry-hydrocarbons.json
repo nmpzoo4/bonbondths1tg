@@ -1,0 +1,240 @@
+{
+  "testName": "Hidrocacbon",
+  "subject": "Chemistry",
+  "description": "YCCĐ 10.1-10.2: Ankan, Anken, Ankin, Aren",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.1",
+      "question": "Công thức tổng quát của ankan là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.1",
+      "question": "Ankan có phản ứng đặc trưng là",
+      "options": [
+        "Phản ứng cộng",
+        "Phản ứng thế",
+        "Phản ứng trùng hợp",
+        "Phản ứng tách"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.1",
+      "question": "Khi cho metan tác dụng với clo (có ánh sáng) thu được sản phẩm chính là",
+      "options": [
+        "CH₃Cl",
+        "CH₂Cl₂",
+        "CHCl₃",
+        "CCl₄"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.1",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ankan X thu được 0,3 mol CO₂. Công thức phân tử của X là",
+      "options": [
+        "CH₄",
+        "C₂H₆",
+        "C₃H₈",
+        "C₄H₁₀"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Công thức tổng quát của anken là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Anken có phản ứng đặc trưng là",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng este hóa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Khi cho etilen tác dụng với nước (xúc tác H₂SO₄, t°) thu được sản phẩm là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "CH₃CHO",
+        "CH₃COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Phản ứng nào sau đây dùng để phân biệt ankan và anken?",
+      "options": [
+        "Phản ứng với O₂",
+        "Phản ứng với dung dịch Br₂",
+        "Phản ứng với dung dịch NaOH",
+        "Phản ứng với dung dịch HCl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Cho 0,1 mol anken X tác dụng với dung dịch brom dư thì có 32 gam Br₂ phản ứng. Công thức phân tử của X là",
+      "options": [
+        "C₂H₄",
+        "C₃H₆",
+        "C₄H₈",
+        "C₅H₁₀"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Công thức tổng quát của ankin là",
+      "options": [
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₆"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Ankin có liên kết ba đầu mạch tác dụng được với",
+      "options": [
+        "Dung dịch NaCl",
+        "Dung dịch AgNO₃/NH₃",
+        "Dung dịch NaOH",
+        "Dung dịch HCl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ankin X thu được 0,4 mol CO₂. Công thức phân tử của X là",
+      "options": [
+        "C₂H₂",
+        "C₃H₄",
+        "C₄H₆",
+        "C₅H₈"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "10.2",
+      "question": "Benzen có công thức phân tử là",
+      "options": [
+        "C₆H₆",
+        "C₆H₁₂",
+        "C₆H₁₄",
+        "C₆H₁₀"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "10.2",
+      "question": "Benzen tác dụng với Br₂ (có bột Fe) tạo thành",
+      "options": [
+        "C₆H₅Br + HBr",
+        "C₆H₆Br₆",
+        "C₆H₄Br₂ + H₂",
+        "Không phản ứng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Hỗn hợp X gồm C₂H₄ và C₃H₆. Đốt cháy hoàn toàn 0,3 mol X thu được 0,7 mol CO₂. Số mol C₂H₄ trong X là",
+      "options": [
+        "0,1 mol",
+        "0,2 mol",
+        "0,15 mol",
+        "0,25 mol"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "10.1",
+      "question": "Xét tính đúng/sai của các phát biểu sau về ankan:",
+      "statements": [
+        "Ankan có công thức tổng quát CₙH₂ₙ₊₂",
+        "Ankan có phản ứng thế với halogen ở nhiệt độ thường",
+        "Metan không tác dụng với dung dịch KMnO₄",
+        "Ankan đều nhẹ hơn nước"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "10.2",
+      "question": "Đốt cháy hoàn toàn 5,6 lít anken X (đktc), thu được 11,2 lít CO₂ (đktc). Tính số nguyên tử C trong phân tử X.",
+      "correctAnswer": "2",
+      "unit": "nguyên tử"
+    }
+  ]
+}
