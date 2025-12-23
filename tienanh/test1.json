@@ -1,0 +1,198 @@
+{
+  "testName": "Test 1",
+  "subject": "Tiếng Anh",
+  "questions": [
+    {
+      "id": 1,
+      "type": "reading",
+      "passage": "Global warming is one of the most serious problems our planet faces today. Scientists (1) ________ many signs of climate change, such as rising sea levels and extreme weather. Everyone (2) ________ take action to protect the Earth before it is too late.\n\nYou can learn more about (3) ________ in this environmental exhibition. Let's all be responsible citizens and help reduce our (4) ________ for a greener future!",
+      "question": "Question 1.",
+      "options": ["A. discover", "B. discovered", "C. have discovered", "D. are discovering"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "type": "reading",
+      "passage": "Global warming is one of the most serious problems our planet faces today. Scientists (1) ________ many signs of climate change, such as rising sea levels and extreme weather. Everyone (2) ________ take action to protect the Earth before it is too late.\n\nYou can learn more about (3) ________ in this environmental exhibition. Let's all be responsible citizens and help reduce our (4) ________ for a greener future!",
+      "question": "Question 2.",
+      "options": ["A. must to", "B. should", "C. are", "D. have be"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "reading",
+      "passage": "Global warming is one of the most serious problems our planet faces today. Scientists (1) ________ many signs of climate change, such as rising sea levels and extreme weather. Everyone (2) ________ take action to protect the Earth before it is too late.\n\nYou can learn more about (3) ________ in this environmental exhibition. Let's all be responsible citizens and help reduce our (4) ________ for a greener future!",
+      "question": "Question 3.",
+      "options": ["A. climate changing our planet's", "B. changing planet's our climate", "C. our planet's changing climate", "D. our changing planet's climate"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "type": "reading",
+      "passage": "Global warming is one of the most serious problems our planet faces today. Scientists (1) ________ many signs of climate change, such as rising sea levels and extreme weather. Everyone (2) ________ take action to protect the Earth before it is too late.\n\nYou can learn more about (3) ________ in this environmental exhibition. Let's all be responsible citizens and help reduce our (4) ________ for a greener future!",
+      "question": "Question 4.",
+      "options": ["A. pollute", "B. polluted", "C. pollution", "D. polluting"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 5,
+      "type": "reading",
+      "passage": "ACT NOW – PROTECT OUR PLANET!\n\n🌍 Global Warming Awareness Week\n\nDon't miss this opportunity! Citizens are encouraged to participate actively in initiatives aimed (5) ________ reducing carbon emissions and protecting the environment.\n\nThe exhibition will show how you can (6) ________ a difference by supporting eco-friendly projects in your community. You will also learn about the latest (7) ________ such as electric cars, solar roofs, and smart recycling systems.\n\nVisitors enjoy (8) ________ interactive workshops where they can plant trees, build solar models, and understand sustainable living practices.",
+      "question": "Question 5.",
+      "options": ["A. on", "B. at", "C. in", "D. with"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "type": "reading",
+      "passage": "ACT NOW – PROTECT OUR PLANET!\n\n🌍 Global Warming Awareness Week\n\nDon't miss this opportunity! Citizens are encouraged to participate actively in initiatives aimed (5) ________ reducing carbon emissions and protecting the environment.\n\nThe exhibition will show how you can (6) ________ a difference by supporting eco-friendly projects in your community. You will also learn about the latest (7) ________ such as electric cars, solar roofs, and smart recycling systems.\n\nVisitors enjoy (8) ________ interactive workshops where they can plant trees, build solar models, and understand sustainable living practices.",
+      "question": "Question 6.",
+      "options": ["A. made", "B. make", "C. do", "D. pay"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "type": "reading",
+      "passage": "ACT NOW – PROTECT OUR PLANET!\n\n🌍 Global Warming Awareness Week\n\nDon't miss this opportunity! Citizens are encouraged to participate actively in initiatives aimed (5) ________ reducing carbon emissions and protecting the environment.\n\nThe exhibition will show how you can (6) ________ a difference by supporting eco-friendly projects in your community. You will also learn about the latest (7) ________ such as electric cars, solar roofs, and smart recycling systems.\n\nVisitors enjoy (8) ________ interactive workshops where they can plant trees, build solar models, and understand sustainable living practices.",
+      "question": "Question 7.",
+      "options": ["A. sensors", "B. solutions", "C. technologies", "D. directions"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "type": "reading",
+      "passage": "ACT NOW – PROTECT OUR PLANET!\n\n🌍 Global Warming Awareness Week\n\nDon't miss this opportunity! Citizens are encouraged to participate actively in initiatives aimed (5) ________ reducing carbon emissions and protecting the environment.\n\nThe exhibition will show how you can (6) ________ a difference by supporting eco-friendly projects in your community. You will also learn about the latest (7) ________ such as electric cars, solar roofs, and smart recycling systems.\n\nVisitors enjoy (8) ________ interactive workshops where they can plant trees, build solar models, and understand sustainable living practices.",
+      "question": "Question 8.",
+      "options": ["A. visit", "B. to visit", "C. visited", "D. visiting"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 9\n\na. Linh: Yes, I have! I've been reading a lot about it. I love how deeply rooted traditions like Tết and Mid-Autumn Festival are in Vietnam. Plus, the food is delicious and so diverse!\n\nb. Linh: Hi, Minh! Long time no see. You look great!\n\nc. Minh: Hi, Linh! Thanks. You look amazing, too. Have you been exploring Asian culture lately?",
+      "options": ["A. c-a-b", "B. b-c-a", "C. c-b-a", "D. a-b-c"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 10\n\na. Tom: Why Vietnam?\n\nb. Tom: How do you plan to learn more about Asian culture?\n\nc. Tom: I think traveling to Vietnam is too expensive. I don't think I'll try it anytime soon.\n\nd. Sarah: I'm going to visit some Asian countries, starting with Vietnam.\n\ne. Sarah: Because it's a beautiful country with rich history, traditions like Tết, and amazing food.",
+      "options": ["A. c-b-a-e-d", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. b-d-a-e-c"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "type": "arrangement",
+      "passage": "Hi Minh,\n\na. It's really exciting to learn more about Asia, but I am quite busy at the moment, so I'm focusing on my work in Vietnam for now.\n\nb. Thanks so much for the travel guides you sent me last week.\n\nc. You know, we should plan a trip together to explore some places in Vietnam. What do you think?\n\nd. But it was interesting to read those travel tips.\n\ne. Thanks also for the recommendation about the local websites for travel information — they are much better than the ones I've been using.\n\nWrite back soon.\n\nLinh",
+      "question": "Question 11",
+      "options": ["A. d-b-a-c-e", "B. b-a-d-e-c", "C. a-d-b-c-e", "D. a-c-d-b-e"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 12\n\na. Indeed, for the past year, I have been thriving in this role at a Vietnamese startup, where I create compelling online content and design innovative marketing strategies.\n\nb. While meeting deadlines and managing flexibility are essential to this job, occasional face-to-face meetings for brainstorming sessions are a small trade-off.\n\nc. My passion for both cultural exchange and technology naturally led me to an exciting career in digital marketing.\n\nd. In conclusion, I am very satisfied with my current role and the opportunities it offers, as it perfectly blends my interests in both marketing and technology, especially within the dynamic Vietnamese market.\n\ne. Working remotely from my home in Hanoi allows me to stay connected with my team and sparks my creativity, helping me maintain a productive work environment.",
+      "options": ["A. c-a-e-b-d", "B. a-b-c-e-d", "C. b-c-d-a-e", "D. c-a-d-b-e"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "type": "reading",
+      "passage": "Climate change, a cause of global warming, has been largely attributed to human activities, particularly the burning of fossil fuels such as coal, oil, and natural gas. These actions release carbon dioxide, a greenhouse gas, (13) ______ traps heat in the Earth's atmosphere and leads to an increase in global temperatures. The rise in temperature disrupts the delicate balance of ecosystems and has a range of significant consequences on the planet. Many scientists warn that these changes are happening faster than expected. One of the most obvious consequences of climate change is the rising sea level. This phenomenon is linked to the melting of polar ice caps and the expansion of seawater as it warms. (14) ______, coastal regions are increasingly at risk of flooding, erosion, and the loss of natural habitats. Another impact of climate change is the increasing frequency and intensity of extreme weather events, such as hurricanes, heatwaves, and droughts. These events can lead to reduced agricultural productivity, food and water shortages, and the displacement of people and wildlife. In response to the growing concern surrounding climate change, there has been a shift towards the use of renewable energy sources, which produce fewer greenhouse (15) ______ than traditional fossil fuels. By using renewable energy, we can help reduce the impacts of climate change and work towards restoring the Earth's natural balance. In addition, (16) ______ countries are now investing heavily in clean technology solutions to protect the environment.",
+      "question": "Question 13.",
+      "options": ["A. where", "B. when", "C. who", "D. which"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "type": "reading",
+      "passage": "Climate change, a cause of global warming, has been largely attributed to human activities, particularly the burning of fossil fuels such as coal, oil, and natural gas. These actions release carbon dioxide, a greenhouse gas, (13) ______ traps heat in the Earth's atmosphere and leads to an increase in global temperatures. The rise in temperature disrupts the delicate balance of ecosystems and has a range of significant consequences on the planet. Many scientists warn that these changes are happening faster than expected. One of the most obvious consequences of climate change is the rising sea level. This phenomenon is linked to the melting of polar ice caps and the expansion of seawater as it warms. (14) ______, coastal regions are increasingly at risk of flooding, erosion, and the loss of natural habitats. Another impact of climate change is the increasing frequency and intensity of extreme weather events, such as hurricanes, heatwaves, and droughts. These events can lead to reduced agricultural productivity, food and water shortages, and the displacement of people and wildlife. In response to the growing concern surrounding climate change, there has been a shift towards the use of renewable energy sources, which produce fewer greenhouse (15) ______ than traditional fossil fuels. By using renewable energy, we can help reduce the impacts of climate change and work towards restoring the Earth's natural balance. In addition, (16) ______ countries are now investing heavily in clean technology solutions to protect the environment.",
+      "question": "Question 14.",
+      "options": ["A. Although", "B. Because", "C. As a result", "D. So that"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "type": "reading",
+      "passage": "Climate change, a cause of global warming, has been largely attributed to human activities, particularly the burning of fossil fuels such as coal, oil, and natural gas. These actions release carbon dioxide, a greenhouse gas, (13) ______ traps heat in the Earth's atmosphere and leads to an increase in global temperatures. The rise in temperature disrupts the delicate balance of ecosystems and has a range of significant consequences on the planet. Many scientists warn that these changes are happening faster than expected. One of the most obvious consequences of climate change is the rising sea level. This phenomenon is linked to the melting of polar ice caps and the expansion of seawater as it warms. (14) ______, coastal regions are increasingly at risk of flooding, erosion, and the loss of natural habitats. Another impact of climate change is the increasing frequency and intensity of extreme weather events, such as hurricanes, heatwaves, and droughts. These events can lead to reduced agricultural productivity, food and water shortages, and the displacement of people and wildlife. In response to the growing concern surrounding climate change, there has been a shift towards the use of renewable energy sources, which produce fewer greenhouse (15) ______ than traditional fossil fuels. By using renewable energy, we can help reduce the impacts of climate change and work towards restoring the Earth's natural balance. In addition, (16) ______ countries are now investing heavily in clean technology solutions to protect the environment.",
+      "question": "Question 15.",
+      "options": ["A. gas emission", "B. water pollution", "C. climate change", "D. energy consumption"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "type": "reading",
+      "passage": "Climate change, a cause of global warming, has been largely attributed to human activities, particularly the burning of fossil fuels such as coal, oil, and natural gas. These actions release carbon dioxide, a greenhouse gas, (13) ______ traps heat in the Earth's atmosphere and leads to an increase in global temperatures. The rise in temperature disrupts the delicate balance of ecosystems and has a range of significant consequences on the planet. Many scientists warn that these changes are happening faster than expected. One of the most obvious consequences of climate change is the rising sea level. This phenomenon is linked to the melting of polar ice caps and the expansion of seawater as it warms. (14) ______, coastal regions are increasingly at risk of flooding, erosion, and the loss of natural habitats. Another impact of climate change is the increasing frequency and intensity of extreme weather events, such as hurricanes, heatwaves, and droughts. These events can lead to reduced agricultural productivity, food and water shortages, and the displacement of people and wildlife. In response to the growing concern surrounding climate change, there has been a shift towards the use of renewable energy sources, which produce fewer greenhouse (15) ______ than traditional fossil fuels. By using renewable energy, we can help reduce the impacts of climate change and work towards restoring the Earth's natural balance. In addition, (16) ______ countries are now investing heavily in clean technology solutions to protect the environment.",
+      "question": "Question 16.",
+      "options": ["A. little", "B. much", "C. few", "D. many"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 17. Which of the following can be the best title for the passage?",
+      "options": ["A. A Brief Introduction to Global Warming", "B. The Effects of Global Warming on Earth's Climate", "C. The Greenhouse Effect and Global Warming", "D. The Link between Fossil Fuels and Global Warming"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 18. The word \"increased\" in paragraph 1 is OPPOSITE in meaning to _______.",
+      "options": ["A. reduce", "B. rise", "C. expand", "D. grow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 19. The word \"penetrate\" in paragraph 2 is CLOSEST in meaning to _______.",
+      "options": ["A. break in", "B. move through", "C. come across", "D. go into"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 20. According to paragraph 2, how does the greenhouse effect work?",
+      "options": ["A. It reflects the sun's rays off the Earth's surface.", "B. It causes the burning of fossil fuels.", "C. It prevents the heat from escaping the atmosphere.", "D. It increases the average global temperature."],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 21. The word \"It\" in paragraph 3 refers to _______.",
+      "options": ["A. global warming", "B. greenhouse effect", "C. weather pattern", "D. climate change"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 22. Which of the following is NOT mentioned in the text?",
+      "options": ["A. The greenhouse effect", "B. The main types of fossil fuels", "C. The use of renewable energy", "D. Sea level rise"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 23. Which of the following statements is TRUE according to the passage?",
+      "options": ["A. Global warming and climate change are exactly the same.", "B. Global warming is caused by gases that prevent heat from escaping the atmosphere", "C. Global warming only affects weather in some countries.", "D. Fossil fuels do not contribute to the greenhouse effect."],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "type": "comprehension",
+      "passage": "Global warming is the long-term warming of the planet's overall temperature. Though this warming trend has been going on for a long time, its pace has significantly increased in the last hundred years due to the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the \"greenhouse effect\" in Earth's atmosphere.\n\nThe greenhouse effect is when the sun's rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the heat from leaving the atmosphere. These greenhouse gases are carbon dioxide, chlorofluorocarbons, water vapour, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global temperature to rise overtime, otherwise known as global warming.\n\nGlobal warming has presented another issue called climate change. Sometimes these phrases are used interchangeably, however, they are different. Climate change refers to changes in weather patterns and growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to study global warming and its impact on Earth.",
+      "question": "Question 24. What can be inferred from the passage about the impact of global warming on human life?",
+      "options": ["A. Humans will benefit from warmer temperatures.", "B. Human activity has no influence on climate change.", "C. Global warming poses a serious threat to life on Earth", "D. Climate change only affects animals, not humans"],
+      "correctAnswer": 2
+    }
+  ]
+}

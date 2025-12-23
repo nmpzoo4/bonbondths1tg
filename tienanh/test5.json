@@ -1,0 +1,198 @@
+{
+  "testName": "Test 5",
+  "subject": "Tiếng Anh",
+  "questions": [
+    {
+      "id": 1,
+      "type": "reading",
+      "passage": "Join the Vietnamese Traditional Games Festival!\n\nStep into a world of fun, culture, and excitement at the Vietnamese Traditional Games Festival!\n\n· (1) ________ in exciting games like bamboo dancing, tug-of-war, and more!\n\n· Enjoy live performances of (2) ________ music and dance.\n\n· Taste delicious Vietnamese street food.\n\n· Fun activities for families and kids, with prizes to win!\n\nDon't miss (3) ________ to connect with the past and create new memories with friends and family. Come celebrate Vietnam's culture in a day full (4) ________ games, laughter, and fun!",
+      "question": "Question 1.",
+      "options": ["A. Believe", "B. Participate", "C. Register", "D. Promote"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "type": "reading",
+      "passage": "Join the Vietnamese Traditional Games Festival!\n\nStep into a world of fun, culture, and excitement at the Vietnamese Traditional Games Festival!\n\n· (1) ________ in exciting games like bamboo dancing, tug-of-war, and more!\n\n· Enjoy live performances of (2) ________ music and dance.\n\n· Taste delicious Vietnamese street food.\n\n· Fun activities for families and kids, with prizes to win!\n\nDon't miss (3) ________ to connect with the past and create new memories with friends and family. Come celebrate Vietnam's culture in a day full (4) ________ games, laughter, and fun!",
+      "question": "Question 2.",
+      "options": ["A. traditions", "B. traditionally", "C. tradition", "D. traditional"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "type": "reading",
+      "passage": "Join the Vietnamese Traditional Games Festival!\n\nStep into a world of fun, culture, and excitement at the Vietnamese Traditional Games Festival!\n\n· (1) ________ in exciting games like bamboo dancing, tug-of-war, and more!\n\n· Enjoy live performances of (2) ________ music and dance.\n\n· Taste delicious Vietnamese street food.\n\n· Fun activities for families and kids, with prizes to win!\n\nDon't miss (3) ________ to connect with the past and create new memories with friends and family. Come celebrate Vietnam's culture in a day full (4) ________ games, laughter, and fun!",
+      "question": "Question 3.",
+      "options": ["A. unique this opportunity", "B. opportunity this unique", "C. this unique opportunity", "D. this opportunity unique"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "type": "reading",
+      "passage": "Join the Vietnamese Traditional Games Festival!\n\nStep into a world of fun, culture, and excitement at the Vietnamese Traditional Games Festival!\n\n· (1) ________ in exciting games like bamboo dancing, tug-of-war, and more!\n\n· Enjoy live performances of (2) ________ music and dance.\n\n· Taste delicious Vietnamese street food.\n\n· Fun activities for families and kids, with prizes to win!\n\nDon't miss (3) ________ to connect with the past and create new memories with friends and family. Come celebrate Vietnam's culture in a day full (4) ________ games, laughter, and fun!",
+      "question": "Question 4.",
+      "options": ["A. of", "B. on", "C. at", "D. to"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "type": "reading",
+      "passage": "The Importance of Community Service\n\nCommunity service is defined as voluntary work intended to help people in a particular area. It is a powerful way for students to learn essential life skills and develop a sense (5) ________ social responsibility. (6) ________ in community service projects, such as cleaning up parks or helping the elderly, provides hands-on experience that classrooms cannot replicate. Students who volunteer often report a higher level of empathy and a stronger (7) ________ to their peers and neighbours. In addition, they often learn valuable lessons about the real world, including problem-solving and leadership. Despite the many benefits, however, it is surprising that only a few high school students actively participate in voluntary work. Schools and parents should encourage young people to (8) ________ in these activities to foster a more caring and responsible generation. These experiences are truly invaluable and can significantly influence a student's future career path. We all have a commitment to the community, and through service, we can truly make a difference.",
+      "question": "Question 5.",
+      "options": ["A. of", "B. in", "C. for", "D. on"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "type": "reading",
+      "passage": "The Importance of Community Service\n\nCommunity service is defined as voluntary work intended to help people in a particular area. It is a powerful way for students to learn essential life skills and develop a sense (5) ________ social responsibility. (6) ________ in community service projects, such as cleaning up parks or helping the elderly, provides hands-on experience that classrooms cannot replicate. Students who volunteer often report a higher level of empathy and a stronger (7) ________ to their peers and neighbours. In addition, they often learn valuable lessons about the real world, including problem-solving and leadership. Despite the many benefits, however, it is surprising that only a few high school students actively participate in voluntary work. Schools and parents should encourage young people to (8) ________ in these activities to foster a more caring and responsible generation. These experiences are truly invaluable and can significantly influence a student's future career path. We all have a commitment to the community, and through service, we can truly make a difference.",
+      "question": "Question 6.",
+      "options": ["A. Engage", "B. To engaging", "C. To engage", "D. Engaging"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "type": "reading",
+      "passage": "The Importance of Community Service\n\nCommunity service is defined as voluntary work intended to help people in a particular area. It is a powerful way for students to learn essential life skills and develop a sense (5) ________ social responsibility. (6) ________ in community service projects, such as cleaning up parks or helping the elderly, provides hands-on experience that classrooms cannot replicate. Students who volunteer often report a higher level of empathy and a stronger (7) ________ to their peers and neighbours. In addition, they often learn valuable lessons about the real world, including problem-solving and leadership. Despite the many benefits, however, it is surprising that only a few high school students actively participate in voluntary work. Schools and parents should encourage young people to (8) ________ in these activities to foster a more caring and responsible generation. These experiences are truly invaluable and can significantly influence a student's future career path. We all have a commitment to the community, and through service, we can truly make a difference.",
+      "question": "Question 7.",
+      "options": ["A. connection", "B. conflict", "C. argument", "D. promotion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "type": "reading",
+      "passage": "The Importance of Community Service\n\nCommunity service is defined as voluntary work intended to help people in a particular area. It is a powerful way for students to learn essential life skills and develop a sense (5) ________ social responsibility. (6) ________ in community service projects, such as cleaning up parks or helping the elderly, provides hands-on experience that classrooms cannot replicate. Students who volunteer often report a higher level of empathy and a stronger (7) ________ to their peers and neighbours. In addition, they often learn valuable lessons about the real world, including problem-solving and leadership. Despite the many benefits, however, it is surprising that only a few high school students actively participate in voluntary work. Schools and parents should encourage young people to (8) ________ in these activities to foster a more caring and responsible generation. These experiences are truly invaluable and can significantly influence a student's future career path. We all have a commitment to the community, and through service, we can truly make a difference.",
+      "question": "Question 8.",
+      "options": ["A. take place", "B. take part", "C. take care", "D. take over"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 9\n\na. Nam: Not yet, Mom. I am repairing my calculator.\n\nb. Mom: Have you done your homework yet?\n\nc. Nam: Ok, but you must finish it before 10 p.m.",
+      "options": ["A. b-a-c", "B. a-b-c", "C. a-c-b", "D. b-a-c"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 10\n\na. Kate: I'm starting with landscapes, but I want to try portraits eventually.\n\nb. Kate: I've decided to take up painting as a hobby.\n\nc. Anna: That sounds like a lot of fun!\n\nd. Kate: Yeah, it helps me relax after work.\n\ne. Anna: What kind of painting are you doing?",
+      "options": ["A. a-c-e-b-d", "B. b-c-d-e-a", "C. a-d-c-e-b", "D. a-b-d-c-e"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 11\n\na. First, reducing carbon footprints at an individual level can make a meaningful impact on global warming.\n\nb. Additionally, small daily actions, like conserving energy and reducing waste, contribute to overall emissions reduction.\n\nc. In conclusion, these efforts help combat climate change and preserve the environment for future generations.\n\nd. Many people are unaware of how their daily habits contribute to global warming.\n\ne. With greater awareness and small lifestyle changes, everyone can play a role in slowing down global warming.",
+      "options": ["A. d - a - b - e – c", "B. a - d - e - c - b", "C. d - a - c - b – e", "D. a - c - b - d – e"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "type": "arrangement",
+      "passage": "",
+      "question": "Question 12\n\na. Additionally, the introduction of smart technologies in cities can help reduce traffic congestion and improve public transportation.\n\nb. In future cities, people are expected to live in more sustainable and eco-friendly environments.\n\nc. Second, urban areas will likely see an increase in green spaces and renewable energy sources.\n\nd. As cities evolve, the quality of life for residents will continue to improve with better infrastructure and services.\n\ne. First, living in the city will become more efficient and convenient as technology advances.",
+      "options": ["A. e – d – c – b – a", "B. b – e – c – a – d", "C. b – d – e – a – c", "D. e – a – c – b – d"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "type": "reading",
+      "passage": "In modern cities, the sense of community is very important but often hard to find. With so many people living close together, it might seem (13) ________ to build connections, but the fast pace of city life can make it difficult. People are often busy with work, commuting, and other responsibilities, leaving little time to get to know their neighbors. (14) ________, a strong sense of community can make city life much better. When people feel connected to those around them, they are more likely to help each other and work together to improve their neighborhood. For example, communities can organize events like street fairs or clean-up days, (15) ________ bring people together and make the area nicer for everyone. Public spaces like parks, pedestrian zones, and community centers also play a big role in creating a sense of belonging. These places give people a chance to meet, talk, and build friendships. Even small things, like saying hello to a neighbor or helping someone with their groceries, can make a big difference. When people feel they belong, they are happier and more willing to contribute to their community. In the end, the sense of community in modern cities is something that needs to be nurtured, but it brings (16) ________ benefits, making city life richer and more enjoyable for everyone.",
+      "question": "Question 13.",
+      "options": ["A. easy", "B. easily", "C. easier", "D. more easily"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "type": "reading",
+      "passage": "In modern cities, the sense of community is very important but often hard to find. With so many people living close together, it might seem (13) ________ to build connections, but the fast pace of city life can make it difficult. People are often busy with work, commuting, and other responsibilities, leaving little time to get to know their neighbors. (14) ________, a strong sense of community can make city life much better. When people feel connected to those around them, they are more likely to help each other and work together to improve their neighborhood. For example, communities can organize events like street fairs or clean-up days, (15) ________ bring people together and make the area nicer for everyone. Public spaces like parks, pedestrian zones, and community centers also play a big role in creating a sense of belonging. These places give people a chance to meet, talk, and build friendships. Even small things, like saying hello to a neighbor or helping someone with their groceries, can make a big difference. When people feel they belong, they are happier and more willing to contribute to their community. In the end, the sense of community in modern cities is something that needs to be nurtured, but it brings (16) ________ benefits, making city life richer and more enjoyable for everyone.",
+      "question": "Question 14.",
+      "options": ["A. Therefore", "B. However", "C. Because", "D. Though"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "type": "reading",
+      "passage": "In modern cities, the sense of community is very important but often hard to find. With so many people living close together, it might seem (13) ________ to build connections, but the fast pace of city life can make it difficult. People are often busy with work, commuting, and other responsibilities, leaving little time to get to know their neighbors. (14) ________, a strong sense of community can make city life much better. When people feel connected to those around them, they are more likely to help each other and work together to improve their neighborhood. For example, communities can organize events like street fairs or clean-up days, (15) ________ bring people together and make the area nicer for everyone. Public spaces like parks, pedestrian zones, and community centers also play a big role in creating a sense of belonging. These places give people a chance to meet, talk, and build friendships. Even small things, like saying hello to a neighbor or helping someone with their groceries, can make a big difference. When people feel they belong, they are happier and more willing to contribute to their community. In the end, the sense of community in modern cities is something that needs to be nurtured, but it brings (16) ________ benefits, making city life richer and more enjoyable for everyone.",
+      "question": "Question 15.",
+      "options": ["A. which", "B. that", "C. who", "D. whose"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "type": "reading",
+      "passage": "In modern cities, the sense of community is very important but often hard to find. With so many people living close together, it might seem (13) ________ to build connections, but the fast pace of city life can make it difficult. People are often busy with work, commuting, and other responsibilities, leaving little time to get to know their neighbors. (14) ________, a strong sense of community can make city life much better. When people feel connected to those around them, they are more likely to help each other and work together to improve their neighborhood. For example, communities can organize events like street fairs or clean-up days, (15) ________ bring people together and make the area nicer for everyone. Public spaces like parks, pedestrian zones, and community centers also play a big role in creating a sense of belonging. These places give people a chance to meet, talk, and build friendships. Even small things, like saying hello to a neighbor or helping someone with their groceries, can make a big difference. When people feel they belong, they are happier and more willing to contribute to their community. In the end, the sense of community in modern cities is something that needs to be nurtured, but it brings (16) ________ benefits, making city life richer and more enjoyable for everyone.",
+      "question": "Question 16.",
+      "options": ["A. many", "B. every", "C. another", "D. much"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 17. What would be the best title for the passage?",
+      "options": ["A. The Role of Parents in Teaching Values", "B. The Importance of Family Rules", "C. Managing Family Responsibilities", "D. Preventing Family Conflicts"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 18. What does the word \"guide\" in the first paragraph mostly mean?",
+      "options": ["A. direct", "B. distract", "C. control", "D. ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 19. What does the word \"They\" in paragraph 2 refer to?",
+      "options": ["A. children", "B. rules", "C. chores", "D. qualities"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 20. Which of the following is NOT mentioned as a benefit of family rules?",
+      "options": ["A. Preventing conflicts", "B. Teaching life skills", "C. Promoting family bonding", "D. Increasing family income"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 21. The word \"adhering\" in paragraph 2 is OPPOSITE in meaning to ______.",
+      "options": ["A. abandoning", "B. keeping", "C. maintaining", "D. gaining"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 22. According to the passage, which of the following statements is True?",
+      "options": ["A. Family rules are meant to limit children's independence and freedom.", "B. Family rules help prevent misunderstandings and create a peaceful home.", "C. Family rules should never be changed once they are established.", "D. Family rules are unnecessary because children naturally learn values on their own."],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 23. According to the passage, what is one important benefit of having family rules?",
+      "options": ["A. They prevent children from making mistakes outside the home.", "B. They help family members understand their roles and responsibilities.", "C. They guarantee that no conflicts will ever occur in the household.", "D. They make children more competitive with their siblings."],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "type": "comprehension",
+      "passage": "In every family, rules play a crucial role in establishing a sense of order and harmony. These rules, often unwritten, guide the behavior and interactions of family members, creating an environment where everyone feels respected and valued. A well-structured set of family rules helps in managing expectations and responsibilities, ensuring that each member knows their role within the household. By fostering clear communication and understanding, these rules prevent misunderstandings and conflicts, making the home a peaceful and nurturing place.\n\nFamily rules are not just about maintaining order but also about teaching values and life skills. For children, adhering to family rules instills discipline, respect for others, and the importance of cooperation. Simple rules such as cleaning up after oneself, sharing chores, and respecting each other's privacy can have profound effects on a child's development. They learn the significance of teamwork, responsibility, and empathy, which are essential qualities for their future interactions outside the family unit. Moreover, when parents lead by example, following the same rules they set for their children, it reinforces the lessons and builds a strong foundation of trust and mutual respect.\n\nFinally, family rules need to be flexible and adaptable to changing circumstances. As children grow and family dynamics evolve, it's essential to revisit and revise these rules to ensure they remain relevant and effective. Open family discussions about the rules can provide valuable insights and allow every member to voice their opinions and concerns. This process not only strengthens family bonds but also promotes a sense of belonging and ownership among all members. In conclusion, family rules are vital for creating a harmonious home, teaching valuable life skills, and adapting to the evolving needs of the family.",
+      "question": "Question 24. It can be inferred from the passage that…",
+      "options": ["A. A family without clear rules may experience more misunderstandings and conflicts.", "B. Children naturally learn discipline without any guidance from parents.", "C. Family rules are effective only when they are strict and unchangeable.", "D. Parents do not need to follow the rules they create for their children."],
+      "correctAnswer": 0
+    }
+  ]
+}
