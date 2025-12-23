@@ -518,6 +518,134 @@
             background: #d4edda;
         }
 
+        /* Chemistry Quiz Styles (scroll-based) */
+        .chem-question-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chem-question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .chem-question-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .chem-question-meta {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .chem-badge {
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .chem-badge.difficulty {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .chem-badge.yccđ {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .chem-question-text {
+            font-size: 1.15em;
+            color: #333;
+            margin: 15px 0;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .chem-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .chem-option {
+            background: #f8f9fa;
+            border: 2px solid #dee2e6;
+            padding: 15px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.05em;
+        }
+
+        .chem-option:hover {
+            background: #e9ecef;
+            border-color: #667eea;
+        }
+
+        .chem-option input[type="radio"] {
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .chem-option.selected {
+            background: #e7f3ff;
+            border-color: #667eea;
+            font-weight: 600;
+        }
+
+        .chem-answer-reveal {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 12px;
+            display: none;
+        }
+
+        .chem-answer-reveal.show {
+            display: block;
+        }
+
+        .chem-answer-reveal.correct {
+            background: #d4edda;
+            border: 2px solid #28a745;
+        }
+
+        .chem-answer-reveal.wrong {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+        }
+
+        .chem-answer-text {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .chem-correct-answer {
+            color: #155724;
+        }
+
+        .chem-user-answer {
+            color: #721c24;
+        }
+
         /* Responsive - Mobile Friendly */
         @media (max-width: 768px) {
             body {
@@ -873,8 +1001,8 @@
                 <div class="subject-card" onclick="selectSubject('hoa')">
                     <span class="subject-icon">🧪</span>
                     <h2>Hóa Học</h2>
-                    <p>Chemistry HK1</p>
-                    <div class="test-count">1 Test - Đầy đủ câu hỏi</div>
+                    <p>Chemistry Tests</p>
+                    <div class="test-count">6 Tests - Hóa hữu cơ</div>
                 </div>
             </div>
         </div>
@@ -885,7 +1013,7 @@
             <div id="testList" class="test-grid"></div>
         </div>
 
-        <!-- Quiz Screen -->
+        <!-- Quiz Screen (English - từng câu) -->
         <div id="quizScreen">
             <div class="quiz-container">
                 <div class="quiz-header">
@@ -904,6 +1032,18 @@
                     <button class="nav-btn submit-btn" id="submitBtn" onclick="submitQuiz()" style="display: none;">Nộp
                         bài 🎉</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- Chemistry Quiz Screen (scroll-based) -->
+        <div id="chemistryQuizScreen" style="display: none;">
+            <div class="quiz-container" style="max-width: 1000px;">
+                <div class="quiz-header">
+                    <button class="back-btn" onclick="exitQuiz()">← Thoát</button>
+                    <div class="timer" id="timer2">⏱️ <span id="timeLeft2">00:00</span></div>
+                    <button class="nav-btn submit-btn" onclick="submitChemistryQuiz()">Nộp bài 🎉</button>
+                </div>
+                <div id="chemistryQuestions" style="margin-top: 30px;"></div>
             </div>
         </div>
 
@@ -1015,12 +1155,38 @@
         // Load Chemistry test
         function loadChemistryTest() {
             const testList = document.getElementById('testList');
-            testList.innerHTML = `
-                <div class="test-btn" onclick="startTest('hk1')">
-                    <h3>🧪 Hóa Học HK1</h3>
-                    <p>Tất cả câu hỏi - Đáp án được xáo trộn mỗi lần làm</p>
-                </div>
+            testList.innerHTML = '';
+
+            const chemTests = [
+                { file: 'chemistry-chem8', name: '🔬 Hóa hữu cơ cơ bản', desc: '20 câu - YCCĐ 8.1-8.4' },
+                { file: 'chemistry-hydrocarbons', name: '⚗️ Hidrocacbon', desc: '15 câu - Ankan, Anken, Ankin' },
+                { file: 'chemistry-alcohol-phenol', name: '🍷 Ancol - Phenol', desc: '15 câu - Tính chất đặc trưng' },
+                { file: 'chemistry-carbonyl', name: '🔥 Andehit - Xeton - Axit', desc: '15 câu - Hợp chất C=O' },
+                { file: 'chemistry-ester', name: '🍌 Este - Lipit', desc: '15 câu - Ứng dụng thực tế' }
+            ];
+
+            chemTests.forEach(test => {
+                const testBtn = document.createElement('div');
+                testBtn.className = 'test-btn';
+                testBtn.onclick = () => startTest(test.file);
+                testBtn.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.desc}</p>
+                `;
+                testList.appendChild(testBtn);
+            });
+
+            // Mixed test
+            const mixedBtn = document.createElement('div');
+            mixedBtn.className = 'test-btn';
+            mixedBtn.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+            mixedBtn.style.color = 'white';
+            mixedBtn.onclick = () => startTest('chemistry-mixed');
+            mixedBtn.innerHTML = `
+                <h3>🎲 Test Tổng Hợp</h3>
+                <p>80 câu hỏi - Trộn tất cả chủ đề!</p>
             `;
+            testList.appendChild(mixedBtn);
         }
 
         // Start test
@@ -1048,58 +1214,444 @@
                         const response = await fetch(`tienanh/test${testNumber}.json`);
                         testData = await response.json();
                     }
+
+                    // English: Load vào quiz screen từng câu
+                    startEnglishQuiz(testData);
                 } else {
-                    const response = await fetch(`hoa/hk1.json`);
+                    // Chemistry tests
+                    const response = await fetch(`hoa/${testNumber}.json`);
                     testData = await response.json();
+
+                    // Chemistry: Load vào scroll screen
+                    startChemistryQuiz(testData);
                 }
+            } catch (error) {
+                alert('Không thể tải bài test. Vui lòng thử lại!');
+                console.error(error);
+            }
+        }
 
-                currentTest = testData;
+        // Start English Quiz (original logic)
+        function startEnglishQuiz(testData) {
+            currentTest = testData;
 
-                // Nhóm các câu hỏi theo đoạn văn (passage groups)
-                const passageGroups = [];
-                let currentGroup = [];
+            // Nhóm các câu hỏi theo đoạn văn (passage groups)
+            const passageGroups = [];
+            let currentGroup = [];
 
-                testData.questions.forEach((q, index) => {
-                    currentGroup.push(q);
+            testData.questions.forEach((q, index) => {
+                currentGroup.push(q);
 
-                    // Nếu câu tiếp theo có passage khác hoặc là câu cuối
-                    const isLastQuestion = index === testData.questions.length - 1;
-                    const nextHasDifferentPassage = !isLastQuestion &&
-                        testData.questions[index + 1].passage !== q.passage;
+                // Nếu câu tiếp theo có passage khác hoặc là câu cuối
+                const isLastQuestion = index === testData.questions.length - 1;
+                const nextHasDifferentPassage = !isLastQuestion &&
+                    testData.questions[index + 1].passage !== q.passage;
 
-                    if (isLastQuestion || nextHasDifferentPassage) {
-                        passageGroups.push(currentGroup);
-                        currentGroup = [];
-                    }
-                });
+                if (isLastQuestion || nextHasDifferentPassage) {
+                    passageGroups.push(currentGroup);
+                    currentGroup = [];
+                }
+            });
 
-                // Xáo trộn các nhóm đoạn văn
-                const shuffledGroups = shuffle(passageGroups);
+            // Xáo trộn các nhóm đoạn văn
+            const shuffledGroups = shuffle(passageGroups);
 
-                // Gộp lại thành danh sách câu hỏi mới và xáo trộn đáp án
-                shuffledQuestions = shuffledGroups.flat().map(q => {
+            // Gộp lại thành danh sách câu hỏi mới và xáo trộn đáp án
+            shuffledQuestions = shuffledGroups.flat().map(q => {
+                return {
+                    ...q,
+                    shuffledOptions: shuffle(q.options.map((opt, idx) => ({
+                        text: opt,
+                        originalIndex: idx
+                    })))
+                };
+            });
+
+            userAnswers = new Array(shuffledQuestions.length).fill(null);
+            currentQuestionIndex = 0;
+            startTime = Date.now();
+
+            document.getElementById('testSelectionScreen').style.display = 'none';
+            document.getElementById('quizScreen').style.display = 'block';
+
+            startTimer();
+            displayQuestion();
+        }
+
+        // Start Chemistry Quiz (scroll-based)
+        function startChemistryQuiz(testData) {
+            currentTest = testData;
+
+            // Shuffle câu hỏi và đáp án
+            shuffledQuestions = shuffle(testData.questions).map(q => {
+                // Chỉ shuffle options nếu là câu trắc nghiệm
+                if (q.type === 'multiple-choice' && q.options) {
+                    // Convert correctAnswer từ chữ cái (A,B,C,D) sang index (0,1,2,3)
+                    const correctIndex = q.correctAnswer.charCodeAt(0) - 65; // 'A' = 65
+
                     return {
                         ...q,
+                        correctAnswerIndex: correctIndex,
                         shuffledOptions: shuffle(q.options.map((opt, idx) => ({
                             text: opt,
                             originalIndex: idx
                         })))
                     };
-                });
+                } else {
+                    // True-false và short-answer không cần shuffle options
+                    return { ...q };
+                }
+            });
 
-                userAnswers = new Array(shuffledQuestions.length).fill(null);
-                currentQuestionIndex = 0;
-                startTime = Date.now();
+            userAnswers = new Array(shuffledQuestions.length).fill(null);
+            startTime = Date.now();
 
-                document.getElementById('testSelectionScreen').style.display = 'none';
-                document.getElementById('quizScreen').style.display = 'block';
+            document.getElementById('testSelectionScreen').style.display = 'none';
+            document.getElementById('chemistryQuizScreen').style.display = 'block';
 
-                startTimer();
-                displayQuestion();
-            } catch (error) {
-                alert('Không thể tải bài test. Vui lòng thử lại!');
-                console.error(error);
+            startTimer2();
+            displayChemistryQuestions();
+        }
+
+        // Display all chemistry questions
+        function displayChemistryQuestions() {
+            const container = document.getElementById('chemistryQuestions');
+            container.innerHTML = '';
+
+            const labels = ['A', 'B', 'C', 'D'];
+
+            shuffledQuestions.forEach((q, qIndex) => {
+                const card = document.createElement('div');
+                card.className = 'chem-question-card';
+                card.id = `chem-q-${qIndex}`;
+
+                // Header with number and metadata
+                const header = document.createElement('div');
+                header.className = 'chem-question-header';
+                header.innerHTML = `
+                    <div class="chem-question-number">Câu ${qIndex + 1}</div>
+                    <div class="chem-question-meta">
+                        <span class="chem-badge difficulty">${q.difficulty || 'BIẾT'}</span>
+                        <span class="chem-badge yccđ">YCCĐ ${q.yccđ || '8.1'}</span>
+                    </div>
+                `;
+                card.appendChild(header);
+
+                // Question text
+                const questionText = document.createElement('div');
+                questionText.className = 'chem-question-text';
+                questionText.textContent = q.question;
+                card.appendChild(questionText);
+
+                // Different rendering based on question type
+                if (q.type === 'true-false') {
+                    // TRUE/FALSE question
+                    const statementsDiv = document.createElement('div');
+                    statementsDiv.className = 'chem-tf-statements';
+                    statementsDiv.style.marginTop = '15px';
+
+                    q.statements.forEach((statement, sIndex) => {
+                        const statementRow = document.createElement('div');
+                        statementRow.style.display = 'flex';
+                        statementRow.style.alignItems = 'center';
+                        statementRow.style.gap = '15px';
+                        statementRow.style.padding = '12px';
+                        statementRow.style.background = '#f8f9fa';
+                        statementRow.style.borderRadius = '10px';
+                        statementRow.style.marginBottom = '10px';
+
+                        const statementText = document.createElement('div');
+                        statementText.style.flex = '1';
+                        statementText.style.fontSize = '1.05em';
+                        statementText.textContent = `${String.fromCharCode(97 + sIndex)}. ${statement}`;
+                        statementRow.appendChild(statementText);
+
+                        const inputGroup = document.createElement('div');
+                        inputGroup.style.display = 'flex';
+                        inputGroup.style.gap = '10px';
+
+                        ['Đ', 'S'].forEach(value => {
+                            const label = document.createElement('label');
+                            label.style.cursor = 'pointer';
+                            label.style.padding = '8px 16px';
+                            label.style.background = 'white';
+                            label.style.border = '2px solid #dee2e6';
+                            label.style.borderRadius = '8px';
+                            label.style.fontWeight = '600';
+                            label.style.transition = 'all 0.3s ease';
+
+                            const radio = document.createElement('input');
+                            radio.type = 'radio';
+                            radio.name = `question-${qIndex}-statement-${sIndex}`;
+                            radio.value = value;
+                            radio.style.display = 'none';
+                            radio.onchange = () => {
+                                if (!userAnswers[qIndex]) {
+                                    userAnswers[qIndex] = [];
+                                }
+                                userAnswers[qIndex][sIndex] = value;
+                                // Update label style
+                                label.parentElement.querySelectorAll('label').forEach(l => {
+                                    l.style.background = 'white';
+                                    l.style.borderColor = '#dee2e6';
+                                    l.style.color = '#333';
+                                });
+                                label.style.background = value === 'Đ' ? '#d4edda' : '#fff3cd';
+                                label.style.borderColor = value === 'Đ' ? '#28a745' : '#ffc107';
+                                label.style.color = '#333';
+                            };
+
+                            label.appendChild(radio);
+                            label.appendChild(document.createTextNode(value));
+                            inputGroup.appendChild(label);
+                        });
+
+                        statementRow.appendChild(inputGroup);
+                        statementsDiv.appendChild(statementRow);
+                    });
+
+                    card.appendChild(statementsDiv);
+
+                } else if (q.type === 'short-answer') {
+                    // SHORT ANSWER question
+                    const inputDiv = document.createElement('div');
+                    inputDiv.style.marginTop = '15px';
+
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.placeholder = 'Nhập đáp án...';
+                    input.style.width = '100%';
+                    input.style.padding = '15px';
+                    input.style.fontSize = '1.1em';
+                    input.style.border = '2px solid #dee2e6';
+                    input.style.borderRadius = '12px';
+                    input.style.outline = 'none';
+                    input.style.transition = 'all 0.3s ease';
+                    input.onfocus = () => {
+                        input.style.borderColor = '#667eea';
+                        input.style.background = '#f8f9ff';
+                    };
+                    input.onblur = () => {
+                        input.style.borderColor = '#dee2e6';
+                        input.style.background = 'white';
+                    };
+                    input.oninput = () => {
+                        userAnswers[qIndex] = input.value.trim();
+                    };
+
+                    if (q.unit) {
+                        const unitLabel = document.createElement('div');
+                        unitLabel.style.marginTop = '8px';
+                        unitLabel.style.fontSize = '0.9em';
+                        unitLabel.style.color = '#666';
+                        unitLabel.textContent = `Đơn vị: ${q.unit}`;
+                        inputDiv.appendChild(input);
+                        inputDiv.appendChild(unitLabel);
+                    } else {
+                        inputDiv.appendChild(input);
+                    }
+
+                    card.appendChild(inputDiv);
+
+                } else {
+                    // MULTIPLE CHOICE question (original)
+                    const optionsDiv = document.createElement('div');
+                    optionsDiv.className = 'chem-options';
+
+                    q.shuffledOptions.forEach((option, optIndex) => {
+                        const optionLabel = document.createElement('label');
+                        optionLabel.className = 'chem-option';
+
+                        const cleanText = option.text.replace(/^[A-D]\.\s*/, '');
+                        const radio = document.createElement('input');
+                        radio.type = 'radio';
+                        radio.name = `question-${qIndex}`;
+                        radio.value = option.originalIndex;
+                        radio.onchange = () => {
+                            userAnswers[qIndex] = option.originalIndex;
+                            // Update UI
+                            document.querySelectorAll(`input[name="question-${qIndex}"]`).forEach(r => {
+                                r.parentElement.classList.remove('selected');
+                            });
+                            optionLabel.classList.add('selected');
+                        };
+
+                        optionLabel.appendChild(radio);
+                        optionLabel.appendChild(document.createTextNode(`${labels[optIndex]}. ${cleanText}`));
+                        optionsDiv.appendChild(optionLabel);
+                    });
+
+                    card.appendChild(optionsDiv);
+                }
+
+                // Answer reveal area (hidden initially)
+                const answerReveal = document.createElement('div');
+                answerReveal.className = 'chem-answer-reveal';
+                answerReveal.id = `answer-reveal-${qIndex}`;
+                card.appendChild(answerReveal);
+
+                container.appendChild(card);
+            });
+        }        // Submit Chemistry Quiz
+        function submitChemistryQuiz() {
+            const unanswered = userAnswers.filter(a => a === null || a === undefined).length;
+            if (unanswered > 0) {
+                if (!confirm(`Bạn còn ${unanswered} câu chưa trả lời. Bạn có chắc muốn nộp bài không?`)) {
+                    return;
+                }
             }
+
+            clearInterval(timerInterval);
+
+            // Show answers
+            const labels = ['A', 'B', 'C', 'D'];
+            let correctCount = 0;
+
+            shuffledQuestions.forEach((q, qIndex) => {
+                const answerReveal = document.getElementById(`answer-reveal-${qIndex}`);
+                answerReveal.classList.add('show');
+
+                if (q.type === 'true-false') {
+                    // TRUE/FALSE question
+                    const userAnswer = userAnswers[qIndex] || [];
+                    let allCorrect = true;
+                    let results = [];
+
+                    q.statements.forEach((statement, sIndex) => {
+                        const userChoice = userAnswer[sIndex];
+                        const correctChoice = q.correctAnswers[sIndex];
+                        const isCorrect = userChoice === correctChoice;
+                        if (!isCorrect) allCorrect = false;
+
+                        results.push(`<div style="padding: 8px; background: ${isCorrect ? '#d4edda' : '#f8d7da'}; border-radius: 8px; margin-bottom: 5px;">
+                            <strong>${String.fromCharCode(97 + sIndex)}.</strong> Bạn chọn: <strong>${userChoice || '?'}</strong> 
+                            ${isCorrect ? '✅ Đúng' : `❌ → Đáp án đúng: <strong>${correctChoice}</strong>`}
+                        </div>`);
+
+                        // Disable inputs
+                        document.querySelectorAll(`input[name="question-${qIndex}-statement-${sIndex}"]`).forEach(radio => {
+                            radio.disabled = true;
+                        });
+                    });
+
+                    if (allCorrect) correctCount++;
+
+                    answerReveal.classList.add(allCorrect ? 'correct' : 'wrong');
+                    answerReveal.innerHTML = `
+                        <div class="chem-answer-text">
+                            ${allCorrect ? '✅ Hoàn toàn chính xác!' : '❌ Có lỗi sai!'}
+                        </div>
+                        <div style="margin-top: 10px;">
+                            ${results.join('')}
+                        </div>
+                        <div style="margin-top: 12px; padding: 10px; background: #e3f2fd; border-radius: 8px; border-left: 4px solid #2196f3;">
+                            <strong>🔑 ĐÁP ÁN ĐÚNG:</strong> ${q.correctAnswers.map((ans, i) => `${String.fromCharCode(97 + i)}. <strong>${ans}</strong>`).join(' | ')}
+                        </div>
+                    `;
+
+                } else if (q.type === 'short-answer') {
+                    // SHORT ANSWER question
+                    const userAnswer = userAnswers[qIndex];
+                    const correctAnswer = q.correctAnswer;
+
+                    // So sánh đáp án (chấp nhận sai số nhỏ cho số thập phân)
+                    let isCorrect = false;
+                    if (userAnswer) {
+                        const userNum = parseFloat(userAnswer.replace(',', '.'));
+                        const correctNum = parseFloat(correctAnswer);
+
+                        if (!isNaN(userNum) && !isNaN(correctNum)) {
+                            isCorrect = Math.abs(userNum - correctNum) < 0.01;
+                        } else {
+                            isCorrect = userAnswer.toLowerCase() === correctAnswer.toLowerCase();
+                        }
+                    }
+
+                    if (isCorrect) correctCount++;
+
+                    answerReveal.classList.add(isCorrect ? 'correct' : 'wrong');
+                    answerReveal.innerHTML = `
+                        <div class="chem-answer-text" style="font-size: 1.15em; margin-bottom: 12px;">
+                            ${isCorrect ? '✅ Hoàn toàn chính xác!' : '❌ Chưa đúng!'}
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <div style="padding: 10px; background: ${isCorrect ? '#d4edda' : '#fff3cd'}; border-radius: 8px; border-left: 4px solid ${isCorrect ? '#28a745' : '#ffc107'};">
+                                <strong>📝 Bạn trả lời:</strong> <span style="font-size: 1.1em; font-weight: 600;">${userAnswer || '(Không trả lời)'}</span>
+                            </div>
+                            <div style="padding: 10px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;">
+                                <strong>🔑 Đáp án đúng:</strong> <span style="font-size: 1.1em; font-weight: 600; color: #155724;">${correctAnswer}${q.unit ? ' ' + q.unit : ''}</span>
+                            </div>
+                        </div>
+                    `;
+
+                    // Disable input
+                    const card = document.getElementById(`chem-q-${qIndex}`);
+                    const input = card.querySelector('input[type="text"]');
+                    if (input) input.disabled = true;
+
+                } else {
+                    // MULTIPLE CHOICE question
+                    const userAnswer = userAnswers[qIndex];
+                    const correctAnswerIdx = q.correctAnswerIndex;
+                    const isCorrect = userAnswer === correctAnswerIdx;
+                    if (isCorrect) correctCount++;
+
+                    answerReveal.classList.add(isCorrect ? 'correct' : 'wrong');
+
+                    // Tìm label hiển thị cho đáp án đúng
+                    const correctLabel = labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === correctAnswerIdx)];
+                    const userLabel = userAnswer !== null && userAnswer !== undefined ?
+                        labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === userAnswer)] :
+                        'Không trả lời';
+
+                    // Lấy text của đáp án đúng
+                    const correctAnswerText = q.options[correctAnswerIdx].replace(/^[A-D]\.\s*/, '');
+
+                    answerReveal.innerHTML = `
+                        <div class="chem-answer-text" style="font-size: 1.15em; margin-bottom: 12px;">
+                            ${isCorrect ? '✅ Hoàn toàn chính xác!' : '❌ Chưa đúng!'}
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            ${!isCorrect ? `<div style="padding: 10px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
+                                <strong>📝 Bạn chọn:</strong> <span style="font-size: 1.1em; font-weight: 600;">${userLabel}</span>
+                            </div>` : ''}
+                            <div style="padding: 10px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;">
+                                <strong>🔑 Đáp án đúng:</strong> 
+                                <div style="font-size: 1.05em; font-weight: 600; color: #155724; margin-top: 8px;">
+                                    ${q.correctAnswer}. ${correctAnswerText}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+                    // Disable all inputs
+                    document.querySelectorAll(`input[name="question-${qIndex}"]`).forEach(radio => {
+                        radio.disabled = true;
+                    });
+                }
+            });
+
+            // Scroll to top to see results summary
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Show result alert
+            const wrongCount = shuffledQuestions.length - correctCount;
+            const scorePercent = ((correctCount / shuffledQuestions.length) * 100).toFixed(1);
+
+            setTimeout(() => {
+                alert(`🎉 Hoàn thành!\n\n✅ Đúng: ${correctCount}/${shuffledQuestions.length}\n❌ Sai: ${wrongCount}\n📊 Điểm: ${scorePercent}%\n\n👇 Kéo xuống xem đáp án chi tiết!`);
+            }, 500);
+        }
+
+        // Start timer for chemistry
+        function startTimer2() {
+            timerInterval = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                const minutes = Math.floor(elapsed / 60);
+                const seconds = elapsed % 60;
+                document.getElementById('timeLeft2').textContent =
+                    `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            }, 1000);
         }
 
         // Start timer
@@ -1487,6 +2039,7 @@
             document.getElementById('homeScreen').style.display = 'block';
             document.getElementById('testSelectionScreen').style.display = 'none';
             document.getElementById('quizScreen').style.display = 'none';
+            document.getElementById('chemistryQuizScreen').style.display = 'none';
             document.getElementById('resultScreen').style.display = 'none';
             document.getElementById('reviewScreen').style.display = 'none';
             currentSubject = '';
