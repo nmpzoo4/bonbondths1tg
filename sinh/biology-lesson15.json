@@ -1,0 +1,217 @@
+{
+  "testName": "Cảm ứng và ứng động ở thực vật - Bài 15",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Cảm ứng ở thực vật, hướng động, ứng động",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.1",
+      "question": "Cảm ứng ở thực vật biểu hiện bằng",
+      "options": [
+        "sự thay đổi hình thái của các cơ quan, bộ phận như ra hoa, kết quả.",
+        "sự vận động của các cơ quan, bộ phận thực vật khi nhận kích thích đến từ một hướng xác định.",
+        "sự tiếp nhận kích thích của các cơ quan, bộ phận thực vật khi nhận kích thích đến từ một hướng xác định hoặc kích thích không có hướng.",
+        "sự vận động của các cơ quan, bộ phận thực vật khi nhận kích thích đến từ một hướng xác định hoặc kích thích không có hướng."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.1",
+      "question": "Phát biểu nào sai khi nói về đặc điểm cảm ứng ở thực vật?",
+      "options": [
+        "Các yếu tố môi trường (nhiệt độ, ánh sáng, nước,...) là các tác nhân kích thích gây ra cảm ứng ở thực vật.",
+        "Cảm ứng ở thực vật thường diễn ra chậm và khó nhận biết bằng mắt thường trong thời gian ngắn.",
+        "Cảm ứng ở thực vật luôn gắn liền với sự sinh trưởng của tế bào.",
+        "Cảm ứng ở thực vật có thể liên quan đến sinh trưởng hoặc không liên quan đến sinh trưởng của tế bào."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.2",
+      "question": "Hướng động là hình thức phản ứng của cây đối với",
+      "options": [
+        "tác nhân kích thích không định hướng.",
+        "tác nhân kích thích từ một hướng xác định.",
+        "sự đóng mở của khí khổng.",
+        "các chất hóa học."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.2",
+      "question": "Thân và rễ có kiểu hướng động nào dưới đây?",
+      "options": [
+        "thân hướng sáng dương và hướng trọng lực âm, rễ hướng sáng dương và hướng trọng lực dương.",
+        "thân hướng sáng dương và hướng trọng lực âm, rễ hướng sáng âm và hướng trọng lực dương.",
+        "thân hướng sáng âm và hướng trọng lực dương, rễ hướng sáng dương và hướng trọng lực âm.",
+        "thân hướng sáng dương và hướng trọng lực dương, rễ hướng sáng âm và hướng trọng lực dương."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "A",
+      "yccđ": "15.3",
+      "question": "Ứng động là hình thức phản ứng của cây đối với",
+      "options": [
+        "tác nhân kích thích không định hướng.",
+        "tác nhân kích thích từ một hướng xác định.",
+        "tác nhân kích thích có hướng và vô hướng.",
+        "các chất hóa học."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "A",
+      "yccđ": "15.2",
+      "question": "Trong môi trường không có chất độc hại. Khi trồng cây bên bờ ao thì sau một thời gian, rễ cây sẽ phát triển theo chiều hướng nào sau đây?",
+      "options": [
+        "Rễ cây mọc dài về phía bờ ao.",
+        "Rễ cây phát triển đều quanh gốc cây.",
+        "Rễ cây uốn cong về phía ngược bờ ao.",
+        "Rễ cây phát triển ăn sâu xuống dưới lòng đất."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "D",
+      "yccđ": "15.3",
+      "question": "Trường hợp nào sau đây là ứng động không sinh trưởng?",
+      "options": [
+        "Hoa bồ công anh nở khi có ánh sáng.",
+        "Vận động ngủ, thức của chồi cây bàng theo mùa.",
+        "Hiện tượng thân, tua cuốn của cây mướp quấn trên giàn leo.",
+        "Hiện tượng cụp lá ở cây trinh nữ."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "A",
+      "yccđ": "15.2",
+      "question": "Khi sống trong bóng tối được chiếu sáng từ một phía, ngọn cây hướng về phía ánh sáng là do",
+      "options": [
+        "auxin phân bố không đều ở hai phía chồi đỉnh, tế bào phía tối dãn dài nhanh hơn phía sáng làm ngọn cây cong về phía ánh sáng.",
+        "auxin phân bố đồng đều ở hai phía chồi đỉnh, tế bào phía tối dãn dài nhanh hơn phía sáng làm ngọn cây cong về phía ánh sáng.",
+        "auxin phân bố không đều ở hai phía chồi đỉnh, tế bào phía sáng dãn dài nhanh hơn phía tối làm ngọn cây cong về phía ánh sáng.",
+        "auxin phân bố đồng đều ở hai phía chồi đỉnh, tế bào phía sáng dãn dài nhanh hơn phía tối làm ngọn cây cong về phía ánh sáng."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "D",
+      "yccđ": "15.2",
+      "question": "Phát biểu nào sai khi nói về cơ chế hướng động?",
+      "options": [
+        "Các tác nhân kích thích tác động theo một hướng xác định lên các thụ thể.",
+        "Cơ chế hướng động liên quan đến hormone auxin ở thực vật.",
+        "Các tế bào rễ có độ nhạy cảm cao hơn đối với auxin so với tế bào ở thân.",
+        "Tốc độ dãn dài của bộ phận đáp ứng đồng đều giữa các tế bào ở hai phía."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.3",
+      "question": "Trong cơ chế ứng động nở hoa, hoa nở khi",
+      "options": [
+        "trời sáng, mặt dưới cụm hoa sinh trưởng nhanh hơn so với mặt trên.",
+        "trời sáng, mặt trên cụm hoa sinh trưởng nhanh hơn so với mặt dưới.",
+        "trời tối, mặt trên cụm hoa sinh trưởng nhanh hơn so với mặt dưới.",
+        "trời tối, mặt dưới cụm hoa sinh trưởng nhanh hơn so với mặt trên."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.2",
+      "question": "Vào rừng nhiệt đới, ta gặp rất nhiều dây leo quấn quanh những cây gỗ lớn để vươn lên cao, đó là kết quả của",
+      "options": [
+        "hướng trọng lực âm.",
+        "hướng tiếp xúc.",
+        "hướng nước.",
+        "hướng hóa."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "C",
+      "yccđ": "15.4",
+      "question": "Đâu không phải là ứng dụng của hướng động trong thực tiễn sản xuất?",
+      "options": [
+        "Bón phân quanh gốc kích thích rễ sinh trưởng theo chiều rộng.",
+        "Hạn chế chiếu sáng trong thời gian đầu khi hạt nảy mầm, trồng dày khi cây còn non và tỉa thưa khi cây lớn giúp thúc đẩy cây mầm vươn dài.",
+        "Tạo điều kiện thuận lợi về ánh sáng, nhiệt độ trong quá trình nở hoa của cây.",
+        "Làm giàn, mở rộng giàn cho các cây mướp, cây bí phát triển."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "15.3",
+      "question": "Cử động bắt mồi của cây bắt ruồi có cơ chế tương tự với hiện tượng nào sau đây?",
+      "options": [
+        "Hiện tượng cây mọc vống về phía có ánh sáng.",
+        "Hiện tượng cụp lá ở cây trinh nữ.",
+        "Hiện tượng lá cây họ đậu cụp vào chiều tối.",
+        "Hiện tượng hoa cụp lại lúc chạng vạng tối."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "C",
+      "yccđ": "15.2",
+      "question": "Trồng hai cây con vào hai hộp chứa mùn cưa (A và B). Ở hộp A, tưới nước cho cây bình thường, còn hộp B không tưới nước mà đặt cốc giấy có thể thấm nước ra ngoài. Hằng ngày, bổ sung nước vào cốc để nước từ trong cốc thấm dần ra mùn cưa. Sau 5 ngày, gạt lớp mùn cưa và nhấc thẳng cây lên. Quan sát hướng mọc của rễ cây non trong các hộp. Theo em hiện tượng gì đã xảy ra?",
+      "options": [
+        "Rễ cây non của 2 cây tại hộp A và hộp B đều mọc giống nhau đều hướng xuống đáy hộp.",
+        "Rễ cây non của 2 cây tại hộp A và hộp B đều ngưng sinh trưởng.",
+        "Rễ cây non tại hộp A hướng xuống đáy hộp và hộp B hướng tới vị trí cốc nước.",
+        "Rễ cây non tại hộp A hướng xuống đáy hộp và hộp B bị ngưng sinh trưởng."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "A",
+      "yccđ": "15.1",
+      "question": "Khi không có ánh sáng, cây non có đặc điểm nào sau đây?",
+      "options": [
+        "Mọc vống lên và lá có màu vàng úa.",
+        "Mọc bình thường nhưng lá có màu đỏ.",
+        "Mọc vống lên và lá có màu xanh.",
+        "Mọc bình thường và lá có màu vàng úa."
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
