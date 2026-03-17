@@ -1,0 +1,301 @@
+{
+  "testName": "Khái quát về sinh trưởng và phát triển ở sinh vật - Bài 19",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Sinh trưởng, phát triển, vòng đời",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.1",
+      "question": "Quá trình nào sau đây là quá trình sinh trưởng của thực vật?",
+      "options": [
+        "Cơ thể thực vật ra hoa",
+        "Cơ thể thực vật tạo hạt",
+        "Cơ thể thực vật tăng kích thước",
+        "Cơ thể thực vật rụng lá, hoa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.2",
+      "question": "Tuổi thọ của sinh vật do cái gì quyết định?",
+      "options": [
+        "Protein",
+        "Gen",
+        "mRNA",
+        "Amino acid"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.3",
+      "question": "Muỗi sống được khoảng bao nhiêu lâu?",
+      "options": [
+        "3 – 6 tháng",
+        "1 – 3 tháng",
+        "1 năm",
+        "2 năm"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.4",
+      "question": "Vòng đời là gì?",
+      "options": [
+        "Là khoảng thời gian tính từ khí cơ thể chết đi, sinh ra, lớn lên đẻ con và chết đi",
+        "Là khoảng thời gian tính từ khí cơ thể sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo cơ thể mới, già rồi chết đi",
+        "Là khoảng thời gian tính từ khí cơ thể sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo cơ thể mới.",
+        "Là khoảng thời gian tính từ khi cơ thể sinh ra và chết đi."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.5",
+      "question": "Sinh trưởng ở thực vật là quá trình:",
+      "options": [
+        "tăng chiều dài cơ thể",
+        "tăng về chiều ngang cơ thể",
+        "tăng về khối lượng cơ thể",
+        "tăng về khối lượng và kích thước cơ thể"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.6",
+      "question": "Phát biểu nào sau đây là đúng khi nói về sinh trưởng và phát triển của động vật?",
+      "options": [
+        "Tốc độ sinh trưởng và phát triển của động vật ở mọi giai đoạn là giống nhau.",
+        "Vòng đời của động vật là khác nhau tùy thuộc vào đặc điểm của mỗi loài.",
+        "Sự sinh trưởng diễn ra liên tục còn sự phát triển chỉ diễn ra ở giai đoạn phôi.",
+        "Sự phát triển diễn ra liên tục còn sự sinh trưởng chỉ diễn ra ở giai đoạn hậu phôi."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.7",
+      "question": "Tuổi thọ của sinh vật là?",
+      "options": [
+        "Thời gian tán tỉnh bạn tình của sinh vật",
+        "Thời gian sinh con của sinh vật",
+        "Thời gian mà sinh vật chết",
+        "Thời gian sống của sinh vật"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.8",
+      "question": "Trình tự các giai đoạn trong vòng đời của bướm lần lượt là",
+      "options": [
+        "trứng → sâu bướm → kén → bướm trưởng thành.",
+        "trứng → kén → sâu bướm → bướm trưởng thành.",
+        "sâu bướm → kén → bướm trưởng thành → trứng.",
+        "kén → sâu bướm → bướm trưởng thành → trứng."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.9",
+      "question": "Phát triển là toàn bộ những biến đổi diễn ra",
+      "options": [
+        "bên ngoài của cá thể, gồm thay đổi chiều cao và cân nặng",
+        "bên ngoài cơ thể của cá thể, gồm thay đổi về số lượng, cấu trúc của tế bào, hình thái, trạng thái sinh lý",
+        "trong chu kỳ sống của cá thể, gồm chiều cao, cân nặng",
+        "trong chu kỳ sống của cá thể, gồm thay đổi về số lượng, cấu trúc của tế bào, hình thái, trạng thái sinh lý"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "19.10",
+      "question": "Dấu hiệu nào dưới đây không thể hiện sự sinh trưởng ở cây cam?",
+      "options": [
+        "Từ hạt nảy mầm biến đổi thành cây con.",
+        "Từ một quả cam thành hai quả cam.",
+        "Từ một cây con ban đầu thành cây trưởng thành.",
+        "Từ hạt thành hạt nảy mầm."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.11",
+      "question": "Đâu là dấu hiệu sinh trưởng của một con gà?",
+      "options": [
+        "Con gà đi bắt sâu và bới giun",
+        "Con gà con lớn lên thành gà trưởng thành",
+        "Con gà gáy vào buổi sáng",
+        "Con gà không nhìn thấy gì khi vào buổi tối"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.12",
+      "question": "Dấu hiệu nào dưới đây không thể hiện sự sinh trưởng ở cây cam?",
+      "options": [
+        "Từ hạt nảy mầm biến đổi thành cây con.",
+        "Từ một quả cam thành hai quả cam.",
+        "Từ một cây con ban đầu thành cây trưởng thành.",
+        "Từ hạt thành hạt nảy mầm."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.13",
+      "question": "Cho thí nghiệm sau: Bước 1. Trồng vài hạt lạc, đỗ, ngô,… đang nảy mầm vào chậu chứa đất ẩm. Bước 2. Để nơi có ánh sáng và tưới nước hằng ngày. Bước 3. Theo dõi và dùng thước đo chiều dài thân cây sau 3 ngày, 6 ngày, 9 ngày. Bước 4. Nhận xét kết quả và rút ra kết luận. Thí nghiệm được thực hiện nhằm:",
+      "options": [
+        "chứng minh cây có sự sinh sản.",
+        "chứng minh cây có sự sinh trưởng.",
+        "chứng minh cây có sự phát triển.",
+        "chứng minh cây có sự cảm ứng."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.14",
+      "question": "Sinh trưởng và phát triển là hai quá trình trong cơ thể sống có mối quan hệ với nhau như thế nào?",
+      "options": [
+        "Sinh trưởng tạo tiền đề cho phát triển, phát triển sẽ thúc đẩy sinh trưởng.",
+        "Phát triển tạo tiền đề cho sinh trưởng, làm nền tảng cho phát triển.",
+        "Sinh trưởng và phát triển là hai quá trình độc lập, không liên quan đến nhau.",
+        "Sinh trưởng và phát triển mâu thuẫn với nhau."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.15",
+      "question": "Quá trình nào sau đây là quá trình sinh trưởng của thực vật?",
+      "options": [
+        "Cơ thể thực vật ra hoa",
+        "Cơ thể thực vật tạo hạt",
+        "Cơ thể thực vật tăng kích thước",
+        "Cơ thể thực vật rụng lá, hoa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.16",
+      "question": "Yếu tố nào ảnh hưởng đến tuổi thọ của sinh vật?",
+      "options": [
+        "(1) Di truyền (2) Chế độ ăn (3) Lối sống lành mạnh (4) Chất lượng môi trường sống - Có 1 ý đúng",
+        "(1) Di truyền (2) Chế độ ăn (3) Lối sống lành mạnh (4) Chất lượng môi trường sống - Có 2 ý đúng",
+        "(1) Di truyền (2) Chế độ ăn (3) Lối sống lành mạnh (4) Chất lượng môi trường sống - Có 3 ý đúng",
+        "(1) Di truyền (2) Chế độ ăn (3) Lối sống lành mạnh (4) Chất lượng môi trường sống - Có 4 ý đúng"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.17",
+      "question": "Đâu là ứng dụng về hiểu biết sinh trưởng và phát triển?",
+      "options": [
+        "(1) Diệt muỗi trong giai đoạn ấu trùng (2) Tưới nước đều đặn cho cây phát triển rễ (3) Cho gà mái ấp trứng để nở ra gà con (4) Thắp đèn cho cây Thanh Long ra quả - Có 1 ý đúng",
+        "(1) Diệt muỗi trong giai đoạn ấu trùng (2) Tưới nước đều đặn cho cây phát triển rễ (3) Cho gà mái ấp trứng để nở ra gà con (4) Thắp đèn cho cây Thanh Long ra quả - Có 2 ý đúng",
+        "(1) Diệt muỗi trong giai đoạn ấu trùng (2) Tưới nước đều đặn cho cây phát triển rễ (3) Cho gà mái ấp trứng để nở ra gà con (4) Thắp đèn cho cây Thanh Long ra quả - Có 3 ý đúng",
+        "(1) Diệt muỗi trong giai đoạn ấu trùng (2) Tưới nước đều đặn cho cây phát triển rễ (3) Cho gà mái ấp trứng để nở ra gà con (4) Thắp đèn cho cây Thanh Long ra quả - Có 4 ý đúng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.18",
+      "question": "Hoàn thành sơ đồ các giai đoạn sinh trưởng và phát triển của cây cam. Hạt → ……. → ……. → …….. → …….",
+      "options": [
+        "Hạt nảy mầm → Cây con → Cây trưởng thành → Ra hoa kết quả.",
+        "Hạt nảy mầm → Ra hoa kết quả → Cây non → Cây trưởng thành",
+        "Hạt nảy mầm → Cây non → Cây trưởng thành → Cây con",
+        "Hạt nảy mầm → Cây con → Cây non → Cây trưởng thành"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.19",
+      "question": "Một cây vừa mới được trồng xuống đất, thì đâu là dấu hiệu của sự phát triển?",
+      "options": [
+        "Cây chết khô dần",
+        "Cây ra rễ, ra lá, ra hoa",
+        "Lá cây bắt đầu rụng",
+        "Rễ cây bắt đầu thối dần"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.20",
+      "question": "Cho các mệnh đề sau: (1) Sinh trưởng và phát triển có liên quan mật thiết với nhau, nối tiếp, xen kẽ nhau. (2) Phát triển là cơ sở cho sinh trưởng, sinh trưởng làm thay đổi và thúc đẩy phát triển. (3) Cây ra lá là sự phát triển của thực vật. (4) Con gà tăng từ 1,2 kg đến 3 kg là sự sinh trưởng của động vật. Số mệnh đề đúng là",
+      "options": [
+        "1.",
+        "4.",
+        "3.",
+        "2."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "19.21",
+      "question": "Cho các dấu hiệu sau: (1) Con bò tăng khối lượng từ 50 kg đến 100 kg (2) Con gà trống mọc mào (3) Con gà mái đẻ trứng (4) Con rắn tăng chiều dài cơ thể thêm 20 cm. Số dấu hiệu biểu hiện sự sinh trưởng của động vật là",
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}
