@@ -1,0 +1,287 @@
+{
+  "testName": "Tập tính ở động vật - Bài 18",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Tập tính bẩm sinh, tập tính học được, tập tính hỗn hợp",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.1",
+      "question": "Tập tính bảo vệ lãnh thổ diễn ra giữa",
+      "options": [
+        "A. những cá thể cùng loài",
+        "B. những cá thể khác loài",
+        "C. những cá thể cùng lứa trong loài",
+        "D. con với bố mẹ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.2",
+      "question": "Tập tính hỗn hợp ở động vật là:",
+      "options": [
+        "A. Là trường hợp cơ thể phản ứng trước những hoạt động phức tạp.",
+        "B. Là sự phối hợp giữa tập tính bẩm sinh và tập tính học được, được hình thành khi điều kiện sống thay đổi.",
+        "C. Là sự phối hợp của nhiều loại tập tính thứ sinh.",
+        "D. Là sự phối hợp của nhiều loại tập tính bẩm sinh."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.3",
+      "question": "Đâu là tập tính học được?",
+      "options": [
+        "A. Nhện chăng tơ.",
+        "B. Khi nhìn thấy đèn giao thông màu đỏ, những người qua đường dừng lại.",
+        "C. Thú con bú sữa mẹ.",
+        "D. Cá di cư."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.4",
+      "question": "Tập tính phản ánh mối quan hệ cùng loài mang tính tổ chức cao là tập tính",
+      "options": [
+        "A. sinh sản",
+        "B. di cư",
+        "C. xã hội",
+        "D. bảo vệ lãnh thổ"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.5",
+      "question": "Tập tính ở động vật được chia thành các loại",
+      "options": [
+        "A. bẩm sinh, học được, hỗn hợp.",
+        "B. bẩm sinh, hỗn hợp.",
+        "C. học được, hỗn hợp.",
+        "D. tự nhiên, nhân tạo."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.6",
+      "question": "Khi di cư, động vật trên cạn định hướng bằng cách nào?",
+      "options": [
+        "A. Nhờ hướng gió, khí hậu.",
+        "B. Nhờ vị trí mặt trời, trăng, sao, địa hình.",
+        "C. Nhờ nhiệt độ, độ dài ngày.",
+        "D. Dựa vào thành phần hoá học của nước và hướng dòng nước chảy."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.7",
+      "question": "Mức độ phức tạp của tập tính tăng lên khi",
+      "options": [
+        "A. số lượng các xinap trong cung phản xạ tăng lên",
+        "B. kích thích của môi trường kéo dài",
+        "C. kích thích của môi trường lặp lại nhiều lần",
+        "D. kích thích của môi trường mạnh mẽ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.8",
+      "question": "Sơ đồ mô tả đúng cơ sở thần kinh của tập tính là",
+      "options": [
+        "A. kích thích → hệ thần kinh → cơ quan thụ cảm → cơ quan thực hiện → hành động",
+        "B. kích thích → cơ quan thụ cảm → cơ quan thực hiện → hệ thần kinh → hành động",
+        "C. kích thích → cơ quan thực hiện → hệ thần kinh → cơ quan thụ cảm → hành động",
+        "D. kích thích → cơ quan thụ cảm → hệ thần kinh → cơ quan thực hiện → hành động"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.9",
+      "question": "Tập tính động vật là:",
+      "options": [
+        "A. Chuỗi những phản ứng trả lời lại các kích thích của môi trường, nhờ đó mà động vật tồn tại và phát triển.",
+        "B. Các phản xạ có điều kiện của động vật học được trong quá trình sống.",
+        "C. Các phản xạ không điều kiện, mang tính bẩm sinh của động vật, giúp chúng được bảo vệ.",
+        "D. Các phản xạ không điều kiện, nhưng được sự can thiệp của não hộ."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "yccđ": "18.10",
+      "question": "Ý nào không phải là đặc điểm của tập tính bẩm sinh?",
+      "options": [
+        "A. Có sự thay đổi linh hoạt trong đời sống cá thể.",
+        "B. Rất bền vững và khó thay đổi.",
+        "C. Là tập hợp các phản xạ không điều kiện diễn ra theo một trình tự nhất định.",
+        "D. Do kiểu gen quy định."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.11",
+      "question": "Trong mùa sinh sản, một con chim đực có ngực đỏ thường bảo vệ lãnh thổ của chúng bằng cách tấn công những con đực khác. Thí nghiệm dùng các con chim giả có màu sắc khác nhau thì nó chỉ tấn công những con có bộ ngực đỏ. Điều này có thể do",
+      "options": [
+        "A. Chim Robin chỉ nhận biết được màu đỏ trong số các màu tự nhiên",
+        "B. Chúng chỉ có phản ứng với những cá thể giống mình",
+        "C. Màu đỏ ở ngực chim lạ là dấu hiệu khiêu khích đối với chúng",
+        "D. Những con chim có ngực đỏ thường là những con khỏe mạnh nên được nhiều chim mái lựa"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.12",
+      "question": "Chim di cư để tránh rét, cá di cư để đẻ trứng là:",
+      "options": [
+        "A. (1) Tập tính học được (2) Tập tính bẩm sinh (3) Bản năng (4) Chuỗi phản xạ không điều kiện - Có 1 ý đúng",
+        "B. (1) Tập tính học được (2) Tập tính bẩm sinh (3) Bản năng (4) Chuỗi phản xạ không điều kiện - Có 2 ý đúng",
+        "C. (1) Tập tính học được (2) Tập tính bẩm sinh (3) Bản năng (4) Chuỗi phản xạ không điều kiện - Có 3 ý đúng",
+        "D. (1) Tập tính học được (2) Tập tính bẩm sinh (3) Bản năng (4) Chuỗi phản xạ không điều kiện - Có 4 ý đúng"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.13",
+      "question": "Cảm nhận thấy nguy hiểm, con khỉ canh gác kêu lên báo hiệu cho các con khác trong bầy. Những con chim đậu quanh đó cũng vội vàng bay đi. Kích thích dấu hiệu làm xuất hiện tập tính tự vệ ở chim là",
+      "options": [
+        "A. Chim cũng nhìn thấy nguy hiểm như con khỉ",
+        "B. Tiếng hú của khỉ",
+        "C. Hình ảnh bỏ chạy của đàn khỉ",
+        "D. Mùi đặc trưng của khỉ"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.14",
+      "question": "Sử dụng thiên địch trong nông nghiệp, là ứng dụng của loại tập tính:",
+      "options": [
+        "A. Hỗn hợp",
+        "B. Thứ sinh",
+        "C. Học được",
+        "D. Bẩm sinh"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.15",
+      "question": "Một con ngỗng khi nhìn thấy bất cứ quả trứng nào nằm ngoài tổ sẽ tìm cách lăn nó vào tổ. Con tu hú khi đẻ nhờ vào tổ của các loài chim khác lại cố gắng đẩy trứng của chim chủ nhà ra khỏi tổ. Cả hai hoạt động này đều giống nhau ở chỗ",
+      "options": [
+        "A. Là những tập tính học được từ đồng loại",
+        "B. Chỉ là những hành động rập khuôn mang tính chất bản năng",
+        "C. Chúng không phân biệt được trứng của mình",
+        "D. Chúng không biết ấp trứng"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.16",
+      "question": "Hươu đực quệt dịch có mùi đặc biệt tiết ra từ tuyến cạnh mắt của nó vào cành cây để thông báo cho các con đực khác là tập tính:",
+      "options": [
+        "A. kiếm ăn.",
+        "B. sinh sản.",
+        "C. di cư.",
+        "D. bảo vệ lãnh thổ."
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.17",
+      "question": "Khi một con gấu mon men đến tổ ong lấy mật, rất nhiều ong lính xông ra đốt nó, sau đó ong chết la liệt. Giải thích đúng về sự hi sinh của các con ong lính trong trường hợp này là",
+      "options": [
+        "A. Ong có tính hung hăng",
+        "B. Chúng không biết hậu quả của việc mình làm",
+        "C. Hành động này được khởi xướng từ con đầu đàn, còn những con khác bắt chước",
+        "D. Do tập tính vị tha"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.18",
+      "question": "Xét các trường hợp sau: (1) Mọi kích thích đều làm xuất hiện tập tính (2) Không phải bất kỳ kích thích nào cũng làm xuất hiện tập tính (3) Kích thích càng mạnh càng dễ làm xuất hiện tập tính (4) Kích thích càng lặp lại càng dễ làm xuất hiện tập tính. Có bao nhiêu trường hợp trên đây đúng về mối liên hệ giữa kích thích và sự xuất hiện tập tính?",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.19",
+      "question": "Trứng của loài chim \"đẻ nhờ\" thường nở sớm hơn trứng loài chim chủ, sau khi nở ra chim non đẩy trứng của chim chủ ra khỏi tổ để không bị cạnh tranh. Nguyên nhân của hành động này là:",
+      "options": [
+        "A. Bố mẹ chúng dạy",
+        "B. Do trứng chim chủ làm chật tổ",
+        "C. Do bản năng sinh tồn của chúng",
+        "D. Chỉ có một số con chim non như vậy vì chúng hung hăng, ác độc"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "yccđ": "18.20",
+      "question": "Chim én (Delichon dasypus) thường bay về Phương Nam về mùa đông và bay trở lại miền Bắc vào mùa xuân khi thời tiết ấm áp. Đó là ví dụ về loại tập tính",
+      "options": [
+        "A. xã hội",
+        "B. sinh sản",
+        "C. lãnh thổ",
+        "D. di cư."
+      ],
+      "correctAnswerIndex": 3
+    }
+  ]
+}
