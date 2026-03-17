@@ -1361,16 +1361,10 @@
                 card.className = 'chem-question-card';
                 card.id = `chem-q-${qIndex}`;
 
-                // Header with number and metadata
+                // Header - chỉ hiển thị số câu
                 const header = document.createElement('div');
                 header.className = 'chem-question-header';
-                header.innerHTML = `
-                    <div class="chem-question-number">Câu ${qIndex + 1}</div>
-                    <div class="chem-question-meta">
-                        <span class="chem-badge difficulty">${q.difficulty || 'BIẾT'}</span>
-                        <span class="chem-badge yccđ">YCCĐ ${q.yccđ || '8.1'}</span>
-                    </div>
-                `;
+                header.innerHTML = `<div class="chem-question-number">Câu ${qIndex + 1}</div>`;
                 card.appendChild(header);
 
                 // Question text
@@ -1505,11 +1499,15 @@
                         radio.value = option.originalIndex;
                         radio.onchange = () => {
                             userAnswers[qIndex] = option.originalIndex;
-                            // Update UI
+                            // Cập nhật giao diện đáp án được chọn
                             document.querySelectorAll(`input[name="question-${qIndex}"]`).forEach(r => {
                                 r.parentElement.classList.remove('selected');
+                                r.disabled = true; // Vô hiệu hóa để không đổi đáp án
                             });
                             optionLabel.classList.add('selected');
+
+                            // Hiển thị kết quả ngay lập tức
+                            showQuestionResultImmediately(q, qIndex, option.originalIndex);
                         };
 
                         optionLabel.appendChild(radio);
@@ -1528,7 +1526,64 @@
 
                 container.appendChild(card);
             });
-        }        // Submit Chemistry Quiz
+        }        // Hiển thị kết quả ngay khi chọn đáp án
+        function showQuestionResultImmediately(q, qIndex, userChoiceIndex) {
+            const answerReveal = document.getElementById(`answer-reveal-${qIndex}`);
+            const labels = ['A', 'B', 'C', 'D'];
+            const correctAnswerIdx = q.correctAnswerIndex;
+            const isCorrect = userChoiceIndex === correctAnswerIdx;
+
+            answerReveal.classList.remove('show');
+            answerReveal.classList.remove('correct', 'wrong');
+
+            // Lấy text của đáp án đúng
+            const correctAnswerText = q.options[correctAnswerIdx].replace(/^[A-D]\.\s*/, '');
+            const userChoiceText = q.options[userChoiceIndex].replace(/^[A-D]\.\s*/, '');
+
+            answerReveal.classList.add('show', isCorrect ? 'correct' : 'wrong');
+            answerReveal.innerHTML = `
+                <div class="chem-answer-text" style="font-size: 1.15em; margin-bottom: 12px;">
+                    ${isCorrect ? '✅ Chính xác!' : '❌ Chưa đúng!'}
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                    ${!isCorrect ? `<div style="padding: 10px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
+                        <strong>📝 Bạn chọn:</strong> <span style="font-size: 1.1em; font-weight: 600;">${labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === userChoiceIndex)]}. ${userChoiceText}</span>
+                    </div>` : ''}
+                    <div style="padding: 10px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;">
+                        <strong>🔑 Đáp án đúng:</strong>
+                        <div style="font-size: 1.05em; font-weight: 600; color: #155724; margin-top: 8px;">
+                            ${q.correctAnswer}. ${correctAnswerText}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Hiển thị feedback popup
+            const feedbackMessages = {
+                correct: ['10 điểm 🌟', 'tuyệt vời 💪', 'giỏi quá! 🔥', 'đúng rồi! ✨', 'xuất sắc 🎉'],
+                wrong: ['Sai rồi 😅', 'Gần như đúng rồi 😬', 'Lần sau cố lên 💪', 'Không sao, tiếp tục 😊', 'Ơ hay 🤔']
+            };
+
+            const messageArray = isCorrect ? feedbackMessages.correct : feedbackMessages.wrong;
+            const randomMsg = messageArray[Math.floor(Math.random() * messageArray.length)];
+
+            // Tạo feedback popup
+            const feedback = document.createElement('div');
+            feedback.className = `feedback-popup ${isCorrect ? 'correct' : 'wrong'}`;
+            feedback.textContent = randomMsg;
+            feedback.style.position = 'fixed';
+            feedback.style.top = '50%';
+            feedback.style.left = '50%';
+            feedback.style.transform = 'translate(-50%, -50%)';
+            answerReveal.appendChild(feedback);
+
+            // Tự động xóa feedback sau animation
+            setTimeout(() => {
+                feedback.remove();
+            }, 1500);
+        }
+
+        // Submit Chemistry Quiz
         function submitChemistryQuiz() {
             const unanswered = userAnswers.filter(a => a === null || a === undefined).length;
             if (unanswered > 0) {
