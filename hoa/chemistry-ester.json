@@ -1,0 +1,240 @@
+{
+  "testName": "Este - Lipit",
+  "subject": "Chemistry",
+  "description": "YCCĐ 11.5: Este và ứng dụng thực tế, Lipit",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Công thức tổng quát của este no, đơn chức, mạch hở là",
+      "options": [
+        "RCOOR'",
+        "CₙH₂ₙO₂",
+        "CₙH₂ₙ₊₂O₂",
+        "Cả A và B"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Este được tạo thành từ phản ứng giữa",
+      "options": [
+        "Axit và ancol",
+        "Axit và bazơ",
+        "Ancol và bazơ",
+        "Axit và muối"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng thủy phân este trong môi trường axit tạo thành",
+      "options": [
+        "Axit và ancol",
+        "Muối và ancol",
+        "Axit và nước",
+        "Muối và nước"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng thủy phân este trong môi trường kiềm (xà phòng hóa) tạo thành",
+      "options": [
+        "Axit và ancol",
+        "Muối và ancol",
+        "Axit và nước",
+        "Muối và nước"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Cho 0,1 mol CH₃COOC₂H₅ tác dụng với dung dịch NaOH dư. Khối lượng muối thu được là",
+      "options": [
+        "8,2 gam",
+        "6,0 gam",
+        "4,6 gam",
+        "10,0 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Este nào sau đây có mùi chuối chín?",
+      "options": [
+        "CH₃COOC₂H₅",
+        "CH₃COOCH₃",
+        "CH₃COOC₅H₁₁",
+        "HCOOC₂H₅"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Đốt cháy hoàn toàn 0,1 mol este X thu được 0,4 mol CO₂ và 0,3 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "C₂H₄O₂",
+        "C₃H₆O₂",
+        "C₄H₆O₂",
+        "C₄H₈O₂"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Lipit là tên gọi chung của",
+      "options": [
+        "Chất béo và chất béo tương tự",
+        "Este của glycerol với axit béo",
+        "Hợp chất hữu cơ không tan trong nước",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.5",
+      "question": "Chất béo là",
+      "options": [
+        "Este của glycerol với axit béo",
+        "Este của ancol đơn chức với axit béo",
+        "Muối của axit béo",
+        "Axit béo"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Chất béo lỏng (dầu) chứa nhiều gốc axit béo",
+      "options": [
+        "No",
+        "Không no",
+        "Thơm",
+        "Vòng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Chất béo rắn chứa nhiều gốc axit béo",
+      "options": [
+        "No",
+        "Không no",
+        "Thơm",
+        "Vòng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Phản ứng xà phòng hóa chất béo tạo thành",
+      "options": [
+        "Glycerol và muối của axit béo",
+        "Glycerol và axit béo",
+        "Nước và muối",
+        "Ancol và este"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Cho 0,1 mol chất béo X tác dụng với dung dịch NaOH dư, thu được 0,3 mol muối. Số gốc axit béo trong X là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Để chuyển dầu thành mở cứng (margarin), người ta thực hiện phản ứng",
+      "options": [
+        "Xà phòng hóa",
+        "Este hóa",
+        "Hidro hóa",
+        "Oxi hóa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Thủy phân hoàn toàn 0,1 mol triglixerit X cần 0,3 mol NaOH. Khối lượng glycerol thu được là",
+      "options": [
+        "9,2 gam",
+        "4,6 gam",
+        "18,4 gam",
+        "27,6 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.5",
+      "question": "Xét tính đúng/sai của các phát biểu sau về este và lipit:",
+      "statements": [
+        "Este được tạo thành từ axit và ancol",
+        "Phản ứng xà phòng hóa là phản ứng thuận nghịch",
+        "Chất béo lỏng chứa nhiều gốc axit béo không no",
+        "Triglixerit là este ba chức của glycerol"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.5",
+      "question": "Xà phòng hóa hoàn toàn 8,8 gam etyl axetat cần bao nhiêu gam NaOH?",
+      "correctAnswer": "4",
+      "unit": "gam"
+    }
+  ]
+}

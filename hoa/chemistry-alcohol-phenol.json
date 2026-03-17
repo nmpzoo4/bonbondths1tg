@@ -1,0 +1,240 @@
+{
+  "testName": "Ancol - Phenol",
+  "subject": "Chemistry",
+  "description": "YCCĐ 11.1-11.2: Tính chất và phản ứng của ancol, phenol",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Công thức tổng quát của ancol no, đơn chức, mạch hở là",
+      "options": [
+        "CₙH₂ₙ₊₂O",
+        "CₙH₂ₙ₊₁OH",
+        "CₙH₂ₙO",
+        "CₙH₂ₙ₋₂O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Ancol etylic có công thức phân tử là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₃H₇OH",
+        "C₄H₉OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Khi oxi hóa ancol bậc I thu được sản phẩm là",
+      "options": [
+        "Xeton",
+        "Andehit",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Khi oxi hóa ancol bậc II thu được sản phẩm là",
+      "options": [
+        "Andehit",
+        "Xeton",
+        "Axit",
+        "Este"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Phản ứng nào sau đây là phản ứng tách nước của ancol?",
+      "options": [
+        "C₂H₅OH + O₂ → CH₃CHO + H₂O",
+        "C₂H₅OH → C₂H₄ + H₂O (H₂SO₄ đặc, 170°C)",
+        "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O (H₂SO₄ đặc, 140°C)",
+        "C₂H₅OH + Na → C₂H₅ONa + ½H₂"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.1",
+      "question": "Đốt cháy hoàn toàn 0,1 mol ancol X thu được 0,2 mol CO₂ và 0,3 mol H₂O. Công thức phân tử của X là",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₃H₇OH",
+        "C₄H₉OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.1",
+      "question": "Ancol nào sau đây là ancol đa chức?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₂H₄(OH)₂",
+        "C₃H₇OH"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Số đồng phân ancol ứng với công thức phân tử C₃H₇OH là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.1",
+      "question": "Cho 0,2 mol ancol X tác dụng với Na dư thu được 2,24 lít H₂ (đktc). Số nhóm -OH trong X là",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "11.2",
+      "question": "Phenol có công thức phân tử là",
+      "options": [
+        "C₆H₅OH",
+        "C₆H₆O",
+        "C₆H₅O",
+        "C₆H₇O"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "Phenol có tính axit yếu, tác dụng được với",
+      "options": [
+        "Dung dịch HCl",
+        "Dung dịch NaOH",
+        "Dung dịch NaCl",
+        "Nước"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "Phenol tác dụng với Br₂ tạo kết tủa trắng là",
+      "options": [
+        "C₆H₅Br",
+        "C₆H₄Br₂",
+        "C₆H₃Br₃",
+        "C₆H₂Br₄"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Cho 0,1 mol phenol tác dụng với dung dịch Br₂ dư. Khối lượng kết tủa thu được là",
+      "options": [
+        "33,1 gam",
+        "16,55 gam",
+        "24,8 gam",
+        "49,6 gam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "HIỂU",
+      "yccđ": "11.2",
+      "question": "So sánh tính axit của phenol và axit axetic",
+      "options": [
+        "Phenol > CH₃COOH",
+        "Phenol < CH₃COOH",
+        "Phenol = CH₃COOH",
+        "Không so sánh được"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Để nhận biết phenol trong dung dịch, ta dùng thuốc thử nào sau đây?",
+      "options": [
+        "Dung dịch NaCl",
+        "Dung dịch HCl",
+        "Dung dịch FeCl₃",
+        "Dung dịch NaHCO₃"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "11.1",
+      "question": "Xét tính đúng/sai của các phát biểu sau về ancol:",
+      "statements": [
+        "Ancol no, đơn chức có công thức CₙH₂ₙ₊₁OH",
+        "Ancol bậc I bị oxi hóa thành xeton",
+        "Glycerol là ancol ba chức",
+        "Ancol tác dụng được với Na giải phóng H₂"
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "short-answer",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "11.2",
+      "question": "Cho 9,4 gam phenol phản ứng với dung dịch Br₂ dư. Tính khối lượng kết tủa thu được (gam).",
+      "correctAnswer": "33.1",
+      "unit": "gam"
+    }
+  ]
+}
