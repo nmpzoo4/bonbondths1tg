@@ -1540,6 +1540,10 @@
             const correctAnswerText = q.options[correctAnswerIdx].replace(/^[A-D]\.\s*/, '');
             const userChoiceText = q.options[userChoiceIndex].replace(/^[A-D]\.\s*/, '');
 
+            // Tìm vị trí của đáp án đúng TRONG shuffled options
+            const correctLabelInShuffled = labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === correctAnswerIdx)];
+            const userLabelInShuffled = labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === userChoiceIndex)];
+
             answerReveal.classList.add('show', isCorrect ? 'correct' : 'wrong');
             answerReveal.innerHTML = `
                 <div class="chem-answer-text" style="font-size: 1.15em; margin-bottom: 12px;">
@@ -1547,12 +1551,12 @@
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 10px;">
                     ${!isCorrect ? `<div style="padding: 10px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
-                        <strong>📝 Bạn chọn:</strong> <span style="font-size: 1.1em; font-weight: 600;">${labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === userChoiceIndex)]}. ${userChoiceText}</span>
+                        <strong>📝 Bạn chọn:</strong> <span style="font-size: 1.1em; font-weight: 600;">${userLabelInShuffled}. ${userChoiceText}</span>
                     </div>` : ''}
                     <div style="padding: 10px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;">
                         <strong>🔑 Đáp án đúng:</strong>
                         <div style="font-size: 1.05em; font-weight: 600; color: #155724; margin-top: 8px;">
-                            ${q.correctAnswer}. ${correctAnswerText}
+                            ${correctLabelInShuffled}. ${correctAnswerText}
                         </div>
                     </div>
                 </div>
@@ -1707,9 +1711,9 @@
                                 <strong>📝 Bạn chọn:</strong> <span style="font-size: 1.1em; font-weight: 600;">${userLabel}</span>
                             </div>` : ''}
                             <div style="padding: 10px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;">
-                                <strong>🔑 Đáp án đúng:</strong> 
+                                <strong>🔑 Đáp án đúng:</strong>
                                 <div style="font-size: 1.05em; font-weight: 600; color: #155724; margin-top: 8px;">
-                                    ${q.correctAnswer}. ${correctAnswerText}
+                                    ${correctLabel}. ${correctAnswerText}
                                 </div>
                             </div>
                         </div>
