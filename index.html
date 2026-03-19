@@ -1379,6 +1379,14 @@
                 qLabel.innerHTML = `<strong style="color: #667eea;">Question ${q.number}.</strong> <span style="color: #999;">(${difficultyText})</span>`;
                 qSection.appendChild(qLabel);
 
+                // Question text (if exists)
+                if (q.questionText) {
+                    const qTextDiv = document.createElement('div');
+                    qTextDiv.style.cssText = 'margin-bottom: 12px; font-size: 14px; color: #555; line-height: 1.5;';
+                    qTextDiv.textContent = q.questionText;
+                    qSection.appendChild(qTextDiv);
+                }
+
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
 
                 // ARRANGEMENT QUESTIONS - show letters then options
