@@ -24,12 +24,11 @@
             background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
             min-height: 100vh;
             overflow-x: hidden;
-            padding-bottom: 80px;
+            padding-bottom: 70px;
             -webkit-overflow-scrolling: touch;
-            /* Smooth scroll trên iOS */
             touch-action: pan-y;
-            /* Cho phép scroll dọc */
-            /* Space for footer */
+            margin: 0;
+            width: 100%;
         }
 
         /* Animations */
@@ -87,9 +86,15 @@
 
         /* Container */
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 100%;
+            margin: 0;
             padding: 20px;
+            width: 100%;
+        }
+
+        #quizScreen .container {
+            padding: 0;
+            max-width: none;
         }
 
         /* Header */
@@ -195,17 +200,16 @@
         }
 
         .back-btn {
-            background: white;
+            background: rgba(255, 255, 255, 0.9);
             color: #667eea;
             border: none;
-            padding: 12px 30px;
-            border-radius: 25px;
-            font-size: 1.1em;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 1em;
             font-weight: 600;
             cursor: pointer;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
         }
 
         .back-btn:hover {
@@ -269,44 +273,58 @@
         #quizScreen {
             display: none;
             animation: fadeInUp 0.6s ease-out;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            height: 100vh;
         }
 
         .quiz-container {
             background: white;
-            border-radius: 25px;
-            padding: 40px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-            max-width: 900px;
-            margin: 0 auto;
+            border-radius: 0;
+            padding: 0;
+            box-shadow: none;
+            max-width: none;
+            margin: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
 
         .quiz-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 30px;
+            margin-bottom: 0;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 10px;
+            padding: 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
         }
 
         .timer {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            background: rgba(255, 255, 255, 0.2);
             color: white;
-            padding: 15px 25px;
+            padding: 8px 12px;
             border-radius: 20px;
-            font-size: 1.3em;
+            font-size: 1.1em;
             font-weight: 600;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: none;
         }
 
         .question-counter {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            background: rgba(255, 255, 255, 0.2);
             color: white;
-            padding: 15px 25px;
+            padding: 8px 12px;
             border-radius: 20px;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 600;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: none;
         }
 
         .passage {
@@ -412,6 +430,10 @@
         #resultScreen {
             display: none;
             animation: fadeInUp 0.6s ease-out;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            height: 100vh;
         }
 
         .result-container {
@@ -649,12 +671,14 @@
         /* Responsive - Mobile Friendly */
         @media (max-width: 768px) {
             body {
-                padding-bottom: 100px;
-                /* Space cho footer */
+                padding-bottom: 80px;
+                overflow-x: hidden;
             }
 
             .container {
-                padding: 10px;
+                padding: 0;
+                margin: 0;
+                width: 100%;
             }
 
             .header h1 {
@@ -699,8 +723,12 @@
             .quiz-container,
             .result-container,
             .review-container {
-                padding: 20px 15px;
-                border-radius: 20px;
+                padding: 0;
+                border-radius: 0;
+                max-width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
             }
 
             .quiz-header {
@@ -722,14 +750,15 @@
             }
 
             .passage {
-                font-size: 1em;
-                padding: 15px;
-                line-height: 1.6;
+                font-size: 0.95em;
+                padding: 12px;
+                line-height: 1.5;
+                border-left: 0;
             }
 
             .question {
-                font-size: 1.1em;
-                margin-bottom: 20px;
+                font-size: 1em;
+                margin-bottom: 15px;
             }
 
             .option {
@@ -950,17 +979,17 @@
         /* Footer Credit */
         .footer-credit {
             position: fixed;
-            bottom: 15px;
+            bottom: 12px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             background: rgba(255, 255, 255, 0.95);
-            padding: 12px 25px;
+            padding: 10px 20px;
             border-radius: 50px;
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
+            z-index: 999;
             backdrop-filter: blur(10px);
             animation: float 3s ease-in-out infinite;
         }
@@ -1091,6 +1120,8 @@
         // Global variables
         let currentSubject = '';
         let currentTest = null;
+        let currentTestFile = null;
+        let isHK2Test = false;
         let currentQuestionIndex = 0;
         let userAnswers = [];
         let shuffledQuestions = [];
@@ -1171,7 +1202,7 @@
             testList.appendChild(hk2Header);
 
             const hk2Tests = [
-                { file: 'test1', name: '📖 Test 1', desc: 'Cultural Heritage - 30 câu' }
+                { file: 'test1', name: '📖 Test 1 - HK2', desc: 'Bão Tổng Hợp - 30 câu' }
             ];
 
             hk2Tests.forEach(test => {
@@ -1249,6 +1280,8 @@
         // Start test HK2
         async function startTestHK2(testNumber) {
             try {
+                currentTestFile = testNumber;
+                isHK2Test = true;
                 const response = await fetch(`tienanh-hk2/${testNumber}.json`);
                 const testData = await response.json();
                 startEnglishQuizHK2(testData);
@@ -1308,6 +1341,7 @@
         }
 
         // Start English Quiz HK2 - Passages based with feedback per passage
+        let hk2CurrentSubmitBtn = null;
         let hk2State = {
             testData: null,
             shuffledPassages: [],
@@ -1365,6 +1399,37 @@
             }, 1500);
         }
 
+        function updateHK2SubmitButton() {
+            if (!hk2CurrentSubmitBtn) return;
+
+            const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
+            const allAnswered = passage.questions.every(q => {
+                const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
+                return hk2State.passageAnswers[answerKey] !== undefined;
+            });
+
+            console.log(`[HK2 Update] Passage ${hk2State.currentPassageIndex}, AllAnswered: ${allAnswered}, Total Q: ${passage.questions.length}`);
+            
+            hk2CurrentSubmitBtn.disabled = !allAnswered;
+            hk2CurrentSubmitBtn.style.background = allAnswered 
+                ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' 
+                : '#ccc';
+            hk2CurrentSubmitBtn.style.cursor = allAnswered ? 'pointer' : 'not-allowed';
+        }
+
+        function checkAndAutoAdvanceHK2() {
+            const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
+            const allAnswered = passage.questions.every(q => {
+                const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
+                return hk2State.passageAnswers[answerKey] !== undefined;
+            });
+
+            if (allAnswered) {
+                console.log(`[HK2 Auto-Advance] All questions answered, proceeding to next passage...`);
+                setTimeout(() => proceedToNextPassage(), 500);
+            }
+        }
+
         function displayHK2Passage() {
             const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
             let container = document.getElementById('quizScreenContent');
@@ -1372,7 +1437,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; height: calc(100vh - 140px);';
+                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; height: calc(100vh - 70px); background: white; overflow: hidden;';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1380,17 +1445,17 @@
 
             // Passage header
             const header = document.createElement('div');
-            header.style.cssText = 'padding: 10px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 0; margin: 0; text-align: center; flex-shrink: 0;';
-            header.innerHTML = `<h3 style="margin: 0; font-size: 16px;">${passage.title}</h3>`;
+            header.style.cssText = 'padding: 10px 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 0; margin: 0; text-align: center; flex-shrink: 0; width: 100%;';
+            header.innerHTML = `<h3 style="margin: 0; font-size: 15px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (fixed height, NOT scrollable)
+            // Passage text (fixed height, NOT scrollable) - auto height, max 45%
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'height: 28%; margin: 0; padding: 10px; flex-shrink: 0; border-radius: 0; overflow: hidden;';
+                passageWrapperDiv.style.cssText = 'height: auto; max-height: 60%; margin: 0; padding: 12px; flex-shrink: 0; border-radius: 0; overflow: visible; background: #f9f9f9; width: 100%;';
 
                 const passageDiv = document.createElement('div');
-                passageDiv.style.cssText = 'background: #f9f9f9; padding: 10px; line-height: 1.6; text-align: justify; border-left: 0; font-size: 14px; color: #333; white-space: pre-wrap; word-wrap: break-word; height: 100%; overflow: hidden;';
+                passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word; overflow: visible;';
                 passageDiv.textContent = passage.text;
                 passageWrapperDiv.appendChild(passageDiv);
                 container.appendChild(passageWrapperDiv);
@@ -1398,49 +1463,53 @@
 
             // Questions section (primary scrollable area)
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 10px; margin: 0; border-radius: 0; overflow-y: auto; flex-grow: 1; flex-shrink: 1;';
+            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; flex-grow: 1; flex-shrink: 1; width: 100%; min-height: 0;';
 
             passage.questions.forEach((q, qIdx) => {
-                const displayNumber = hk2State.questionCounter + qIdx + 1; // 1-30
+                const displayNumber = hk2State.questionCounter + qIdx + 1;
                 const qSection = document.createElement('div');
-                qSection.style.cssText = 'margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid #eee;';
+                qSection.style.cssText = 'margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee;';
 
                 // Question label
                 const qLabel = document.createElement('div');
-                qLabel.style.cssText = 'margin-bottom: 12px; font-size: 14px; color: #333;';
-                const difficultyText = q.difficulty === 'B' ? 'NB' : q.difficulty === 'H' ? 'H' : 'VD';
-                qLabel.innerHTML = `<strong style="color: #667eea;">Question ${displayNumber}.</strong> <span style="color: #999;">(${difficultyText})</span>`;
+                qLabel.style.cssText = 'margin-bottom: 10px; font-size: 13px; color: #333;';
+                const difficultyText = q.difficulty === 'B' ? 'NB' : q.difficulty === 'H' ? 'H' : q.difficulty === 'VD' ? 'VD' : 'B';
+                qLabel.innerHTML = `<strong style="color: #667eea;">Câu ${displayNumber}.</strong> <span style="color: #999;">(${difficultyText})</span>`;
                 qSection.appendChild(qLabel);
 
-                // Question text (if exists)
+                // Question text (main question)
+                const questionTextDiv = document.createElement('div');
+                let questionText = q.question || '';
                 if (q.questionText) {
-                    const qTextDiv = document.createElement('div');
-                    qTextDiv.style.cssText = 'margin-bottom: 12px; font-size: 14px; color: #555; line-height: 1.5;';
-                    qTextDiv.textContent = q.questionText;
-                    qSection.appendChild(qTextDiv);
+                    questionText = q.questionText;
                 }
+                questionTextDiv.style.cssText = 'margin-bottom: 10px; font-size: 13px; color: #555; line-height: 1.5; font-weight: 500;';
+                questionTextDiv.textContent = questionText;
+                qSection.appendChild(questionTextDiv);
 
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                 const userSelected = hk2State.passageAnswers[answerKey];
-                const correctIdx = q.correctAnswer.charCodeAt(0) - 65;
+                const correctIdx = typeof q.correctAnswer === 'string' 
+                    ? q.correctAnswer.charCodeAt(0) - 65 
+                    : q.correctAnswer;
 
                 // ARRANGEMENT QUESTIONS - show letters then shuffled options
                 if (passage.isArrangement && q.letters) {
                     // Show letter content
                     const lettersDiv = document.createElement('div');
-                    lettersDiv.style.cssText = 'background: #f5f5f5; padding: 15px; border-radius: 6px; margin-bottom: 15px; border-left: 3px solid #667eea;';
+                    lettersDiv.style.cssText = 'background: #f5f5f5; padding: 10px; border-radius: 6px; margin-bottom: 10px; border-left: 3px solid #667eea;';
 
                     Object.keys(q.letters).forEach(key => {
                         const letterLine = document.createElement('div');
-                        letterLine.style.cssText = 'margin-bottom: 10px; line-height: 1.5; color: #333; font-size: 14px;';
+                        letterLine.style.cssText = 'margin-bottom: 8px; line-height: 1.4; color: #333; font-size: 12px;';
                         letterLine.innerHTML = `<strong style="color: #667eea;">${key.toUpperCase()}.</strong> ${q.letters[key]}`;
                         lettersDiv.appendChild(letterLine);
                     });
                     qSection.appendChild(lettersDiv);
 
-                    // Show options WITHOUT shuffling - keep A B C D order
+                    // Show options WITHOUT shuffling
                     const optionsDiv = document.createElement('div');
-                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 6px;';
 
                     q.options.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
@@ -1468,13 +1537,13 @@
                         }
 
                         optBtn.style.cssText = `
-                            padding: 12px 15px;
+                            padding: 9px 11px;
                             background: ${bgColor};
                             color: ${textColor};
                             border: 2px solid ${borderColor};
                             border-radius: 6px;
                             cursor: ${userSelected !== undefined ? 'default' : 'pointer'};
-                            font-size: 14px;
+                            font-size: 13px;
                             text-align: left;
                             transition: all 0.2s;
                         `;
@@ -1498,14 +1567,14 @@
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
 
-                                // Update button color immediately
+                                console.log(`[HK2 ARRANGE] ${answerKey} = ${idx}`);
+
                                 optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.color = 'white';
                                 optBtn.disabled = true;
                                 optBtn.style.cursor = 'default';
 
-                                // Highlight correct answer (if not selected)
                                 if (!isCorrect) {
                                     const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
                                     if (correctBtn) {
@@ -1515,10 +1584,11 @@
                                     }
                                 }
 
-                                // Show feedback popup immediately
                                 showHK2QuestionFeedback(isCorrect, optBtn);
 
-                                // Auto-scroll to next question (for long questions on mobile)
+                                // Auto-advance when all questions answered
+                                setTimeout(() => checkAndAutoAdvanceHK2(), 50);
+
                                 setTimeout(() => {
                                     const nextBtn = optionsDiv.nextElementSibling?.querySelector('button');
                                     if (nextBtn) {
@@ -1533,9 +1603,9 @@
                     qSection.appendChild(optionsDiv);
 
                 } else {
-                    // MULTIPLE CHOICE QUESTIONS - NO shuffling, keep A B C D order
+                    // MULTIPLE CHOICE QUESTIONS
                     const optionsDiv = document.createElement('div');
-                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 6px;';
 
                     q.options.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
@@ -1563,13 +1633,13 @@
                         }
 
                         optBtn.style.cssText = `
-                            padding: 12px 15px;
+                            padding: 9px 11px;
                             background: ${bgColor};
                             color: ${textColor};
                             border: 2px solid ${borderColor};
                             border-radius: 6px;
                             cursor: ${userSelected !== undefined ? 'default' : 'pointer'};
-                            font-size: 14px;
+                            font-size: 13px;
                             text-align: left;
                             transition: all 0.2s;
                         `;
@@ -1593,14 +1663,14 @@
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
 
-                                // Update button color immediately
+                                console.log(`[HK2 MULTIPLE] ${answerKey} = ${idx}`);
+
                                 optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.color = 'white';
                                 optBtn.disabled = true;
                                 optBtn.style.cursor = 'default';
 
-                                // Highlight correct answer (if not selected)
                                 if (!isCorrect) {
                                     const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
                                     if (correctBtn) {
@@ -1610,10 +1680,11 @@
                                     }
                                 }
 
-                                // Show feedback popup immediately
                                 showHK2QuestionFeedback(isCorrect, optBtn);
 
-                                // Auto-scroll to next question (for long questions on mobile)
+                                // Auto-advance when all questions answered
+                                setTimeout(() => checkAndAutoAdvanceHK2(), 50);
+
                                 setTimeout(() => {
                                     const nextBtn = optionsDiv.nextElementSibling?.querySelector('button');
                                     if (nextBtn) {
@@ -1633,41 +1704,64 @@
 
             container.appendChild(questionsDiv);
 
-            // Submit button
+            // Submit button - now just for backup/manual submission
             const allAnswered = passage.questions.every(q => {
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                 return hk2State.passageAnswers[answerKey] !== undefined;
             });
+            
             const submitBtn = document.createElement('button');
+            hk2CurrentSubmitBtn = submitBtn; // Lưu reference
+            submitBtn.className = 'hk2-submit-btn';
             submitBtn.textContent = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1
                 ? '✅ Hoàn Thành Bài Thi'
                 : '➜ Nộp Đoạn Văn Này';
             submitBtn.style.cssText = `
                 margin: 0;
-                padding: 12px 20px;
+                padding: 12px;
                 background: ${allAnswered ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' : '#ccc'};
                 color: white;
                 border: none;
                 border-radius: 0;
-                font-size: 14px;
+                font-size: 13px;
                 font-weight: bold;
                 cursor: ${allAnswered ? 'pointer' : 'not-allowed'};
                 width: 100%;
-                transition: transform 0.2s;
+                transition: all 0.2s;
                 flex-shrink: 0;
+                display: none;
             `;
             submitBtn.disabled = !allAnswered;
+            
             submitBtn.onmouseover = () => {
-                if (allAnswered) submitBtn.style.transform = 'translateY(-2px)';
+                if (!submitBtn.disabled) submitBtn.style.transform = 'translateY(-2px)';
             };
             submitBtn.onmouseout = () => {
-                if (allAnswered) submitBtn.style.transform = 'translateY(0)';
+                submitBtn.style.transform = 'translateY(0)';
             };
-            submitBtn.onclick = () => proceedToNextPassage();
+            
+            submitBtn.onclick = (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Kiểm tra lại trạng thái trước khi nộp
+                const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
+                const allAnsweredCheck = passage.questions.every(q => {
+                    const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
+                    return hk2State.passageAnswers[answerKey] !== undefined;
+                });
+                
+                console.log(`[HK2 Submit] AllAnsweredCheck: ${allAnsweredCheck}`);
+                
+                if (allAnsweredCheck) {
+                    proceedToNextPassage();
+                } else {
+                    alert('Vui lòng trả lời tất cả câu hỏi trước khi nộp!');
+                }
+            };
 
             container.appendChild(submitBtn);
         }
-
 
         function proceedToNextPassage() {
             // Remove feedback
@@ -1692,17 +1786,22 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
+                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; height: calc(100vh - 70px); background: white; overflow: hidden;';
                 document.getElementById('quizScreen').appendChild(container);
             }
+
+            container.innerHTML = '';
 
             // Calculate overall stats
             let totalCorrect = 0;
             let totalQuestions = 0;
-            hk2State.shuffledPassages.forEach(passage => {
+            hk2State.shuffledPassages.forEach((passage, pIdx) => {
                 passage.questions.forEach(q => {
-                    const answerKey = `p${hk2State.shuffledPassages.indexOf(passage)}_q${q.number}`;
+                    const answerKey = `p${pIdx}_q${q.number}`;
                     const userAnswer = hk2State.passageAnswers[answerKey];
-                    const correctIdx = q.correctAnswer.charCodeAt(0) - 65;
+                    const correctIdx = typeof q.correctAnswer === 'string' 
+                        ? q.correctAnswer.charCodeAt(0) - 65 
+                        : q.correctAnswer;
                     if (userAnswer === correctIdx) {
                         totalCorrect++;
                     }
@@ -1714,29 +1813,36 @@
             let resultEmoji = finalScore >= 80 ? '🎉' : finalScore >= 60 ? '🎊' : '💪';
             let resultColor = finalScore >= 80 ? '#10b981' : finalScore >= 60 ? '#f59e0b' : '#3b82f6';
 
-            container.innerHTML = `
-                <div style="text-align: center; padding: 60px 30px; max-width: 600px; margin: 0 auto;">
-                    <div style="font-size: 80px; margin-bottom: 20px; animation: pulse 1s infinite;">${resultEmoji}</div>
+            const resultDiv = document.createElement('div');
+            resultDiv.style.cssText = 'text-align: center; padding: 40px 20px; max-width: 100%; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; overflow-y: auto;';
+            resultDiv.innerHTML = `
+                <div style="font-size: 60px; margin-bottom: 20px; animation: float 2s infinite;">${resultEmoji}</div>
 
-                    <h2 style="color: #333; margin-bottom: 10px; font-size: 32px;">Hoàn Thành Bài Thi!</h2>
+                <h2 style="color: white; margin-bottom: 15px; font-size: 24px;">Hoàn Thành Bài Thi!</h2>
 
-                    <div style="background: linear-gradient(135deg, ${resultColor}20 0%, ${resultColor}10 100%); padding: 30px; border-radius: 12px; margin: 30px 0; border: 2px solid ${resultColor};">
-                        <p style="font-size: 16px; color: #666; margin-bottom: 10px;">Kết quả cuối cùng:</p>
-                        <p style="font-size: 48px; font-weight: bold; color: ${resultColor}; margin: 0;">${finalScore}%</p>
-                        <p style="font-size: 18px; color: #666; margin-top: 10px;">
-                            Đúng: <strong>${totalCorrect}</strong> / <strong>${totalQuestions}</strong> câu
-                        </p>
-                    </div>
-
-                    <p style="color: #666; font-size: 16px; margin: 30px 0;">
-                        ${finalScore >= 80 ? '🌟 Xuất sắc! Bạn làm bài rất tốt!' : finalScore >= 60 ? '👏 Tốt! Bạn đã hiểu tốt nội dung.' : '📖 Hãy ôn lại và cố gắng hơn!'}
+                <div style="background: rgba(255,255,255,0.2); padding: 25px; border-radius: 15px; margin: 20px 0; border: 2px solid rgba(255,255,255,0.3); width: 100%; max-width: 300px;">
+                    <p style="font-size: 14px; color: rgba(255,255,255,0.9); margin-bottom: 10px;">Kết quả cuối cùng:</p>
+                    <p style="font-size: 42px; font-weight: bold; color: white; margin: 0;">${finalScore}%</p>
+                    <p style="font-size: 16px; color: rgba(255,255,255,0.9); margin-top: 10px;">
+                        Đúng: <strong>${totalCorrect}</strong> / <strong>${totalQuestions}</strong> câu
                     </p>
+                </div>
 
-                    <button onclick="goHome()" style="padding: 14px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s;">
-                        🏠 Quay Lại Trang Chủ
+                <p style="color: rgba(255,255,255,0.95); font-size: 15px; margin: 20px 0;">
+                    ${finalScore >= 80 ? '🌟 Xuất sắc! Bạn làm bài rất tốt!' : finalScore >= 60 ? '👏 Tốt! Bạn đã hiểu tốt nội dung.' : '📖 Hãy ôn lại và cố gắng hơn!'}
+                </p>
+
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; width: 100%; margin-top: 20px;">
+                    <button onclick="goHome()" style="padding: 12px 30px; background: rgba(255,255,255,0.95); color: #667eea; border: none; border-radius: 20px; font-size: 14px; font-weight: bold; cursor: pointer; transition: transform 0.2s;">
+                        🏠 Trang Chủ
+                    </button>
+                    <button onclick="location.reload()" style="padding: 12px 30px; background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.5); border-radius: 20px; font-size: 14px; font-weight: bold; cursor: pointer; transition: transform 0.2s;">
+                        🔄 Làm Lại
                     </button>
                 </div>
             `;
+            
+            container.appendChild(resultDiv);
         }
 
         // Start English Quiz (original logic)
@@ -2594,7 +2700,9 @@
 
         // Retake test
         function retakeTest() {
-            if (currentSubject === 'tienanh') {
+            if (isHK2Test && currentTestFile) {
+                startTestHK2(currentTestFile);
+            } else if (currentSubject === 'tienanh') {
                 const testNumber = currentTest.testName.match(/\d+/)[0];
                 startTest(parseInt(testNumber));
             } else {
@@ -2621,6 +2729,8 @@
             document.getElementById('reviewScreen').style.display = 'none';
             currentSubject = '';
             currentTest = null;
+            currentTestFile = null;
+            isHK2Test = false;
         }
     </script>
 
