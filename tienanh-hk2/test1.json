@@ -31,13 +31,72 @@
     {
       "id": 3,
       "title": "Passage 3: Conversations",
-      "text": "Arrange conversations in correct order.",
+      "text": "Arrange the following conversations in correct order.",
+      "isArrangement": true,
       "questions": [
-        {"number": 13, "difficulty": "B", "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"], "correctAnswer": "B"},
-        {"number": 14, "difficulty": "B", "options": ["A. d-a-b-c-e", "B. d-e-a-b-c", "C. a-d-e-b-c", "D. e-d-a-b-c"], "correctAnswer": "A"},
-        {"number": 15, "difficulty": "H", "options": ["A. b-a-d-c-e", "B. b-d-a-c-e", "C. a-b-c-d-e", "D. d-c-b-a-e"], "correctAnswer": "A"},
-        {"number": 16, "difficulty": "H", "options": ["A. e-b-c-a-d", "B. a-c-e-d-b", "C. b-a-d-e-c", "D. c-b-e-a-d"], "correctAnswer": "A"},
-        {"number": 17, "difficulty": "H", "options": ["A. d-e-b-c-a", "B. a-b-c-d-e", "C. d-a-e-c-b", "D. e-d-c-b-a"], "correctAnswer": "A"}
+        {
+          "number": 13,
+          "difficulty": "B",
+          "letters": {
+            "a": "Nam: I've been working on becoming more independent, too. I moved out of my parents' house and started managing my own finances.",
+            "b": "Nam: Hi, Mark! It's been a while since we last met. You seem so independent now!",
+            "c": "Mark: Hi, Nam! Thanks! Yes, I've been trying to take control of my life more. How about you?"
+          },
+          "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 14,
+          "difficulty": "B",
+          "letters": {
+            "a": "Mai: I will participate in traditional cultural activities.",
+            "b": "Lan: Why traditional cultural activities?",
+            "c": "Mai: Because they help preserve the long-standing cultural values of our nation, like music, dance, and festivals.",
+            "d": "Lan: What are you going to do to protect Vietnamese culture?",
+            "e": "Lan: Yes, I think so too. If we don't protect them now, many beautiful cultural features will be lost."
+          },
+          "options": ["A. c-d-e-a-b", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. d-a-b-c-e"],
+          "correctAnswer": "C"
+        },
+        {
+          "number": 15,
+          "difficulty": "H",
+          "letters": {
+            "a": "I just came back from a cultural heritage festival, and it was amazing to see so many traditional arts and crafts.",
+            "b": "How's everything with you? I've got some exciting news to share about my weekend!",
+            "c": "The performances were incredible, and I learned a lot about our history and traditions.",
+            "d": "I was so inspired by the experience, and I even got to meet some local artists.",
+            "e": "Can't wait to share all the details with you when we meet up next!"
+          },
+          "options": ["A. e-a-d-c-b", "B. b-a-d-c-e", "C. d-b-a-c-e", "D. b-e-c-a-d"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 16,
+          "difficulty": "H",
+          "letters": {
+            "a": "I also looked into the online courses you mentioned — they seem very flexible and affordable, so I'm thinking of giving them a try if I decide not to attend university.",
+            "b": "I'm really considering applying for a vocational training course, as it sounds like a great way to gain practical skills quickly.",
+            "c": "However, I'm still weighing whether I should go for a university degree, as I feel it might open more career doors in the long term.",
+            "d": "What do you think about taking a gap year to travel before making any decisions?",
+            "e": "Thanks for the information about different education options for school leavers."
+          },
+          "options": ["A. c-b-a-d-e", "B. e-b-c-a-d", "C. a-d-b-e-c", "D. a-c-d-e-b"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 17,
+          "difficulty": "H",
+          "letters": {
+            "a": "In conclusion, I'm very happy with this career choice, as it perfectly aligns with my interests and skills.",
+            "b": "Working remotely allows me to be more creative and productive in my job.",
+            "c": "Although there are some challenges in coordinating with the team, online meetings make it easy for us to stay updated on project progress.",
+            "d": "After finishing my university program, I realized I had a passion for both technology and business, so I decided to pursue a career in digital marketing.",
+            "e": "I've been working at a startup company in this field for almost a year, and I truly feel satisfied with my work."
+          },
+          "options": ["A. d-e-b-c-a", "B. a-b-c-d-e", "C. b-c-d-a-e", "D. c-a-d-b-e"],
+          "correctAnswer": "A"
+        }
       ]
     },
     {

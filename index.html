@@ -1356,11 +1356,13 @@
             header.innerHTML = `<h3 style="margin: 0;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text with blanks - preserve formatting
-            const passageDiv = document.createElement('div');
-            passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
-            passageDiv.textContent = passage.text;
-            container.appendChild(passageDiv);
+            // Passage text with blanks - preserve formatting (skip for arrangement passages)
+            if (!passage.isArrangement) {
+                const passageDiv = document.createElement('div');
+                passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
+                passageDiv.textContent = passage.text;
+                container.appendChild(passageDiv);
+            }
 
             // Questions section
             const questionsDiv = document.createElement('div');
@@ -1370,53 +1372,104 @@
                 const qSection = document.createElement('div');
                 qSection.style.cssText = 'margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid #eee;';
 
-                // Question label with number and difficulty
+                // Question label
                 const qLabel = document.createElement('div');
                 qLabel.style.cssText = 'margin-bottom: 12px; font-size: 14px; color: #333;';
                 const difficultyText = q.difficulty === 'B' ? 'NB' : q.difficulty === 'H' ? 'H' : 'VD';
                 qLabel.innerHTML = `<strong style="color: #667eea;">Question ${q.number}.</strong> <span style="color: #999;">(${difficultyText})</span>`;
                 qSection.appendChild(qLabel);
 
-                // Options display - all in one line/wrapped naturally
-                const optionsDiv = document.createElement('div');
-                optionsDiv.style.cssText = 'margin-bottom: 15px; padding: 12px 0; color: #333; font-size: 14px; line-height: 1.6;';
-                optionsDiv.textContent = q.options.join('  ');
-                qSection.appendChild(optionsDiv);
+                const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
 
-                // Radio buttons for selection
-                const radioDiv = document.createElement('div');
-                radioDiv.style.cssText = 'display: flex; gap: 30px; flex-wrap: wrap; margin-left: 10px;';
+                // ARRANGEMENT QUESTIONS - show letters then options
+                if (passage.isArrangement && q.letters) {
+                    // Show letter content
+                    const lettersDiv = document.createElement('div');
+                    lettersDiv.style.cssText = 'background: #f5f5f5; padding: 15px; border-radius: 6px; margin-bottom: 15px; border-left: 3px solid #667eea;';
 
-                q.options.forEach((opt, idx) => {
-                    const label = document.createElement('label');
-                    label.style.cssText = 'cursor: pointer; display: flex; align-items: center; user-select: none; gap: 8px;';
+                    Object.keys(q.letters).forEach(key => {
+                        const letterLine = document.createElement('div');
+                        letterLine.style.cssText = 'margin-bottom: 10px; line-height: 1.5; color: #333; font-size: 14px;';
+                        letterLine.innerHTML = `<strong style="color: #667eea;">${key.toUpperCase()}.</strong> ${q.letters[key]}`;
+                        lettersDiv.appendChild(letterLine);
+                    });
+                    qSection.appendChild(lettersDiv);
 
-                    const radio = document.createElement('input');
-                    radio.type = 'radio';
-                    radio.name = `p${hk2State.currentPassageIndex}_q${q.number}`;
-                    radio.value = idx;
-                    radio.style.cssText = 'cursor: pointer; width: 18px; height: 18px; margin: 0;';
+                    // Show options as buttons
+                    const optionsDiv = document.createElement('div');
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
 
-                    const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
-                    if (hk2State.passageAnswers[answerKey] == idx) {
-                        radio.checked = true;
-                    }
+                    q.options.forEach((opt, idx) => {
+                        const optBtn = document.createElement('button');
+                        optBtn.style.cssText = `
+                            padding: 12px 15px;
+                            background: ${hk2State.passageAnswers[answerKey] === idx ? '#667eea' : '#f0f0f0'};
+                            color: ${hk2State.passageAnswers[answerKey] === idx ? 'white' : '#333'};
+                            border: 2px solid ${hk2State.passageAnswers[answerKey] === idx ? '#667eea' : '#ddd'};
+                            border-radius: 6px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            text-align: left;
+                            transition: all 0.2s;
+                        `;
+                        optBtn.textContent = opt;
+                        optBtn.onclick = () => {
+                            hk2State.passageAnswers[answerKey] = idx;
+                            displayHK2Passage();
+                        };
+                        optBtn.onmouseover = () => {
+                            if (hk2State.passageAnswers[answerKey] !== idx) {
+                                optBtn.style.background = '#e8e8e8';
+                            }
+                        };
+                        optBtn.onmouseout = () => {
+                            if (hk2State.passageAnswers[answerKey] !== idx) {
+                                optBtn.style.background = '#f0f0f0';
+                            }
+                        };
+                        optionsDiv.appendChild(optBtn);
+                    });
+                    qSection.appendChild(optionsDiv);
 
-                    radio.onchange = () => {
-                        hk2State.passageAnswers[answerKey] = idx;
-                    };
+                } else {
+                    // MULTIPLE CHOICE QUESTIONS - show options as clickable buttons
+                    const optionsDiv = document.createElement('div');
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
 
-                    const labelText = document.createElement('span');
-                    const letter = String.fromCharCode(65 + idx);
-                    labelText.textContent = letter;
-                    labelText.style.cssText = 'font-weight: bold; color: #667eea; font-size: 15px;';
+                    q.options.forEach((opt, idx) => {
+                        const optBtn = document.createElement('button');
+                        const isSelected = hk2State.passageAnswers[answerKey] === idx;
+                        optBtn.style.cssText = `
+                            padding: 12px 15px;
+                            background: ${isSelected ? '#667eea' : '#f0f0f0'};
+                            color: ${isSelected ? 'white' : '#333'};
+                            border: 2px solid ${isSelected ? '#667eea' : '#ddd'};
+                            border-radius: 6px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            text-align: left;
+                            transition: all 0.2s;
+                        `;
+                        optBtn.textContent = opt;
+                        optBtn.onclick = () => {
+                            hk2State.passageAnswers[answerKey] = idx;
+                            displayHK2Passage();
+                        };
+                        optBtn.onmouseover = () => {
+                            if (!isSelected) {
+                                optBtn.style.background = '#e8e8e8';
+                            }
+                        };
+                        optBtn.onmouseout = () => {
+                            if (!isSelected) {
+                                optBtn.style.background = '#f0f0f0';
+                            }
+                        };
+                        optionsDiv.appendChild(optBtn);
+                    });
+                    qSection.appendChild(optionsDiv);
+                }
 
-                    label.appendChild(radio);
-                    label.appendChild(labelText);
-                    radioDiv.appendChild(label);
-                });
-
-                qSection.appendChild(radioDiv);
                 questionsDiv.appendChild(qSection);
             });
 
@@ -1443,11 +1496,11 @@
             // Check answers
             passage.questions.forEach(q => {
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
-                const userAnswer = hk2State.passageAnswers[answerKey];
+                const userAnswerIdx = hk2State.passageAnswers[answerKey];
 
-                // correctAnswer is "A", "B", "C", or "D"
+                // correctAnswer is "A", "B", "C", or "D" - convert to index
                 const correctIdx = q.correctAnswer.charCodeAt(0) - 65;
-                const isCorrect = userAnswer === correctIdx;
+                const isCorrect = userAnswerIdx === correctIdx;
 
                 if (isCorrect) {
                     correctCount++;
@@ -1456,7 +1509,7 @@
                 detailedResults.push({
                     number: q.number,
                     isCorrect: isCorrect,
-                    userAnswerLetter: userAnswer !== undefined ? String.fromCharCode(65 + userAnswer) : '—',
+                    userAnswerLetter: userAnswerIdx !== undefined ? String.fromCharCode(65 + userAnswerIdx) : '—',
                     correctAnswerLetter: q.correctAnswer
                 });
             });
