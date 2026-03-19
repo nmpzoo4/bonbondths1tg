@@ -1339,7 +1339,16 @@
 
         function displayHK2Passage() {
             const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
-            const container = document.getElementById('quizScreenContent');
+            let container = document.getElementById('quizScreenContent');
+
+            // Create container if it doesn't exist
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'quizScreenContent';
+                container.style.cssText = 'max-width: 900px; margin: 20px auto; padding: 20px;';
+                document.getElementById('quizScreen').appendChild(container);
+            }
+
             container.innerHTML = '';
 
             // Passage header
@@ -1354,7 +1363,7 @@
             // Passage text
             const passageDiv = document.createElement('div');
             passageDiv.style.cssText = 'background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 20px; line-height: 1.8; color: #333;';
-            passageDiv.innerHTML = passage.passageText;
+            passageDiv.textContent = passage.passageText;
             container.appendChild(passageDiv);
 
             // Questions
@@ -1367,20 +1376,18 @@
 
                 const qLabel = document.createElement('p');
                 qLabel.style.cssText = 'font-weight: bold; margin-bottom: 12px; color: #333;';
-                qLabel.textContent = `Câu ${qIdx + 1}: ${q.question}`;
+                qLabel.textContent = `${q.question}`;
                 qCard.appendChild(qLabel);
 
                 const optionsDiv = document.createElement('div');
                 optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 8px;';
 
-                const labels = ['A', 'B', 'C', 'D'];
-                // Shuffle options for this question
+                // Shuffle options
                 const shuffledOpts = shuffle(q.options.map((opt, idx) => ({text: opt, originalIndex: idx})));
 
                 shuffledOpts.forEach((opt, idx) => {
                     const label = document.createElement('label');
                     label.style.cssText = 'display: flex; align-items: center; cursor: pointer; padding: 10px; border-radius: 6px; border: 2px solid #ddd; transition: all 0.3s;';
-                    label.id = `p${hk2State.currentPassageIndex}_q${q.id}_opt${idx}`;
 
                     const radio = document.createElement('input');
                     radio.type = 'radio';
@@ -1391,12 +1398,12 @@
                     const answerKey = `p${hk2State.currentPassageIndex}_q${q.id}`;
                     if (hk2State.passageAnswers[answerKey] == opt.originalIndex) {
                         radio.checked = true;
-                        label.style.cssText += 'border-color: #667eea; background: #f0f4ff;';
+                        label.style.borderColor = '#667eea';
+                        label.style.background = '#f0f4ff';
                     }
 
                     radio.onchange = () => {
                         hk2State.passageAnswers[answerKey] = parseInt(opt.originalIndex);
-                        // Update UI
                         document.querySelectorAll(`input[name="${radio.name}"]`).forEach(r => {
                             r.parentElement.style.borderColor = '#ddd';
                             r.parentElement.style.background = 'white';
@@ -1406,7 +1413,7 @@
                     };
 
                     const labelText = document.createElement('span');
-                    labelText.innerHTML = `<strong>${labels[idx]}.</strong> ${opt.text.replace(/^[A-D]\.\s*/, '')}`;
+                    labelText.textContent = opt.text;
                     labelText.style.cssText = 'flex: 1;';
 
                     label.appendChild(radio);
@@ -1425,9 +1432,7 @@
             submitBtn.textContent = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1
                 ? 'Hoàn Thành Bài Thi'
                 : 'Nộp Passage Này';
-            submitBtn.style.cssText = 'margin-top: 20px; padding: 12px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s;';
-            submitBtn.onmouseover = () => submitBtn.style.transform = 'scale(1.05)';
-            submitBtn.onmouseout = () => submitBtn.style.transform = 'scale(1)';
+            submitBtn.style.cssText = 'margin-top: 20px; padding: 12px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer;';
             submitBtn.onclick = () => submitHK2Passage();
 
             container.appendChild(submitBtn);
@@ -1441,16 +1446,12 @@
             passage.questions.forEach(q => {
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.id}`;
                 const userAnswer = hk2State.passageAnswers[answerKey];
-                const correctIdx = q.options.findIndex(opt => {
-                    const cleanOpt = opt.replace(/^[A-D]\.\s*/, '');
-                    const cleanCorrect = q.correctAnswer;
-                    return opt.startsWith(cleanCorrect) || (optionIndex === cleanCorrect);
-                });
 
                 // Find correct answer index
-                let correctAnswerIdx = 0;
+                let correctAnswerIdx = -1;
                 for (let i = 0; i < q.options.length; i++) {
-                    if (q.options[i].startsWith(q.correctAnswer)) {
+                    // correctAnswer is "A", "B", "C", or "D"
+                    if (q.options[i].startsWith(q.correctAnswer + '.')) {
                         correctAnswerIdx = i;
                         break;
                     }
@@ -1465,7 +1466,7 @@
             const feedbackDiv = document.createElement('div');
             feedbackDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); text-align: center; z-index: 1000; max-width: 400px;';
 
-            const score = Math.round((correctCount / passage.questions.length) * 100);
+            const score = passage.questions.length > 0 ? Math.round((correctCount / passage.questions.length) * 100) : 0;
             feedbackDiv.innerHTML = `
                 <h2>${score >= 80 ? '✅ Tuyệt vời!' : score >= 60 ? '👍 Khá tốt!' : '📚 Cần cải thiện'}</h2>
                 <p style="font-size: 18px; margin: 15px 0;">Đúng: <strong>${correctCount}/${passage.questions.length}</strong> câu</p>
@@ -1491,7 +1492,13 @@
         }
 
         function finishHK2Quiz() {
-            const container = document.getElementById('quizScreenContent');
+            let container = document.getElementById('quizScreenContent');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'quizScreenContent';
+                document.getElementById('quizScreen').appendChild(container);
+            }
+
             container.innerHTML = `
                 <div style="text-align: center; padding: 40px;">
                     <h2>🎉 Hoàn Thành Bài Thi!</h2>
