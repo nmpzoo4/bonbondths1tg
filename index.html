@@ -1339,6 +1339,31 @@
             displayHK2Passage();
         }
 
+
+        function showHK2QuestionFeedback(isCorrect) {
+            const feedbackMessages = {
+                correct: ['10 điểm 🌟', 'tuyệt vời 💪', 'giỏi quá! 🔥', 'đúng rồi! ✨', 'xuất sắc 🎉'],
+                wrong: ['Sai rồi 😅', 'Gần như đúng rồi 😬', 'Lần sau cố lên 💪', 'Không sao, tiếp tục 😊', 'Ơ hay 🤔']
+            };
+
+            const messageArray = isCorrect ? feedbackMessages.correct : feedbackMessages.wrong;
+            const randomMsg = messageArray[Math.floor(Math.random() * messageArray.length)];
+
+            const feedback = document.createElement('div');
+            feedback.className = `feedback-popup ${isCorrect ? 'correct' : 'wrong'}`;
+            feedback.textContent = randomMsg;
+            feedback.style.position = 'fixed';
+            feedback.style.top = '50%';
+            feedback.style.left = '50%';
+            feedback.style.transform = 'translate(-50%, -50%)';
+            feedback.style.zIndex = '2000';
+            document.body.appendChild(feedback);
+
+            setTimeout(() => {
+                feedback.remove();
+            }, 1500);
+        }
+
         function displayHK2Passage() {
             const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
             let container = document.getElementById('quizScreenContent');
@@ -1465,7 +1490,9 @@
                         optBtn.onclick = () => {
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
-                                displayHK2Passage();
+                                const isCorrect = idx === correctIdx;
+                                showHK2QuestionFeedback(isCorrect);
+                                setTimeout(() => displayHK2Passage(), 1600);
                             }
                         };
 
@@ -1531,7 +1558,9 @@
                         optBtn.onclick = () => {
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
-                                displayHK2Passage();
+                                const isCorrect = idx === correctIdx;
+                                showHK2QuestionFeedback(isCorrect);
+                                setTimeout(() => displayHK2Passage(), 1600);
                             }
                         };
 
