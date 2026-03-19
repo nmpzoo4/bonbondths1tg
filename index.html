@@ -1449,10 +1449,10 @@
             header.innerHTML = `<h3 style="margin: 0; font-size: 15px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (scrollable container) - 800px height with scroll
+            // Passage text (scrollable container) - auto height with max-height limit
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'height: 800px; margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
+                passageWrapperDiv.style.cssText = 'height: auto; max-height: 800px; margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
 
                 const passageDiv = document.createElement('div');
                 passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word; overflow: visible;';
@@ -1461,9 +1461,9 @@
                 container.appendChild(passageWrapperDiv);
             }
 
-            // Questions section (scrollable container) - 600px height with scroll
+            // Questions section (scrollable container) - auto height with max-height limit
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; height: 600px; width: 100%;';
+            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; height: auto; max-height: 600px; width: 100%;';
 
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1;
