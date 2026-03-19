@@ -1450,7 +1450,7 @@
             container.appendChild(header);
 
             // Passage text (scrollable container) - auto height with max-height limit
-            if (!passage.isArrangement) {
+            if (!passage.isArrangement && passage.text && passage.text.trim()) {
                 const passageWrapperDiv = document.createElement('div');
                 passageWrapperDiv.style.cssText = 'height: auto; max-height: 800px; margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
 
