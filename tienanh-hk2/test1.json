@@ -56,7 +56,7 @@
             "e": "Lan: Yes, I think so too. If we don't protect them now, many beautiful cultural features will be lost."
           },
           "options": ["A. c-d-e-a-b", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. d-a-b-c-e"],
-          "correctAnswer": "C"
+          "correctAnswer": "D"
         },
         {
           "number": 15,
