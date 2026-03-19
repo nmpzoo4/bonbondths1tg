@@ -1372,7 +1372,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'max-width: 1000px; margin: 20px auto; padding: 20px; display: flex; flex-direction: column; height: calc(100vh - 140px);';
+                container.style.cssText = 'width: 100%; padding: 20px; display: flex; flex-direction: column; height: calc(100vh - 140px);';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1384,10 +1384,10 @@
             header.innerHTML = `<h3 style="margin: 0;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (scrollable, limited height)
+            // Passage text (fixed height, NOT scrollable)
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'max-height: 30%; overflow-y: auto; margin-bottom: 15px; flex-shrink: 0; border-radius: 8px;';
+                passageWrapperDiv.style.cssText = 'height: auto; margin-bottom: 15px; flex-shrink: 0; border-radius: 8px;';
 
                 const passageDiv = document.createElement('div');
                 passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';

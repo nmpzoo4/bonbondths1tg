@@ -22,7 +22,7 @@
       "questions": [
         {"number": 7, "difficulty": "B", "options": ["A. vocational", "B. official", "C. optional", "D. practical"], "correctAnswer": "A"},
         {"number": 8, "difficulty": "B", "options": ["A. in", "B. with", "C. on", "D. from"], "correctAnswer": "C"},
-        {"number": 9, "difficulty": "H", "options": ["A. scholarship", "B. internship", "C. apprenticeship", "D. membership"], "correctAnswer": "B"},
+        {"number": 9, "difficulty": "H", "options": ["A. scholarship", "B. internship", "C. apprenticeship", "D. membership"], "correctAnswer": "C"},
         {"number": 10, "difficulty": "H", "options": ["A. difficulty", "B. difficultly", "C. difficult", "D. difficulties"], "correctAnswer": "C"},
         {"number": 11, "difficulty": "B", "options": ["A. who", "B. which", "C. whom", "D. that"], "correctAnswer": "D"},
         {"number": 12, "difficulty": "B", "options": ["A. To achieve", "B. Having achieved", "C. Achieved", "D. Have achieved"], "correctAnswer": "B"}
