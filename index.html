@@ -1344,7 +1344,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'max-width: 900px; margin: 20px auto; padding: 20px;';
+                container.style.cssText = 'max-width: 1000px; margin: 20px auto; padding: 20px;';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1352,49 +1352,56 @@
 
             // Passage header
             const header = document.createElement('div');
-            header.style.cssText = 'padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; margin-bottom: 20px;';
-            header.innerHTML = `<h3>${passage.title}</h3>`;
+            header.style.cssText = 'padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; margin-bottom: 20px; text-align: center;';
+            header.innerHTML = `<h3 style="margin: 0;">${passage.title}</h3>`;
             container.appendChild(header);
 
             // Passage text with blanks
             const passageDiv = document.createElement('div');
-            passageDiv.style.cssText = 'background: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; line-height: 1.8; text-align: justify; border: 1px solid #ddd;';
+            passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 16px; color: #333;';
             passageDiv.textContent = passage.text;
             container.appendChild(passageDiv);
 
             // Questions section
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = '';
+            questionsDiv.style.cssText = 'background: white; padding: 20px; border-radius: 8px;';
 
             passage.questions.forEach((q) => {
                 const qSection = document.createElement('div');
-                qSection.style.cssText = 'margin-bottom: 25px;';
+                qSection.style.cssText = 'margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid #eee;';
 
-                // Question label
-                const qLabel = document.createElement('p');
-                qLabel.style.cssText = 'font-weight: bold; margin-bottom: 8px; color: #333;';
-                qLabel.textContent = `Question ${q.number}. (${q.difficulty})`;
+                // Question label with number and difficulty
+                const qLabel = document.createElement('div');
+                qLabel.style.cssText = 'font-weight: bold; margin-bottom: 12px; color: #333; font-size: 15px;';
+                qLabel.innerHTML = `<span style="color: #667eea;">Câu ${q.number}.</span> <span style="color: #999; font-weight: normal; font-size: 13px;">(${q.difficulty === 'B' ? 'Cơ bản' : 'Nâng cao'})</span>`;
                 qSection.appendChild(qLabel);
 
-                // Options in one line
-                const optionsText = document.createElement('p');
-                optionsText.style.cssText = 'margin-bottom: 12px; margin-left: 20px; color: #555; line-height: 1.6;';
-                optionsText.textContent = q.options.join('  ');
-                qSection.appendChild(optionsText);
+                // Options display (2 columns layout)
+                const optionsDiv = document.createElement('div');
+                optionsDiv.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 12px 20px; margin-bottom: 15px; margin-left: 20px;';
 
-                // Radio buttons
+                q.options.forEach((opt, idx) => {
+                    const optDiv = document.createElement('div');
+                    optDiv.style.cssText = 'padding: 8px; background: #f5f5f5; border-radius: 4px; font-size: 14px;';
+                    optDiv.textContent = opt;
+                    optionsDiv.appendChild(optDiv);
+                });
+
+                qSection.appendChild(optionsDiv);
+
+                // Radio buttons for selection
                 const radioDiv = document.createElement('div');
-                radioDiv.style.cssText = 'display: flex; flex-wrap: wrap; gap: 15px; margin-left: 20px; margin-bottom: 12px;';
+                radioDiv.style.cssText = 'display: flex; gap: 20px; flex-wrap: wrap; margin-left: 20px;';
 
                 q.options.forEach((opt, idx) => {
                     const label = document.createElement('label');
-                    label.style.cssText = 'cursor: pointer; display: flex; align-items: center;';
+                    label.style.cssText = 'cursor: pointer; display: flex; align-items: center; user-select: none;';
 
                     const radio = document.createElement('input');
                     radio.type = 'radio';
                     radio.name = `p${hk2State.currentPassageIndex}_q${q.number}`;
                     radio.value = idx;
-                    radio.style.cssText = 'margin-right: 6px; cursor: pointer;';
+                    radio.style.cssText = 'margin-right: 8px; cursor: pointer; width: 18px; height: 18px;';
 
                     const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                     if (hk2State.passageAnswers[answerKey] == idx) {
@@ -1408,6 +1415,7 @@
                     const labelText = document.createElement('span');
                     const letter = String.fromCharCode(65 + idx);
                     labelText.textContent = letter;
+                    labelText.style.cssText = 'font-weight: bold; color: #667eea;';
 
                     label.appendChild(radio);
                     label.appendChild(labelText);
@@ -1423,9 +1431,11 @@
             // Submit button
             const submitBtn = document.createElement('button');
             submitBtn.textContent = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1
-                ? 'Hoàn Thành Bài Thi'
-                : 'Nộp Passage Này';
-            submitBtn.style.cssText = 'margin-top: 30px; padding: 12px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; width: 100%;';
+                ? '✅ Hoàn Thành Bài Thi'
+                : '➜ Nộp Đoạn Văn Này';
+            submitBtn.style.cssText = 'margin-top: 30px; padding: 14px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; transition: transform 0.2s;';
+            submitBtn.onmouseover = () => submitBtn.style.transform = 'translateY(-2px)';
+            submitBtn.onmouseout = () => submitBtn.style.transform = 'translateY(0)';
             submitBtn.onclick = () => submitHK2Passage();
 
             container.appendChild(submitBtn);
@@ -1434,6 +1444,7 @@
         function submitHK2Passage() {
             const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
             let correctCount = 0;
+            let detailedResults = [];
 
             // Check answers
             passage.questions.forEach(q => {
@@ -1442,24 +1453,76 @@
 
                 // correctAnswer is "A", "B", "C", or "D"
                 const correctIdx = q.correctAnswer.charCodeAt(0) - 65;
+                const isCorrect = userAnswer === correctIdx;
 
-                if (userAnswer === correctIdx) {
+                if (isCorrect) {
                     correctCount++;
                 }
+
+                detailedResults.push({
+                    number: q.number,
+                    isCorrect: isCorrect,
+                    userAnswerLetter: userAnswer !== undefined ? String.fromCharCode(65 + userAnswer) : '—',
+                    correctAnswerLetter: q.correctAnswer
+                });
             });
 
             // Show feedback
             const feedbackDiv = document.createElement('div');
-            feedbackDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); text-align: center; z-index: 1000; max-width: 400px;';
+            feedbackDiv.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000;';
+
+            const contentDiv = document.createElement('div');
+            contentDiv.style.cssText = 'background: white; padding: 30px; border-radius: 12px; max-width: 600px; max-height: 80vh; overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,0.4);';
 
             const score = passage.questions.length > 0 ? Math.round((correctCount / passage.questions.length) * 100) : 0;
-            feedbackDiv.innerHTML = `
-                <h2>${score >= 80 ? '✅ Tuyệt vời!' : score >= 60 ? '👍 Khá tốt!' : '📚 Cần cải thiện'}</h2>
-                <p style="font-size: 18px; margin: 15px 0;">Đúng: <strong>${correctCount}/${passage.questions.length}</strong> câu</p>
-                <p style="font-size: 16px; color: #667eea; font-weight: bold;">Điểm: ${score}%</p>
-                <button onclick="proceedToNextPassage()" style="margin-top: 20px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Tiếp Tục</button>
+
+            let headerColor = score >= 80 ? '#10b981' : score >= 60 ? '#f59e0b' : '#ef4444';
+            let headerEmoji = score >= 80 ? '✅' : score >= 60 ? '👍' : '📚';
+            let headerText = score >= 80 ? 'Tuyệt vời!' : score >= 60 ? 'Khá tốt!' : 'Cần cải thiện';
+
+            let html = `
+                <div style="text-align: center; margin-bottom: 25px;">
+                    <div style="font-size: 48px; margin-bottom: 10px;">${headerEmoji}</div>
+                    <h2 style="margin: 0; color: ${headerColor}; font-size: 24px;">${headerText}</h2>
+                </div>
+
+                <div style="background: ${headerColor}20; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
+                    <p style="font-size: 18px; margin: 0; color: #333;">
+                        Đúng: <strong style="color: ${headerColor}; font-size: 22px;">${correctCount}/${passage.questions.length}</strong> câu
+                    </p>
+                    <p style="font-size: 16px; margin: 8px 0 0 0; color: #666;">Điểm: <strong>${score}%</strong></p>
+                </div>
+
+                <div style="margin-bottom: 20px; max-height: 300px; overflow-y: auto;">
+                    <h3 style="margin: 0 0 15px 0; color: #333; font-size: 15px;">Chi tiết câu trả lời:</h3>
             `;
 
+            detailedResults.forEach(result => {
+                const resultStatus = result.isCorrect ? '✅' : '❌';
+                const statusColor = result.isCorrect ? '#10b981' : '#ef4444';
+                html += `
+                    <div style="padding: 10px; margin-bottom: 8px; background: #f5f5f5; border-left: 3px solid ${statusColor}; border-radius: 4px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: bold; color: #333;">Câu ${result.number}:</span>
+                            <span style="font-size: 14px; color: ${statusColor};">${resultStatus}</span>
+                        </div>
+                        <div style="font-size: 13px; color: #666; margin-top: 4px;">
+                            Bạn: <strong>${result.userAnswerLetter}</strong> | Đúng: <strong style="color: ${statusColor};">${result.correctAnswerLetter}</strong>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                </div>
+
+                <button onclick="proceedToNextPassage()" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 20px;">
+                    ${hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1 ? '🏁 Xem Kết Quả Cuối Cùng' : '➜ Tiếp Tục Đoạn Tiếp Theo'}
+                </button>
+            `;
+
+            contentDiv.innerHTML = html;
+            feedbackDiv.appendChild(contentDiv);
             document.body.appendChild(feedbackDiv);
         }
 
@@ -1485,11 +1548,46 @@
                 document.getElementById('quizScreen').appendChild(container);
             }
 
+            // Calculate overall stats
+            let totalCorrect = 0;
+            let totalQuestions = 0;
+            hk2State.shuffledPassages.forEach(passage => {
+                passage.questions.forEach(q => {
+                    const answerKey = `p${hk2State.shuffledPassages.indexOf(passage)}_q${q.number}`;
+                    const userAnswer = hk2State.passageAnswers[answerKey];
+                    const correctIdx = q.correctAnswer.charCodeAt(0) - 65;
+                    if (userAnswer === correctIdx) {
+                        totalCorrect++;
+                    }
+                    totalQuestions++;
+                });
+            });
+
+            const finalScore = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+            let resultEmoji = finalScore >= 80 ? '🎉' : finalScore >= 60 ? '🎊' : '💪';
+            let resultColor = finalScore >= 80 ? '#10b981' : finalScore >= 60 ? '#f59e0b' : '#3b82f6';
+
             container.innerHTML = `
-                <div style="text-align: center; padding: 40px;">
-                    <h2>🎉 Hoàn Thành Bài Thi!</h2>
-                    <p style="font-size: 18px; margin: 20px 0;">Cảm ơn bạn đã làm bài!</p>
-                    <button onclick="goHome()" style="padding: 12px 30px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 16px;">Quay Lại Trang Chủ</button>
+                <div style="text-align: center; padding: 60px 30px; max-width: 600px; margin: 0 auto;">
+                    <div style="font-size: 80px; margin-bottom: 20px; animation: pulse 1s infinite;">${resultEmoji}</div>
+
+                    <h2 style="color: #333; margin-bottom: 10px; font-size: 32px;">Hoàn Thành Bài Thi!</h2>
+
+                    <div style="background: linear-gradient(135deg, ${resultColor}20 0%, ${resultColor}10 100%); padding: 30px; border-radius: 12px; margin: 30px 0; border: 2px solid ${resultColor};">
+                        <p style="font-size: 16px; color: #666; margin-bottom: 10px;">Kết quả cuối cùng:</p>
+                        <p style="font-size: 48px; font-weight: bold; color: ${resultColor}; margin: 0;">${finalScore}%</p>
+                        <p style="font-size: 18px; color: #666; margin-top: 10px;">
+                            Đúng: <strong>${totalCorrect}</strong> / <strong>${totalQuestions}</strong> câu
+                        </p>
+                    </div>
+
+                    <p style="color: #666; font-size: 16px; margin: 30px 0;">
+                        ${finalScore >= 80 ? '🌟 Xuất sắc! Bạn làm bài rất tốt!' : finalScore >= 60 ? '👏 Tốt! Bạn đã hiểu tốt nội dung.' : '📖 Hãy ôn lại và cố gắng hơn!'}
+                    </p>
+
+                    <button onclick="goHome()" style="padding: 14px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s;">
+                        🏠 Quay Lại Trang Chủ
+                    </button>
                 </div>
             `;
         }
