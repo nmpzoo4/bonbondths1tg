@@ -1366,7 +1366,26 @@
             // Hide home screen, show quiz
             document.getElementById('homeScreen').style.display = 'none';
             document.getElementById('testSelectionScreen').style.display = 'none';
-            document.getElementById('quizScreen').style.display = 'block';
+            const quizScreen = document.getElementById('quizScreen');
+            const quizContainer = quizScreen.querySelector('.quiz-container');
+            quizScreen.style.display = 'block';
+            quizScreen.style.height = 'auto';
+            quizScreen.style.minHeight = '100vh';
+            quizScreen.style.overflow = 'visible';
+            if (quizContainer) {
+                quizContainer.style.height = 'auto';
+                quizContainer.style.minHeight = '0';
+                quizContainer.style.overflow = 'visible';
+            }
+
+            // Hide HK1 UI elements to avoid reserved space
+            document.getElementById('passage').style.display = 'none';
+            document.getElementById('question').style.display = 'none';
+            document.getElementById('options').style.display = 'none';
+            const navButtons = quizScreen.querySelector('.nav-buttons');
+            if (navButtons) {
+                navButtons.style.display = 'none';
+            }
 
             // Initialize UI
             document.getElementById('questionCounter').textContent = `Passage 1/${hk2State.shuffledPassages.length}`;
@@ -1435,10 +1454,11 @@
             let container = document.getElementById('quizScreenContent');
 
             if (!container) {
+                const quizContainer = document.querySelector('#quizScreen .quiz-container');
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
                 container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; background: white;';
-                document.getElementById('quizScreen').appendChild(container);
+                (quizContainer || document.getElementById('quizScreen')).appendChild(container);
             }
 
             container.innerHTML = '';
@@ -1848,6 +1868,30 @@
         // Start English Quiz (original logic)
         function startEnglishQuiz(testData) {
             currentTest = testData;
+
+            const quizScreen = document.getElementById('quizScreen');
+            const quizContainer = quizScreen.querySelector('.quiz-container');
+            const hk2Content = document.getElementById('quizScreenContent');
+            if (hk2Content) {
+                hk2Content.remove();
+            }
+
+            quizScreen.style.height = '';
+            quizScreen.style.minHeight = '';
+            quizScreen.style.overflow = '';
+            if (quizContainer) {
+                quizContainer.style.height = '';
+                quizContainer.style.minHeight = '';
+                quizContainer.style.overflow = '';
+            }
+
+            document.getElementById('passage').style.display = '';
+            document.getElementById('question').style.display = '';
+            document.getElementById('options').style.display = '';
+            const navButtons = quizScreen.querySelector('.nav-buttons');
+            if (navButtons) {
+                navButtons.style.display = '';
+            }
 
             // Nhóm các câu hỏi theo đoạn văn (passage groups)
             const passageGroups = [];
