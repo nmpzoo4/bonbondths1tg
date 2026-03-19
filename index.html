@@ -1039,6 +1039,12 @@
                     <p>Biology Tests</p>
                     <div class="test-count">3 Tests - Cảm ứng, Tập tính, Sinh trưởng</div>
                 </div>
+                <div class="subject-card" onclick="selectSubject('diali')">
+                    <span class="subject-icon">🌍</span>
+                    <h2>Địa lí</h2>
+                    <p>Geography Tests</p>
+                    <div class="test-count">1 Test - Ôn tập GKII</div>
+                </div>
             </div>
         </div>
 
@@ -1158,6 +1164,8 @@
                 loadChemistryTest();
             } else if (subject === 'sinh') {
                 loadBiologyTest();
+            } else if (subject === 'diali') {
+                loadGeographyTest();
             }
         }
 
@@ -1254,6 +1262,27 @@
             testList.appendChild(mixedBtn);
         }
 
+        // Load Geography test
+        function loadGeographyTest() {
+            const testList = document.getElementById('testList');
+            testList.innerHTML = '';
+
+            const geoTests = [
+                { file: 'test1', name: '🌍 Địa lí - Ôn tập GKII', desc: '50 câu trắc nghiệm - Xáo trộn câu hỏi và đáp án' }
+            ];
+
+            geoTests.forEach(test => {
+                const testBtn = document.createElement('div');
+                testBtn.className = 'test-btn';
+                testBtn.onclick = () => startTest(test.file);
+                testBtn.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.desc}</p>
+                `;
+                testList.appendChild(testBtn);
+            });
+        }
+
         // Load Biology test
         function loadBiologyTest() {
             const testList = document.getElementById('testList');
@@ -1332,6 +1361,13 @@
                     testData = await response.json();
 
                     // Biology: Load vào scroll screen (same as chemistry)
+                    startChemistryQuiz(testData);
+                } else if (currentSubject === 'diali') {
+                    // Geography tests
+                    const response = await fetch(`diali/${testNumber}.json`);
+                    testData = await response.json();
+
+                    // Geography: Load vào scroll screen (same as chemistry)
                     startChemistryQuiz(testData);
                 }
             } catch (error) {

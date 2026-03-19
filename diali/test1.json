@@ -1,0 +1,657 @@
+{
+  "testName": "Địa lí - Ôn tập GKII",
+  "subject": "Geography",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 50 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lãnh thổ Hoa Kỳ không tiếp giáp với đại dương nào sau đây?",
+      "options": [
+        "Bắc Băng Dương",
+        "Đại Tây Dương",
+        "Ấn Độ Dương",
+        "Thái Bình Dương"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hoa Kỳ là quốc gia rộng lớn nằm ở",
+      "options": [
+        "Trung Mĩ",
+        "Ca-ri-bê",
+        "Nam Mĩ",
+        "Bắc Mĩ"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Quần đảo Ha-oai của Hoa Kỳ nằm giữa đại dương nào sau đây?",
+      "options": [
+        "Bắc Băng Dương",
+        "Đại Tây Dương",
+        "Ấn Độ Dương",
+        "Thái Bình Dương"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hoa Kỳ có diện tích lớn",
+      "options": [
+        "thứ 2 thế giới",
+        "thứ 3 thế giới",
+        "thứ 4 thế giới",
+        "thứ 5 thế giới"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng có mật độ dân số cao nhất của Hoa Kỳ là",
+      "options": [
+        "vùng Đông Bắc",
+        "vùng Đông Nam",
+        "vùng trung tâm",
+        "vùng phía Tây"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành công nghiệp nào sau đây chiếm phần lớn trị giá xuất khẩu của Hoa Kỳ?",
+      "options": [
+        "Khai thác",
+        "Năng lượng",
+        "Chế biến",
+        "Điện lực"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành có tỉ trọng ngày càng tăng trong cơ cấu giá trị sản lượng công nghiệp của Hoa Kỳ là",
+      "options": [
+        "luyện kim",
+        "dệt",
+        "điện tử - tin học",
+        "gia công đồ nhựa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành nào sau đây tạo nguồn hàng xuất khẩu chủ yếu cho Hoa Kỳ?",
+      "options": [
+        "Nông nghiệp",
+        "Ngư nghiệp",
+        "Tiểu thủ công",
+        "Công nghiệp"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng phía Tây Hoa Kỳ phát triển mạnh hoạt động lâm nghiệp, do có",
+      "options": [
+        "cao nguyên rộng",
+        "các bồn địa lớn",
+        "nhiều dãy núi trẻ",
+        "diện tích rừng lớn"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phía bắc của vùng Trung tâm Hoa Kỳ phát triển mạnh chăn nuôi bò, chủ yếu do có",
+      "options": [
+        "gò đồi thấp",
+        "đồng cỏ rộng",
+        "đồng bằng rộng",
+        "sông nhiều nước"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Bang A-la-xca nổi tiếng nhất với loại khoáng sản",
+      "options": [
+        "Than và quặng sắt",
+        "Thiếc và đồng",
+        "Dầu mỏ và khí đốt",
+        "Vàng và kim cương"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hoạt động điện lực nào sau đây ở Hoa Kỳ không sử dụng nguồn năng lượng sạch, tái tạo?",
+      "options": [
+        "Nhiệt điện",
+        "Địa nhiệt",
+        "Điện gió",
+        "Điện Mặt Trời"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lãnh thổ Hoa Kỳ phần lớn nằm trong vành đai khí hậu",
+      "options": [
+        "xích đạo",
+        "nhiệt đới",
+        "ôn đới",
+        "hàn đới"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ha-oai là quần đảo nằm giữa Thái Bình Dương có tiềm năng lớn về",
+      "options": [
+        "muối mỏ, hải sản",
+        "hải sản, du lịch",
+        "kim cương, đồng",
+        "du lịch, than đá"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đặc điểm nào sau đây không đúng với dân cư Hoa Kỳ?",
+      "options": [
+        "Có quy mô đứng thứ ba thế giới",
+        "Dân số tăng nhanh do nhập cư",
+        "Người nhập cư đa số từ châu Âu",
+        "Hiện nay không có dân nhập cư"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với dân cư Hoa Kỳ?",
+      "options": [
+        "Quy mô số dân đứng thứ ba thế giới",
+        "Dân số tăng nhanh chủ yếu do nhập cư",
+        "Dân nhập cư hầu hết là người châu Á",
+        "Người dân Mỹ Latinh nhập cư nhiều"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân cư Hoa Kỳ tập trung với mật độ cao nhất ở",
+      "options": [
+        "ven Thái Bình Dương",
+        "ven Đại Tây Dương",
+        "ven vịnh Mê-hi-cô",
+        "khu vực trung tâm"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vị trí của Hoa Kỳ tạo điều kiện giao lưu kinh tế bằng đường biển qua Thái Bình Dương với",
+      "options": [
+        "các nước châu Phi và vùng Nam Mỹ",
+        "Nhật Bản và các nước Đông Á",
+        "Liên Bang Nga và các nước châu Âu",
+        "Ấn Độ và nhiều nước ở Nam Á"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vị trí của Hoa Kỳ tạo điều kiện giao lưu kinh tế bằng đường biển qua Đại Tây Dương với",
+      "options": [
+        "các nước châu Phi và Nam Mỹ",
+        "Nhật Bản và các nước Đông Á",
+        "các nước châu Phi và châu Âu",
+        "Ấn Độ và nhiều nước ở Nam Á"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lợi ích lớn nhất do người nhập cư mang đến cho Hoa Kỳ là",
+      "options": [
+        "lao động có trình độ cao",
+        "nguồn vốn đầu tư lớn",
+        "có nền văn hóa đa dạng",
+        "đa dạng về chủng tộc"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân cư Hoa kỳ đang có xu hướng di chuyển từ các bang vùng Đông Bắc đến các bang phía Nam do nguyên nhân chủ yếu là",
+      "options": [
+        "sự dịch chuyển của phân bố công nghiệp",
+        "sự thu hút của các điều kiện sinh thái",
+        "tâm lí thích dịch chuyến của người dân",
+        "có nhiều đô thị mới xây dựng hấp dẫn"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành dịch vụ của Hoa Kỳ có",
+      "options": [
+        "tỉ trọng trong GDP lớn nhất",
+        "số lượng lao động ít nhất",
+        "tốc độ tăng trưởng rất chậm",
+        "hàng hóa ít có sự đa dạng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây đúng với kinh tế Hoa Kỳ?",
+      "options": [
+        "Là siêu cường công nghiệp của thế giới",
+        "Chỉ đầu tư mạnh ngành khai khoáng",
+        "Chỉ phát triển mạnh các ngành chế biến",
+        "Ít chú trọng đến ngành năng lượng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để giảm thiếu phát thải các khí nhà kính, Hoa Kỳ chú ý biện pháp",
+      "options": [
+        "phát triển kĩ thuật sản xuất truyền thống",
+        "hiện đại hóa máy móc, thiết bị và kĩ thuật",
+        "sử dụng các năng lượng không tái tạo",
+        "phân bố lại các nhà máy xí nghiệp sản xuất"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phía nam của Hoa Kỳ trồng nhiều lúa gạo do điều kiện chủ yếu nào sau đây?",
+      "options": [
+        "có đồng bằng, đất tốt, khí hậu cận nhiệt đới hải dương",
+        "đồng bằng nhỏ, đất đai màu mỡ, khí hậu ôn đới lục địa",
+        "đồng bằng rộng lớn, đất tốt, khí hậu ôn đới hải dương",
+        "đồng bằng rộng lớn, đất đai tốt, khí hậu ôn đới lục địa"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lãnh thổ của Liên bang Nga",
+      "options": [
+        "rộng nhất thế giới",
+        "nằm hoàn toàn ở châu Âu",
+        "giáp Ấn Độ Dương",
+        "liền kề với Đại Tây Dương"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lãnh thổ Liên bang Nga không nằm trong vành đai khí hậu",
+      "options": [
+        "cận cực",
+        "cận nhiệt",
+        "ôn đới",
+        "cận xích đạo"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Loại rừng chiếm diện tích chủ yếu ở Liên bang Nga là",
+      "options": [
+        "rừng tai-ga",
+        "rừng lá cứng",
+        "rừng lá rộng",
+        "thường xanh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Liên bang Nga giáp với các đại dương nào sau đây?",
+      "options": [
+        "Thái Bình Dương, Bắc Băng Dương",
+        "Bắc Băng Dương, Đại Tây Dương",
+        "Đại Tây Dương, Ấn Độ Dương",
+        "Ấn Độ Dương, Thái Bình Dương"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Địa hình chủ yếu ở phía Bắc Đồng bằng Tây Xi-bia của Liên bang Nga là",
+      "options": [
+        "đầm lầy",
+        "núi cao",
+        "thảo nguyên",
+        "sơn nguyên"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng kinh tế phát triển nhất của Liên Bang Nga là",
+      "options": [
+        "Trung ương",
+        "U - ran",
+        "Viễn Đông",
+        "Trung tâm đất đen"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phần lớn lãnh thổ Liên bang Nga có khí hậu",
+      "options": [
+        "cận cực",
+        "ôn đới",
+        "cận nhiệt",
+        "nhiệt đới"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân tộc nào sau đây chiếm đa số ở Liên bang Nga?",
+      "options": [
+        "Tác-ta",
+        "Chu-vát",
+        "Nga",
+        "Bát-xkia"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Liên bang Nga đứng đầu thế giới về sản lượng xuất khẩu nông sản nào sau đây?",
+      "options": [
+        "Lúa mì",
+        "Ngô",
+        "Lúa gạo",
+        "Đỗ tương"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sông nào sau đây được xem là ranh giới tự nhiên của phần phía Đông và phần phía Tây Liên bang Nga?",
+      "options": [
+        "Von-ga",
+        "Ô-bi",
+        "Ê-nit-xây",
+        "Lê-na"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sông lớn nhất chảy trên đồng bằng Đông Âu của Liên bang Nga là",
+      "options": [
+        "Ê-nit-xây",
+        "Ô-bi",
+        "Lê-na",
+        "Von-ga"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng phía Bắc Liên bang Nga có dân cư thưa thớt do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Khí hậu lạnh giá",
+        "Đất đai kém màu mỡ",
+        "Địa hình núi cao",
+        "Giao thông hạn chế"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Loại hình vận tải nào sau đây có vai trò quan trọng nhất thúc đẩy sự phát triển của vùng Đông Xi-bia?",
+      "options": [
+        "Hàng không",
+        "Đường sắt",
+        "Đường sông",
+        "Đường biển"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng kinh tế nào sau đây của Liên bang Nga giàu tài nguyên, công nghiệp phát triển nhưng nông nghiệp còn hạn chế?",
+      "options": [
+        "Vùng Trung tâm",
+        "Vùng U-ran",
+        "Vùng Trung ương",
+        "Vùng Viễn Đông"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Tổng trữ năng thủy điện của Liên bang Nga tập trung chủ yếu trên các sông ở vùng",
+      "options": [
+        "Đông Âu",
+        "núi U-ran",
+        "Xi-bia",
+        "Viễn Đông"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng phía Bắc Liên bang Nga có dân cư thưa thớt do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Khí hậu lạnh giá",
+        "Đất đai kém màu mỡ",
+        "Địa hình núi cao",
+        "Giao thông hạn chế"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 42,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khó khăn lớn nhất trong quá trình phát triển kinh tế - xã hội của Liên bang Nga là",
+      "options": [
+        "dân số đang có nguy cơ giảm, già hóa",
+        "địa hình nhiều núi cao và đầm lầy",
+        "lãnh thổ rộng lớn, đường biên giới dài",
+        "phân hóa giàu nghèo, chảy chất xám"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 43,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lúa mì được phân bố nhiều ở vùng trung tâm đất đen và phía nam đồng bằng Tây Xi-bia của Liên bang Nga chủ yếu do",
+      "options": [
+        "đất đai màu mỡ, có khí hậu ấm",
+        "đất đai màu mỡ, nhiều sinh vật",
+        "đất đai màu mỡ, nguồn ẩm lớn",
+        "khí hậu ấm, nguồn nước dồi dào"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 44,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lợn được nuôi nhiều ở đồng bằng Đông Âu là do",
+      "options": [
+        "dân cư đông, sản xuất nhiều lương thực",
+        "lao động cần cù, quy mô dân số lớn",
+        "sản xuất nhiều lương thực, khí hậu ôn đới",
+        "khí hậu ôn đới, quy mô dân số lớn"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 45,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Bò được nuôi nhiều ở vùng phía nam của Tây Xi-bia là do ở đây có",
+      "options": [
+        "khí hậu ôn đới, các bãi chăn thả rộng",
+        "các bãi chăn thả rộng, nhiều ngũ cốc",
+        "nhiều ngũ cốc, dân cư tập trung đông",
+        "dân tập trung đông, nguồn nước nhiều"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 46,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đồng bằng Đông Âu của Liêng bang Nga có mật độ dân cư cao do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Đồng bằng rộng, đất màu mỡ, khí hậu ôn hòa",
+        "Đồng bằng rộng, nhiều tài nguyên khoáng sản",
+        "Khí hậu ôn hòa và có nguồn nước ngọt dồi dào",
+        "Nhiều sông ngòi, nhiều tài nguyên khoáng sản"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 47,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ý nghĩa quan trọng nhất của tuyến đường sắt nối phía tây và phía đông của Liên bang Nga là góp phần quan trọng vào việc",
+      "options": [
+        "phục vụ đi lại của nhân dân",
+        "khai thác lãnh thổ phía đông",
+        "phát triển văn hóa các dân tộc",
+        "phân bố lại dân cư và đô thị"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 48,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Loại hình vận tải nào sau đây có vai trò quan trọng nhất thúc đẩy sự phát triển của vùng Đông Xi-bia?",
+      "options": [
+        "Hàng không",
+        "Đường sắt",
+        "Đường sông",
+        "Đường biển"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 49,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Mặt hàng xuất khẩu nào sau đây chiếm tỉ lệ cao nhất của Liên bang Nga?",
+      "options": [
+        "Nguyên liệu, năng lượng",
+        "Lương thực và thủy sản",
+        "Máy móc, hàng tiêu dùng",
+        "Nhiên liệu và khoáng sản"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 50,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây đúng với ngành công nghiệp năng lượng của Liên bang Nga?",
+      "options": [
+        "Sản xuất và xuất khẩu khí tự nhiên hàng đầu",
+        "Ít chú trọng đầu tư cho sản xuất nhiệt điện",
+        "Chưa chú trọng phát triển ngành thủy điện",
+        "Sản lượng khai thác than đá lớn nhất thế giới"
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
