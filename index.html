@@ -1461,9 +1461,9 @@
                 container.appendChild(passageWrapperDiv);
             }
 
-            // Questions section (scrollable container) - auto height with max-height limit
+            // Questions section - natural height
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; height: auto; max-height: 600px; width: 100%;';
+            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; width: 100%;';
 
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1;
