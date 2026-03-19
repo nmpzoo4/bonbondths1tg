@@ -43,7 +43,7 @@
             "c": "Mark: Hi, Nam! Thanks! Yes, I've been trying to take control of my life more. How about you?"
           },
           "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"],
-          "correctAnswer": "A"
+          "correctAnswer": "B"
         },
         {
           "number": 14,
