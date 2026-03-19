@@ -1491,8 +1491,8 @@
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
-                                showHK2QuestionFeedback(isCorrect);
-                                setTimeout(() => displayHK2Passage(), 1600);
+                                displayHK2Passage(); // Show colors immediately
+                                setTimeout(() => showHK2QuestionFeedback(isCorrect), 200); // Then show feedback
                             }
                         };
 
@@ -1559,8 +1559,8 @@
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
-                                showHK2QuestionFeedback(isCorrect);
-                                setTimeout(() => displayHK2Passage(), 1600);
+                                displayHK2Passage(); // Show colors immediately
+                                setTimeout(() => showHK2QuestionFeedback(isCorrect), 200); // Then show feedback
                             }
                         };
 
@@ -1572,7 +1572,6 @@
                 questionsDiv.appendChild(qSection);
             });
 
-            hk2State.questionCounter += passage.questions.length;
             container.appendChild(questionsDiv);
 
             // Submit button
@@ -1610,6 +1609,10 @@
         function proceedToNextPassage() {
             // Remove feedback
             document.querySelectorAll('div[style*="position: fixed"]').forEach(el => el.remove());
+
+            // Add questions from current passage to counter before moving to next
+            const currentPassage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
+            hk2State.questionCounter += currentPassage.questions.length;
 
             hk2State.currentPassageIndex++;
 
