@@ -1372,7 +1372,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'width: 100%; padding: 20px; display: flex; flex-direction: column; height: calc(100vh - 140px);';
+                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; height: calc(100vh - 140px);';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1380,17 +1380,17 @@
 
             // Passage header
             const header = document.createElement('div');
-            header.style.cssText = 'padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; margin-bottom: 15px; text-align: center; flex-shrink: 0;';
-            header.innerHTML = `<h3 style="margin: 0;">${passage.title}</h3>`;
+            header.style.cssText = 'padding: 10px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 0; margin: 0; text-align: center; flex-shrink: 0;';
+            header.innerHTML = `<h3 style="margin: 0; font-size: 16px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (limited height, scrollable if too long)
+            // Passage text (fixed height, NOT scrollable)
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'max-height: 35%; overflow-y: auto; margin-bottom: 15px; flex-shrink: 0; border-radius: 8px;';
+                passageWrapperDiv.style.cssText = 'height: 28%; margin: 0; padding: 10px; flex-shrink: 0; border-radius: 0; overflow: hidden;';
 
                 const passageDiv = document.createElement('div');
-                passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
+                passageDiv.style.cssText = 'background: #f9f9f9; padding: 10px; line-height: 1.6; text-align: justify; border-left: 0; font-size: 14px; color: #333; white-space: pre-wrap; word-wrap: break-word; height: 100%; overflow: hidden;';
                 passageDiv.textContent = passage.text;
                 passageWrapperDiv.appendChild(passageDiv);
                 container.appendChild(passageWrapperDiv);
@@ -1398,7 +1398,7 @@
 
             // Questions section (primary scrollable area)
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 20px; border-radius: 8px; overflow-y: auto; flex-grow: 1; flex-shrink: 1;';
+            questionsDiv.style.cssText = 'background: white; padding: 10px; margin: 0; border-radius: 0; overflow-y: auto; flex-grow: 1; flex-shrink: 1;';
 
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1; // 1-30
@@ -1643,17 +1643,18 @@
                 ? '✅ Hoàn Thành Bài Thi'
                 : '➜ Nộp Đoạn Văn Này';
             submitBtn.style.cssText = `
-                margin-top: 30px;
-                padding: 14px 30px;
+                margin: 0;
+                padding: 12px 20px;
                 background: ${allAnswered ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' : '#ccc'};
                 color: white;
                 border: none;
-                border-radius: 6px;
-                font-size: 16px;
+                border-radius: 0;
+                font-size: 14px;
                 font-weight: bold;
                 cursor: ${allAnswered ? 'pointer' : 'not-allowed'};
                 width: 100%;
                 transition: transform 0.2s;
+                flex-shrink: 0;
             `;
             submitBtn.disabled = !allAnswered;
             submitBtn.onmouseover = () => {
