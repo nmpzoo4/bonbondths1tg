@@ -1437,7 +1437,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; height: calc(100vh - 70px); background: white; overflow: hidden;';
+                container.style.cssText = 'width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; background: white;';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1449,10 +1449,10 @@
             header.innerHTML = `<h3 style="margin: 0; font-size: 15px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (fixed height, NOT scrollable) - auto height, max 75%
+            // Passage text (scrollable container) - 800px height with scroll
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'height: auto; max-height: 75%; margin: 0; padding: 12px; flex-shrink: 0; border-radius: 0; overflow: visible; background: #f9f9f9; width: 100%;';
+                passageWrapperDiv.style.cssText = 'height: 800px; margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
 
                 const passageDiv = document.createElement('div');
                 passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word; overflow: visible;';
@@ -1461,18 +1461,18 @@
                 container.appendChild(passageWrapperDiv);
             }
 
-            // Questions section (primary scrollable area)
+            // Questions section (scrollable container) - 600px height with scroll
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; flex-grow: 1; flex-shrink: 1; width: 100%; min-height: 0;';
+            questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; overflow-y: auto; height: 600px; width: 100%;';
 
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1;
                 const qSection = document.createElement('div');
-                qSection.style.cssText = 'margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee;';
+                qSection.style.cssText = 'margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #eee;';
 
                 // Question label
                 const qLabel = document.createElement('div');
-                qLabel.style.cssText = 'margin-bottom: 10px; font-size: 13px; color: #333;';
+                qLabel.style.cssText = 'margin-bottom: 8px; font-size: 13px; color: #333;';
                 const difficultyText = q.difficulty === 'B' ? 'NB' : q.difficulty === 'H' ? 'H' : q.difficulty === 'VD' ? 'VD' : 'B';
                 qLabel.innerHTML = `<strong style="color: #667eea;">Câu ${displayNumber}.</strong> <span style="color: #999;">(${difficultyText})</span>`;
                 qSection.appendChild(qLabel);
@@ -1497,11 +1497,11 @@
                 if (passage.isArrangement && q.letters) {
                     // Show letter content
                     const lettersDiv = document.createElement('div');
-                    lettersDiv.style.cssText = 'background: #f5f5f5; padding: 10px; border-radius: 6px; margin-bottom: 10px; border-left: 3px solid #667eea;';
+                    lettersDiv.style.cssText = 'background: #f5f5f5; padding: 8px; border-radius: 6px; margin-bottom: 8px; border-left: 3px solid #667eea;';
 
                     Object.keys(q.letters).forEach(key => {
                         const letterLine = document.createElement('div');
-                        letterLine.style.cssText = 'margin-bottom: 8px; line-height: 1.4; color: #333; font-size: 12px;';
+                        letterLine.style.cssText = 'margin-bottom: 6px; line-height: 1.4; color: #333; font-size: 12px;';
                         letterLine.innerHTML = `<strong style="color: #667eea;">${key.toUpperCase()}.</strong> ${q.letters[key]}`;
                         lettersDiv.appendChild(letterLine);
                     });
@@ -1509,7 +1509,7 @@
 
                     // Show options WITHOUT shuffling
                     const optionsDiv = document.createElement('div');
-                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 6px;';
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 5px;';
 
                     q.options.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
@@ -1605,7 +1605,7 @@
                 } else {
                     // MULTIPLE CHOICE QUESTIONS
                     const optionsDiv = document.createElement('div');
-                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 6px;';
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 5px;';
 
                     q.options.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
