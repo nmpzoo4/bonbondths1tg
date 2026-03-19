@@ -1449,13 +1449,13 @@
             header.innerHTML = `<h3 style="margin: 0; font-size: 15px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (scrollable container) - auto height with max-height limit
-            if (!passage.isArrangement && passage.text && passage.text.trim()) {
+            // Passage text (scrollable container) - only for non-arrangement passages
+            if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'height: auto; max-height: 800px; margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
+                passageWrapperDiv.style.cssText = 'margin: 0; padding: 12px; border-radius: 0; overflow-y: auto; background: #f9f9f9; width: 100%;';
 
                 const passageDiv = document.createElement('div');
-                passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word; overflow: visible;';
+                passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
                 passageDiv.textContent = passage.text;
                 passageWrapperDiv.appendChild(passageDiv);
                 container.appendChild(passageWrapperDiv);
