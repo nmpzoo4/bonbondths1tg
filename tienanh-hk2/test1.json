@@ -1,220 +1,70 @@
 {
   "testName": "Test 1",
-  "subject": "Tiếng Anh",
+  "subject": "English",
   "passages": [
     {
       "id": 1,
-      "title": "Preserving Vietnam's Cultural Heritage",
-      "passageText": "Vietnam has a rich cultural heritage, and preserving it is crucial for future generations. To conserve this heritage, the government and people must collaborate. (1) Many of Vietnam's traditional customs, monuments, and folk art forms are (2) at risk due to modernization and urbanization. Through education and awareness programs, citizens can learn to appreciate and protect (3) their cultural heritage. Monuments and artifacts, inspired by ancient designs, must be maintained and restored by experts. (4) Following the rules of preservation, we can ensure that Vietnam's cultural treasures will survive. It is important (5) to understand the significance of these (6) traditions so they are not forgotten.",
+      "title": "Passage 1: Cultural Heritage",
+      "passageText": "Vietnam has a rich cultural heritage. Preserving it is crucial for future generations. The government and people must collaborate. Many of Vietnams traditional customs and monuments are at risk due to modernization. Citizens must learn to appreciate and protect their cultural heritage. Monuments must be maintained by experts. Following the rules of preservation ensures survival of cultural treasures. It is important to understand the significance of these traditions.",
       "questions": [
-        {
-          "id": 1,
-          "question": "Question 1: Which word best fills blank (1)?",
-          "options": ["A. Many", "B. much", "C. few", "D. none"],
-          "correctAnswer": "A"
-        },
-        {
-          "id": 2,
-          "question": "Question 2: Which word best fills blank (2)?",
-          "options": ["A. of", "B. at", "C. by", "D. to"],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 3,
-          "question": "Question 3: Which phrase best fills blank (3)?",
-          "options": ["A. cultural their heritage", "B. cultural heritage their", "C. their cultural heritage", "D. heritage their cultural"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 4,
-          "question": "Question 4: Which word best fills blank (4)?",
-          "options": ["A. Doing", "B. Making", "C. Following", "D. Catching"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 5,
-          "question": "Question 5: Which verb form best fills blank (5)?",
-          "options": ["A. to understanding", "B. understand", "C. understanding", "D. to understand"],
-          "correctAnswer": "D"
-        },
-        {
-          "id": 6,
-          "question": "Question 6: Which word best fills blank (6)?",
-          "options": ["A. traditions", "B. traditional", "C. tradition", "D. traditionally"],
-          "correctAnswer": "A"
-        }
+        {"id": 1, "question": "Blank 1: Which word fits best?", "options": ["A. Many", "B. much", "C. few", "D. none"], "correctAnswer": "A"},
+        {"id": 2, "question": "Blank 2: at ___ risk", "options": ["A. of", "B. at", "C. by", "D. to"], "correctAnswer": "B"},
+        {"id": 3, "question": "Blank 3: protect ___", "options": ["A. cultural their heritage", "B. their cultural heritage", "C. heritage their cultural", "D. cultural heritage their"], "correctAnswer": "B"},
+        {"id": 4, "question": "Blank 4: ___ the rules", "options": ["A. Doing", "B. Making", "C. Following", "D. Catching"], "correctAnswer": "C"},
+        {"id": 5, "question": "Blank 5: It is important ___", "options": ["A. to understanding", "B. to understand", "C. understanding", "D. understand"], "correctAnswer": "B"},
+        {"id": 6, "question": "Blank 6: ___ of these traditions", "options": ["A. traditions", "B. traditional", "C. tradition", "D. traditionally"], "correctAnswer": "A"}
       ]
     },
     {
       "id": 2,
-      "title": "Education Paths",
-      "passageText": "Graduation is approaching. Are you torn between university or vocational education? Explore your options: Academic Track focuses on high-level qualifications. Vocational Track focuses on practical skills. Consider an internship to earn while learning. Choosing a career path may seem difficult at first. The right choice will pave the way for future success. Having achieved excellent results, you deserve the best guidance.",
+      "title": "Passage 2: Education Paths",
+      "passageText": "Graduation is approaching. Are you choosing between university or vocational training? Academic track focuses on high-level qualifications. Vocational track focuses on practical skills. Consider an internship to earn while learning. Choosing a path may seem difficult initially. The right choice of institution will pave the way for future career. Having achieved excellent results, you deserve proper guidance to pick the perfect path.",
       "questions": [
-        {
-          "id": 7,
-          "question": "Question 7: What type of education provides hands-on experience?",
-          "options": ["A. vocational", "B. official", "C. optional", "D. practical"],
-          "correctAnswer": "A"
-        },
-        {
-          "id": 8,
-          "question": "Question 8: Vocational track focuses ___ practical skills.",
-          "options": ["A. in", "B. with", "C. on", "D. from"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 9,
-          "question": "Question 9: What should students consider in vocational track?",
-          "options": ["A. scholarship", "B. internship", "C. apprenticeship", "D. membership"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 10,
-          "question": "Question 10: Choosing a path may seem ___ at first.",
-          "options": ["A. difficulty", "B. difficultly", "C. difficult", "D. difficulties"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 11,
-          "question": "Question 11: The right choice ___ will pave the way.",
-          "options": ["A. who", "B. which", "C. whom", "D. that"],
-          "correctAnswer": "D"
-        },
-        {
-          "id": 12,
-          "question": "Question 12: ___ excellent results, you deserve best guidance.",
-          "options": ["A. To achieve", "B. Having achieved", "C. Achieved", "D. Have achieved"],
-          "correctAnswer": "B"
-        }
+        {"id": 7, "question": "Question 7: Education type is ___", "options": ["A. vocational", "B. official", "C. optional", "D. practical"], "correctAnswer": "A"},
+        {"id": 8, "question": "Question 8: Focus ___ practical skills", "options": ["A. in", "B. with", "C. on", "D. from"], "correctAnswer": "C"},
+        {"id": 9, "question": "Question 9: Consider an ___", "options": ["A. scholarship", "B. internship", "C. apprenticeship", "D. membership"], "correctAnswer": "C"},
+        {"id": 10, "question": "Question 10: Path seems ___", "options": ["A. difficulty", "B. difficultly", "C. difficult", "D. difficulties"], "correctAnswer": "C"},
+        {"id": 11, "question": "Question 11: Choice ___ will pave way", "options": ["A. who", "B. which", "C. whom", "D. that"], "correctAnswer": "D"},
+        {"id": 12, "question": "Question 12: ___ excellent results", "options": ["A. To achieve", "B. Having achieved", "C. Achieved", "D. Have achieved"], "correctAnswer": "B"}
       ]
     },
     {
       "id": 3,
-      "title": "Conversations",
-      "passageText": "Read conversations and identify the correct arrangement.",
+      "title": "Passage 3: Conversations",
+      "passageText": "Arrange conversations in correct order.",
       "questions": [
-        {
-          "id": 13,
-          "question": "Question 13: Arrange: a-Nam independent b-Nam Hi Mark c-Mark Thanks",
-          "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 14,
-          "question": "Question 14: Arrange cultural conversation",
-          "options": ["A. c-d-e-a-b", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. d-a-b-c-e"],
-          "correctAnswer": "D"
-        },
-        {
-          "id": 15,
-          "question": "Question 15: Arrange Maria letter order",
-          "options": ["A. e-a-d-c-b", "B. b-a-d-c-e", "C. d-b-a-c-e", "D. b-e-c-a-d"],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 16,
-          "question": "Question 16: Arrange Alex letter about education",
-          "options": ["A. c-b-a-d-e", "B. e-b-c-a-d", "C. a-d-b-e-c", "D. a-c-d-e-b"],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 17,
-          "question": "Question 17: Arrange career story",
-          "options": ["A. d-e-b-c-a", "B. a-b-c-d-e", "C. b-c-d-a-e", "D. c-a-d-b-e"],
-          "correctAnswer": "A"
-        }
+        {"id": 13, "question": "Q13: Arrange dialogue a-b-c", "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"], "correctAnswer": "B"},
+        {"id": 14, "question": "Q14: Arrange cultural activity discussion", "options": ["A. d-a-b-c-e", "B. d-e-a-b-c", "C. a-d-e-b-c", "D. e-d-a-b-c"], "correctAnswer": "A"},
+        {"id": 15, "question": "Q15: Arrange letter about festival", "options": ["A. b-a-d-c-e", "B. b-d-a-c-e", "C. a-b-c-d-e", "D. d-c-b-a-e"], "correctAnswer": "A"},
+        {"id": 16, "question": "Q16: Arrange education letter", "options": ["A. e-b-c-a-d", "B. a-c-e-d-b", "C. b-a-d-e-c", "D. c-b-e-a-d"], "correctAnswer": "A"},
+        {"id": 17, "question": "Q17: Arrange career story", "options": ["A. d-e-b-c-a", "B. a-b-c-d-e", "C. d-a-e-c-b", "D. e-d-c-b-a"], "correctAnswer": "A"}
       ]
     },
     {
       "id": 4,
-      "title": "Cultural Heritage Reading",
-      "passageText": "Cultural heritage plays a crucial role in preserving identity and values. It includes historical sites and customs passed through generations. Heritage helps people understand their roots and develop pride. Many countries protect heritage because it reflects their unique history. Preserving ancient sites promotes tourism and economic benefits. Raising awareness ensures long-term conservation for future generations.",
+      "title": "Passage 4: Heritage Reading",
+      "passageText": "Cultural heritage is important for preserving national identity. It includes historical sites and traditional customs. Heritage helps people understand their roots. Many countries make great efforts to protect heritage. Governments preserve ancient sites and promote cultural tourism. This creates economic benefits for local communities. Raising public awareness ensures long-term conservation of heritage.",
       "questions": [
-        {
-          "id": 18,
-          "question": "Question 18: Heritage includes historical ___ and customs.",
-          "options": ["A. sites", "B. places", "C. areas", "D. lands"],
-          "correctAnswer": "A"
-        },
-        {
-          "id": 19,
-          "question": "Question 19: Heritage ___ people understand their roots.",
-          "options": ["A. help", "B. helps", "C. helped", "D. helping"],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 20,
-          "question": "Question 20: Many countries ___ great efforts to protect.",
-          "options": ["A. do", "B. take", "C. make", "D. give"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 21,
-          "question": "Question 21: ___ ancient sites, governments promote tourism.",
-          "options": ["A. Having preserve", "B. Having preserving", "C. Having preserved", "D. Have preserved"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 22,
-          "question": "Question 22: Awareness ensures long-term ___ of heritage.",
-          "options": ["A. conservation", "B. conserved", "C. conserve", "D. conservative"],
-          "correctAnswer": "A"
-        }
+        {"id": 18, "question": "Q18: Heritage includes historical ___", "options": ["A. sites", "B. places", "C. areas", "D. lands"], "correctAnswer": "A"},
+        {"id": 19, "question": "Q19: Heritage ___ people understand roots", "options": ["A. help", "B. helps", "C. helped", "D. helping"], "correctAnswer": "B"},
+        {"id": 20, "question": "Q20: Countries ___ great efforts", "options": ["A. do", "B. take", "C. make", "D. give"], "correctAnswer": "C"},
+        {"id": 21, "question": "Q21: ___ ancient sites, governments promote tourism", "options": ["A. Having preserve", "B. Having preserving", "C. Having preserved", "D. Have preserved"], "correctAnswer": "C"},
+        {"id": 22, "question": "Q22: Long-term ___ of heritage", "options": ["A. conservation", "B. conserved", "C. conserve", "D. conservative"], "correctAnswer": "A"}
       ]
     },
     {
       "id": 5,
-      "title": "Independence",
-      "passageText": "Being independent is important for students. It helps manage time, solve problems, and take responsibility. Good time management keeps students on track. Setting goals and breaking big tasks into smaller ones helps. Making decisions builds confidence. Small choices like organizing materials lead to bigger decisions. Seeking help shows independence means not doing everything alone. Growth mindset means effort leads to improvement. Embracing challenges makes students resilient.",
+      "title": "Passage 5: Independence",
+      "passageText": "Being independent is essential for young students. It helps them manage time and solve problems. Good time management keeps students on track. Setting goals and breaking tasks into smaller parts helps. Making small decisions like organizing materials builds confidence. Students gradually take on bigger decisions. Seeking help shows independence does not mean doing everything alone. Growth mindset means effort leads to improvement. Students become resilient by embracing challenges and learning from mistakes.",
       "questions": [
-        {
-          "id": 23,
-          "question": "Question 23: What is the main idea about independence?",
-          "options": ["A. Focus only on academic success.", "B. Become more confident in social situations.", "C. Independence is essential and achieved through practical ways.", "D. Time management is most important."],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 24,
-          "question": "Question 24: What is NOT mentioned as a way?",
-          "options": ["A. Making decisions", "B. Managing time", "C. Asking for help", "D. Relying on others"],
-          "correctAnswer": "D"
-        },
-        {
-          "id": 25,
-          "question": "Question 25: Procrastination means ___",
-          "options": ["A. Efficiency", "B. Planning", "C. Motivation", "D. Delaying"],
-          "correctAnswer": "D"
-        },
-        {
-          "id": 26,
-          "question": "Question 26: They refers to ___",
-          "options": ["A. Big tasks", "B. Choices", "C. Students", "D. Decisions"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 27,
-          "question": "Question 27: Independent is opposite of ___",
-          "options": ["A. Confident", "B. Flexible", "C. Passive", "D. Responsible"],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 28,
-          "question": "Question 28: What helps develop independence?",
-          "options": ["A. Avoid challenges to prevent mistakes.", "B. Make decisions without asking.", "C. Break large tasks into smaller ones.", "D. Compete with classmates regularly."],
-          "correctAnswer": "C"
-        },
-        {
-          "id": 29,
-          "question": "Question 29: Which is TRUE?",
-          "options": ["A. Rely solely on others for help.", "B. Growth mindset helps handle challenges.", "C. Never ask for help.", "D. Time management not important."],
-          "correctAnswer": "B"
-        },
-        {
-          "id": 30,
-          "question": "Question 30: What can be inferred?",
-          "options": ["A. Never need help from others.", "B. Handle all problems alone.", "C. Know when to seek help effectively.", "D. Develops naturally without practice."],
-          "correctAnswer": "C"
-        }
+        {"id": 23, "question": "Q23: Main idea of independence", "options": ["A. Focus only on academic success", "B. More confident in social situations", "C. Essential and achieved through practical ways", "D. Time management is most important"], "correctAnswer": "C"},
+        {"id": 24, "question": "Q24: NOT mentioned as a way", "options": ["A. Making decisions", "B. Managing time", "C. Asking for help", "D. Relying on others"], "correctAnswer": "D"},
+        {"id": 25, "question": "Q25: Procrastination means ___", "options": ["A. Efficiency", "B. Planning", "C. Motivation", "D. Delaying"], "correctAnswer": "D"},
+        {"id": 26, "question": "Q26: They refers to ___", "options": ["A. Big tasks", "B. Choices", "C. Students", "D. Decisions"], "correctAnswer": "C"},
+        {"id": 27, "question": "Q27: Independent is opposite of ___", "options": ["A. Confident", "B. Flexible", "C. Passive", "D. Responsible"], "correctAnswer": "C"},
+        {"id": 28, "question": "Q28: What helps develop independence", "options": ["A. Avoid challenges to prevent mistakes", "B. Make decisions without asking", "C. Break large tasks into smaller ones", "D. Compete with classmates"], "correctAnswer": "C"},
+        {"id": 29, "question": "Q29: Which is TRUE", "options": ["A. Rely solely on others", "B. Growth mindset helps handle challenges", "C. Never ask for help", "D. Time management not important"], "correctAnswer": "B"},
+        {"id": 30, "question": "Q30: What can be inferred", "options": ["A. Never need help from others", "B. Handle all problems alone", "C. Know when to seek help effectively", "D. Develops naturally without practice"], "correctAnswer": "C"}
       ]
     }
   ]
