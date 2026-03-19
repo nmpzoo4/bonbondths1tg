@@ -1135,7 +1135,12 @@
             const testList = document.getElementById('testList');
             testList.innerHTML = '';
 
-            // Individual tests
+            // HK1 Tests
+            const hk1Header = document.createElement('div');
+            hk1Header.style.cssText = 'width: 100%; padding: 15px; font-size: 1.3em; font-weight: bold; color: #f5576c; margin-top: 20px; border-bottom: 2px solid #f5576c;';
+            hk1Header.textContent = '📚 HỌC KỲ 1';
+            testList.appendChild(hk1Header);
+
             for (let i = 1; i <= 5; i++) {
                 const testBtn = document.createElement('div');
                 testBtn.className = 'test-btn';
@@ -1147,17 +1152,38 @@
                 testList.appendChild(testBtn);
             }
 
-            // Mixed test
+            // Mixed test HK1
             const mixedBtn = document.createElement('div');
             mixedBtn.className = 'test-btn';
             mixedBtn.style.background = 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';
             mixedBtn.style.color = 'white';
             mixedBtn.onclick = () => startTest('mixed');
             mixedBtn.innerHTML = `
-                <h3>🎲 Test Tổng Hợp</h3>
+                <h3>🎲 Test Tổng Hợp HK1</h3>
                 <p>24 câu ngẫu nhiên từ tất cả các test!</p>
             `;
             testList.appendChild(mixedBtn);
+
+            // HK2 Tests
+            const hk2Header = document.createElement('div');
+            hk2Header.style.cssText = 'width: 100%; padding: 15px; font-size: 1.3em; font-weight: bold; color: #667eea; margin-top: 20px; border-bottom: 2px solid #667eea;';
+            hk2Header.textContent = '📚 HỌC KỲ 2';
+            testList.appendChild(hk2Header);
+
+            const hk2Tests = [
+                { file: 'test1', name: '📖 Test 1', desc: 'Cultural Heritage - 30 câu' }
+            ];
+
+            hk2Tests.forEach(test => {
+                const testBtn = document.createElement('div');
+                testBtn.className = 'test-btn';
+                testBtn.onclick = () => startTestHK2(test.file);
+                testBtn.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.desc}</p>
+                `;
+                testList.appendChild(testBtn);
+            });
         }
 
         // Load Chemistry test
@@ -1218,6 +1244,18 @@
                 `;
                 testList.appendChild(testBtn);
             });
+        }
+
+        // Start test HK2
+        async function startTestHK2(testNumber) {
+            try {
+                const response = await fetch(`tienanh-hk2/${testNumber}.json`);
+                const testData = await response.json();
+                startEnglishQuiz(testData);
+            } catch (error) {
+                alert('Không thể tải bài test. Vui lòng thử lại!');
+                console.error(error);
+            }
         }
 
         // Start test
