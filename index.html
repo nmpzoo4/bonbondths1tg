@@ -1408,30 +1408,31 @@
                     });
                     qSection.appendChild(lettersDiv);
 
-                    // Shuffle and show options
-                    const optionsWithIdx = q.options.map((opt, idx) => ({ text: opt, idx }));
-                    const shuffledOpts = shuffle(optionsWithIdx);
-
+                    // Show options WITHOUT shuffling - keep A B C D order
                     const optionsDiv = document.createElement('div');
                     optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
 
-                    shuffledOpts.forEach((optObj, shuffledIdx) => {
+                    q.options.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
-                        const isSelected = userSelected === shuffledIdx;
-                        const isCorrect = optObj.idx === correctIdx;
+                        const isSelected = userSelected === idx;
+                        const isCorrect = idx === correctIdx;
 
                         let bgColor = '#f0f0f0';
                         let borderColor = '#ddd';
                         let textColor = '#333';
 
                         if (userSelected !== undefined) {
-                            if (isSelected) {
-                                bgColor = isCorrect ? '#10b981' : '#ef4444';
-                                borderColor = bgColor;
-                                textColor = 'white';
-                            } else if (isCorrect && userSelected !== undefined) {
+                            if (isSelected && isCorrect) {
                                 bgColor = '#10b981';
-                                borderColor = bgColor;
+                                borderColor = '#10b981';
+                                textColor = 'white';
+                            } else if (isSelected && !isCorrect) {
+                                bgColor = '#ef4444';
+                                borderColor = '#ef4444';
+                                textColor = 'white';
+                            } else if (isCorrect) {
+                                bgColor = '#10b981';
+                                borderColor = '#10b981';
                                 textColor = 'white';
                             }
                         }
@@ -1447,61 +1448,7 @@
                             text-align: left;
                             transition: all 0.2s;
                         `;
-                        optBtn.textContent = optObj.text;
-                        optBtn.disabled = userSelected !== undefined;
-
-                        optBtn.onclick = () => {
-                            if (userSelected === undefined) {
-                                hk2State.passageAnswers[answerKey] = shuffledIdx;
-                                showQuestionFeedback(q, displayNumber, shuffledIdx, optionsWithIdx, optObj.idx, correctIdx);
-                            }
-                        };
-
-                        optionsDiv.appendChild(optBtn);
-                    });
-                    qSection.appendChild(optionsDiv);
-
-                } else {
-                    // MULTIPLE CHOICE QUESTIONS - shuffled options
-                    const optionsWithIdx = q.options.map((opt, idx) => ({ text: opt, idx }));
-                    const shuffledOpts = shuffle(optionsWithIdx);
-
-                    const optionsDiv = document.createElement('div');
-                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
-
-                    shuffledOpts.forEach((optObj, shuffledIdx) => {
-                        const optBtn = document.createElement('button');
-                        const isSelected = userSelected === shuffledIdx;
-                        const isCorrect = optObj.idx === correctIdx;
-
-                        let bgColor = '#f0f0f0';
-                        let borderColor = '#ddd';
-                        let textColor = '#333';
-
-                        if (userSelected !== undefined) {
-                            if (isSelected) {
-                                bgColor = isCorrect ? '#10b981' : '#ef4444';
-                                borderColor = bgColor;
-                                textColor = 'white';
-                            } else if (isCorrect && userSelected !== undefined) {
-                                bgColor = '#10b981';
-                                borderColor = bgColor;
-                                textColor = 'white';
-                            }
-                        }
-
-                        optBtn.style.cssText = `
-                            padding: 12px 15px;
-                            background: ${bgColor};
-                            color: ${textColor};
-                            border: 2px solid ${borderColor};
-                            border-radius: 6px;
-                            cursor: ${userSelected !== undefined ? 'default' : 'pointer'};
-                            font-size: 14px;
-                            text-align: left;
-                            transition: all 0.2s;
-                        `;
-                        optBtn.textContent = optObj.text;
+                        optBtn.textContent = opt;
                         optBtn.disabled = userSelected !== undefined;
 
                         optBtn.onmouseover = () => {
@@ -1517,8 +1464,74 @@
 
                         optBtn.onclick = () => {
                             if (userSelected === undefined) {
-                                hk2State.passageAnswers[answerKey] = shuffledIdx;
-                                showQuestionFeedback(q, displayNumber, shuffledIdx, optionsWithIdx, optObj.idx, correctIdx);
+                                hk2State.passageAnswers[answerKey] = idx;
+                                displayHK2Passage();
+                            }
+                        };
+
+                        optionsDiv.appendChild(optBtn);
+                    });
+                    qSection.appendChild(optionsDiv);
+
+                } else {
+                    // MULTIPLE CHOICE QUESTIONS - NO shuffling, keep A B C D order
+                    const optionsDiv = document.createElement('div');
+                    optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
+
+                    q.options.forEach((opt, idx) => {
+                        const optBtn = document.createElement('button');
+                        const isSelected = userSelected === idx;
+                        const isCorrect = idx === correctIdx;
+
+                        let bgColor = '#f0f0f0';
+                        let borderColor = '#ddd';
+                        let textColor = '#333';
+
+                        if (userSelected !== undefined) {
+                            if (isSelected && isCorrect) {
+                                bgColor = '#10b981';
+                                borderColor = '#10b981';
+                                textColor = 'white';
+                            } else if (isSelected && !isCorrect) {
+                                bgColor = '#ef4444';
+                                borderColor = '#ef4444';
+                                textColor = 'white';
+                            } else if (isCorrect) {
+                                bgColor = '#10b981';
+                                borderColor = '#10b981';
+                                textColor = 'white';
+                            }
+                        }
+
+                        optBtn.style.cssText = `
+                            padding: 12px 15px;
+                            background: ${bgColor};
+                            color: ${textColor};
+                            border: 2px solid ${borderColor};
+                            border-radius: 6px;
+                            cursor: ${userSelected !== undefined ? 'default' : 'pointer'};
+                            font-size: 14px;
+                            text-align: left;
+                            transition: all 0.2s;
+                        `;
+                        optBtn.textContent = opt;
+                        optBtn.disabled = userSelected !== undefined;
+
+                        optBtn.onmouseover = () => {
+                            if (userSelected === undefined && !isSelected) {
+                                optBtn.style.background = '#e8e8e8';
+                            }
+                        };
+                        optBtn.onmouseout = () => {
+                            if (userSelected === undefined && !isSelected) {
+                                optBtn.style.background = '#f0f0f0';
+                            }
+                        };
+
+                        optBtn.onclick = () => {
+                            if (userSelected === undefined) {
+                                hk2State.passageAnswers[answerKey] = idx;
+                                displayHK2Passage();
                             }
                         };
 
@@ -1564,43 +1577,6 @@
             container.appendChild(submitBtn);
         }
 
-        function showQuestionFeedback(q, displayNumber, selectedIdx, optionsWithIdx, selectedOriginalIdx, correctIdx) {
-            const isCorrect = selectedOriginalIdx === correctIdx;
-
-            const modal = document.createElement('div');
-            modal.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 2000;';
-
-            const content = document.createElement('div');
-            content.style.cssText = 'background: white; padding: 30px; border-radius: 12px; max-width: 500px; box-shadow: 0 8px 24px rgba(0,0,0,0.4); text-align: center;';
-
-            const emoji = isCorrect ? '✅' : '❌';
-            const message = isCorrect ? 'Chính xác!' : 'Sai rồi';
-            const color = isCorrect ? '#10b981' : '#ef4444';
-
-            content.innerHTML = `
-                <div style="font-size: 48px; margin-bottom: 15px;">${emoji}</div>
-                <h2 style="margin: 0; color: ${color}; font-size: 24px;">${message}</h2>
-                <p style="margin: 15px 0; color: #666; font-size: 15px;">
-                    Question ${displayNumber}: <strong>${isCorrect ? 'Đúng!' : 'Đáp án đúng là: ' + String.fromCharCode(65 + correctIdx)}</strong>
-                </p>
-                <button onclick="this.closest('div').parentElement.remove()" style="
-                    margin-top: 20px;
-                    padding: 12px 30px;
-                    background: #667eea;
-                    color: white;
-                    border: none;
-                    border-radius: 6px;
-                    font-weight: bold;
-                    cursor: pointer;
-                ">Tiếp Tục</button>
-            `;
-
-            modal.appendChild(content);
-            document.body.appendChild(modal);
-
-            // Refresh display after feedback
-            setTimeout(() => displayHK2Passage(), 500);
-        }
 
         function proceedToNextPassage() {
             // Remove feedback
