@@ -1340,7 +1340,7 @@
         }
 
 
-        function showHK2QuestionFeedback(isCorrect) {
+        function showHK2QuestionFeedback(isCorrect, buttonElement) {
             const feedbackMessages = {
                 correct: ['10 điểm 🌟', 'tuyệt vời 💪', 'giỏi quá! 🔥', 'đúng rồi! ✨', 'xuất sắc 🎉'],
                 wrong: ['Sai rồi 😅', 'Gần như đúng rồi 😬', 'Lần sau cố lên 💪', 'Không sao, tiếp tục 😊', 'Ơ hay 🤔']
@@ -1349,6 +1349,7 @@
             const messageArray = isCorrect ? feedbackMessages.correct : feedbackMessages.wrong;
             const randomMsg = messageArray[Math.floor(Math.random() * messageArray.length)];
 
+            // Show feedback popup at button position
             const feedback = document.createElement('div');
             feedback.className = `feedback-popup ${isCorrect ? 'correct' : 'wrong'}`;
             feedback.textContent = randomMsg;
@@ -1371,7 +1372,7 @@
             if (!container) {
                 container = document.createElement('div');
                 container.id = 'quizScreenContent';
-                container.style.cssText = 'max-width: 1000px; margin: 20px auto; padding: 20px;';
+                container.style.cssText = 'max-width: 1000px; margin: 20px auto; padding: 20px; display: flex; flex-direction: column; height: calc(100vh - 140px);';
                 document.getElementById('quizScreen').appendChild(container);
             }
 
@@ -1379,21 +1380,25 @@
 
             // Passage header
             const header = document.createElement('div');
-            header.style.cssText = 'padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; margin-bottom: 20px; text-align: center;';
+            header.style.cssText = 'padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; margin-bottom: 15px; text-align: center; flex-shrink: 0;';
             header.innerHTML = `<h3 style="margin: 0;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text with blanks (skip for arrangement passages)
+            // Passage text (scrollable, limited height)
             if (!passage.isArrangement) {
+                const passageWrapperDiv = document.createElement('div');
+                passageWrapperDiv.style.cssText = 'max-height: 30%; overflow-y: auto; margin-bottom: 15px; flex-shrink: 0; border-radius: 8px;';
+
                 const passageDiv = document.createElement('div');
-                passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
+                passageDiv.style.cssText = 'background: #f9f9f9; padding: 25px; line-height: 1.9; text-align: justify; border-left: 4px solid #667eea; font-size: 15px; color: #333; white-space: pre-wrap; word-wrap: break-word;';
                 passageDiv.textContent = passage.text;
-                container.appendChild(passageDiv);
+                passageWrapperDiv.appendChild(passageDiv);
+                container.appendChild(passageWrapperDiv);
             }
 
-            // Questions section
+            // Questions section (primary scrollable area)
             const questionsDiv = document.createElement('div');
-            questionsDiv.style.cssText = 'background: white; padding: 20px; border-radius: 8px;';
+            questionsDiv.style.cssText = 'background: white; padding: 20px; border-radius: 8px; overflow-y: auto; flex-grow: 1; flex-shrink: 1;';
 
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1; // 1-30
@@ -1475,6 +1480,7 @@
                         `;
                         optBtn.textContent = opt;
                         optBtn.disabled = userSelected !== undefined;
+                        optBtn.setAttribute('data-idx', idx);
 
                         optBtn.onmouseover = () => {
                             if (userSelected === undefined && !isSelected) {
@@ -1491,8 +1497,34 @@
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
-                                displayHK2Passage(); // Show colors immediately
-                                setTimeout(() => showHK2QuestionFeedback(isCorrect), 200); // Then show feedback
+
+                                // Update button color immediately
+                                optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
+                                optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
+                                optBtn.style.color = 'white';
+                                optBtn.disabled = true;
+                                optBtn.style.cursor = 'default';
+
+                                // Highlight correct answer (if not selected)
+                                if (!isCorrect) {
+                                    const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
+                                    if (correctBtn) {
+                                        correctBtn.style.background = '#10b981';
+                                        correctBtn.style.borderColor = '#10b981';
+                                        correctBtn.style.color = 'white';
+                                    }
+                                }
+
+                                // Show feedback popup immediately
+                                showHK2QuestionFeedback(isCorrect, optBtn);
+
+                                // Auto-scroll to next question (for long questions on mobile)
+                                setTimeout(() => {
+                                    const nextBtn = optionsDiv.nextElementSibling?.querySelector('button');
+                                    if (nextBtn) {
+                                        nextBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                                    }
+                                }, 300);
                             }
                         };
 
@@ -1543,6 +1575,7 @@
                         `;
                         optBtn.textContent = opt;
                         optBtn.disabled = userSelected !== undefined;
+                        optBtn.setAttribute('data-idx', idx);
 
                         optBtn.onmouseover = () => {
                             if (userSelected === undefined && !isSelected) {
@@ -1559,8 +1592,34 @@
                             if (userSelected === undefined) {
                                 hk2State.passageAnswers[answerKey] = idx;
                                 const isCorrect = idx === correctIdx;
-                                displayHK2Passage(); // Show colors immediately
-                                setTimeout(() => showHK2QuestionFeedback(isCorrect), 200); // Then show feedback
+
+                                // Update button color immediately
+                                optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
+                                optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
+                                optBtn.style.color = 'white';
+                                optBtn.disabled = true;
+                                optBtn.style.cursor = 'default';
+
+                                // Highlight correct answer (if not selected)
+                                if (!isCorrect) {
+                                    const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
+                                    if (correctBtn) {
+                                        correctBtn.style.background = '#10b981';
+                                        correctBtn.style.borderColor = '#10b981';
+                                        correctBtn.style.color = 'white';
+                                    }
+                                }
+
+                                // Show feedback popup immediately
+                                showHK2QuestionFeedback(isCorrect, optBtn);
+
+                                // Auto-scroll to next question (for long questions on mobile)
+                                setTimeout(() => {
+                                    const nextBtn = optionsDiv.nextElementSibling?.querySelector('button');
+                                    if (nextBtn) {
+                                        nextBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                                    }
+                                }, 300);
                             }
                         };
 
