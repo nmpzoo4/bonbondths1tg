@@ -1634,7 +1634,10 @@
             container.appendChild(questionsDiv);
 
             // Submit button
-            const allAnswered = Object.keys(hk2State.passageAnswers).length >= passage.questions.length;
+            const allAnswered = passage.questions.every(q => {
+                const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
+                return hk2State.passageAnswers[answerKey] !== undefined;
+            });
             const submitBtn = document.createElement('button');
             submitBtn.textContent = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1
                 ? '✅ Hoàn Thành Bài Thi'
