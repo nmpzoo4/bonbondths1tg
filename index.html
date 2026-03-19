@@ -1449,10 +1449,10 @@
             header.innerHTML = `<h3 style="margin: 0; font-size: 15px;">${passage.title}</h3>`;
             container.appendChild(header);
 
-            // Passage text (fixed height, NOT scrollable) - auto height, max 45%
+            // Passage text (fixed height, NOT scrollable) - auto height, max 75%
             if (!passage.isArrangement) {
                 const passageWrapperDiv = document.createElement('div');
-                passageWrapperDiv.style.cssText = 'height: auto; max-height: 60%; margin: 0; padding: 12px; flex-shrink: 0; border-radius: 0; overflow: visible; background: #f9f9f9; width: 100%;';
+                passageWrapperDiv.style.cssText = 'height: auto; max-height: 75%; margin: 0; padding: 12px; flex-shrink: 0; border-radius: 0; overflow: visible; background: #f9f9f9; width: 100%;';
 
                 const passageDiv = document.createElement('div');
                 passageDiv.style.cssText = 'background: transparent; padding: 0; line-height: 1.6; text-align: justify; border-left: 0; font-size: 13px; color: #333; white-space: pre-wrap; word-wrap: break-word; overflow: visible;';
