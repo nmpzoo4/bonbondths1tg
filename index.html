@@ -2093,6 +2093,14 @@
                         const inputGroup = document.createElement('div');
                         inputGroup.style.display = 'flex';
                         inputGroup.style.gap = '10px';
+                        inputGroup.style.alignItems = 'center';
+
+                        // Feedback indicator
+                        const feedbackEl = document.createElement('span');
+                        feedbackEl.style.fontWeight = 'bold';
+                        feedbackEl.style.fontSize = '1.2em';
+                        feedbackEl.style.minWidth = '30px';
+                        feedbackEl.style.display = 'none';
 
                         ['Đ', 'S'].forEach(value => {
                             const label = document.createElement('label');
@@ -2114,6 +2122,10 @@
                                     userAnswers[qIndex] = [];
                                 }
                                 userAnswers[qIndex][sIndex] = value;
+                                
+                                const correctAnswer = q.correctAnswers[sIndex];
+                                const isCorrect = value === correctAnswer;
+                                
                                 // Update label style
                                 label.parentElement.querySelectorAll('label').forEach(l => {
                                     l.style.background = 'white';
@@ -2123,6 +2135,11 @@
                                 label.style.background = value === 'Đ' ? '#d4edda' : '#fff3cd';
                                 label.style.borderColor = value === 'Đ' ? '#28a745' : '#ffc107';
                                 label.style.color = '#333';
+                                
+                                // Show feedback
+                                feedbackEl.innerHTML = isCorrect ? '✅' : '❌';
+                                feedbackEl.style.display = 'inline-block';
+                                feedbackEl.style.color = isCorrect ? '#28a745' : '#dc3545';
                             };
 
                             label.appendChild(radio);
@@ -2130,6 +2147,7 @@
                             inputGroup.appendChild(label);
                         });
 
+                        inputGroup.appendChild(feedbackEl);
                         statementRow.appendChild(inputGroup);
                         statementsDiv.appendChild(statementRow);
                     });
