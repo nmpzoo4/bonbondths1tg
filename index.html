@@ -1045,6 +1045,12 @@
                     <p>Geography Tests</p>
                     <div class="test-count">1 Test - Ôn tập GKII</div>
                 </div>
+                <div class="subject-card" onclick="selectSubject('lichsu')">
+                    <span class="subject-icon">📜</span>
+                    <h2>Lịch Sử</h2>
+                    <p>History Tests</p>
+                    <div class="test-count">1 Test - Cải cách Lê Thánh Tông</div>
+                </div>
             </div>
         </div>
 
@@ -1166,6 +1172,8 @@
                 loadBiologyTest();
             } else if (subject === 'diali') {
                 loadGeographyTest();
+            } else if (subject === 'lichsu') {
+                loadHistoryTest();
             }
         }
 
@@ -1283,6 +1291,27 @@
             });
         }
 
+        // Load History test
+        function loadHistoryTest() {
+            const testList = document.getElementById('testList');
+            testList.innerHTML = '';
+
+            const historyTests = [
+                { file: 'history-le-thanh-tong', name: '📜 Cải cách Lê Thánh Tông', desc: '64 câu - BIẾT/HIỂU/VẬN DỤNG + Đúng/Sai' }
+            ];
+
+            historyTests.forEach(test => {
+                const testBtn = document.createElement('div');
+                testBtn.className = 'test-btn';
+                testBtn.onclick = () => startTest(test.file);
+                testBtn.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.desc}</p>
+                `;
+                testList.appendChild(testBtn);
+            });
+        }
+
         // Load Biology test
         function loadBiologyTest() {
             const testList = document.getElementById('testList');
@@ -1368,6 +1397,13 @@
                     testData = await response.json();
 
                     // Geography: Load vào scroll screen (same as chemistry)
+                    startChemistryQuiz(testData);
+                } else if (currentSubject === 'lichsu') {
+                    // History tests
+                    const response = await fetch(`tienanh/${testNumber}.json`);
+                    testData = await response.json();
+
+                    // History: Load vào scroll screen (same as chemistry)
                     startChemistryQuiz(testData);
                 }
             } catch (error) {

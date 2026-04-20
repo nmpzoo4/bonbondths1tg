@@ -1,0 +1,735 @@
+{
+  "testName": "Cải cách Lê Thánh Tông (Thế kỉ XV)",
+  "subject": "History",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Cải cách toàn diện dưới triều vua Lê Thánh Tông",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Cuộc cải cách của vua Lê Thánh Tông được tiến hành trong bối cảnh lịch sử nào sau đây?",
+      "options": [
+        "Nước ta đứng trước nguy cơ bị nhà Minh xâm lược",
+        "Nền kinh tế sa sút, nạn đói diễn ra thường xuyên",
+        "Chế độ phong kiến lâm vào khủng hoảng trầm trọng",
+        "Nội bộ triều đình có nhiều mâu thuẫn, biến động"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Công cuộc cải cách của Lê Thánh Tông được tiến hành trên mọi lĩnh vực, nhưng tập trung chủ yếu vào lĩnh vực",
+      "options": [
+        "Kinh tế",
+        "Giáo dục",
+        "Hành chính",
+        "Văn hóa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Để quản lý đất nước, vua Lê Thánh Tông đã cho ban hành bộ luật nào sau đây?",
+      "options": [
+        "Hình thư",
+        "Quốc triều hình luật",
+        "Hình luật",
+        "Hoàng Việt luật lệ"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Trong lĩnh vực văn hóa, Lê Thánh Tông đặc biệt đề cao hệ tư tưởng",
+      "options": [
+        "Phật giáo",
+        "Đạo giáo",
+        "Nho giáo",
+        "Thiên chúa giáo"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Ban cấp ruộng đất cho quý tộc, quan lại cao cấp từ nhất phẩm đến tứ phẩm là nội dung chủ yếu của chính sách cải cách nào sau đây của vua Lê Thánh Tông?",
+      "options": [
+        "Quân điền",
+        "Hạn điền",
+        "Hạn nô",
+        "Lộc điền"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Ruộng đất công ở các làng xã thời Lê Thánh Tông được phân chia theo chế độ nào sau đây?",
+      "options": [
+        "Điền trang",
+        "Lộc điền",
+        "Quân điền",
+        "Hạn điền"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Dưới thời vua Lê Thánh Tông, hệ thống cơ quan phụ trách đạo thừa tuyên có tên gọi là",
+      "options": [
+        "Tam ty",
+        "Lục bộ",
+        "Lục khoa",
+        "Thông chính ty"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Năm 1471, vua Lê Thánh Tông cho lập thêm đạo thừa tuyên thứ 13 có tên gọi là",
+      "options": [
+        "Hà Nội",
+        "Phú Xuân",
+        "Quảng Nam",
+        "Tây Đô"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Trong cuộc cải cách thế kỉ XV, dưới đạo thừa tuyên, vua Lê Thánh Tông thiết lập hệ thống",
+      "options": [
+        "Phủ, huyện/châu, xã",
+        "Tỉnh/thành phố, huyện, xã",
+        "Lộ, trấn, phủ, huyện/châu",
+        "Tỉnh, phủ, huyện, làng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Dưới thời vua Lê Thánh Tông, hệ thống quan lại được tuyển chọn chủ yếu thông qua",
+      "options": [
+        "Dòng dõi tôn thất",
+        "Tiến cử",
+        "Giáo dục – khoa cử",
+        "Đề cử"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Để tập trung quyền lực vào nhà vua, Lê Thánh Tông đã",
+      "options": [
+        "Bãi bỏ nhiều cơ quan, chức quan cũ",
+        "Chú trọng đổi mới giáo dục khoa cử",
+        "Ban hành chính sách hạn điền và hạn nô",
+        "Coi trọng bảo vệ quyền lợi phụ nữ, trẻ em"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "\"Đây là một bộ luật đầy đủ… gồm hơn 700 điều, quy định khá đầy đủ tội danh và hình phạt liên quan đến hầu hết các hoạt động xã hội, bảo vệ quyền hành của giai cấp thống trị, một số quyền lợi chân chính của nhân dân và an ninh đất nước\". Nhận xét trên đề cập đến bộ luật nào sau đây?",
+      "options": [
+        "Hình luật",
+        "Hình thư",
+        "Quốc triều hình luật",
+        "Hoàng Việt luật lệ"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Năm 1460, sau khi lên ngôi, vua Lê Thánh Tông đã tiến hành",
+      "options": [
+        "Cuộc cải cách trên nhiều lĩnh vực",
+        "Mở cuộc tiến công sang Trung Quốc",
+        "Công cuộc thống nhất đất nước",
+        "Khuyến khích phát triển ngoại thương"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Nội dung nào sau đây là cải cách của vua Lê Thánh Tông trên lĩnh vực văn hóa – giáo dục?",
+      "options": [
+        "Quy định chặt chẽ chế độ khoa cử",
+        "Thành lập Lục khoa giám sát Lục bộ",
+        "Ban hành chế độ lộc điền và quân điền",
+        "Hạn chế quyền lực của vương hầu, quý tộc"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Nội dung nào sau đây là cải cách của vua Lê Thánh Tông trên lĩnh vực quân đội, quốc phòng?",
+      "options": [
+        "Bãi bỏ hầu hết các chức quan đại thần có quyền lực lớn",
+        "Chú trọng xây dựng đội ngũ quan lại có phẩm chất tốt",
+        "Chú trọng hoàn thiện hệ thống pháp luật quản lý đất nước",
+        "Tổ chức các kì thi khảo võ nghệ để tuyển chọn tướng sĩ"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "\"Coi trọng biên soạn quốc sử\" là nội dung cải cách của vua Lê Thánh Tông trên lĩnh vực nào sau đây?",
+      "options": [
+        "Quân đội",
+        "Văn hóa",
+        "Luật pháp",
+        "Kinh tế"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Trong nội dung cải cách, Hồ Quý Ly và vua Lê Thánh Tông đều",
+      "options": [
+        "Bãi bỏ nhiều cơ quan, chức quan cũ có nhiều quyền lực",
+        "Khuyến khích và đề cao sử dụng chữ Nôm trong thi cử",
+        "Hạn chế sỡ hữu ruộng đất quy mô lớn của quý tộc tôn thất",
+        "Tăng cường cơ chế giám sát, ràng buộc nhau giữa các cơ quan"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Để tăng cường sức mạnh quân đội, trong cải cách của mình, vua Lê Thánh Tông đã",
+      "options": [
+        "Quy định chặt chẽ kỉ luật quân đội và huấn luyện, tập trận",
+        "Thải hồi những binh sĩ già yếu, bổ sung người khỏe mạnh",
+        "Tăng cường tuyển quân quy mô lớn, ồ ạt ở các địa phương",
+        "Chú trọng cải tiến vũ khí, phòng thủ những nơi hiểm yếu"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "1.1",
+      "question": "Phân chia ruộng công ở các làng xã cho quan lại từ tam phẩm trở xuống đến các tầng lớp nhân dân là nội dung chủ yếu của chính sách cải cách nào sau đây của vua Lê Thánh Tông?",
+      "options": [
+        "Quân điền",
+        "Hạn điền",
+        "Hạn nô",
+        "Lộc điền"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Công cuộc cải cách của vua Lê Thánh Tông thế kỉ XV không được tiến hành trên lĩnh vực nào sau đây?",
+      "options": [
+        "Hành chính",
+        "Giáo dục",
+        "Kinh tế",
+        "Ngoại giao"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Năm 1484, vua Lê Thánh Tông quyết định cho dựng bia ghi tên Tiến sĩ nhằm",
+      "options": [
+        "Tập trung quyền lực vào tay vua và triều đình trung ương",
+        "Đề cao Nho học và tôn vinh các bậc trí thức Nho học",
+        "Phát huy những phong tục tập quán tốt đẹp của dân tộc",
+        "Tăng cường sự ràng buộc lẫn nhau giữa các cơ quan"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây không phải là cải cách hành chính ở cấp địa phương của vua Lê Thánh Tông?",
+      "options": [
+        "Chia đất nước thành 12 đạo thừa tuyên và phủ Trung Đô",
+        "Xóa bỏ hầu hết các chức quan đại thần có quyền lực lớn",
+        "Thành lập cơ quan đứng đầu các đạo Thừa tuyên là Tam ty",
+        "Bãi bỏ lộ, trấn cũ, thành lập hệ thống phủ, huyện/châu, xã"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây là một trong những ý nghĩa về cuộc cải cách của vua Lê Thánh Tông ở thế kỉ XV?",
+      "options": [
+        "Mở ra khả năng độc lập, tự chủ đầu tiên cho dân tộc ta",
+        "Làm chuyển biến toàn bộ các hoạt động của quốc gia",
+        "Tạo thế và lực cho ta đánh bại quân xâm lược Minh",
+        "Tạo tiền đề cho cuộc chiến tranh xâm lược phương Bắc"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Một trong những điểm mới của bộ Quốc triều hình luật là",
+      "options": [
+        "Có sự gia tăng hình phạt đối với người phạm tội nếu đã đến tuổi trưởng thành",
+        "Có sự phân biệt hình phạt đối với người phạm tội nếu tàn tật hoặc còn nhỏ",
+        "Đề cao quyền lợi và địa vị của nam giới, quy định cụ thể về tố tụng",
+        "Xóa bỏ hình phạt đối với người phạm tội nếu tàn tật hoặc còn nhỏ"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây không phải là những giá trị cơ bản mà cuộc cải cách hành chính của vua Lê Thánh Tông thế kỉ XV mang lại?",
+      "options": [
+        "Không để quyền lực tập trung quá nhiều vào một cơ quan, để ngăn chặn sự lộng quyền",
+        "Xây dựng quy chế vận hành bộ máy nhà nước trên nguyên tắc quyền lực thuộc về nhân dân",
+        "Các cơ quan Nhà nước giảm sát lẫn nhau để hạn chế sự lạm quyền và nâng cao trách nhiệm",
+        "Thanh lọc, tỉnh giản một số chức quan, cơ quan và các cấp chính quyền trung gian"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây phản ảnh đúng mục đích cải cách của vua Lê Thánh Tông?",
+      "options": [
+        "Tăng cường quyền lực của hoàng đế và củng cố bộ máy nhà nước",
+        "Giải quyết tình trạng khủng hoảng trầm trọng của đất nước bấy giờ",
+        "Biến nước ta trở thành cường quốc lớn mạnh hàng đầu trong khu vực",
+        "Tăng cường tiềm lực đất nước chuẩn bị đối phó với giặc ngoại xâm"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Một trong những điểm mới và tiến bộ của bộ luật Quốc triều hình luật là",
+      "options": [
+        "Đề cao quyền tự do, dân chủ của nhân dân",
+        "Bảo vệ tuyệt đối quyền và lợi ích của vua",
+        "Bảo vệ quyền và lợi ích của quân cấm binh",
+        "Bảo vệ quyền lợi và địa vị của người phụ nữ"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây phản ánh đúng về chức năng của Lục bộ dưới thời vua Lê Thánh Tông?",
+      "options": [
+        "Cơ quan giúp việc cho Lục Tự, Lục khoa",
+        "Theo dõi, giám sát hoạt động của Lục khoa",
+        "Cơ quan cao cấp chủ chốt trong triều đình",
+        "Phụ trách hoạt động quân sự của nhà nước"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây không phải là cải cách hành chính ở cấp trung ương của vua Lê Thánh Tông?",
+      "options": [
+        "Chia đất nước thành 12 đạo thừa tuyên và phủ Trung Đô",
+        "Xóa bỏ hầu hết các chức quan đại thần có quyền lực lớn",
+        "Giữ lại một số ít quan đại thần cùng vua bàn việc khi cần",
+        "Tổ chức hoàn thiện cơ cấu, chức năng của Lục Bộ, Lục khoa"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây phản ánh đúng ý nghĩa cải cách của vua Lê Thánh Tông thế kỉ XV?",
+      "options": [
+        "Nâng cao tiềm lực quốc gia, đẩy lùi nguy cơ ngoại xâm cận kề",
+        "Đưa đất nước thoát khỏi tình trạng khủng hoảng trầm trọng",
+        "Góp phần ổn định và phát triển kinh tế, văn hóa, xã hội Đại Việt",
+        "Hoàn thành thống nhất đất nước về mặt lãnh thổ và hành chính"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây không phải là cải cách của vua Lê Thánh Tông trên lĩnh vực hành chính?",
+      "options": [
+        "Thành lập Lục bộ đảm nhiệm công việc chủ yếu của quốc gia",
+        "Tăng cường chế độ kiểm tra, giám sát lẫn nhau giữa các cơ quan",
+        "Chia cả nước từ 5 đạo thành 12 đạo thừa tuyên và phủ Trung Đô",
+        "Đề cao Nho giáo, đưa Nho giáo trở thành hệ tư tưởng độc tôn"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "difficulty": "BIẾT",
+      "yccđ": "2.1",
+      "question": "Nội dung nào sau đây phản ánh đúng điểm giống nhau giữa cải cách của Hồ Quý Ly và vua Lê Thánh Tông?",
+      "options": [
+        "Cải cách chủ yếu mô phỏng theo mô hình nhà Minh (Trung Quốc)",
+        "Cải cách thành công trọn vẹn và mang tính triệt để trên mọi lĩnh vực",
+        "Cải cách nhằm tập trung quyền lực về tay vua và triều đình trung ương",
+        "Cải cách toàn diện, quy mô lớn nhưng tập trung vào lĩnh vực quân đội"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "3.1",
+      "question": "Điểm tương đồng về quan điểm xây dựng đội ngũ quan lại trong bộ máy nhà nước thời vua Lê Thánh Tông so với công tác xây dựng cán bộ của Đảng và Nhà nước ta hiện nay là",
+      "options": [
+        "Có năng lực và phẩm chất tốt",
+        "Có năng lực, xuất thân dòng tộc",
+        "Ưu tiên tuyển chọn con em quan lại",
+        "Chỉ chú trọng con cháu người có công"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "3.1",
+      "question": "Trong nội dung cải cách, Hồ Quý Ly và vua Lê Thánh Tông đều",
+      "options": [
+        "Bãi bỏ nhiều cơ quan, chức quan cũ có nhiều quyền lực",
+        "Khuyến khích và đề cao sử dụng chữ Nôm trong thi cử",
+        "Hạn chế sỡ hữu ruộng đất quy mô lớn của quý tộc tôn thất",
+        "Tăng cường cơ chế giám sát, ràng buộc nhau giữa các cơ quan"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "3.1",
+      "question": "\"Lấy chữ lễ, nghĩa, liêm, sỉ mà dạy dân, khiến cho dân hướng về chữ nhân, chữ nhường, bỏ hết lòng gian phi, để cho dân được an cư, lạc nghiệp, giàu có và đông đúc\". Đây là quan điểm của Lê Thánh Tông về",
+      "options": [
+        "Rèn luyện đạo đức cho đội ngũ quan lại",
+        "Quan điểm tuyển chọn nhân tài",
+        "Giáo huấn của đội ngũ quân thường trực",
+        "Ý niệm về trách nhiệm của vương quân"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "difficulty": "VẬN DỤNG",
+      "yccđ": "3.1",
+      "question": "\"Một thước núi, một tấc sông của ta lẽ nào lại vứt bỏ... Kẻ nào dám đem một tấc đất của Thái Tổ làm mồi cho giặc thì tội phải tru di\". Lời căn dặn trên của vua Lê Thái Tông phản ánh điều gì?",
+      "options": [
+        "Ý thức về việc bảo vệ chủ quyền quốc gia dân tộc",
+        "Sách lược ngoại giao của nhà Lê đối với Trung Hoa",
+        "Chính sách đoàn kết để bảo vệ chủ quyền dân tộc",
+        "Chính sách Nam tiến của nhà Lê"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 37,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.1",
+      "question": "Đoạn tư liệu mô tả mối lo ngại của vua Lê Nhân Tông phản ánh tình trạng kinh tế, chính trị của quốc gia lúc bấy giờ.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.1",
+      "question": "Theo vua Lê Nhân Tông, một trong những nguyên nhân khiến triều đình có nhiều biến động là do tình trạng phe cánh, bè phái trong nội bộ hệ thống quan lại.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.1",
+      "question": "Dưới thời vua Lê Nhân Tông, thiên tai xảy ra liên tiếp là do triều đình không quan tâm đến sản xuất nông nghiệp và đời sống nhân dân.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.1",
+      "question": "Một bộ phận công thần dưới thời vua Lê Nhân Tông có nhiều biểu hiện của sự lộng quyền.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.2",
+      "question": "Đoạn tư liệu cung cấp thông tin về một số biện pháp cải cách của vua Lê Thánh Tông trên lĩnh vực chính trị, quân sự.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.2",
+      "question": "Một số quan lại đương chức nhưng không có học thức đã bị Lê Thánh Tông bãi bỏ, thay thế vào đó là những người được tuyển chọn qua hình thức khoa cử.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 43,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.2",
+      "question": "Năm 1471, vua Lê Thánh Tông không thực hiện biện pháp thể hiện sự trọng dụng đặc biệt đối với bộ phận công thần trong triều.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.2",
+      "question": "Những cải cách của Lê Thánh Tông năm 1471 đã khiến quyền lực được tập trung cao độ vào trong tay nhà vua.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.3",
+      "question": "Đoạn tư liệu cung cấp thông tin về một số biện pháp cải cách của vua Lê Thánh Tông trên lĩnh vực kinh tế.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.3",
+      "question": "Chế độ quân điền mà vua Lê Thánh Tông ban hành có điểm tích cực là đảm bảo cho người dân có ruộng đất để cày cấy, canh tác.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.3",
+      "question": "Với chính sách quân điền, nhà nước Lê sơ không trở thành thế lực địa chủ tối cao, làng xã vẫn giữ quyền quản lý ruộng đất.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.3",
+      "question": "Trong bối cảnh lịch sử lúc bấy giờ, chính sách quân điền gây ra nhiều hệ quả tiêu cực hơn là tích cực.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 49,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.4",
+      "question": "Lời dụ trên thể hiện nội dung cải cách của vua Lê Thánh Tông trên lĩnh vực chính trị, cụ thể là tổ chức bộ máy chính quyền.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.4",
+      "question": "Các cơ quan trung ương được nhắc đến trong lời dụ gồm: sáu bộ, sáu khoa, sáu tự, thừa ty.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.4",
+      "question": "Tổng binh là một trong những chức vụ quan lại được nhắc đến trong lời dụ của vua Lê Thánh Tông.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.4",
+      "question": "Theo lời dụ của Lê Thánh Tông, tất cả các cơ quan, chức quan cần làm việc một cách minh bạch, dân chủ, độc lập, tránh ràng buộc nhau.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.5",
+      "question": "Đoạn tư liệu cung cấp thông tin về cải cách của vua Lê Thánh Tông trên các lĩnh vực hành chính, quân đội, luật pháp.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.5",
+      "question": "Với cải cách của Lê Thánh Tông, nhà vua trực tiếp nắm quyền điều hành mọi việc, thông qua đầu mối lớn là Lục bộ, không thông qua bộ phận trung gian.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.5",
+      "question": "Lê Thánh Tông thành lập Lục khoa kiểm tra, giám sát các công việc của Lục bộ, nhằm ngăn ngừa sự lạm quyền của Lục bộ.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.5",
+      "question": "Cải cách của vua Lê Thánh Tông không khiến nhiều chức quan đại thần bị suy giảm quyền hành.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.6",
+      "question": "Quốc triều hình luật là bộ luật tiêu biểu của quốc gia Đại Việt được ban hành dưới triều vua Lê Thánh Tông.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.6",
+      "question": "Điều 322 của bộ Quốc triều hình luật là một điều luật tiến bộ, đã bảo vệ quyền lợi của người phụ nữ trong xã hội.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.6",
+      "question": "Điều 596 của bộ Quốc triều hình luật là một trong những điều luật quy định hình thức xử phạt của phạm nhân vi phạm trên lĩnh vực chính trị.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.6",
+      "question": "Với điều 596, ta có thể thấy rằng, bộ Quốc triều hình luật hướng tới bảo vệ những quyền lợi chân chính của nhân dân, nhất là nông dân.",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 61,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.7",
+      "question": "Hình ảnh mô tả khu vườn bia Tiến sĩ thuộc khu di tích Văn Miếu – Quốc Tử Giám (Hà Nội ngày nay).",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.7",
+      "question": "Trên 82 tấm bia đề danh này khắc tên 1304 vị Tiến sĩ cho 82 khoa thi Tiến sĩ (từ năm 1442 đến năm 1779).",
+      "correctAnswer": "Đ"
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.7",
+      "question": "Việc tổ chức khoa thi và tuyển chọn nhân tài thể hiện sự giao thoa giữa văn minh Đại Việt với văn minh Chăm-pa, văn minh Phù Nam.",
+      "correctAnswer": "S"
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "difficulty": "HIỂU",
+      "yccđ": "4.7",
+      "question": "Khoản 1, Điều 61 Hiến pháp 2013 nước ta ghi nhận: Giáo dục là quốc sách hàng đầu và chính sách văn hóa – giáo dục thời Lê đều đề cao vai trò, ý nghĩa của giáo dục.",
+      "correctAnswer": "Đ"
+    }
+  ]
+}
