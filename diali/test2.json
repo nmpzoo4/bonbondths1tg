@@ -1,0 +1,657 @@
+{
+  "testName": "Địa lí - Cuối HK2",
+  "subject": "Geography",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 50 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nhật Bản nằm ở vị trí nào sau đây?",
+      "options": [
+        "Đông Á",
+        "Nam Á",
+        "Bắc Á",
+        "Tây Á"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đảo có diện tích lớn nhất Nhật Bản là",
+      "options": [
+        "Hô-cai-đô",
+        "Hôn-su",
+        "Xi-cô-cư",
+        "Kiu-xiu"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dạng địa hình nào sau đây chiếm phần lớn diện tích tự nhiên của Nhật Bản?",
+      "options": [
+        "Đồi núi thấp",
+        "Bình nguyên",
+        "Núi lửa",
+        "Đồng bằng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Cây trồng chính của Nhật Bản là",
+      "options": [
+        "Lúa mì",
+        "Cà phê",
+        "Lúa gạo",
+        "Cao su"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hình thức chăn nuôi chủ yếu ở Nhật Bản là",
+      "options": [
+        "Hộ gia đình",
+        "Du mục",
+        "Quảng canh",
+        "Trang trại"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành công nghiệp nào sau đây chiếm phần lớn giá trị hàng công nghiệp xuất khẩu của Nhật Bản?",
+      "options": [
+        "Công nghiệp điện tử",
+        "Công nghiệp chế tạo",
+        "Công nghiệp luyện kim",
+        "Công nghiệp hóa chất"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đặc điểm nổi bật của dân cư Nhật Bản là",
+      "options": [
+        "Dân số không đông",
+        "Tập trung ở miền núi",
+        "Tốc độ gia tăng cao",
+        "Cơ cấu dân số già"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng về dân cư Nhật Bản?",
+      "options": [
+        "Nhật Bản là một nước đông dân",
+        "Phần lớn dân ở các đô thị ven biển",
+        "Tỉ suất gia tăng tự nhiên dân số cao",
+        "Tỉ lệ người già ngày càng gia tăng"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân cư Nhật Bản phân bố tập trung ở",
+      "options": [
+        "Đồng bằng ven biển",
+        "Các vùng núi ở giữa",
+        "Dọc các dòng sông",
+        "Ở các sườn núi thấp"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Các trung tâm công nghiệp rất lớn của Nhật Bản tập trung nhiều nhất ở đảo nào sau đây?",
+      "options": [
+        "Hôn-su",
+        "Hô-cai-đô",
+        "Xi-cô-cư",
+        "Kiu-xiu"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu không đúng về đặc điểm tự nhiên của Nhật Bản là",
+      "options": [
+        "Nơi có các dòng biển nóng và lạnh gặp nhau",
+        "Nằm trong khu vực khí hậu gió mùa, ít mưa",
+        "Địa hình chủ yếu là đồi núi với nhiều núi lửa",
+        "Có nhiều thiên tai động đất, núi lửa, sóng thần"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đặc tính nào sau đây nổi bật đối với người dân Nhật Bản?",
+      "options": [
+        "Tập trung nhiều vào các đô thị",
+        "Chăm chỉ, tự giác và kỉ luật",
+        "Người già ngày càng nhiều",
+        "Tuổi thọ dân cư ngày càng cao"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thiên tai gây thiệt hại lớn nhất đối với Nhật Bản là",
+      "options": [
+        "Bão",
+        "Vòi rồng",
+        "Sóng thần",
+        "Động đất, núi lửa"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khó khăn chủ yếu nhất về thiên nhiên đối với phát triển công nghiệp của Nhật Bản là",
+      "options": [
+        "Có đường bờ biển dài, nhiều vũng vịnh",
+        "Có nhiều núi lửa, động đất ở khắp nơi",
+        "Trữ lượng khoáng sản không đáng kể",
+        "Nhiều đảo lớn, đảo nhỏ cách xa nhau"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khí hậu phía nam Nhật Bản phân biệt với phía bắc bởi",
+      "options": [
+        "Mùa đông kéo dài, lạnh",
+        "Mùa hạ nóng, mưa to và bão",
+        "Có nhiều tuyết về mùa đông",
+        "Nhiệt độ thấp và ít mưa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sông ngòi Nhật Bản có đặc điểm nào sau đây?",
+      "options": [
+        "Mạng lưới sông ngòi dày đặc, phân bố đều trên cả nước",
+        "Chủ yếu là các sông nhỏ, ngắn, dốc, có giá trị thủy điện",
+        "Có nhiều sông lớn bồi tụ những đồng bằng phù sa màu mỡ",
+        "Các sông có giá trị tưới tiêu nhưng không có giá trị thủy điện"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nhật Bản tập trung vào các ngành công nghiệp đòi hỏi kĩ thuật cao là do",
+      "options": [
+        "Có nguồn lao động dồi dào, trình độ người lao động cao",
+        "Hạn chế sử dụng nhiều nguyên nhiên liệu, lợi nhuận cao",
+        "Không có khả năng nhập khẩu các sản phẩm chất lượng cao",
+        "Có nguồn vốn lớn, nguồn tài nguyên khoáng sản phong phú"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nhật Bản phát triển thủy điện dựa trên điều kiện thuận lợi chủ yếu là",
+      "options": [
+        "Địa hình phần lớn là núi đồi",
+        "Sông dốc, nhiều thác ghềnh",
+        "Có lượng mưa lớn trong năm",
+        "Độ che phủ rừng khá lớn"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngành công nghiệp mũi nhọn hiện nay của Nhật Bản là",
+      "options": [
+        "Chế tạo",
+        "Điện tử",
+        "Xây dựng",
+        "Dệt"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với xu hướng phát triển nông nghiệp Nhật Bản?",
+      "options": [
+        "Đầu tư cao vào sản xuất thâm canh",
+        "Ứng dụng nhanh khoa học hiện đại",
+        "Chú trọng năng suất và chất lượng",
+        "Ưu tiên phát triển sản xuất hộ gia đình"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân cư Nhật Bản tập trung ở các thành phố ven biển do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Địa hình bằng phẳng, kinh tế phát triển",
+        "Kinh tế phát triển, các đồng bằng rộng",
+        "Đường bờ biển dài, được khai thác sớm",
+        "Nguồn nước dồi dào và ít có thiên tai"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đặc điểm nổi bật của ngành nông nghiệp ở Nhật Bản là",
+      "options": [
+        "Sản xuất theo nhu cầu nhưng năng suất, sản lượng cao",
+        "Chỉ sản xuất phục vụ nhu cầu xuất khẩu và công nghiệp",
+        "Phát triển thâm canh, chú trọng năng suất và sản lượng",
+        "Sản xuất với quy mô lớn và hướng chuyên môn hóa cao"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hầu hết các ngành công nghiệp nổi tiếng của Nhật Bản đều hướng vào",
+      "options": [
+        "Tận dụng tối đa nguồn lao động",
+        "Tận dụng nguồn nguyên liệu lớn",
+        "Sử dụng khoa học - kĩ thuật cao",
+        "Sản phẩm phục vụ trong nước"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nông nghiệp chỉ giữ vai trò thứ yếu trong nền kinh tế Nhật Bản do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Nhật Bản ưu tiên phát triển thương mại, tài chính",
+        "Nhật Bản tập trung ưu tiên phát triển công nghiệp",
+        "Diện tích đất sản xuất nông nghiệp hiện còn quá ít",
+        "Nhập khẩu nông sản có nhiều lợi thế hơn sản xuất"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Các trung tâm công nghiệp chính của Nhật Bản phân bố chủ yếu ở ven biển phía Nam đảo Hôn-su do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Kinh tế phát triển, vị trí thuận lợi, nhiều vũng vịnh sâu, kín gió",
+        "Địa hình tương đối phẳng, rộng và đường bờ biển dài, nhiều đảo",
+        "Có nhiều vịnh biển sâu, kín; sông ngòi dày đặc với nhiều nước",
+        "Có nhiều vịnh biển sâu, kín và khí hậu cận nhiệt đới, ít thiên tai"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Trung Quốc tiếp giáp với quốc gia nào sau đây?",
+      "options": [
+        "Triều Tiên",
+        "Hàn Quốc",
+        "Nhật Bản",
+        "Phi-lip-pin"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phần phía đông Trung Quốc tiếp giáp với đại dương nào sau đây?",
+      "options": [
+        "Thái Bình Dương",
+        "Đại Tây Dương",
+        "Ấn Độ Dương",
+        "Bắc Băng Dương"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Địa hình chủ yếu của miền Đông Trung Quốc là",
+      "options": [
+        "Núi, cao nguyên xen bồn địa",
+        "Đồng bằng và đồi núi thấp",
+        "Núi cao và sơn nguyên đồ sộ",
+        "Núi và đồng bằng châu thổ"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng trồng lúa mì của Trung Quốc tập trung chủ yếu ở các đồng bằng nào sau đây?",
+      "options": [
+        "Hoa Trung và Hoa Nam",
+        "Hoa Bắc và Hoa Trung",
+        "Đông Bắc và Hoa Trung",
+        "Đông Bắc và Hoa Bắc"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Vùng trồng lúa gạo của Trung Quốc tập trung chủ yếu ở các đồng bằng nào sau đây?",
+      "options": [
+        "Hoa Trung và Hoa Nam",
+        "Hoa Bắc và Hoa Trung",
+        "Đông Bắc và Hoa Trung",
+        "Đông Bắc và Hoa Bắc"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Điều kiện thuận lợi nhất để Trung Quốc phát triển công nghiệp luyện kim đen là",
+      "options": [
+        "Kĩ thuật hiện đại",
+        "Lao động đông đảo",
+        "Nguyên liệu dồi dào",
+        "Nhu cầu rất lớn"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Các dân tộc ít người của Trung Quốc phân bố rải rác ở khu vực nào sau đây?",
+      "options": [
+        "Các thành phố lớn",
+        "Các đồng bằng châu thổ",
+        "Vùng núi cao phía tây",
+        "Dọc biên giới phía nam"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thành phố đông dân nhất của Trung Quốc là",
+      "options": [
+        "Thượng Hải",
+        "Trùng Khánh",
+        "Thành Đô",
+        "Vũ Hán"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây đúng về sự thay đổi khí hậu ở miền Đông Trung Quốc?",
+      "options": [
+        "Nhiệt độ tăng dần từ Bắc xuống Nam",
+        "Lượng mưa giảm dần từ Bắc xuống Nam",
+        "Càng vào sâu trong lục địa mưa càng lớn",
+        "Mùa đông có lượng mưa lớn hơn mùa hạ"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với tự nhiên miền Tây Trung Quốc?",
+      "options": [
+        "Các đồng bằng châu thổ rộng lớn, đất phù sa màu mỡ",
+        "Các dãy núi cao, sơn nguyên đồ sộ xen lẫn các bồn địa",
+        "Nhiều tài nguyên rừng, nhiều khoáng sản và đồng cỏ",
+        "Thượng nguồn của các sông lớn theo hướng tây đông"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với tự nhiên miền Đông Trung Quốc?",
+      "options": [
+        "Các đồng bằng châu thổ rộng lớn, đất phù sa màu mỡ",
+        "Các dãy núi cao, sơn nguyên đồ sộ xen lẫn các bồn địa",
+        "Kiểu khí hậu cận nhiệt đới gió mùa và ôn đới gió mùa",
+        "Có nhiều tài nguyên khoáng sản kim loại màu nổi tiếng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đất đai ở các đồng bằng miền Đông Trung Quốc khá màu mỡ do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        "Phù sa của các con sông bồi tụ thành",
+        "Do phù sa của biển bồi tụ là chủ yếu",
+        "Có nguồn gốc từ dung nham núi lửa",
+        "Thảm thực vật phong phú, đa dạng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Việc phân bố dân cư khác nhau rất lớn giữa miền Đông và miền Tây Trung Quốc đã gây ra khó khăn chủ yếu nhất về",
+      "options": [
+        "Sử dụng hợp lí tài nguyên và lao động",
+        "Nâng cao chất lượng cuộc sống dân cư",
+        "Việc bảo vệ tài nguyên và môi trường",
+        "Phòng chống các thiên tai hàng năm"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với dân cư và xã hội của Trung Quốc?",
+      "options": [
+        "Đất nước có dân số đông nhất thế giới",
+        "Các thành phố lớn tập trung ở miền Tây",
+        "Tiến hành chính sách dân số triệt để",
+        "Chú ý đầu tư cho phát triển giáo dục"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Miền Tây Trung Quốc có thế mạnh chủ yếu nào sau đây để phát triển lâm nghiệp và chăn nuôi?",
+      "options": [
+        "Diện tích rừng lớn, nhiều đồng cỏ",
+        "Đất đai rộng, màu mỡ, nhiều sông",
+        "Khí hậu gió mùa, nguồn nước lớn",
+        "Sông ngòi dày đặc, nhiều sinh vật"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dân cư Trung Quốc phân bố tập trung chủ yếu ở các",
+      "options": [
+        "Đồng bằng phù sa ở miền Đông",
+        "Sơn nguyên, bồn địa ở miền Tây",
+        "Khu vực biên giới phía bắc",
+        "Khu vực ven biển ở phía nam"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 42,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Các hoang mạc ở phía Tây Trung Quốc được hình thành trong điều kiện",
+      "options": [
+        "Nằm sâu trong lục địa",
+        "Nằm ở địa hình cao",
+        "Không có sông ngòi",
+        "Có hai mùa mưa, khô"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 43,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Điểm khác biệt rõ rệt của miền Tây so với miền Đông Trung Quốc là",
+      "options": [
+        "Nhiều tài nguyên khoáng sản",
+        "Diện tích tự nhiên rộng lớn",
+        "Có các dân tộc khác nhau",
+        "Có mật độ dân cư thấp"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 44,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nền kinh tế của Trung Quốc hiện nay có đặc điểm nào sau đây?",
+      "options": [
+        "Quy mô GDP lớn nhất thế giới",
+        "Quy mô GDP tăng trưởng liên tục",
+        "Chiếm tỉ trọng nhỏ trong kinh tế thế giới",
+        "Tốc độ tăng GDP luôn ở mức thấp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 45,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dạng địa hình nào sau đây không phổ biến ở miền Tây Trung Quốc?",
+      "options": [
+        "Dãy núi cao và đồ sộ",
+        "Bồn địa và hoang mạc",
+        "Cao nguyên và sơn nguyên",
+        "Đồng bằng châu thổ sông"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 46,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Điểm tương đồng về tự nhiên giữa miền Đông và miền Tây Trung Quốc là",
+      "options": [
+        "Có nhiều khoáng sản",
+        "Đất đai màu mỡ",
+        "Địa hình bằng phẳng",
+        "Sông ngòi ít dốc"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 47,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây đúng với cơ cấu dân số thành thị và nông thôn Trung Quốc hiện nay?",
+      "options": [
+        "Thành thị tăng, nông thôn giảm",
+        "Nông thôn tăng, thành thị giảm",
+        "Nông thôn tăng, dân thành thị tăng",
+        "Thành thị giảm, nông thôn giảm"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 48,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây đúng với dân cư và xã hội của Trung Quốc?",
+      "options": [
+        "Đất nước có dân số đông nhất thế giới",
+        "Các thành phố lớn tập trung ở miền Tây",
+        "Gia tăng dân số tự nhiên có xu hướng tăng",
+        "Chú ý đầu tư cho phát triển giáo dục"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 49,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với tình hình xã hội Trung Quốc?",
+      "options": [
+        "Phát triển giáo dục được đầu tư chú trọng",
+        "Phân hóa giàu nghèo ngày càng rõ rệt hơn",
+        "Chất lượng cuộc sống người dân tăng lên",
+        "Không có sự chênh lệch giữa về vùng, miền"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 50,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Phát biểu nào sau đây không đúng với dân cư, xã hội Trung Quốc?",
+      "options": [
+        "Chú ý đầu tư cho phát triển giáo dục",
+        "Dân tộc ít người chủ yếu ở miền Đông",
+        "Soạn ra chữ viết từ trước Công nguyên",
+        "Người lao động có tính cần cù, sáng tạo"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}
