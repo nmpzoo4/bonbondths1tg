@@ -1,0 +1,241 @@
+{
+  "testName": "Bài 25 - Phần mềm chỉnh sửa ảnh",
+  "subject": "Tin học",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 18 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ảnh số là gì?",
+      "options": [
+        "Số bức ảnh",
+        "Biểu diễn số của hình ảnh",
+        "Ảnh được ghép từ các số",
+        "Ảnh kỹ thuật số"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ảnh bitmap thường được ....?",
+      "options": [
+        "Trưng bày trong bảo tàng",
+        "Ảnh được dùng làm tư liệu",
+        "Được rửa ra từ phim",
+        "Chụp từ camera hay máy quét"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Pixel là gì?",
+      "options": [
+        "Điểm ảnh",
+        "Dữ liệu",
+        "Phần thực của ảnh",
+        "Phần ảo của ảnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Điểm ảnh thường có hình dạng nào?",
+      "options": [
+        "Hình lập phương 1mm2",
+        "Hình tam giác đều",
+        "Hình bát giác",
+        "Hình vuông nhỏ"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Độ phân giải có tác dụng làm cho ảnh?",
+      "options": [
+        "Phóng được to lên",
+        "Rõ nét",
+        "Thu được nhỏ lại",
+        "Mờ đục đi"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Số lượng điểm ảnh thể hiện?",
+      "options": [
+        "Độ phân giải của ảnh, số điểm ảnh của bức ảnh",
+        "Tốc độ khi chụp ảnh",
+        "Thời gian ảnh hiển thị",
+        "Độ nhạy khi chụp ảnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Độ phân giải ảnh được xác định bằng?",
+      "options": [
+        "Số điểm ảnh trên 1 inch",
+        "Diện tích của một điểm ảnh",
+        "Độ dài ngắn của 1 điểm ảnh",
+        "Phần diện tích của điểm ảnh trên 1 bức ảnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ảnh để in thường có độ phân giải ít nhất là bao nhiêu dpi?",
+      "options": [
+        "30",
+        "300",
+        "3",
+        "3000"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Tệp tin chính của GIMP là?",
+      "options": [
+        "xcf",
+        "pdf",
+        "docx",
+        "doc"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để thay đổi giao diện hiển thị một cửa sổ của phần mềm GIMP, em thực hiện như thế nào?",
+      "options": [
+        "Chọn File → Open.",
+        "Chọn Edit → Preferences.",
+        "Chọn Windows → Single-window Mode.",
+        "Nhấn Ctrl + N."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để phóng to hoặc thu nhỏ ảnh trong GIMP, em cần thực hiện thao tác nào?",
+      "options": [
+        "Nhấn phím Shift + P.",
+        "Chọn nút lệnh Zoom và nháy chuột vào vị trí muốn phóng to hay thu nhỏ.",
+        "Sử dụng tổ hợp phím Ctrl + Z.",
+        "Kéo thả ảnh ra ngoài khung làm việc."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để cắt ảnh trong GIMP, em cần sử dụng công cụ nào?",
+      "options": [
+        "Crop.",
+        "Cut.",
+        "Eraser.",
+        "Move."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Độ phân giải của ảnh thường được đo bằng gì?",
+      "options": [
+        "Số lượng màu sắc.",
+        "Số điểm ảnh trên một inch (dpi hoặc ppi).",
+        "Kích thước file ảnh.",
+        "Kích thước vật lý của ảnh."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nếu một ảnh có kích thước 600 × 600 pixel và được in với độ phân giải 200 dpi, kích thước in ra sẽ là bao nhiêu?",
+      "options": [
+        "3 × 3 inch.",
+        "2,5 × 2,5 inch.",
+        "4 × 4 inch.",
+        "5 × 5 inch."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để xoay một bức ảnh trong GIMP, em cần thực hiện thao tác nào?",
+      "options": [
+        "Chọn Rotate và nhập góc xoay.",
+        "Nhấn Ctrl + X.",
+        "Kéo thả ảnh ra ngoài khung làm việc.",
+        "Chọn Image → Flip."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để lưu tệp tin ảnh đang làm việc trong GIMP ở định dạng xcf, em cần chọn lệnh nào?",
+      "options": [
+        "File → Export.",
+        "File → Save.",
+        "File → Open.",
+        "File → Close."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Một ảnh có kích thước 3000 × 2000 điểm ảnh sẽ có kích thước in ra như thế nào ở độ phân giải 300 dpi?",
+      "options": [
+        "10 × 10 inch.",
+        "20 × 30 inch.",
+        "5 × 7 inch.",
+        "10 × 6,67 inch."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để xuất một bức ảnh sang định dạng jpg trong GIMP, em cần chọn lệnh nào?",
+      "options": [
+        "File → Save As.",
+        "File → Export.",
+        "File → Print.",
+        "File → Close."
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

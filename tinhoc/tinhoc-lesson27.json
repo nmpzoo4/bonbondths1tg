@@ -1,0 +1,163 @@
+{
+  "testName": "Bài 27 - Công cụ vẽ và quản lý lớp",
+  "subject": "Tin học",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 12 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Paint Brush có chức năng?",
+      "options": [
+        "Vẽ thêm cho lớp đang chọn",
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Healing có chức năng?",
+      "options": [
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn",
+        "Vẽ bằng cách sao chép một vùng chọn"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Clone có chức năng?",
+      "options": [
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn",
+        "Vẽ bằng cách sao chép chính xác một vùng chọn"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Bucket Fill có chức năng?",
+      "options": [
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn",
+        "Vẽ bằng cách sao chép một vùng chọn"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Gradient có chức năng?",
+      "options": [
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn",
+        "Vẽ bằng cách sao chép một vùng chọn"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Eraser có chức năng?",
+      "options": [
+        "Tô màu vùng chọn",
+        "Tô màu chuyển sắc vùng chọn",
+        "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn",
+        "Vẽ bằng cách sao chép một vùng chọn"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Trong GIMP, lớp ảnh có thể được quản lý trong hộp thoại nào?",
+      "options": [
+        "Tool Options",
+        "Layers",
+        "Filters",
+        "History"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi lớp ảnh không có kênh Alpha, điều gì sẽ xảy ra khi sử dụng công cụ Erase?",
+      "options": [
+        "Điểm ảnh bị xoá sẽ trở thành màu nền",
+        "Điểm ảnh bị xoá sẽ biến mất hoàn toàn",
+        "Điểm ảnh bị xoá sẽ trở thành màu nổi",
+        "Không thể xoá điểm ảnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Kênh Alpha trong một lớp ảnh có tác dụng gì?",
+      "options": [
+        "Điều chỉnh độ sáng của lớp ảnh",
+        "Tạo độ trong suốt cho lớp ảnh",
+        "Thay đổi màu sắc của lớp ảnh",
+        "Tăng độ sắc nét cho lớp ảnh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Healing khác công cụ Clone ở điểm nào?",
+      "options": [
+        "Healing chỉ sao chép vùng ảnh mà không kết hợp màu sắc",
+        "Healing kết hợp màu sắc của vùng được sao chép để phù hợp với vùng chỉnh sửa",
+        "Clone xoá các điểm ảnh không mong muốn còn Healing chỉ thêm chi tiết",
+        "Healing chỉ dùng để vẽ các chi tiết mới"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lớp ảnh có vai trò gì?",
+      "options": [
+        "Xử lý các phần chung của bức ảnh, không làm ảnh hưởng đến các phần khác",
+        "Xử lý các phần riêng biệt của bức ảnh, không làm ảnh hưởng đến các phần khác",
+        "Xử lý các phần riêng biệt của bức ảnh, sẽ làm ảnh hưởng đến các phần khác",
+        "Xử lý các phần chung của bức ảnh, sẽ làm ảnh hưởng đến các phần khác"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lớp ảnh được sắp xếp như thế nào trong phần mềm đồ họa?",
+      "options": [
+        "Lớp ảnh được sắp xếp theo thứ tự bên dưới lên trên",
+        "Lớp ảnh đầu tiên được hiển thị trên cùng",
+        "Lớp ảnh cuối cùng được hiển thị trên cùng",
+        "Tất cả các lớp ảnh được xếp chồng lên nhau"
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}

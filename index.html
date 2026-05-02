@@ -1039,6 +1039,12 @@
                     <p>Biology Tests</p>
                     <div class="test-count">3 Tests - Cảm ứng, Tập tính, Sinh trưởng</div>
                 </div>
+                <div class="subject-card" onclick="selectSubject('tinhoc')">
+                    <span class="subject-icon">💻</span>
+                    <h2>Tin học</h2>
+                    <p>Informatics Tests</p>
+                    <div class="test-count">5 Tests - Bài 25, 26, 27, 28, 29</div>
+                </div>
                 <div class="subject-card" onclick="selectSubject('diali')">
                     <span class="subject-icon">🌍</span>
                     <h2>Địa lí</h2>
@@ -1170,6 +1176,8 @@
                 loadChemistryTest();
             } else if (subject === 'sinh') {
                 loadBiologyTest();
+            } else if (subject === 'tinhoc') {
+                loadInformaticsTest();
             } else if (subject === 'diali') {
                 loadGeographyTest();
             } else if (subject === 'lichsu') {
@@ -1336,6 +1344,31 @@
             });
         }
 
+        // Load Informatics test
+        function loadInformaticsTest() {
+            const testList = document.getElementById('testList');
+            testList.innerHTML = '';
+
+            const infoTests = [
+                { file: 'tinhoc-lesson25', name: '🖼️ Bài 25', desc: 'Phần mềm chỉnh sửa ảnh - 18 câu' },
+                { file: 'tinhoc-lesson26', name: '🎨 Bài 26', desc: 'Tinh chỉnh màu sắc & công cụ chọn - 10 câu' },
+                { file: 'tinhoc-lesson27', name: '🧰 Bài 27', desc: 'Công cụ vẽ & quản lý lớp - 12 câu' },
+                { file: 'tinhoc-lesson28', name: '🎞️ Bài 28', desc: 'Tạo ảnh động - 14 câu' },
+                { file: 'tinhoc-lesson29', name: '🎬 Bài 29', desc: 'Khám phá phần mềm làm phim - 13 câu' }
+            ];
+
+            infoTests.forEach(test => {
+                const testBtn = document.createElement('div');
+                testBtn.className = 'test-btn';
+                testBtn.onclick = () => startTest(test.file);
+                testBtn.innerHTML = `
+                    <h3>${test.name}</h3>
+                    <p>${test.desc}</p>
+                `;
+                testList.appendChild(testBtn);
+            });
+        }
+
         // Start test HK2
         async function startTestHK2(testNumber) {
             try {
@@ -1391,6 +1424,13 @@
                     testData = await response.json();
 
                     // Biology: Load vào scroll screen (same as chemistry)
+                    startChemistryQuiz(testData);
+                } else if (currentSubject === 'tinhoc') {
+                    // Informatics tests
+                    const response = await fetch(`tinhoc/${testNumber}.json`);
+                    testData = await response.json();
+
+                    // Informatics: Load vào scroll screen (same as chemistry)
                     startChemistryQuiz(testData);
                 } else if (currentSubject === 'diali') {
                     // Geography tests

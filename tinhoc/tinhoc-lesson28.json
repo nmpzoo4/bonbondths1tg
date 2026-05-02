@@ -1,0 +1,189 @@
+{
+  "testName": "Bài 28 - Tạo ảnh động",
+  "subject": "Tin học",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 14 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thao tác nào được sử dụng để thay đổi kích thước của một lớp ảnh trong GIMP?",
+      "options": [
+        "Crop",
+        "Scale",
+        "Rotate",
+        "Flip"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thao tác nào được sử dụng để thay đổi màu sắc của một lớp ảnh trong GIMP?",
+      "options": [
+        "Hue-Saturation",
+        "Brightness-Contrast",
+        "Color Balance",
+        "Levels"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Để tạo một ảnh động trong GIMP, bạn cần phải sử dụng công cụ nào?",
+      "options": [
+        "Công cụ Move",
+        "Công cụ Text",
+        "Công cụ Brush",
+        "Công cụ Animation"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi tạo ảnh động trong GIMP, bạn có thể tạo các hiệu ứng động bằng cách sử dụng công cụ nào?",
+      "options": [
+        "Công cụ Paintbrush",
+        "Công cụ Gradient",
+        "Công cụ Blur",
+        "Công cụ Path"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Làm thế nào để xuất ảnh động tạo ra từ GIMP?",
+      "options": [
+        "Sử dụng tính năng Save As và chọn định dạng ảnh động muốn xuất",
+        "Sử dụng tính năng Save để lưu lại và xuất ra ảnh động",
+        "Sử dụng tính năng Print để in ra ảnh động",
+        "Sử dụng tính năng Export và chọn định dạng ảnh động muốn xuất"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi hoàn thành tạo ảnh động trong GIMP, bạn cần lưu tệp ảnh động dưới định dạng nào?",
+      "options": [
+        "JPEG",
+        "GIF",
+        "PNG",
+        "PDF"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi tạo ảnh động từ các lớp trong GIMP, thao tác nào được thực hiện để mở nhiều tập tin hình ảnh vào làm các lớp ảnh mới?",
+      "options": [
+        "Chọn lệnh File → Open as Layers",
+        "Chọn lệnh File → Export As",
+        "Chọn lệnh Edit → Open Layers",
+        "Chọn lệnh File → Open"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Trong GIMP, khi muốn thao tác cùng lúc trên nhiều lớp, ta cần thực hiện bước nào?",
+      "options": [
+        "Chọn lệnh Merge Down",
+        "Nhấp chuột vào ô vuông thứ hai (biểu tượng sợi dây xích) bên cạnh các lớp muốn thao tác",
+        "Chọn lệnh Duplicate Layer",
+        "Nhấp chuột vào biểu tượng mắt để hiển thị tất cả các lớp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lệnh nào được sử dụng để gộp một lớp với lớp ngay bên dưới trong GIMP?",
+      "options": [
+        "Duplicate Layer",
+        "Flatten Image",
+        "Merge Down",
+        "Group Layers"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lựa chọn nào dưới đây giúp ảnh động lặp lại liên tục trong GIMP sau khi xuất ra file GIF?",
+      "options": [
+        "Loop forever",
+        "Repeat animation",
+        "Play again",
+        "Infinite loop"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lệnh nào cho phép bạn xem trước ảnh động ngay trong GIMP?",
+      "options": [
+        "File → Export As",
+        "Filters → Animation → Playback",
+        "Image → Play Animation",
+        "Filters → Animation → Loop Forever"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nếu một lớp ảnh lớn hơn khung hình động, bạn sẽ nhận được thông báo gì khi xuất file GIF từ GIMP?",
+      "options": [
+        "Layer size is too large.",
+        "The image is too large to export as GIF.",
+        "The image you are trying to export contains layers that extend beyond the actual borders.",
+        "Image export failed due to layer size."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lệnh nào cho phép bạn thêm hiệu ứng vào ảnh động trong GIMP?",
+      "options": [
+        "Filters → Blur",
+        "Filters → Animation",
+        "Layer → Effects",
+        "Image → Effects"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "\"Delay between frames where unspecified\" là 2000 (ms) có nghĩa là?",
+      "options": [
+        "Mỗi khung ảnh sẽ được hiển thị trong 10 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+        "Mỗi khung ảnh sẽ được hiển thị trong 20 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+        "Mỗi khung ảnh sẽ được hiển thị trong 1 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+        "Mỗi khung ảnh sẽ được hiển thị trong 2 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động"
+      ],
+      "correctAnswer": "D"
+    }
+  ]
+}

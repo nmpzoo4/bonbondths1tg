@@ -1,0 +1,176 @@
+{
+  "testName": "Bài 29 - Khám phá phần mềm làm phim",
+  "subject": "Tin học",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 13 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "VideoPad là gì?",
+      "options": [
+        "Phần mềm chỉnh sửa ảnh",
+        "Phần mềm làm phim",
+        "Phần mềm chỉnh sửa âm thanh",
+        "Phần mềm chỉnh sửa văn bản"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "VideoPad có thể tải về miễn phí hay không?",
+      "options": [
+        "Bắt buộc phải ghi nợ nội địa",
+        "Không",
+        "Mất phí duy trì mỗi tháng",
+        "Có"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Có thể tải phần mềm VideoPad từ địa chỉ nào?",
+      "options": [
+        "https://www.nchsoftware.com/videopad/ Add Files",
+        "https://www.nchsoftware.vn/video Wizard",
+        "https://www.nchsoftware.com/new/videopad",
+        "https://www.nchsoftware.com/videopad/index.html"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngăn tư liệu là?",
+      "options": [
+        "Chứa các tệp ảnh, tệp video clip, tệp âm thanh,.... là tư liệu đầu vào cho phim.",
+        "Chứa các nút lệnh để thiết lập các tính năng hay các thao tác chỉnh sửa phim.",
+        "Đoạn phim và các lệnh chỉnh sửa, điều khiển đối tượng đang xem trước.",
+        "Khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như thành phần của phim."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngăn xem trước là?",
+      "options": [
+        "Chứa các tệp ảnh, tệp video clip, tệp âm thanh,.... là tư liệu đầu vào cho phim.",
+        "Chứa các nút lệnh để thiết lập các tính năng hay các thao tác chỉnh sửa phim.",
+        "Đoạn phim và các lệnh chỉnh sửa, điều khiển đối tượng đang xem trước.",
+        "Khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như thành phần của phim."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thanh công cụ là?",
+      "options": [
+        "Chứa các tệp ảnh, tệp video clip, tệp âm thanh,.... là tư liệu đầu vào cho phim.",
+        "Chứa các nút lệnh để thiết lập các tính năng hay các thao tác chỉnh sửa phim.",
+        "Đoạn phim và các lệnh chỉnh sửa, điều khiển đối tượng đang xem trước.",
+        "Khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như thành phần của phim."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ngăn tiến trình là?",
+      "options": [
+        "Chứa các tệp ảnh, tệp video clip, tệp âm thanh,.... là tư liệu đầu vào cho phim.",
+        "Chứa các nút lệnh để thiết lập các tính năng hay các thao tác chỉnh sửa phim.",
+        "Đoạn phim và các lệnh chỉnh sửa, điều khiển đối tượng đang xem trước.",
+        "Khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như thành phần của phim."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Có thể xuất đoạn phim dưới dạng?",
+      "options": [
+        "Jpg.",
+        "Gif.",
+        "Bmp.",
+        "Psd."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thanh công cụ của phần mềm làm phim chứa?",
+      "options": [
+        "Các nút lệnh để thiết lập các tính năng hay các thao tác chỉnh sửa phim.",
+        "Chứa các tệp ảnh, tệp video clip, tệp âm thanh, … là đầu tư liệu vào cho phim.",
+        "Đoạn phim và các lệnh chỉnh sửa, điều khiển các đối tượng đang xem trước.",
+        "Thời điểm."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Mở phần mềm Videopad và tạo đoạn phim từ tư liệu đã chuẩn bị ta chọn lệnh nào?",
+      "options": [
+        "Create.",
+        "Transitions.",
+        "Video Wizard.",
+        "New videopad."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Lời hội thoại cần?",
+      "options": [
+        "Khớp với các phân cảnh trên phim.",
+        "Có sự sáng tạo.",
+        "Thể hiện sự độc đáo của nội dung.",
+        "Đáp án khác."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "VideoPad hỗ trợ những định dạng video nào?",
+      "options": [
+        "MP4, AVI, WMV",
+        "MP3, WAV, WMA",
+        "JPEG, PNG, BMP",
+        "PDF, DOC, TXT"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sau khi tạo xong đoạn phim, bước cuối cùng để hoàn thiện và xuất bản phim là gì?",
+      "options": [
+        "Xem lại đoạn phim.",
+        "Lưu dự án dưới dạng tệp .vpj.",
+        "Xuất bản phim bằng cách chọn Export Video.",
+        "Chỉnh sửa âm thanh nền."
+      ],
+      "correctAnswer": "C"
+    }
+  ]
+}

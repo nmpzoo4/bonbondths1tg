@@ -1,0 +1,137 @@
+{
+  "testName": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+  "subject": "Tin học",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 10 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Brightness-Contrast trong GIMP chủ yếu được sử dụng để làm gì?",
+      "options": [
+        "Điều chỉnh độ sáng và độ tương phản cho toàn bộ ảnh hoặc một phần của ảnh.",
+        "Điều chỉnh cân bằng màu cho các kênh màu riêng biệt.",
+        "Chọn các vùng trên ảnh để áp dụng hiệu ứng.",
+        "Tăng độ sắc nét cho ảnh."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Color Balance trong GIMP được sử dụng để:",
+      "options": [
+        "Thay đổi độ bão hòa màu cho toàn bộ ảnh.",
+        "Cân bằng màu cho các lớp ảnh hoặc vùng chọn bằng cách điều chỉnh từng kênh màu.",
+        "Điều chỉnh tông màu (Hue) của từng lớp màu trong ảnh.",
+        "Tăng độ sáng cho các điểm ảnh tối trong ảnh."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Hue-Saturation cho phép điều chỉnh yếu tố nào?",
+      "options": [
+        "Độ sáng và độ tương phản của ảnh.",
+        "Tông màu, độ sáng và độ bão hòa cho từng mảng màu trên ảnh.",
+        "Mức độ chi tiết và độ sắc nét của ảnh.",
+        "Kích thước và hình dạng của vùng chọn."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi sử dụng công cụ Brightness-Contrast, nút “Reset” có tác dụng gì?",
+      "options": [
+        "Tăng độ tương phản của ảnh.",
+        "Xóa tất cả các vùng chọn.",
+        "Trả về trạng thái ban đầu trước khi chỉnh sửa.",
+        "Tự động điều chỉnh độ sáng và độ tương phản."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi chọn công cụ Rectangle Select Tool trong GIMP, phím tắt nào được sử dụng?",
+      "options": [
+        "Shift + R",
+        "Ctrl + T",
+        "R",
+        "Alt + R"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Free Select Tool thường được dùng để:",
+      "options": [
+        "Tạo một vùng chọn có hình dạng tùy ý.",
+        "Điều chỉnh độ sáng cho từng phần ảnh.",
+        "Tăng độ tương phản cho toàn bộ ảnh.",
+        "Cân bằng màu cho toàn bộ ảnh."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Rectangle Select Tool thường được dùng để:",
+      "options": [
+        "Tạo một vùng chọn hình vuông hoặc hình chữ nhật.",
+        "Tạo một vùng chọn hình tròn hoặc hình elip.",
+        "Tạo một vùng chọn có hình dạng tùy ý.",
+        "Cân bằng màu cho toàn bộ ảnh."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Công cụ Brightness-Contrast dùng để làm gì trong quá trình chỉnh sửa ảnh?",
+      "options": [
+        "Điều chỉnh độ sáng và độ bão hòa của các màu trong ảnh",
+        "Điều chỉnh độ sáng và độ tương phản của vùng chọn hoặc toàn bộ ảnh",
+        "Cân bằng màu sắc giữa các vùng sáng và tối trong ảnh",
+        "Thay đổi tông màu và độ sáng của từng lớp ảnh riêng biệt"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Khi điều chỉnh màu sắc với công cụ Color Balance, nếu muốn điều chỉnh các điểm ảnh sáng nhất trong ảnh, bạn sẽ chọn dải màu nào?",
+      "options": [
+        "Shadows",
+        "Midtones",
+        "Highlights",
+        "Hue"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Thao tác nào được sử dụng để thay đổi màu sắc của một lớp ảnh trong GIMP?",
+      "options": [
+        "Hue-Saturation.",
+        "Brightness-Contrast.",
+        "Color Balance.",
+        "Levels."
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
