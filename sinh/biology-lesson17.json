@@ -1,0 +1,579 @@
+{
+  "testName": "Bài 17 - Cảm ứng ở động vật",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN + ĐÚNG/SAI",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Động vật có hệ thần kinh dạng chuỗi hạch có thể trả lời cục bộ khi bị kích thích vì?",
+      "options": [
+        "Số lượng tế bào thần kinh tăng lên",
+        "Mỗi hạch là một trung tâm điều khiển một vùng xác định của cơ thể",
+        "Các tế bào thần kinh trong hạch nằm gần nhau",
+        "Các hạch thần kinh liên hệ với nhau"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Động vật có hệ thần kinh dạng lưới khi bị kích thích thì?",
+      "options": [
+        "Duỗi thẳng cơ thể",
+        "Co toàn bộ cơ thể",
+        "Di chuyển đi chỗ khác",
+        "Co ở phần cơ thể bị kích thích"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hệ thần kinh dạng chuỗi hạch được hình thành bởi các tế bào thần kinh tập trung thành các hạch thần kinh và được nối với nhau tạo thành chuỗi hạch?",
+      "options": [
+        "Nằm dọc theo chiều dài cơ thể",
+        "Nằm dọc theo lưng và bụng",
+        "Nằm dọc theo lưng",
+        "Phân bố ở một số phần cơ thể"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Trong hệ thần kinh dạng ống, não gồm những phần nào?",
+      "options": [
+        "Bán cầu đại não, não trung gian, não giữa, tiểu não và trụ não",
+        "Bán cầu đại não, não trung gian, củ não sinh tư, tiểu não và hành - cầu não",
+        "Bán cầu đại não, não trung gian, não giữa, tiểu não và hành - cầu não",
+        "Bán cầu đại não, não trung gian, cuống não, tiểu não và hành - cầu não"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hệ thần kinh ống được cấu tạo từ hai phần rõ rệt là",
+      "options": [
+        "Não và tuỷ sống.",
+        "Thần kinh trung ương và thần kinh ngoại biên,",
+        "Não và thần kinh ngoại biên.",
+        "Tuỷ sống và thần kính ngoại biên."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Bộ phận thần kinh trung ương bao gồm: (1) Não (2) Hạch thần kinh (3) Tủy sống (4) Dây thần kinh",
+      "options": [
+        "(2),(1)",
+        "(2),(3)",
+        "(1),(3)",
+        "(2),(4)"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Bộ phận thần kinh ngoại biên bao gồm",
+      "options": [
+        "Não và các hạch thần kinh",
+        "Tủy sống và các hạch thần kinh",
+        "Hạch thần kinh và dây thần kinh",
+        "Não và tủy sống"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hệ thần kinh dạng ống hoạt động theo nguyên tắc nào?",
+      "options": [
+        "Phản xạ có điều kiện",
+        "Phản xạ không điều kiện",
+        "Phản xạ",
+        "Không theo nguyên tắc nào"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ở động vật có các tổ chức thần kinh, hệ thần kinh tiến hóa nhất là",
+      "options": [
+        "Hệ thần kinh dạng lưới",
+        "Hệ thần kinh dạng chuỗi",
+        "Hệ thần kinh dạng ống",
+        "Không so sánh được sự tiến hóa"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Quá trình truyền tin qua xináp diễn ra theo trật tự?",
+      "options": [
+        "Khe xináp → màng trước xináp → chùy xináp → màng sau xináp",
+        "Chùy xináp → màng trước xináp → khe xináp → màng sau xináp",
+        "Màng sau xináp → khe xináp → chùy xináp → màng trước xináp",
+        "Màng trước xináp → chùy xináp → khe xináp → màng sau xináp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Trong xináp, chất trung gian hóa học nằm ở?",
+      "options": [
+        "Màng trước xináp",
+        "Chùy xináp",
+        "Màng sau xináp",
+        "Khe xináp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Chất trung gian hóa học phổ biến nhất ở động vật có vú là?",
+      "options": [
+        "Axêtincôlin và đôpamin",
+        "Axêtincôlin và serôtônin",
+        "Serôtônin và norađrênalin",
+        "Axêtincôlin và norađrênalin"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Điện thế hoạt động biến đổi qua các giai đoạn:",
+      "options": [
+        "Mất phân cực → Tái phân cực → Đảo cực",
+        "Mất phân cực → Đảo cực → Tái phân cực",
+        "Đảo cực → Mất phân cực → Tái phân cực",
+        "Đảo cực → Tái phân cực → Mất phân cực"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Xung thần kinh xuất hiện vào lúc nào?",
+      "options": [
+        "Khi xuất hiện điện thế hoạt động",
+        "Tại thời điểm sắp xuất hiện điện thế hoạt động",
+        "Tại thời điểm chuyển giao giữa điện thế nghỉ sang điện thế hoạt động",
+        "Sau khi xuất hiện điện thế hoạt động"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Do đâu các bóng chứa chất trung gian hóa học bị vỡ?",
+      "options": [
+        "K+ từ ngoài dịch mô tràn vào dịch tế bào ở bóng xi náp",
+        "Na+ từ ngoài dịch mô tràn vào dịch tế bào ở bóng xi náp",
+        "Ca2+ từ ngoài dịch mô tràn vào dịch tế bào ở bóng xi náp",
+        "SO42- từ ngoài dịch mô tràn vào dịch tế bào ở bóng xi náp"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Xináp là",
+      "options": [
+        "Nơi tiếp xúc giữa chùm tận cùng của nơron này với sợi nhánh của nơron khác hoặc cơ quan đáp ứng.",
+        "Nơi tiếp xúc giữa sợi trục của nơron này với sợi nhánh của nơron khác.",
+        "Nơi tiếp xúc giữa các nơron với nhau.",
+        "Nơi tiếp xúc giữa sợi trục của tế bào thần kinh này với thân của tế bào thần kinh bên cạnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Yếu tố không thuộc thành phần xináp là:",
+      "options": [
+        "Khe xináp",
+        "Chùy xináp",
+        "Các ion Ca2+",
+        "Màng sau xináp"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong các động vật sau: (1) giun dẹp (2) thủy tức (3) đỉa (4) trùng roi (5) giun tròn (6) gián (7) tôm. Bao nhiêu loài có hệ thần kinh dạng chuỗi hạch?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong các phát biểu sau: (1) phản xạ chỉ có ở những sinh vật có hệ thần kinh (2) phản xạ được thực hiện nhờ cung phản xạ (3) phản xạ được coi là một dạng điển hình của cảm ứng (4) phản xạ là khái niệm rộng hơn cảm ứng. Các phát biểu đúng về phản xạ là:",
+      "options": [
+        "(1), (2) và (4)",
+        "(1), (2), (3) và (4)",
+        "(2), (3) và (4)",
+        "(1), (2) và (3)"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Phản xạ phức tạp thường là phản xạ?",
+      "options": [
+        "Có điều kiện, do một số ít tế bào thần kinh tham gia, trong đó có các tế bào vỏ não",
+        "Không điều kiện, do một số lượng lớn tế bào thần kinh tham gia, trong đó có các tế bào vỏ não",
+        "Có điều kiện, do một số lượng lớn tế bào thần kinh tham gia, trong đó có các tế bào tủy sống",
+        "Có điều kiện, do một số lượng lớn tế bào thần kinh tham gia, trong đó có các tế bào vỏ não"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Bộ phận của não phát triển nhất là?",
+      "options": [
+        "Não trung gian",
+        "Bán cầu đại não",
+        "Tiểu não và hành não",
+        "Não giữa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "difficulty": "VD",
+      "question": "Khi chạm tay phải gai nhọn, trật tự nào sau đây mô tả đúng cung phản xạ co ngón tay?",
+      "options": [
+        "Thụ quan đau ở da → sợi vận động của dây thần kinh tủy → tủy sống→ sợi cảm giác của dây thần kinh tủy → các cơ ngón tay",
+        "Thụ quan đau ở da→ sợi cảm giác của dây thần kinh tủy → tủy sống → các cơ ngón tay",
+        "Thụ quan đau ở da→ sợi cảm giác của dây thần kinh tủy → tủy sống → sợi vận động của dây thần kinh tủy → các cơ ngón tay",
+        "Thụ quan đau ở da → tủy sống → sợi vận động của dây thần kinh tủy → các cơ ngón tay"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Phản xạ đơn giản thường là phản xạ không điều kiện, thực hiện trên cung phản xạ do?",
+      "options": [
+        "Một số lượng lớn tế bào thần kinh tham gia và thường do tủy sống điều khiển",
+        "Một số ít tế bào thần kinh tham gia và thường do não bộ điều khiển",
+        "Một số tế bào thần kinh nhất định tham gia và thường do tủy sống điều khiển",
+        "Một số lượng lớn tế bào thần kinh tham gia và thường do não bộ điều khiển"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong các đặc điểm sau: (1) Thường do tủy sống điều khiển (2) Di truyền được, đặc trưng cho loài (3) Có số lượng không hạn chế (4) Mang tính bẩm sinh và bền vững. Có bao nhiêu đặc điểm trên đúng với phản xạ không điều kiện?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điều không đúng với đặc điểm phản xạ có điều kiện là?",
+      "options": [
+        "Được hình thành trong quá trình sống và không bền vững",
+        "Không di truyền được, mang tính cá thể",
+        "Có số lượng hạn chế",
+        "Thường do vỏ não điều khiển"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điều không đúng đối với sự tiến hóa của hệ thần kinh là tiến hóa theo hướng?",
+      "options": [
+        "Từ dạng lưới → chuỗi hạch → dạng ống",
+        "Tiết kiệm năng lượng trong phản xạ",
+        "Phản ứng chính xác và thích ứng trước kích thích của môi trường",
+        "Tăng lượng phản xạ nên cần nhiều thời gian để phản ứng"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong các nội dung sau: (1) Ít tế bào thần kinh tham gia (2) Thường là phản xạ có điều kiện (3) Thường do não điều khiển (4) Thường là phản xạ không điều kiện (5) Thường do tủy sống điều khiển (6) Nhiều tế bào thần kinh tham gia. Những đặc điểm nào của phản xạ đơn giản, những đặc điểm nào của phản xạ phức tạp?",
+      "options": [
+        "Phản xạ đơn giản: (1), (4) và (5); phản xạ phức tạp: (2), (3) và (6)",
+        "Phản xạ đơn giản: (1), (3) và (4); phản xạ phức tạp: (2), (5) và (6)",
+        "Phản xạ đơn giản: (4), (5) và (6); phản xạ phức tạp: (1), (2) và (3)",
+        "Phản xạ đơn giản: (1), (2) và (5); phản xạ phức tạp: (3), (4) và (6)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Số lượng phản xạ có điều kiện càng tăng thì?",
+      "options": [
+        "Động vật càng thích nghi hơn với điều kiện môi trường",
+        "Động vật mất hết các phản xạ không điều kiện",
+        "Phản xạ của động vật càng nhanh",
+        "Không xác định được ảnh hưởng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Nhận định nào dưới đây là không đúng",
+      "options": [
+        "Càng cao trong bậc tiến hóa, cấu tạo của cơ thể càng phân hóa, tổ chức thần kinh càng hoàn thiện",
+        "Hệ thần kinh phát triển theo hướng từ chỗ không có hệ thần kinh đến HTK dạng lưới rồi đến HTK dạng chuỗi hạch và cuối cùng là HTK dạng ống.",
+        "Tổ chức thần kinh càng tiến hóa thì phản ứng của cơ thể ngày càng có tính định khu và ít tiêu tốn năng lượng",
+        "Ở động vật đã có hệ thần kinh, hiện tượng cảm ứng được thực hiện qua cơ chế phản xạ"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Nội dung nào sau đây sai?",
+      "options": [
+        "Cảm ứng ở thực vật là các cử động diễn ra chậm hơn nhiều so với động vật",
+        "Cảm ứng ở động vật diễn ra nhanh hơn so với thực vật nhờ có sự can thiệp của hệ thần kinh.",
+        "Về thực chất, cảm ứng xảy ra ở động vật và thực vật như nhau, vì đều do các hormone điều khiển",
+        "Cảm ứng ở động vật và thực vật đều giúp cơ thể thích nghi với môi trường sống"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đặc điểm không có trong quá trình tuyền tin qua xináp là?",
+      "options": [
+        "Các chất trung gian hóa học gắn vào thụ thể màng sau làm xuất hiện xung thần kinh rồi lan truyền đi tiếp",
+        "Các chất trung gian hóa học trong các bóng Ca2+ gắn vào màng trước vỡ ra và qua khe xináp đến màng sau",
+        "Xung thần kinh lan truyền tiếp từ màng sau đến màng trước",
+        "Xung thần kinh lan truyền đến chùy xináp làm Ca2+ đi vào trong chùy xináp"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Cho các trường hợp sau: (1) Diễn truyền theo lối “nhảy cóc” từ eo Ranvie này sang eo Ranvie khác (2) Sự thay đổi tính chất màng chỉ xảy ra tại các eo (3) Dẫn truyền nhanh và tốn ít năng lượng (4) Nếu kích thích tại điểm giữa sợi trục thì lan truyền chỉ theo một hướng. Sự lan truyền xung thần kinh trên sợi trục có bao miêlin có những đặc điểm nào?",
+      "options": [
+        "(1) và (4)",
+        "(2), (3) và (4)",
+        "(2) và (4)",
+        "(1), (2) và (3)"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Sự lan truyền xung thần kinh trên sợi có bao miêlin “nhảy cóc” vì",
+      "options": [
+        "Sự thay đổi tính thấm của màng không xảy ra tại các eo Ranvie",
+        "Đảm bảo cho sự tiết kiệm năng lượng",
+        "Giữa các eo Ranvie, sợi trục bị bao bằng bao miêlin cách điện",
+        "Tạo cho tốc độ truyền xung quanh"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điện thế nghỉ là sự chênh lệch điện thế giữa hai bên màng tế bào khi tế bào?",
+      "options": [
+        "Không bị kích thích, phía trong màng mang điện dương và phía ngoài màng mang điện âm",
+        "Bị kích thích, phía trong mang mang điện dương và phía ngoài màng mang điện âm",
+        "Không bị kích thích, phía trong màng mang điện âm và phía ngoài màng mang điện dương",
+        "Bị kích thích, phía trong màng mang điện âm và phía ngoài màng mang điện dương"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điện thế nghỉ được hình thành chủ yếu do các yếu tố nào?",
+      "options": [
+        "Sự phân bố ion đồng đều, sự di chuyển của ion và tính thấm có chọn lọc của màng tế bào với ion.",
+        "Sự phân bố ion không đều, sự di chuyển của ion và tính thấm không chọn lọc của màng tế bào với ion.",
+        "Sự phân bố ion không đều, sự di chuyển của ion theo hướng đi ra và tính thấm có chọn lọc của màng tế bào với ion.",
+        "Sự phân bố ion không đều, sự di chuyển của ion sự di chuyển của ion theo hướng đi vào và tính thấm có chọn lọc của màng tế bào với ion"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Vai trò của ion Ca2+ trong sự chuyển xung điện qua xináp",
+      "options": [
+        "Tạo môi trường thích hợp để các chất trung gian hoá học hoạt động.",
+        "Xúc tác sự tổng hợp chất trung gian hoá học.",
+        "Tăng cường tái phân cực ở màng trước xináp",
+        "Kích thích gắn túi chứa chất trung gian hoá học vào màng trước xináp và vỡ ra"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Khi nào xuất hiện điện thế hoạt động ở màng sau xináp?",
+      "options": [
+        "Chất trung gian gian hóa học đi vào khe xináp",
+        "Chất trung gian hóa học gắn vào thụ thể ở màng sau xináp",
+        "Chất trung gian hóa học tiếp xúc màng trước xináp",
+        "Xung thàn kinh ở màng trước lan truyền đến màng sau xináp"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điều không đúng với axêtincôlin sau khi xuất hiện xung thần kinh là?",
+      "options": [
+        "Axêtincôlin được tái chế phân bố tự do trong chùy xináp",
+        "Axêtincôlin bị axêtincôlinesteraza phân giải thành axêtat và côlin",
+        "Axêtat và côlin trở lại màng trước, đi vào chùy xináp và được tái tổng hợp thành axêtincôlin",
+        "Axêtincôlin tái chế được chứa trong các bóng xináp"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Điểm khác biệt của sự lan truyền xung thần kinh trên sợi trục có bao miêlin so với sợi trục không có bao miêlin là dẫn truyền theo lối “nhảy cóc”?",
+      "options": [
+        "Chậm và tốn ít năng lượng",
+        "Chậm và tốn nhiều năng lượng",
+        "Nhanh và tốn ít năng lượng",
+        "Nhanh và tốn nhiều năng lượng"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong một cung phản xạ, xung thần kinh chỉ truyền theo một chiều từ cơ quan thụ cảm đến cơ quan đáp ứng vì?",
+      "options": [
+        "Sự chuyển giao xung thần kinh qua xináp nhờ chất trung gian hóa học chỉ theo một chiều",
+        "Các thụ thể ở màng sau xináp chỉ tiếp nhận các chất trung gian hóa học theo một chiều",
+        "Khe xináp ngăn cản sự truyền tin ngược chiều",
+        "Chất trung gian hóa học bị phân giải sau khi đến màng sau xináp"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Sau khi điện thế hoạt động lan truyền tiếp ở màng sau, axêtincôlin sẽ?",
+      "options": [
+        "Bị gom lại trong các bóng xinap",
+        "Bị phân hủy",
+        "Di chuyển ngược về màng trước xinap",
+        "Di chuyển ra ngoài dịch mô"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 1 (Đúng/Sai): Khi nói về phản ứng của động vật có hệ thần kinh dạng ống khi bị kích thích, mỗi mệnh đề sau đúng hay sai?",
+      "statements": [
+        "Phản ứng toàn cơ thể, chính xác.",
+        "Phản ứng nhanh chính xác.",
+        "Phản ứng ở 1 vùng cơ thể độ chính xác cao.",
+        "Phản ứng thông qua các phản xạ có điều kiện hoặc không điều kiện."
+      ],
+      "correctAnswers": ["S", "Đ", "S", "Đ"]
+    },
+    {
+      "id": 43,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 2 (Đúng/Sai): Mỗi mệnh đề sau đúng sai khi nói về điện thế hoạt động?",
+      "statements": [
+        "Trên sợi thần kinh không có bao myelin xung thần kinh lan truyền theo cách nhảy cóc từ eo Ranvier này sang eo Ranvier khác",
+        "Điện thế hoạt động xuất hiện không dừng lại tại điểm phát sinh mà lan truyền dọc theo sợi thần kinh",
+        "Cách lan truyền xung thần kinh trên sợi TK có bao myelin và không có bao myelin là giống nhau",
+        "Tốc độ lan truyền xung thần kinh trên sợi TK có bao myelin và không có bao myelin là giống nhau"
+      ],
+      "correctAnswers": ["S", "Đ", "S", "S"]
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 4 (Đúng/Sai): Các nhận định sau đúng hay sai khi nói về bệnh tai biến mạch máu não (đột quỵ)?",
+      "statements": [
+        "Do các mạch máu bị vỡ hoặc tắc nên lúc này não không được cung cấp oxi và dưỡng chất nên các tế bào não bị chết dần",
+        "Khi não bị tổn thương, sẽ gây cản trở các tín hiệu điều khiển cơ thể",
+        "Người lớn tuổi rất dễ mắc bệnh lý này do mạch máu não bị giòn dễ vỡ",
+        "Để ngăn ngừa bệnh tai biến mạch máu não cần có lối sống lành mạnh, thường xuyên luyện tập thể dục thể thao, ăn uống khoa học bổ sung thức ăn nhiều chất béo cholesteron"
+      ],
+      "correctAnswers": ["Đ", "Đ", "Đ", "S"]
+    }
+  ]
+}

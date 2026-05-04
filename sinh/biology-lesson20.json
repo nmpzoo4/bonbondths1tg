@@ -1,0 +1,280 @@
+{
+  "testName": "Bài 20 - Sinh trưởng và phát triển ở thực vật",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN + ĐÚNG/SAI",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đặc điểm không có ở sinh trưởng sơ cấp là?",
+      "options": [
+        "Làm tăng kích thước chiều dài của cây",
+        "Diễn ra hoạt động của tầng sinh bần",
+        "Diễn ra cả ở cây Một lá mầm và cây Hai lá mầm",
+        "Diễn ra hoạt động của mô phân sinh đỉnh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ở cây Hai lá mầm, tính từ ngọn đến rễ là các loại mô phân sinh theo thứ tự:",
+      "options": [
+        "Mô phân sinh đỉnh ngọn → mô phân sinh bên → mô phân sinh đỉnh rễ",
+        "Mô phân sinh đỉnh ngọn → mô phân sinh đỉnh rễ → mô phân sinh bên",
+        "Mô phân sinh đỉnh rễ → mô phân sinh bên → mô phân sinh bên",
+        "Mô phân sinh bên → mô phân sinh đỉnh ngọn → mô phân sinh đỉnh rễ"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng thứ cấp là sự tăng trưởng bề ngang của cây?",
+      "options": [
+        "Do mô phân sinh bên của cây thân thảo tạo ra",
+        "Do mô phân sinh bên của cây thân gỗ tạo ra",
+        "Do mô phân sinh bên của cây Một lá mầm tạo ra",
+        "Do mô phân sinh lóng của cây tạo ra"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng ở thực vật là?",
+      "options": [
+        "Quá trình tăng về kích thước (lớn lên) của cơ thể do tăng về kích thước và số lượng tế bào.",
+        "Quá trình tăng về kích thước (lớn lên) của cơ thể do tăng về số lượng tế bào và các mô",
+        "Quá trình tăng về kích thước (lớn lên) của cơ thể do tăng về kích thước tế bào và mô",
+        "Quá trình tăng về kích thước (lớn lên) của cơ thể do tăng về kích thước và phân hoá tế bào"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Mô phân sinh ở thực vật là",
+      "options": [
+        "Nhóm các tế bào chưa phân hóa, nhưng khả năng nguyên phân rất hạn chế",
+        "Nhóm các tế bào chưa phân hóa, duy trì được khả năng nguyên phân",
+        "Nhóm các tế bào chưa phân hóa, mất dần khả năng nguyên phân",
+        "Nhóm các tế bào phân hóa, chuyên hóa về chức năng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Mô phân sinh đỉnh không có ở vị trí nào của cây?",
+      "options": [
+        "Ở thân",
+        "Ở chồi nách",
+        "Ở đỉnh rễ",
+        "Ở chồi đỉnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng sơ cấp của cây là:",
+      "options": [
+        "Sự sinh trưởng của thân và rễ theo chiều dài do hoạt động của mô phân sinh đỉnh.",
+        "Sự tăng trưởng chiều dài của cây do hoạt động phân hoá của mô phân sinh đỉnh thân và đỉnh rễ ở cây một lá mầm và cây hai lá mầm",
+        "Sự tăng trưởng chiều dài của cây do hoạt động nguyên phân của mô phân sinh đỉnh thân và đỉnh rễ chỉ có ở cây cây hai lá mầm.",
+        "Sự tăng trưởng chiều dài của cây do hoạt động nguyên phân của mô phân sinh đỉnh thân và đỉnh rễ chỉ có ở cây cây một lá mầm."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hoocmôn thực vật là?",
+      "options": [
+        "Những chất hữu cơ cho cơ thể thực vật tiết ra có tác dụng điều hòa hoạt động của cây",
+        "Những chất hữu cơ cho cơ thể thực vật chỉ có tác dụng ức chế hoạt động của cây",
+        "Những chất hữu cơ cho cơ thể thực vật có tác dụng kháng bệnh cho cây",
+        "Những chất hữu cơ cho cơ thể thực vật chỉ có tác dụng kích thích sinh trưởng của cây"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Quan sát mặt cắt ngang thân, sinh trưởng thứ cấp theo thứ tự từ ngoài vào trong thân là?",
+      "options": [
+        "Bần → tầng sinh bần → mạch rây thứ cấp → tầng phân sinh bên → gỗ dác → gỗ lõi",
+        "Bần → tầng sinh bần → mạch rây sơ cấp → tầng sinh mạch → gỗ thứ cấp → gỗ sơ cấp",
+        "Bần → tầng sinh bần → mạch rây sơ cấp → mạch rây thứ cấp → tầng sinh mạch → gỗ thứ cấp → gỗ sơ cấp",
+        "Tầng sinh bần → bần → mạch rây sơ cấp → tầng sinh mạch → gỗ thứ cấp → tủy"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Xét các đặc điểm sau: (1) làm tăng kích thước chiều ngang của cây (2) Diễn ra chủ yếu ở cây Một lá mầm và hạn chế ở cây Hai lá mầm (3) diễn ra hoạt động của tầng sinh mạch (4) diễn ra hoạt động của tầng sinh bần (vỏ) (5) chỉ làm tăng chiều dài của cây. Những đặc điểm trên không có ở sinh trưởng thứ cấp là",
+      "options": [
+        "(1) và (4)",
+        "(2) và (5)",
+        "(1), (3) và (5)",
+        "(2), (3) và (5)"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Gibêrelin được dùng để?",
+      "options": [
+        "Làm giảm độ nảy mầm của hạt, chồi, củ, kích thích sinh trưởng chiều cao của cây, tạo quả không hạt",
+        "Kích thích nảy mầm của hạt, chồi, củ, sinh trưởng chiều cao của cây và phát triển bộ rễ, tạo quả không hạt",
+        "Kích thích nảy mầm của hạt, chồi, củ, sinh trưởng chiều cao của cây, tạo quả không hạt",
+        "Kích thích nảy mầm của hạt, chồi, củ, sinh trưởng chiều cao của cây, phát triển bộ lá, tạo quả không hạt"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Vai trò chủ yếu của axit abxixic (AAB) là kìm hãm sự sinh trưởng của?",
+      "options": [
+        "Cây, lóng, trạng thái ngủ của chồi, của hạt, làm khí khổng mở",
+        "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng đóng",
+        "Cành, lóng, gây trạng thái ngủ của chồi, của hạt, làm khí khổng đóng",
+        "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng mở"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Cho các hoocmôn sau (1) Auxin (2) Xitôkinin (3) Gibêrelin (4) Êtilen (5) Axit abxixic. Hoocmôn thuộc nhóm kìm hãm sinh trưởng là",
+      "options": [
+        "(1) và (2)",
+        "(4)",
+        "(3)",
+        "(4) và (5)"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đặc điểm không có ở hoocmôn thực vật là?",
+      "options": [
+        "Tính chuyển hóa cao hơn nhiều so với hoocmôn ở động vật bậc cao",
+        "Với nồng độ rất thấp gây ra những biến đổi mạnh trong cơ thể",
+        "Được vận chuyển theo mạch gỗ và mạch rây",
+        "Được tạo ra một nơi nhưng gây ra phản ứng ở nơi khác"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Auxin có vai trò:",
+      "options": [
+        "Kích thích nảy mầm của hạt, của chồi, ra hoa.",
+        "Kích thích nảy mầm của hạt, của chồi, ra lá.",
+        "Kích thích nảy mầm của hạt, của chồi, ra rễ phụ.",
+        "Kích thích nảy mầm của hạt, của chồi, ra quả."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Người ta dùng nồng độ cao chất 2,4D làm chất diệt cỏ, chất này thuộc nhóm hoocmon",
+      "options": [
+        "Cytokinin",
+        "AAB",
+        "Etylen",
+        "Auxin"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Người ta sư dụng Auxin tự nhiên (AIA) và Auxin nhân tạo (ANA, AIB) để:",
+      "options": [
+        "Kích thích ra rễ ở cành giâm, cành chiết, hạn chế tỷ lệ thụ quả, tạo quả không hạt, nuôi cấy mô và tế bào thực vật, diệt cỏ.",
+        "Kích thích ra rễ ở cành giâm, cành chiết, tăng tỷ lệ thụ quả, tạo quả không hạt, nuôi cấy mô và tế bào thực vật, diệt cỏ.",
+        "Hạn chế ra rễ ở cành giâm, cành chiết, tăng tỷ lệ thụ quả, tạo quả không hạt, nuôi cấy mô và tế bào thực vật, diệt cỏ.",
+        "Kích thích ra rễ ở cành giâm, cành chiết, tăng tỷ lệ thụ quả, tạo quả có hạt, nuôi cấy mô và tế bào thực vật, diệt cỏ."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 1 (Đúng/Sai): Khi nói về 2 biện pháp thắp đèn vào ban đêm vườn hoa cúc vào mùa thu và bắn pháo hoa vào ban đêm ở các cánh đồng mía vào mùa đông. Các phát biểu sau đúng hay sai?",
+      "statements": [
+        "Cúc là cây ngày ngắn nên ra hoa vào mùa thu do mùa thu ban đêm dài hơn ban ngày. Nên thắp đèn ban đêm vào mùa thu để cúc không ra hoa, để không thiệt hại kinh tế cho người trồng hoa.",
+        "Mía là cây ngày dài nên ra hoa vào mùa đông.",
+        "Hai biện pháp này đều kìm hãm sự ra hoa.",
+        "Để ngăn cản mía ra hoa vào mùa đông phải căt đêm dài thành 2 đêm ngắn bằng cách bắn pháo hoa ban đêm."
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 19,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 2 (Đúng/Sai): Các phát biểu sau đúng hay sai khi nói về vai trò điều tiết quá trình sinh trưởng và phát triển hoocmon thực vật?",
+      "statements": [
+        "Sự phân hóa giới tính của hoa liên quan đến hàm lượng hoocmon trong cây.",
+        "Ở cây non nhiều rễ phụ thì đa phần sẽ phát triển thành cây đực.",
+        "Cây có rễ nhiều lá, có sự cân bằng hoocmon thì tỷ lệ hoa đực bằng hoa cái, giới tính đực cái cũng ở trạng thái cân bằng.",
+        "Cây có nhiều rễ ít lá, có sự cân bằng hoocmon thì tỷ lệ hoa đực bằng hoa cái, giới tính đực cái cũng ở trạng thái cân bằng."
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "Đ"]
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 3 (Đúng/Sai): Khi nói về hoocmon thực vật, các nhận định sau đúng hay sai?",
+      "statements": [
+        "Được vận chuyển theo mạch gỗ và mạch rây.",
+        "Nồng độ thấp nhưng gây ra tác động sinh lí lớn",
+        "Thường có tính sinh hóa thấp hơn so với động vật",
+        "Được tạo ra ở đâu thì gây ra tác động sinh lí ở đấy"
+      ],
+      "correctAnswers": ["Đ", "Đ", "Đ", "S"]
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 4 (Đúng/Sai): Sử dụng Auxin nhân tạo lên cây cà chua nhằm mục đích gì?",
+      "statements": [
+        "Tạo quả cà chua nhiều hạt",
+        "Tăng tỉ lệ đậu quả",
+        "Tăng năng suất",
+        "Tăng số cành cà chua"
+      ],
+      "correctAnswers": ["S", "Đ", "Đ", "S"]
+    }
+  ]
+}
