@@ -1,0 +1,254 @@
+{
+  "testName": "Bài 25 - Sinh sản ở thực vật",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN + ĐÚNG/SAI",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính ở thực vật là cây non được sinh ra mang đặc tính?",
+      "options": [
+        "Giống cây mẹ, có sự kết hợp giữa giao tử đực và giao tử cái",
+        "Giống cây mẹ, không có sự kết hợp giữa giao tử đực và giao tử cái",
+        "Giống bố mẹ, có sự kết hợp giữa giao tử đực và giao tử cái",
+        "Giống và khác cây mẹ, không có sự kết hợp giữa giao tử đực và giao tử cái"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Các hình thức sinh sản ở thực vật gồm có",
+      "options": [
+        "Sinh sản sinh dưỡng và sinh sản bào tử",
+        "Sinh sản bằng hạt và sinh sản bằng chồi",
+        "Sinh sản bằng rễ và bằng thân và bằng lá",
+        "Sinh sản vô tính và sinh sản hữu tính"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính của thực vật trong tự nhiên gồm",
+      "options": [
+        "Nguyên phân và giảm phân",
+        "Sinh sản bằng bào tử và sinh sản sinh dưỡng",
+        "Sinh sản bằng rễ và bằng thân và bằng lá",
+        "Sinh sản tự nhiên và sinh sản nhân tạo"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính dựa trên cơ sở của quá trình nào?",
+      "options": [
+        "Giảm phân và thụ tinh.",
+        "Giảm phân",
+        "Nguyên phân.",
+        "Thụ tinh."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản hữu tính ở thực vật là:",
+      "options": [
+        "Sự kết hợp có chọn lọc của hai giao tử đực và giao tử cái tạo nên hợp tử phát triển thành cơ thể mới.",
+        "Sự kết hợp ngẫu nhiên giữa hai giao tử đực và giao tử cái tạo nên hợp tử phát triển thành cơ thể mới.",
+        "Sự kết hợp có chọn lọc của giao tử cái và nhiều giao tử đực tạo nên hợp tử phát triển thành cơ thể mới.",
+        "Sự kết hợp của nhiều giao tử đực với một giao tử cái tạo nên hợp tử phát triển thành cơ thể mới."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Cấu tạo 1 hoa lưỡng tính gồm các bộ phận:",
+      "options": [
+        "Nhị, cánh hoa, đài hoa.",
+        "Bầu nhuỵ, đài hoa, cánh hoa, nhị và nhuỵ.",
+        "Cánh hoa và đài hoa.",
+        "Bầu nhuỵ và cánh hoa."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Sinh sản bằng bao tử là tạo ra thế hệ mới từ?",
+      "options": [
+        "Bào tử được phát sinh ở những thực vật có xen kẽ thế hệ bào tử thể và giao tử thể",
+        "Bào tử được phát sinh do nguyên phân ở những thực vật có xen kẽ thế hệ bào tử thể và giao tử thể",
+        "Bào tử được phát sinh do giảm phân ở pha giao tử thể của những thực vật có xen kẽ thế hệ bào tử thể và giao tử thể",
+        "Hợp tử được phát sinh ở những thực vật có xen kẽ thế hệ bào tử thể và giao tử thể"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Bào tử ở thực vật mang bộ nhiễm sắc thể (NST)?",
+      "options": [
+        "Lưỡng bội và hình thành cây đơn bội",
+        "Đơn bội và hình thành cây lưỡng bội",
+        "Đơn bội và hình thành cây đơn bội",
+        "Lưỡng bội và hình thành cây lưỡng bội"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đặc điểm nào sau đây không phải là lợi thế của giâm cành hoặc chiết cành",
+      "options": [
+        "Giữ nguyên tính trạng tốt mà con người mong muốn",
+        "Có tính chống chịu cao",
+        "Thời gian thu hoạch ngắn",
+        "Tiết kiệm công chăm bón"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Ghép cành có ưu điểm hơn so với giâm và chiết cành",
+      "options": [
+        "Tạo ra số lượng lớn cây con trong thời gian ngắn",
+        "Có thể tạo được những giống mang đặc tính của 2 cơ thể khác nhau",
+        "Tạo giống sạch bệnh",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Chiết cành là hình thức sinh sản có đặc điểm",
+      "options": [
+        "Chặt 1 cành của cơ thể, trồng xuống đất để tạo ra cây mới trong thời gian ngắn",
+        "Chặt ngọn cây để cây mẹ đẻ nhánh, mọc chồi bên",
+        "Kích thích cành cây ra rễ, rồi cắt rời cành đem trồng",
+        "Đem chồi cây này cho mọc trên thân cây kia"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Chọn một cành khỏe, tốt, gọt lớp vỏ, bọc đất mùn quanh lớp vỏ bọc, sau 1 thời gian ra rễ cắt rời đem trồng. Đây là hình thức sinh sản sinh dưỡng gì?",
+      "options": [
+        "Ghép",
+        "Nuôi cấy mô",
+        "Giâm",
+        "Chiết"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Dựa vào cơ sở khoa học nào để có thể nuôi một tế bào thành một cây hoàn chỉnh?",
+      "options": [
+        "Tính toàn năng của tế bào",
+        "Điều kiện vô trùng tuyệt đối",
+        "Đảm bảo đủ các nguyên tố dinh dưỡng",
+        "Tế bào hoàn toàn sạch bệnh"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đặc điểm nào không phải là ưu thế của sinh sản hữu tính so với sinh sản vô tính ở thực vật?",
+      "options": [
+        "Có khả năng thích nghi với những điều kiện môi trường biến đổi.",
+        "Tạo được nhiều biế dị làm nguyên liệu cho quá trình chọn giống và tiến hoá.",
+        "Duy trì ổn định những tính trạng tốt về mặt di truyền.",
+        "Là hình thức sinh sản phổ biến."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Sinh sản hữu tính ưu việt hơn sinh sản vô tính chủ yếu là?",
+      "options": [
+        "Tạo ra số lượng lớn cá thể trong một thế hệ.",
+        "Tạo ra đời con đa dạng và có sức sống cao.",
+        "Phôi được bảo vệ trong hạt và quả.",
+        "Phôi được nuôi dưỡng bởi nội nhũ."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 1 (Đúng/Sai): Mỗi nhận định sau đây là đúng hay sai?",
+      "statements": [
+        "Nội nhũ có vai trò nuôi dưỡng phôi cho đến khi mọc thành cây con.",
+        "Chỉ hạt của cây một lá mầm mới có nội nhũ.",
+        "Những loài mà hạt không có nội nhũ thì không có quá trình thụ tinh kép.",
+        "Thực vật hai lá mầm dự trữ chất dinh dưỡng ở chính lá mầm."
+      ],
+      "correctAnswers": ["Đ", "Đ", "S", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 2 (Đúng/Sai): Các đặc điểm sau là ưu thế của sinh sản hữu tính so với sinh sản vô tính ở thực vật là đúng hay sai?",
+      "statements": [
+        "Duy trì ổn định những tính trạng tốt về mặt di truyền.",
+        "Là hình thức sinh sản phổ biến.",
+        "Tạo được nhiều biến dị làm nguyên liệu cho quá trình chọn giống và tiến hoá.",
+        "Có khả năng thích nghi với những điều kiện môi trường biến đổi."
+      ],
+      "correctAnswers": ["S", "Đ", "Đ", "Đ"]
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 3 (Đúng/Sai): Mỗi nhận định sau là đúng hay sai khi nói về hạt.",
+      "statements": [
+        "Noãn đã thụ tinh phát triển thành hạt.",
+        "Vỏ noãn tạo thành vỏ hạt.",
+        "Nội nhũ cung cấp chất dinh dưỡng cho phôi phát triển.",
+        "Tất cả hạt của thực vật có hoa đều có nội nhũ."
+      ],
+      "correctAnswers": ["Đ", "Đ", "Đ", "S"]
+    },
+    {
+      "id": 19,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 4 (Đúng/Sai): Mỗi nhận định sau đúng hay sai khi nói về hoa của thực vật.",
+      "statements": [
+        "Hoa là cơ quan sinh sản hữu tính của thực vật có hoa.",
+        "Hoa đơn tính chỉ có bộ nhị hoặc bộ nhụy.",
+        "Bộ nhị của hoa lưỡng tính bao gồm: bao phấn và chỉ nhị.",
+        "Bộ nhụy của hoa lưỡng tính bao gồm: bao phấn và bầu nhụy."
+      ],
+      "correctAnswers": ["Đ", "Đ", "Đ", "S"]
+    }
+  ]
+}

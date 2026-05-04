@@ -1,0 +1,267 @@
+{
+  "testName": "Bài 24 - Khái quát về sinh sản ở sinh vật",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 20 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính ở động vật là từ một cá thể….?",
+      "options": [
+        "Sinh ra một hay nhiều cá thể giống hoặc khác mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Luôn sinh ra nhiều cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Sinh ra một hay nhiều cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Luôn sinh ra chỉ một cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Quả được hình thành từ bộ phận nào của hoa?",
+      "options": [
+        "Đài hoa.",
+        "Tràng hoa.",
+        "Nụ hoa.",
+        "Bầu nhụy."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Những kiểu sinh sản của hình thức sinh sản vô tính ở động vật là?",
+      "options": [
+        "Phân đôi, nảy mầm, phân mảnh, trinh sinh",
+        "Phân đôi, nảy chồi, phân mảnh, trinh sinh",
+        "Phân đôi, nảy chồi, phân mảnh, phân sinh",
+        "Phân đôi, nảy mầm, phân mảnh, phân sinh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hình thức sinh sản ở động vật hay thực vật sẽ phức tạp hơn?",
+      "options": [
+        "Động vật",
+        "Thực vật",
+        "Bằng nhau",
+        "Không kết luận được"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Chúng ta có thể nhân giống cây khoai tây bằng bộ phận nào của cây?",
+      "options": [
+        "Lá",
+        "Thân củ",
+        "Hạt giống",
+        "Rễ"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ở sinh vật có mấy kiểu sinh sản?",
+      "options": [
+        "Sinh con và sinh trứng",
+        "Sinh sản hoàn toàn và bán hoàn toàn",
+        "Sinh sản cơ học và hóa học",
+        "Sinh sản vô tính và hữu tính"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản là gì?",
+      "options": [
+        "Quá trình tạo ra những cá thể mới đảm bảo sự sinh trưởng của loài.",
+        "Quá trình tạo ra những cá thể mới bảo đảm sự phát triển kế tục của loài.",
+        "Quá trình tạo ra những cá thể mới đảm bảo sự phát triển liên tục của loài.",
+        "Quá trình tạo ra những cá thể mới đảm bảo sự tiến hóa của loài."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính là hình thức sinh sản",
+      "options": [
+        "Cần 2 cá thể",
+        "Không có sự hợp nhất giữa giao tử đực và giao tử cái",
+        "Có sự hợp nhất giữa giao tử đực và giao tử cái",
+        "Chỉ cần giao tử cái"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản hữu tính là?",
+      "options": [
+        "Hình thức sinh sản có sự kết hợp của cả giao tử đực và giao tử cái để tạo thành hợp tử",
+        "Hình thức sinh sản có sự kết hợp của 2 giao tử cái và giao tử cái để tạo thành hợp tử",
+        "Hình thức sinh sản có sự kết hợp của 2 giao tử đực và 2 giao đực cái để tạo thành hợp tử",
+        "Hình thức sinh sản có sự kết hợp của 2 giao tử đực và 1 giao tử cái để tạo thành hợp tử"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Dựa vào sự tham gia của yếu tố đực và yếu tố cái, sinh sản được phân thành",
+      "options": [
+        "2 loại.",
+        "3 loại.",
+        "4 loại.",
+        "5 loại."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Đâu là một mục đích của sinh sản?",
+      "options": [
+        "Đảm bảo sự phát triển liên tục của loài.",
+        "Duy trì sự phát triển của sinh vật.",
+        "Đáp ứng nhu cầu năng lượng của sinh vật.",
+        "Giữ cho cá thể sinh vật tồn tại."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Hoa lưỡng tính là?",
+      "options": [
+        "Hoa có đài, tràng và nhụy hoa.",
+        "Hoa có nhị và nhụy hoa.",
+        "Hoa có đài, tràng và nhị hoa.",
+        "Hoa có đài và tràng hoa."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính ở động vật là từ một cá thể",
+      "options": [
+        "Sinh ra một hay nhiều cá thể giống hoặc khác mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Luôn sinh ra nhiều cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Sinh ra một hay nhiều cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng.",
+        "Luôn sinh ra chỉ một cá thể giống mình, không có sự kết hợp giữa tinh trùng và trứng."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh sản vô tính ở thực vật có hình thức nào?",
+      "options": [
+        "Phân tách",
+        "Sinh sản sinh dưỡng",
+        "Nảy chồi",
+        "Phân mảnh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đặc điểm nào sau đây không thuộc sinh sản vô tính?",
+      "options": [
+        "Cơ thể con sinh ra hoàn toàn giống nhau và giống cơ thể mẹ ban đầu.",
+        "Tạo ra cá thể mới rất đa dạng về các đặc điểm thích nghi.",
+        "Tạo ra số lượng lớn con cháu trong một thời gian ngắn.",
+        "Tạo ra các cá thể thích nghi tốt với môi trường sống ổn định."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trong các hình thức sinh sản dưới đây, đâu không phải ví dụ về sinh sản vô tính?",
+      "options": [
+        "Sinh sản bằng bào tử của rêu.",
+        "Sinh sản bằng hạt ở cây lúa.",
+        "Sinh sản bằng củ ở gừng.",
+        "Sinh sản bằng thân rễ ở cây rau má."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Một trùng giày sinh sản bằng cách tự phân chia thành hai tế bào con. Quá trình này được gọi là",
+      "options": [
+        "Mọc chồi.",
+        "Tái sinh.",
+        "Phân đôi.",
+        "Nhân giống."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Trường hợp nào sau đây không phải là sinh sản vô tính ở thực vật?",
+      "options": [
+        "Cây cỏ gấu non phát triển từ rễ củ.",
+        "Cây dương xỉ non phát triển từ bào tử.",
+        "Cây sắn dây phát triển từ một đoạn thân.",
+        "Cây táo non phát triển từ hạt."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "VD",
+      "question": "Vì sao khi nhân giống cam, chanh, bưởi, hồng xiêm,... người ta thường chiết cành mà không sử dụng phương pháp giâm cành?",
+      "options": [
+        "Thời gian ra rễ của các cây trên rất chậm.",
+        "Những cây đó có giá trị kinh tế cao.",
+        "Cành của các cây đó quá to nên không giâm cành được.",
+        "Khả năng vận chuyển các chất dinh dưỡng của các cây này kém vì mạch gỗ nhỏ."
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "difficulty": "VD",
+      "question": "Trong thực tiễn, cây ăn quả lâu năm thường được nhân giống bằng phương pháp chiết cành vì",
+      "options": [
+        "Dễ trồng và tốn ít công chăm sóc.",
+        "Dễ nhân giống, nhanh và nhiều.",
+        "Để tránh sâu, bệnh gây hại.",
+        "Giúp rút ngắn thời gian sinh trưởng, sớm thu hoạch và biết trước đặc tính của quả."
+      ],
+      "correctAnswer": "D"
+    }
+  ]
+}

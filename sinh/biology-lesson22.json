@@ -1,0 +1,254 @@
+{
+  "testName": "Bài 22 - Sinh trưởng và phát triển ở động vật",
+  "subject": "Biology",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN - 19 câu",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sự phát triển của cơ thể động vật gồm các quá trình liên quan mật thiết với nhau là",
+      "options": [
+        "Sinh trưởng và phát sinh hình thái các cơ quan và cơ thể",
+        "Sinh trưởng và phân hóa tế bào",
+        "Sinh trưởng, phân hóa tế bào và phát sinh hình thái các cơ quan và cơ thể",
+        "Phân hóa tế bào và phát sinh hình thái các cơ quan và cơ thể"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Biến thái là sự thay đổi",
+      "options": [
+        "Đột ngột về hình thái, cấu tạo và từ từ về sinh lý của động vật sau khi sinh ra hoặc nở ra từ trứng",
+        "Từ từ về hình thái, cấu tạo và đột ngột về sinh lý của động vật sau khi sinh ra hoặc nở ra từ trứng",
+        "Đột ngột về hình thái, cấu tạo và sinh lý của động vật sau khi sinh ra hoặc nở ra từ trứng",
+        "Từ từ về hình thái, cấu tạo và về sinh lý của động vật sau khi sinh ra hoặc nở ra từ trứng"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Khi nói về sự sinh trưởng của động vật, phát biểu nào sau đây là đúng?",
+      "options": [
+        "Sự phân hóa về chức năng của các bộ phận, cơ quan trong cơ thể động vật",
+        "Quá trình phát triển cơ thể, từ giai đoạn trứng đến khi nở con ra",
+        "Sự lớn lên về kích thước, khối lượng của cơ thể nhờ sự phân bào và tích lũy chất dinh dưỡng",
+        "Giai đoạn cơ thể bắt đầu tạo tinh trùng và trứng để có thể tham gia vào sinh sản"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Tác dụng của hoocmon sinh trưởng GH là:",
+      "options": [
+        "Tăng cường tất cả các quá trình trao đổi chất trong cơ thể",
+        "Tăng cường khả năng hấp thụ các chất protein, lipit, gluxit",
+        "Tăng cường quá trình tổng hợp protein",
+        "Tăng cường quá trình chuyển hóa Ca vào xương"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Nhân tố nào là nhân tố bên trong tham gia điều hòa quá trình sinh trưởng và phát triển của động vật?",
+      "options": [
+        "Testosteron",
+        "Tiroxin",
+        "Thức ăn",
+        "Hoocmon"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Quá trình phát triển của động vật đẻ trứng gồm giai đoạn",
+      "options": [
+        "Phôi",
+        "Phôi và hậu phôi",
+        "Hậu phôi",
+        "Phôi thai và sau khi sinh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Testosterone được sinh sản ra ở",
+      "options": [
+        "Tuyến giáp",
+        "Tuyến yên",
+        "Tinh hoàn",
+        "Buồng trứng"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Khi nói về mối quan hệ giữa sinh trưởng và phát triển đời sống sinh vật, có bao nhiêu phát biểu nào sau đây là đúng? (1) Là hai quá trình độc lập nhau (2) Là hai quá trình liên quan mật thiết với nhau, bổ sung cho nhau (3) Sinh trưởng là điều kiện của phát triển (4) Phát triển làm thay đổi sinh trưởng (5) Sinh trưởng là một phần của phát triển (6) Sinh trưởng thường diễn ra trước, sau đó phát triển mới diễn ra",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Các biện pháp điều khiển sự sinh trưởng và phát triển ở động vật và người là:",
+      "options": [
+        "Cải tạo giống, chuyển đổi cơ cấu chăn nuôi, cải thiện chất lượng dân số",
+        "Cải tạo giống, cải thiện môi trường sống, cải thiện chất lượng dân số",
+        "Cải tạo giống, cải thiện môi trường sống, kế hoạch hóa gia đình",
+        "Chống ô nhiễm môi trường, thay đổi thức ăn, cải thiện chất lượng dân số"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng và phát triển của động vật qua biến thái không hoàn toàn là trường hợp ấu trùng phát triển",
+      "options": [
+        "Hoàn thiện, qua nhiều lần biến đổi ấu trùng biến thành con trưởng thành",
+        "Chưa hoàn thiện, qua nhiều lần biến đổi ấu trùng biến thành con trưởng thành",
+        "Chưa hoàn thiện, qua một lần lột xác ấu trùng biến thành con trưởng thành",
+        "Chưa hoàn thiện, qua nhiều lần lột xác ấu trùng biến thành con trưởng thành"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "difficulty": "VD",
+      "question": "Tắm nắng lúc sáng sớm hay chiều tối (ánh sáng yếu) có lợi cho sự sinh trưởng và phát triển của trẻ nhỏ vì tia tử ngoại làm cho tiền vitamin D biến thành vitamin D có vai trò gì?",
+      "options": [
+        "Chuyển hóa Na để hình thành xương",
+        "Chuyển hóa Ca để hình thành xương",
+        "Chuyển hóa K để hình thành xương",
+        "Oxi hóa để hình thành xương"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Khi trời rét, động vật biến nhiệt trưởng thành và phát triển chậm vì thân nhiệt giảm làm cho sự chuyển hóa trong cơ thể",
+      "options": [
+        "Giảm dẫn tới hạn chế tiêu thụ năng lượng",
+        "Mạnh hơn tạo nhiều năng lượng để chống rét",
+        "Giảm, sinh sản tăng",
+        "Tăng, sinh sản giảm"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Nếu tuyến yên sản sinh ra quá ít hoặc quá nhiều hoocmôn sinh trưởng ở giai đoạn trẻ em sẽ dẫn đến hậu quả",
+      "options": [
+        "Chậm lớn hoặc ngừng lớn, trí tuệ kém",
+        "Các đặc điểm sinh dục phụ nữ kém phát triển",
+        "Người bé nhỏ hoặc khổng lồ",
+        "Các đặc điểm sinh dục nam kém phát triển"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng và phát triển không qua biến thái chủ yếu xảy ra ở đối tượng nào sau đây?",
+      "options": [
+        "Hầu hết các động vật không xương sống",
+        "Hầu hết các động vật có xương sống",
+        "Tất cả các loài động vật không xương sống và động vật có xương sống",
+        "Chân khớp, ruột khoang và giáp xác"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Ở động vật đẻ trứng, sự sinh trưởng và phát triển của giai đoạn phôi theo trật tự",
+      "options": [
+        "Hợp tử → mô và các cơ quan → phôi",
+        "Phôi → hợp tử → mô và các cơ quan",
+        "Phôi → mô và các cơ quan → hợp tử",
+        "Hợp tử → phôi → mô và các cơ quan"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Sinh trưởng của cơ thể động vật là quá trình tăng kích thước của",
+      "options": [
+        "Các hệ cơ quan trong cơ thể",
+        "Cơ thể do tăng kích thước và số lượng tế bào",
+        "Các mô trong cơ thể",
+        "Các cơ quan trong cơ thể"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Đối với gia súc, ở mùa có khí hậu lạnh thì sự sinh trưởng và phát triển chậm hơn mùa có khí hậu thích hợp. Nguyên nhân chủ yếu là vì:",
+      "options": [
+        "Thân nhiệt giảm làm cho sự chuyển hóa, sinh sản giảm",
+        "Cơ thể mất nhiều năng lượng để duy trì thân nhiệt",
+        "Thân nhiệt giảm làm cho sự chuyển hóa trong cơ thể giảm làm hạn chế tiêu thụ năng lượng",
+        "Thân nhiệt giảm làm cho sự chuyển hóa trong cơ thể giảm, sinh sản tăng"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "difficulty": "H",
+      "question": "Khi nói về ảnh hưởng của nhiệt độ đến sinh trưởng và phát triển của động vật, phát biểu nào sau đây sai?",
+      "options": [
+        "Ảnh hưởng của nhiệt độ chủ yếu thông qua ảnh hưởng đến hoạt tính enzim",
+        "Đối với vật nuôi khi nhiệt độ xuống thấp sẽ làm cơ thể mất nhiều năng lượng để duy trì thân nhiệt làm vật nuôi chậm lớn",
+        "Ở côn trùng nhiệt độ môi trường tăng lên (trong giới hạn sống của chúng) thì tuổi thọ bị rút ngắn lại",
+        "Nhiệt độ ảnh hưởng đến tốc độ các quá trình sinh lí, sinh hóa trong cơ thể"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "difficulty": "B",
+      "question": "Những loài nào sau đây sinh trưởng và phát triển qua biến thái hoàn toàn?",
+      "options": [
+        "Cào cào, bướm, rắn mối",
+        "Ruồi, ếch, bướm",
+        "Bướm, châu chấu, cá heo",
+        "Ve sầu, tôm, cua"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}
