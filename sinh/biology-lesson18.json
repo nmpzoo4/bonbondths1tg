@@ -1,7 +1,7 @@
 {
   "testName": "Tập tính ở động vật - Bài 18",
   "subject": "Biology",
-  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Tập tính bẩm sinh, tập tính học được, tập tính hỗn hợp",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN + ĐÚNG/SAI: Tập tính bẩm sinh, tập tính học được, tập tính hỗn hợp",
   "questions": [
     {
       "id": 1,
@@ -282,6 +282,58 @@
         "di cư"
       ],
       "correctAnswer": "D"
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 1 (Đúng/Sai): Tu hú mái tìm một tổ chim chích đã đẻ trứng và tự thưởng cho nó một quả trứng của loài chim này. Sau khi no nê, bà mẹ ấy đẻ vào đó một quả trứng khác. Quả trứng này có kích thước gần bằng của trứng chim chích với hoa văn rất giống khiến cặp đôi chim chích nghĩ rằng đó là trứng của chúng. Ngoài ra, thức ăn của tu hú mẹ là các loài sâu có độc tố. Đối với tu hú trưởng thành, chúng có khả năng miễn nhiễm, nhưng tu hú non còn yếu ớt nên dễ gặp nguy hiểm thậm chí mất mạng khi ăn phải sâu này. Tìm hiểu về loài chim tu hú, các nhận định sau đây đúng hay sai?",
+      "statements": [
+        "Tập tính bẩm sinh của chim tu hú là đẻ trứng vào tổ chim chích và để chim chích ấp trứng thay mình.",
+        "Khi thấy những quả trứng chim chích, tập tính săn mồi trỗi dậy và chúng ăn luôn những quả trứng đó.",
+        "Tập tính vị tha đã khiến chim chích ấp trứng cho chim tu hú.",
+        "Đẻ và nhờ loài khác nuôi hộ con mình là việc làm cần thiết để tránh nguy hiểm cho con non."
+      ],
+      "correctAnswers": ["Đ", "Đ", "S", "Đ"]
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 2 (Đúng/Sai): Ở động vật không xương sống có rất ít tập tính học được, các nhận định sau đúng hay sai?",
+      "statements": [
+        "Động vật không xương sống có môi trường sống đơn giản.",
+        "Động vật không xương sống có hệ thần kinh phát triển.",
+        "Động vật không xương sống có tuổi thọ ngắn.",
+        "Động vật không xương sống không thể hình thành mối liên hệ giữa các neuron."
+      ],
+      "correctAnswers": ["Đ", "S", "Đ", "S"]
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 3 (Đúng/Sai): Các nhận định sau đúng hay sai khi nói về tập tính động vật?",
+      "statements": [
+        "Việc hình thành tập tính không liên quan đến hệ thần kinh.",
+        "Tập tính bẩm sinh là tập tính sinh ra đã có, không đặc trưng cho loài.",
+        "Tập tính là những hành động của động vật trả lời các kích thích từ môi trường bên trong.",
+        "Tập tính đảm bảo cho sự thành công của sinh sản."
+      ],
+      "correctAnswers": ["S", "S", "S", "Đ"]
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "difficulty": "B",
+      "question": "Câu 4 (Đúng/Sai): Các nhận định sau đúng hay sai khi nói về tập tính động vật?",
+      "statements": [
+        "Ở động vật chỉ tồn tại 6 loại hình thức học tập.",
+        "Bướm tằm tiết ra pheromone để thu hút con đực đến giao phối.",
+        "In vết giúp chim non in vào não hình ảnh bố mẹ và các hành vi cơ bản của loài.",
+        "Học xã hội có khả năng nhận biết và xử lí thông tin khi gặp trở ngại."
+      ],
+      "correctAnswers": ["S", "Đ", "Đ", "S"]
     }
   ]
 }

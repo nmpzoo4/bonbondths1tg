@@ -1,7 +1,7 @@
 {
   "testName": "Cảm ứng và ứng động ở thực vật - Bài 15",
   "subject": "Biology",
-  "description": "TRẮC NGHIỆM 4 LỰA CHỌN: Cảm ứng ở thực vật, hướng động, ứng động",
+  "description": "TRẮC NGHIỆM 4 LỰA CHỌN + ĐÚNG/SAI: Cảm ứng ở thực vật, hướng động, ứng động",
   "questions": [
     {
       "id": 1,
@@ -212,6 +212,32 @@
         "Mọc bình thường và lá có màu vàng úa."
       ],
       "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 1 (Đúng/Sai): Bằng những kiến thức về hình thức vận động cảm ứng, hãy cho biết mỗi nhận định sau đây là đúng hay sai?",
+      "statements": [
+        "Cảm ứng làm cho thực vật khó tận dụng tối đa nguồn sống như nước, ánh sáng, dinh dưỡng khoáng.",
+        "Cảm ứng giúp thực vật tự vệ khi gặp kích thích bất lợi.",
+        "Cảm ứng ở thực vật thường diễn ra nhanh và khó nhận biết bằng mắt thường trong thời gian ngắn.",
+        "Cảm ứng giúp thực vật thích ứng tốt hơn với những biến đổi thường xuyên của môi trường sống, tạo điều kiện cho cây sinh trưởng và phát triển bình thường."
+      ],
+      "correctAnswers": ["S", "Đ", "S", "Đ"]
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "difficulty": "H",
+      "question": "Câu 2 (Đúng/Sai): Khi sống trong tối được chiếu sáng từ một phía, ngọn cây hướng về phía ánh sáng, hãy cho biết mỗi nhận định sau đây là đúng hay sai?",
+      "statements": [
+        "Auxin phân bố không đều ở 2 phía ít hay nhiều ánh sáng.",
+        "Auxin phân bố nhiều về phía ít ánh sáng.",
+        "Lượng auxin nhiều kích thích sự sinh trưởng của tế bào.",
+        "Lượng auxin nhiều ức chế sự sinh trưởng của tế bào."
+      ],
+      "correctAnswers": ["Đ", "Đ", "Đ", "S"]
     }
   ]
 }
