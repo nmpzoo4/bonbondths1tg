@@ -1,0 +1,112 @@
+{
+  "testName": "Test 4",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: Preserving Our Intangible Heritage",
+      "text": "Leaflet: Preserving Our Intangible Heritage\n\nVietnam's intangible heritage, such as folk music and traditional festivals, is a treasure that defines our identity. (1) ______ these traditions, we connect with our ancestors' wisdom. However, many ancient art forms are (2) ______ risk of disappearing. It is through community festivals (3) ______ young people can learn to appreciate these values.",
+      "questions": [
+        {"number": 1, "difficulty": "B", "options": ["A. To preserve", "B. Preserved", "C. Having preserved", "D. Preserve"], "correctAnswer": "C"},
+        {"number": 2, "difficulty": "B", "options": ["A. of", "B. at", "C. in", "D. with"], "correctAnswer": "B"},
+        {"number": 3, "difficulty": "B", "options": ["A. who", "B. which", "C. that", "D. whom"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: Skills for the Future",
+      "text": "Advertisement: Skills for the Future\n\nAre you ready to become (4) ______? Our \"Future Leader\" course teaches you how to manage your life effectively.\n\nPractical Learning: We focus on (5) ______ such as budgeting and time management.\n\nExpert Guidance: It is important (6) ______ advice from mentors to avoid (7) ______ in your studies.\n\nJoin us: (8) ______ the first step today for a successful career!",
+      "questions": [
+        {"number": 4, "difficulty": "B", "options": ["A. independence", "B. independently", "C. dependent", "D. independent"], "correctAnswer": "D"},
+        {"number": 5, "difficulty": "H", "options": ["A. important daily skills", "B. daily skills important", "C. skills daily important", "D. important skills daily"], "correctAnswer": "A"},
+        {"number": 6, "difficulty": "B", "options": ["A. to seek", "B. seek", "C. seeking", "D. sought"], "correctAnswer": "A"},
+        {"number": 7, "difficulty": "H", "options": ["A. efficiency", "B. motivation", "C. postponement", "D. planning"], "correctAnswer": "C"},
+        {"number": 8, "difficulty": "B", "options": ["A. Do", "B. Take", "C. Make", "D. Give"], "correctAnswer": "B"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Mark the letter A, B, C, or D to indicate the best arrangement to make a meaningful text.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Nam: Hi, Mark! You seem so independent now!",
+            "b": "Mark: Thanks! Yes, I've been trying to take control of my life more. How about you?",
+            "c": "Nam: I've been working on it too. I moved out and started managing my finances."
+          },
+          "options": ["A. a-b-c", "B. b-a-c", "C. c-b-a", "D. b-c-a"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 10,
+          "difficulty": "H",
+          "letters": {
+            "a": "I wanted to tell you that I've recently accepted a new job in New York, and I'll be moving there next month. It's a big change, but I'm really excited about this new chapter in my life.",
+            "b": "Dear Emily,",
+            "c": "I'm planning to visit my family before the big move, and I'd love to see you if you're free during that time.",
+            "d": "Hope this message finds you well! I wanted to catch you up on some recent news.",
+            "e": "Take care, and I hope to see you soon!"
+          },
+          "options": ["A. b-d-a-c-e", "B. d-a-b-c-e", "C. b-a-d-c-e", "D. a-b-d-e-c"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 11,
+          "difficulty": "H",
+          "letters": {
+            "a": "Mark: \"Yeah, I really needed to relax after such a stressful week at work.\"",
+            "b": "Alice: \"Did you do anything fun this weekend, Mark?\"",
+            "c": "Alice: \"I'm glad to hear that! What did you do?\"",
+            "d": "Mark: \"I went hiking in the mountains. The fresh air was amazing.\"",
+            "e": "Alice: \"That sounds like a perfect way to unwind!\""
+          },
+          "options": ["A. c-b-a-e-d", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. b-a-c-d-e"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 12,
+          "difficulty": "B",
+          "letters": {
+            "a": "Online education has grown in popularity due to its flexibility, allowing students to balance their studies with personal and professional responsibilities.",
+            "b": "This means that students can attend classes from anywhere in the world, without being tied to a specific location.",
+            "c": "In addition to convenience, online courses often provide a wide range of resources, such as recorded lectures, discussion forums, and interactive assignments.",
+            "d": "In conclusion, online education offers students the flexibility and resources they need to succeed, especially in today's fast-paced world.",
+            "e": "Furthermore, online platforms are accessible at any time, allowing learners to study at their own pace, which is particularly beneficial for those with busy schedules."
+          },
+          "options": ["A. a-b-e-c-d", "B. b-c-e-d-a", "C. d-a-c-e-b", "D. a-e-b-c-d"],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Cloze Test",
+      "text": "Living independently is an essential skill. It means being able to take care of oneself (13) ______ relying too much on others. Many young people develop this by setting clear goals. It is independence that (14) ______ individuals to adapt to real-life challenges. By learning from mistakes and taking (15) ______ for their actions, they become more mature. Through education, students can contribute (16) ______ solving social problems.",
+      "questions": [
+        {"number": 13, "difficulty": "B", "options": ["A. by", "B. for", "C. without", "D. with"], "correctAnswer": "C"},
+        {"number": 14, "difficulty": "B", "options": ["A. enable", "B. enabled", "C. enables", "D. are enabling"], "correctAnswer": "C"},
+        {"number": 15, "difficulty": "H", "options": ["A. responsibility", "B. freedom", "C. ability", "D. chance"], "correctAnswer": "A"},
+        {"number": 16, "difficulty": "B", "options": ["A. for", "B. with", "C. to", "D. in"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Peer Pressure",
+      "text": "Peer pressure refers to the influence that individuals of the same age group have on each other, often pushing someone to change their behavior or decisions. In many cases, peer pressure can be negative. Teenagers may feel pressured to try smoking or bullying others just to gain approval. This can lead to poor choices and long-term consequences for mental health.\n\nHowever, not all peer pressure is harmful. Positive influence can encourage students to join clubs or improve their grades. To deal with it effectively, young people need to build self-confidence and stay true to their values. It's important to choose friends who respect your decisions. Learning how to say \"no\" firmly is a valuable life skill.",
+      "questions": [
+        {"number": 17, "difficulty": "VD", "questionText": "What is the main idea?", "options": ["A. Peer pressure only affects teenagers negatively.", "B. Social media causes peer pressure.", "C. Peer pressure has both negative and positive effects, and handling it is important.", "D. Teenagers should avoid making friends."], "correctAnswer": "C"},
+        {"number": 18, "difficulty": "B", "questionText": "What is NOT mentioned as a result of negative peer pressure?", "options": ["A. Low self-esteem", "B. Poor decision-making", "C. Improved communication skills", "D. Stress"], "correctAnswer": "C"},
+        {"number": 19, "difficulty": "H", "questionText": "The word \"consequences\" in paragraph 1 is closest in meaning to:", "options": ["A. Problems", "B. Decisions", "C. Secrets", "D. Plans"], "correctAnswer": "A"},
+        {"number": 20, "difficulty": "B", "questionText": "The word \"harmful\" is OPPOSITE in meaning to:", "options": ["A. dangerous", "B. beneficial", "C. stressful", "D. risky"], "correctAnswer": "B"},
+        {"number": 21, "difficulty": "H", "questionText": "Which of the following is TRUE according to the passage?", "options": ["A. Peer pressure is always harmful.", "B. Social media reduces peer pressure.", "C. Building confidence helps resist negative peer pressure.", "D. Saying \"no\" is a sign of weakness."], "correctAnswer": "C"},
+        {"number": 22, "difficulty": "H", "questionText": "What does the author suggest to deal with peer pressure?", "options": ["A. Change your values.", "B. Choose friends who respect your decisions.", "C. Always agree with friends.", "D. Stop going to school."], "correctAnswer": "B"},
+        {"number": 23, "difficulty": "H", "questionText": "According to the passage, positive peer pressure can:", "options": ["A. encourage students to improve their grades", "B. lead to smoking.", "C. cause stress.", "D. decrease self-confidence."], "correctAnswer": "A"},
+        {"number": 24, "difficulty": "VD", "questionText": "What can be inferred about independent students?", "options": ["A. They never ask for help.", "B. They handle all problems alone.", "C. They know how to use available resources and seek help when needed.", "D. They develop skills naturally without practice."], "correctAnswer": "C"}
+      ]
+    }
+  ]
+}

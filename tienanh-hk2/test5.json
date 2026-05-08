@@ -1,0 +1,112 @@
+{
+  "testName": "Test 5",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: International UN Volunteer",
+      "text": "ARE YOU READY TO BECOME AN INTERNATIONAL UN VOLUNTEER?\n\nThe minimum age to serve as an international UN Volunteer is 18 years old. You can (1) _______ your time, skills, and knowledge through volunteering with the UN. This is an opportunity to create a positive impact and be a (2) ________ force for achieving peace and development. (3) _______ a difference to the lives of many! The registration process follows (4) _______ simple steps, all of which must be completed before you can apply for onsite or online volunteering assignments. In order to apply for assignments, candidates need to register in our Global Talent Pool.",
+      "questions": [
+        {"number": 1, "difficulty": "B", "options": ["A. contribute", "B. provide", "C. complete", "D. practice"], "correctAnswer": "A"},
+        {"number": 2, "difficulty": "B", "options": ["A. significant", "B. signify", "C. signification", "D. signicantly"], "correctAnswer": "A"},
+        {"number": 3, "difficulty": "B", "options": ["A. Give", "B. Do", "C. Take", "D. Make"], "correctAnswer": "D"},
+        {"number": 4, "difficulty": "B", "options": ["A. a few", "B. a little", "C. much", "D. another"], "correctAnswer": "A"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: Weaving Society's Safety Net",
+      "text": "Weaving Society's Safety Net\n\nSafety is not just a concept but a fundamental responsibility that shapes our daily lives. The (5) _________ work tirelessly to protect us. (6) _________, the professionals working around the clock deserve our deepest gratitude. It is the foundation (7) _________ assists families in crisis. When it comes to protecting lives, we pull out all the stops. Our mission involved (8) _________ lives and established safer neighborhoods.",
+      "questions": [
+        {"number": 5, "difficulty": "H", "options": ["A. responders dedicated emergency", "B. emergency dedicated responders", "C. responders emergency dedicated", "D. dedicated emergency responders"], "correctAnswer": "D"},
+        {"number": 6, "difficulty": "B", "options": ["A. However", "B. Moreover", "C. Although", "D. Because"], "correctAnswer": "B"},
+        {"number": 7, "difficulty": "B", "options": ["A. that", "B. which", "C. who", "D. whom"], "correctAnswer": "A"},
+        {"number": 8, "difficulty": "B", "options": ["A. to protect", "B. to protecting", "C. protected", "D. having protected"], "correctAnswer": "D"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Mark the letter A, B, C, or D to indicate the best arrangement to make a meaningful text.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Alice: Thanks for your help!",
+            "b": "John: You should search for information about the topic on the Internet.",
+            "c": "Alice: I was asked to give a presentation on green living next week. What should I do?"
+          },
+          "options": ["A. c-a-b", "B. c-b-a", "C. b-a-c", "D. a-c-b"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 10,
+          "difficulty": "H",
+          "letters": {
+            "a": "Emma: It's where students teach each other different skills, but here's the interesting part - we're breaking traditional gender stereotypes.",
+            "b": "Tom: How does that work?",
+            "c": "Tom: Skills Exchange Club? What's that about?",
+            "d": "Tom: Hey Emma, why do you look so excited today?",
+            "e": "Emma: I just started a really cool project in our school! We're creating a 'Skills Exchange Club'."
+          },
+          "options": ["A. c-a-d-e-b", "B. d-e-c-b-a", "C. a-b-c-d-e", "D. d-e-c-a-b"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 11,
+          "difficulty": "H",
+          "letters": {
+            "A": "In short, it is undeniable that blended learning has crucial advantages including students' control over their learning and soft skills development.",
+            "B": "Finally, it can help to reduce costs and increase access to education, particularly for students who live in remote areas.",
+            "C": "Blended learning, the combination of traditional face-to-face instruction with online learning methods, offers numerous benefits in modern education.",
+            "D": "Firstly, it provides flexibility and convenience, allowing students to access learning materials anytime, anywhere.",
+            "E": "Additionally, blended learning encourages active student participation and engagement through interactive online platforms, promoting critical thinking and collaboration skills."
+          },
+          "options": ["A. c-d-e-b-a", "B. c-d-a-b-e", "C. c-b-d-e-a", "D. c-b-a-d-e"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 12,
+          "difficulty": "B",
+          "letters": {
+            "b": "Secondly, could you give me some more information about the accommodation? Do volunteers stay with local families?",
+            "c": "I look forward to your reply and I am excited to learn more about the programme.\n\nThank you in advance for the information.",
+            "d": "Lastly, can you let me know if the programme provides any meals? I'd also like to know what other expenses there may be. I want to work out the total costs.",
+            "e": "Dear Ms.Riggs, I am writing regarding the preservation volunteer programme at Banteay Chhmar Temple Complex in Cambodia. I am interested in becoming a volunteer and would like to have some information about the programme.",
+            "f": "First of all, do you know what kind of training volunteers get? It will be my first time at a heritage site and I am unsure about what I should do."
+          },
+          "options": ["A. f-c-d-b-e", "B. d-e-f-c-b", "C. e-f-b-d-c", "D. b-d-e-c-f"],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Eco-tourism",
+      "text": "Social media issues\n\n(13) _____ tourism that plays an important part in the global economy and eco-tourism has grown more rapidly than any other sector in the industry recently. Eco-tourism aims to be the most sustainable, environmentally friendly kind of tourism possible. The term 'eco-tourism' has been used in 1983 to refer to vacations that are spent in natural environments without disturbing or damaging (14) ______ habitats. Profits from this type of tourism generally help support the local economy and environmentally friendly projects. Quite often, eco-tourism is done in remote parts of our planet which not many tourists have ever seen before. Therefore, it is also a great way to experience new cultures and original lifestyles. Unfortunately, although eco-tourism tries its best to keep the adverse impact (15) _______ our environment to a minimum, chances are that the local wildlife will still be disturbed to a certain extent. Let's look at Kenya, where trips on safari are usually in the morning. This is also the time when lions go hunting. However, the eco-tourists (16) ______ many other animals away, meaning that lions in the area have to hunt in the hot, tiring hours of the day. Clearly, it's better to shoot pictures of animals than to shoot guns at them, but whether you are eco-tourists or not, the animals would probably just prefer to be left alone.",
+      "questions": [
+        {"number": 13, "difficulty": "B", "options": ["A. It is", "B. It was", "C. It were", "D. It are"], "correctAnswer": "A"},
+        {"number": 14, "difficulty": "B", "options": ["A. natural", "B. naturally", "C. naturaless", "D. nature"], "correctAnswer": "A"},
+        {"number": 15, "difficulty": "B", "options": ["A. with", "B. on", "C. in", "D. for"], "correctAnswer": "B"},
+        {"number": 16, "difficulty": "B", "options": ["A. frighten", "B. throw", "C. annoy", "D. shock"], "correctAnswer": "A"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Physical Bullying",
+      "text": "Bullying leads to a decrease in academic performance. A study by CDC researchers showed that 12.9% of teenagers who missed school due to safety concerns feared bullying.\n\nVictims of bullying may also avoid participating in class for fear of drawing attention to themselves and getting bullied. They may then become labelled as low achievers, putting them at an even higher risk of being targeted by bullies.\n\nLike all forms of bullying, physical bullying can cause emotional change. It makes the victims feel unconfident and think less of themselves. This leads to feelings of shame, isolation, and despair. Moreover, the child may lose interest in playing or activities they previously enjoyed and engage in harmful behaviour, such as self-harm. These actions lead to more negative feelings and thoughts, creating a self-destructive cycle. In victims with existing depression and anxiety, bullying can make these conditions worse. Besides the physical injuries victims may get from the attacks, they may also develop health issues, such as somatization. Somatization includes physical symptoms caused by psychological or emotional factors. For instance, the child may complain about headaches, body pain, or tiredness.",
+      "questions": [
+        {"number": 17, "difficulty": "B", "questionText": "Why do victims of bullying avoid participating in class?", "options": ["A. They dislike studying", "B. They are not interested in school", "C. They fear drawing attention and being bullied", "D. They want to skip lessons"], "correctAnswer": "C"},
+        {"number": 18, "difficulty": "B", "questionText": "What is the main idea of this passage?", "options": ["A. The appearance of physical bullying among teenagers", "B. The emotional and health effects of physical bullying on victims", "C. The positive effects of bullying on academic performance", "D. The strategies to prevent bullying in schools"], "correctAnswer": "B"},
+        {"number": 19, "difficulty": "B", "questionText": "The word \"they\" in paragraph 2 refers to ________.", "options": ["A. researchers", "B. achievers", "C. victims", "D. teenagers"], "correctAnswer": "C"},
+        {"number": 20, "difficulty": "H", "questionText": "The word \"despair\" in paragraph 3 is closest in meaning to ________.", "options": ["A. aim", "B. anger", "C. policy", "D. depression"], "correctAnswer": "D"},
+        {"number": 21, "difficulty": "H", "questionText": "What is somatization as mentioned in the passage?", "options": ["A. the fear of bullying", "B. physical injuries resulted from bullying", "C. physical symptoms caused by psychological or emotional factors", "D. a type of bullying behaviour"], "correctAnswer": "C"},
+        {"number": 22, "difficulty": "H", "questionText": "Which of the following is NOT true according to the passage?", "options": ["A. Victims with existing depression can experience more serious conditions", "B. Victims avoid participating in class as they do not want to be noticed", "C. Victims of bullying may lead to health issues like somatization", "D. Victims of bullying may become labelled as high achievers"], "correctAnswer": "D"},
+        {"number": 23, "difficulty": "H", "questionText": "The word \"negative\" in paragraph 3 is OPPOSITE in meaning to ________.", "options": ["A. disappointting", "B. depressing", "C. positive", "D. unhelpful"], "correctAnswer": "C"},
+        {"number": 24, "difficulty": "VD", "questionText": "What can be inferred from the passage?", "options": ["A. Bullying only affects students who already have poor academic results", "B. Schools are fully aware of all bullying cases among students", "C. Bullying can create a cycle that worsens both mental health and academic performance", "D. Physical bullying has no long-term effects on victims"], "correctAnswer": "C"}
+      ]
+    }
+  ]
+}

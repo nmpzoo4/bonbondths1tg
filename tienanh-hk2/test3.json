@@ -1,0 +1,111 @@
+{
+  "testName": "Test 3",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: Choosing the Right Option for a Successful Future",
+      "text": "Choosing the Right Option for a Successful Future\n\nAre you ready to unlock your full potential after graduation?\n\nChoosing the right educational path is the first step toward a successful future. With various school education options available, students can select the journey that best suits their goals. From traditional university education to vocational training and apprenticeships, each path offers unique opportunities for success.\n\nWhy choose vocational training? It equips students with (1) ________ that are highly valued in the job market, ensuring a smoother transition into a rewarding career.\n\nNot sure which path to take? You're not alone. Making such an important decision can be challenging. That's why it's crucial to explore all educational opportunities before committing. (2) ________ a goal to pursue a fulfilling career, students should weigh all options carefully, considering personal passions and future prospects.\n\n(3) ________ students may be influenced by family expectations, choosing university degrees for their perceived career advantages. (4) ________, the key lies in making an informed choice with the right guidance and support.\n\nYour future is in your hands. Choose wisely. Choose success.",
+      "questions": [
+        {"number": 1, "difficulty": "H", "options": ["A. practical skills", "B. thinking skills", "C. research skills", "D. communication skills"], "correctAnswer": "A"},
+        {"number": 2, "difficulty": "B", "options": ["A. To set", "B. Set", "C. Have set", "D. Having set"], "correctAnswer": "D"},
+        {"number": 3, "difficulty": "B", "options": ["A. Any", "B. Some", "C. little", "D. Much"], "correctAnswer": "B"},
+        {"number": 4, "difficulty": "H", "options": ["A. In addition", "B. Because", "C. Therefore", "D. However"], "correctAnswer": "D"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: Life Skills for Teens",
+      "text": "Life Skills for Teens - Become Independent!\n\nAre you looking for a way to help your teens become more confident and responsible? Our Life Skills for Teens course is the perfect choice. It is practical experience (5) ______ makes this program so valuable. The course teaches (6) ______ such as cooking, budgeting, and how to use a washing machine. Teens will also learn how to manage their time, (7) ______ problems, and work in teams. Although school teaches academic knowledge, it often doesn't prepare teens for real-life situations. That's why this course focuses on hands-on learning and real-world practice.\n\nWe use fun and interactive lessons to keep students engaged. They will leave the course with more confidence and a better understanding of how to take care of themselves, helping them become more (8) ______.",
+      "questions": [
+        {"number": 5, "difficulty": "B", "options": ["A. which", "B. who", "C. that", "D. where"], "correctAnswer": "C"},
+        {"number": 6, "difficulty": "H", "options": ["A. daily important skills", "B. important skills daily", "C. important daily skills", "D. skills important daily"], "correctAnswer": "C"},
+        {"number": 7, "difficulty": "B", "options": ["A. do", "B. make", "C. solve", "D. take"], "correctAnswer": "C"},
+        {"number": 8, "difficulty": "B", "options": ["A. independence", "B. independently", "C. dependent", "D. independent"], "correctAnswer": "D"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Choose the best arrangement of utterances or sentences.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Nam: I've been working on becoming more independent, too. I moved out of my parents' house and started managing my own finances.",
+            "b": "Nam: Hi, Mark! It's been a while since we last met. You seem so independent now!",
+            "c": "Mark: Hi, Nam! Thanks! Yes, I've been trying to take control of my life more. How about you?"
+          },
+          "options": ["A. b-a-c", "B. b-c-a", "C. c-b-a", "D. a-b-c"], "correctAnswer": "B"
+        },
+        {
+          "number": 10,
+          "difficulty": "B",
+          "letters": {
+            "a": "Mai: I will participate in traditional cultural activities.",
+            "b": "Lan: Why traditional cultural activities?",
+            "c": "Mai: Because they help preserve the long-standing cultural values of our nation, like music, dance, and festivals.",
+            "d": "Lan: What are you going to do to protect Vietnamese culture?",
+            "e": "Lan: Yes, I think so too. If we don't protect them now, many beautiful cultural features will be lost."
+          },
+          "options": ["A. c-d-e-a-b", "B. c-e-d-b-a", "C. d-b-a-e-c", "D. d-a-b-c-e"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 11,
+          "difficulty": "H",
+          "letters": {
+            "a": "I just came back from a cultural heritage festival, and it was amazing to see so many traditional arts and crafts.",
+            "b": "How's everything with you? I've got some exciting news to share about my weekend!",
+            "c": "The performances were incredible, and I learned a lot about our history and traditions.",
+            "d": "I was so inspired by the experience, and I even got to meet some local artists.",
+            "e": "I look forward to sharing all the details with you when we meet up next!"
+          },
+          "options": ["A. e-a-d-c-b", "B. b-a-c-d-e", "C. d-b-a-c-e", "D. e-b-c-a-d"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 12,
+          "difficulty": "H",
+          "letters": {
+            "a": "First, they attend live video lectures, where teachers present material and encourage interaction through questions.",
+            "b": "Furthermore, online platforms provide resources like discussion forums and multimedia content, which help to deepen their learning experience.",
+            "c": "After the lectures, students often complete assignments and quizzes to reinforce their understanding.",
+            "d": "Overall, these activities make online education both flexible and effective.",
+            "e": "In online learning, students participate in a variety of activities that foster engagement and knowledge acquisition."
+          },
+          "options": ["A. a-b-c-e-d", "B. a-e-c-b-d", "C. e-a-d-c-b", "D. e-a-c-b-d"],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Living Independently",
+      "text": "Living independently is an essential skill that helps people grow into responsible and (13) ______ individuals. It means being able to manage daily tasks, make decisions, and take care of oneself (14) ______ relying too much on others. Many young people learn independence by managing their time effectively and setting clear goals for their studies and personal lives. It is independence that (15) ______ individuals to develop problem-solving skills and adapt to real-life challenges. By learning from mistakes and taking (16) ______ for their actions, people can become more mature and better prepared for future challenges.",
+      "questions": [
+        {"number": 13, "difficulty": "B", "options": ["A. confidence", "B. confident", "C. confidently", "D. confidant"], "correctAnswer": "B"},
+        {"number": 14, "difficulty": "B", "options": ["A. by", "B. for", "C. without", "D. with"], "correctAnswer": "C"},
+        {"number": 15, "difficulty": "B", "options": ["A. enable", "B. enabled", "C. enables", "D. are enabling"], "correctAnswer": "C"},
+        {"number": 16, "difficulty": "H", "options": ["A. responsibility", "B. freedom", "C. ability", "D. chance"], "correctAnswer": "A"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Peer Pressure",
+      "text": "Peer pressure is one of the most common challenges that young people face, especially during adolescence. It refers to the influence that individuals of the same age group have on each other, often pushing someone to change their behavior, values, or decisions in order to be accepted or liked by others.\n\nIn many cases, peer pressure can be negative. Teenagers may feel pressured to try smoking, drinking, cheating on tests, or even bullying others, just to gain approval from their friends. This kind of pressure can lead to poor choices, low self-esteem, stress, and long-term consequences for mental health and academic performance. Social media has made this issue even more serious, as teens constantly compare themselves to others and feel the need to \"fit in\" or look perfect online.\n\nHowever, not all peer pressure is harmful. Positive peer influence can encourage students to join clubs, improve their grades, or develop good habits like exercising or helping others.\n\nTo deal with peer pressure effectively, young people need to build self-confidence and stay true to their values. It's important to choose friends who respect your decisions and make you feel comfortable being yourself. Learning how to say \"no\" firmly, yet respectfully, is a valuable life skill.",
+      "questions": [
+        {"number": 17, "difficulty": "VD", "questionText": "What is the main idea of the passage?", "options": ["A. Peer pressure only affects teenagers in negative ways.", "B. Social media is the main cause of peer pressure among teens.", "C. Peer pressure can have both negative and positive effects on young people, and learning to handle it is important.", "D. Teenagers should avoid making friends during adolescence."], "correctAnswer": "C"},
+        {"number": 18, "difficulty": "B", "questionText": "Which of the following is NOT mentioned as a possible result of negative peer pressure?", "options": ["A. poor decision-making", "B. low self-esteem", "C. improved communication skills", "D. stress and mental health problems"], "correctAnswer": "C"},
+        {"number": 19, "difficulty": "H", "questionText": "The word \"It\" in the first paragraph refers to:", "options": ["A. The need for social approval", "B. Peer pressure", "C. A bad habit", "D. A group of teenagers"], "correctAnswer": "B"},
+        {"number": 20, "difficulty": "H", "questionText": "The word \"consequences\" in paragraph 2 could best be replaced by:", "options": ["A. Problems", "B. Decisions", "C. Secrets", "D. Plans"], "correctAnswer": "A"},
+        {"number": 21, "difficulty": "B", "questionText": "Which of the following is OPPOSITE in meaning to the word \"harmful\" as used in the third paragraph?", "options": ["A. dangerous", "B. beneficial", "C. stressful", "D. risky"], "correctAnswer": "B"},
+        {"number": 22, "difficulty": "H", "questionText": "According to the passage, which of the following is mentioned as a negative effect of peer pressure?", "options": ["A. Improved academic performance", "B. Increased self-confidence", "C. Better social skills", "D. Stress and low self-esteem"], "correctAnswer": "D"},
+        {"number": 23, "difficulty": "H", "questionText": "Which of the following is TRUE according to the passage?", "options": ["A. Peer pressure is always harmful and should be avoided at all costs.", "B. Social media has helped reduce the effects of peer pressure.", "C. Building confidence and strong values can help resist negative peer pressure.", "D. Saying \"no\" to peer pressure is a sign of weakness and insecurity."], "correctAnswer": "C"},
+        {"number": 24, "difficulty": "VD", "questionText": "What can be inferred from the passage about social media and peer pressure?", "options": ["A. Social media increases peer pressure by encouraging constant comparison among teens.", "B. Social media always helps teenagers build strong friendships.", "C. Teenagers only experience peer pressure online.", "D. Social media has no influence on teenagers' self-esteem."], "correctAnswer": "A"}
+      ]
+    }
+  ]
+}

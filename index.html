@@ -1025,7 +1025,7 @@
                     <span class="subject-icon">📚</span>
                     <h2>Tiếng Anh</h2>
                     <p>English Tests</p>
-                    <div class="test-count">6 Tests - Bao gồm Test Tổng Hợp</div>
+                    <div class="test-count">11 Tests - Bao gồm Test Tổng Hợp + HK2</div>
                 </div>
                 <div class="subject-card" onclick="selectSubject('hoa')">
                     <span class="subject-icon">🧪</span>
@@ -1226,7 +1226,11 @@
             testList.appendChild(hk2Header);
 
             const hk2Tests = [
-                { file: 'test1', name: '📖 Test 1 - HK2', desc: 'Bão Tổng Hợp - 30 câu' }
+                { file: 'test1', name: '📖 Test 1 - HK2', desc: 'Bão Tổng Hợp - 30 câu' },
+                { file: 'test2', name: '📖 Test 2 - HK2', desc: 'Đề tổng hợp - 24 câu' },
+                { file: 'test3', name: '📖 Test 3 - HK2', desc: 'Đề tổng hợp - 24 câu' },
+                { file: 'test4', name: '📖 Test 4 - HK2', desc: 'Đề tổng hợp - 24 câu' },
+                { file: 'test5', name: '📖 Test 5 - HK2', desc: 'Đề tổng hợp - 24 câu' }
             ];
 
             hk2Tests.forEach(test => {
@@ -1474,7 +1478,32 @@
         function startEnglishQuizHK2(testData) {
             // Reset state
             hk2State.testData = testData;
-            hk2State.shuffledPassages = shuffle([...testData.passages]);
+            hk2State.shuffledPassages = shuffle([...testData.passages]).map(passage => {
+                const normalizedPassage = { ...passage };
+
+                if (Array.isArray(passage.questions)) {
+                    normalizedPassage.questions = passage.questions.map(q => {
+                        if (!q.options) {
+                            return { ...q };
+                        }
+
+                        const correctAnswerIndex = typeof q.correctAnswer === 'string'
+                            ? q.correctAnswer.charCodeAt(0) - 65
+                            : q.correctAnswer;
+
+                        return {
+                            ...q,
+                            correctAnswerIndex,
+                            shuffledOptions: shuffle(q.options.map((opt, idx) => ({
+                                text: opt,
+                                originalIndex: idx
+                            })))
+                        };
+                    });
+                }
+
+                return normalizedPassage;
+            });
             hk2State.currentPassageIndex = 0;
             hk2State.passageAnswers = {};
             hk2State.passageResults = {};
@@ -1555,20 +1584,14 @@
         }
 
         function checkAndAutoAdvanceHK2() {
-            const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
-            const allAnswered = passage.questions.every(q => {
-                const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
-                return hk2State.passageAnswers[answerKey] !== undefined;
-            });
-
-            if (allAnswered) {
-                console.log(`[HK2 Auto-Advance] All questions answered, proceeding to next passage...`);
-                setTimeout(() => proceedToNextPassage(), 500);
-            }
+            updateHK2SubmitButton();
         }
 
         function displayHK2Passage() {
             const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
+            hk2State.questionCounter = hk2State.shuffledPassages
+                .slice(0, hk2State.currentPassageIndex)
+                .reduce((sum, p) => sum + (p.questions ? p.questions.length : 0), 0);
             let container = document.getElementById('quizScreenContent');
 
             if (!container) {
@@ -1603,6 +1626,8 @@
             const questionsDiv = document.createElement('div');
             questionsDiv.style.cssText = 'background: white; padding: 10px 12px; margin: 0; border-radius: 0; width: 100%;';
 
+            const labels = ['A', 'B', 'C', 'D'];
+
             passage.questions.forEach((q, qIdx) => {
                 const displayNumber = hk2State.questionCounter + qIdx + 1;
                 const qSection = document.createElement('div');
@@ -1627,9 +1652,11 @@
 
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                 const userSelected = hk2State.passageAnswers[answerKey];
-                const correctIdx = typeof q.correctAnswer === 'string' 
-                    ? q.correctAnswer.charCodeAt(0) - 65 
-                    : q.correctAnswer;
+                const correctOriginalIdx = q.correctAnswerIndex !== undefined
+                    ? q.correctAnswerIndex
+                    : (typeof q.correctAnswer === 'string'
+                        ? q.correctAnswer.charCodeAt(0) - 65
+                        : q.correctAnswer);
 
                 // ARRANGEMENT QUESTIONS - show letters then shuffled options
                 if (passage.isArrangement && q.letters) {
@@ -1645,14 +1672,18 @@
                     });
                     qSection.appendChild(lettersDiv);
 
-                    // Show options WITHOUT shuffling
+                    // Show options with shuffling
                     const optionsDiv = document.createElement('div');
                     optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 5px;';
 
-                    q.options.forEach((opt, idx) => {
+                    const optionItems = q.shuffledOptions
+                        ? q.shuffledOptions
+                        : q.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+
+                    optionItems.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
-                        const isSelected = userSelected === idx;
-                        const isCorrect = idx === correctIdx;
+                        const isSelected = userSelected === opt.originalIndex;
+                        const isCorrect = opt.originalIndex === correctOriginalIdx;
 
                         let bgColor = '#f0f0f0';
                         let borderColor = '#ddd';
@@ -1685,9 +1716,11 @@
                             text-align: left;
                             transition: all 0.2s;
                         `;
-                        optBtn.textContent = opt;
+
+                        const cleanText = opt.text.replace(/^[A-D]\.\s*/, '');
+                        optBtn.textContent = `${labels[idx]}. ${cleanText}`;
                         optBtn.disabled = userSelected !== undefined;
-                        optBtn.setAttribute('data-idx', idx);
+                        optBtn.setAttribute('data-original-idx', opt.originalIndex);
 
                         optBtn.onmouseover = () => {
                             if (userSelected === undefined && !isSelected) {
@@ -1702,10 +1735,10 @@
 
                         optBtn.onclick = () => {
                             if (userSelected === undefined) {
-                                hk2State.passageAnswers[answerKey] = idx;
-                                const isCorrect = idx === correctIdx;
+                                hk2State.passageAnswers[answerKey] = opt.originalIndex;
+                                const isCorrect = opt.originalIndex === correctOriginalIdx;
 
-                                console.log(`[HK2 ARRANGE] ${answerKey} = ${idx}`);
+                                console.log(`[HK2 ARRANGE] ${answerKey} = ${opt.originalIndex}`);
 
                                 optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
@@ -1714,7 +1747,7 @@
                                 optBtn.style.cursor = 'default';
 
                                 if (!isCorrect) {
-                                    const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
+                                    const correctBtn = optionsDiv.querySelector(`button[data-original-idx="${correctOriginalIdx}"]`);
                                     if (correctBtn) {
                                         correctBtn.style.background = '#10b981';
                                         correctBtn.style.borderColor = '#10b981';
@@ -1724,7 +1757,7 @@
 
                                 showHK2QuestionFeedback(isCorrect, optBtn);
 
-                                // Auto-advance when all questions answered
+                                // Update navigation state after answering
                                 setTimeout(() => checkAndAutoAdvanceHK2(), 50);
 
                                 setTimeout(() => {
@@ -1745,10 +1778,14 @@
                     const optionsDiv = document.createElement('div');
                     optionsDiv.style.cssText = 'display: flex; flex-direction: column; gap: 5px;';
 
-                    q.options.forEach((opt, idx) => {
+                    const optionItems = q.shuffledOptions
+                        ? q.shuffledOptions
+                        : q.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+
+                    optionItems.forEach((opt, idx) => {
                         const optBtn = document.createElement('button');
-                        const isSelected = userSelected === idx;
-                        const isCorrect = idx === correctIdx;
+                        const isSelected = userSelected === opt.originalIndex;
+                        const isCorrect = opt.originalIndex === correctOriginalIdx;
 
                         let bgColor = '#f0f0f0';
                         let borderColor = '#ddd';
@@ -1781,9 +1818,11 @@
                             text-align: left;
                             transition: all 0.2s;
                         `;
-                        optBtn.textContent = opt;
+
+                        const cleanText = opt.text.replace(/^[A-D]\.\s*/, '');
+                        optBtn.textContent = `${labels[idx]}. ${cleanText}`;
                         optBtn.disabled = userSelected !== undefined;
-                        optBtn.setAttribute('data-idx', idx);
+                        optBtn.setAttribute('data-original-idx', opt.originalIndex);
 
                         optBtn.onmouseover = () => {
                             if (userSelected === undefined && !isSelected) {
@@ -1798,10 +1837,10 @@
 
                         optBtn.onclick = () => {
                             if (userSelected === undefined) {
-                                hk2State.passageAnswers[answerKey] = idx;
-                                const isCorrect = idx === correctIdx;
+                                hk2State.passageAnswers[answerKey] = opt.originalIndex;
+                                const isCorrect = opt.originalIndex === correctOriginalIdx;
 
-                                console.log(`[HK2 MULTIPLE] ${answerKey} = ${idx}`);
+                                console.log(`[HK2 MULTIPLE] ${answerKey} = ${opt.originalIndex}`);
 
                                 optBtn.style.background = isCorrect ? '#10b981' : '#ef4444';
                                 optBtn.style.borderColor = isCorrect ? '#10b981' : '#ef4444';
@@ -1810,7 +1849,7 @@
                                 optBtn.style.cursor = 'default';
 
                                 if (!isCorrect) {
-                                    const correctBtn = optionsDiv.querySelector(`button[data-idx="${correctIdx}"]`);
+                                    const correctBtn = optionsDiv.querySelector(`button[data-original-idx="${correctOriginalIdx}"]`);
                                     if (correctBtn) {
                                         correctBtn.style.background = '#10b981';
                                         correctBtn.style.borderColor = '#10b981';
@@ -1820,7 +1859,6 @@
 
                                 showHK2QuestionFeedback(isCorrect, optBtn);
 
-                                // Auto-advance when all questions answered
                                 setTimeout(() => checkAndAutoAdvanceHK2(), 50);
 
                                 setTimeout(() => {
@@ -1842,78 +1880,100 @@
 
             container.appendChild(questionsDiv);
 
-            // Submit button - now just for backup/manual submission
             const allAnswered = passage.questions.every(q => {
                 const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                 return hk2State.passageAnswers[answerKey] !== undefined;
             });
-            
-            const submitBtn = document.createElement('button');
-            hk2CurrentSubmitBtn = submitBtn; // Lưu reference
-            submitBtn.className = 'hk2-submit-btn';
-            submitBtn.textContent = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1
-                ? '✅ Hoàn Thành Bài Thi'
-                : '➜ Nộp Đoạn Văn Này';
-            submitBtn.style.cssText = `
-                margin: 0;
+
+            const navDiv = document.createElement('div');
+            navDiv.style.cssText = 'display: flex; gap: 10px; padding: 12px; background: white; border-top: 1px solid #eee; width: 100%; flex-shrink: 0;';
+
+            const isFirstPassage = hk2State.currentPassageIndex === 0;
+            const isLastPassage = hk2State.currentPassageIndex === hk2State.shuffledPassages.length - 1;
+
+            const prevBtn = document.createElement('button');
+            prevBtn.textContent = '← Đoạn trước';
+            prevBtn.style.cssText = `
+                flex: 1;
+                padding: 12px;
+                background: ${isFirstPassage ? '#eee' : '#f3f4f6'};
+                color: #333;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                font-size: 13px;
+                font-weight: 600;
+                cursor: ${isFirstPassage ? 'not-allowed' : 'pointer'};
+                transition: all 0.2s;
+            `;
+            prevBtn.disabled = isFirstPassage;
+            prevBtn.onclick = () => {
+                if (!isFirstPassage) {
+                    goToHK2Passage(hk2State.currentPassageIndex - 1);
+                }
+            };
+
+            const nextBtn = document.createElement('button');
+            nextBtn.textContent = isLastPassage ? '✅ Hoàn thành' : 'Đoạn tiếp →';
+            nextBtn.style.cssText = `
+                flex: 1;
                 padding: 12px;
                 background: ${allAnswered ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' : '#ccc'};
                 color: white;
                 border: none;
-                border-radius: 0;
+                border-radius: 8px;
                 font-size: 13px;
                 font-weight: bold;
                 cursor: ${allAnswered ? 'pointer' : 'not-allowed'};
-                width: 100%;
                 transition: all 0.2s;
-                flex-shrink: 0;
-                display: none;
             `;
-            submitBtn.disabled = !allAnswered;
-            
-            submitBtn.onmouseover = () => {
-                if (!submitBtn.disabled) submitBtn.style.transform = 'translateY(-2px)';
-            };
-            submitBtn.onmouseout = () => {
-                submitBtn.style.transform = 'translateY(0)';
-            };
-            
-            submitBtn.onclick = (e) => {
+            nextBtn.disabled = !allAnswered;
+            nextBtn.onclick = (e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                
-                // Kiểm tra lại trạng thái trước khi nộp
+
                 const passage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
                 const allAnsweredCheck = passage.questions.every(q => {
                     const answerKey = `p${hk2State.currentPassageIndex}_q${q.number}`;
                     return hk2State.passageAnswers[answerKey] !== undefined;
                 });
-                
-                console.log(`[HK2 Submit] AllAnsweredCheck: ${allAnsweredCheck}`);
-                
-                if (allAnsweredCheck) {
-                    proceedToNextPassage();
+
+                if (!allAnsweredCheck) {
+                    alert('Vui lòng trả lời tất cả câu hỏi trước khi tiếp tục!');
+                    return;
+                }
+
+                if (isLastPassage) {
+                    finishHK2Quiz();
                 } else {
-                    alert('Vui lòng trả lời tất cả câu hỏi trước khi nộp!');
+                    goToHK2Passage(hk2State.currentPassageIndex + 1);
                 }
             };
 
-            container.appendChild(submitBtn);
+            hk2CurrentSubmitBtn = nextBtn;
+            updateHK2SubmitButton();
+
+            navDiv.appendChild(prevBtn);
+            navDiv.appendChild(nextBtn);
+            container.appendChild(navDiv);
+        }
+
+        function goToHK2Passage(newIndex) {
+            if (newIndex < 0 || newIndex >= hk2State.shuffledPassages.length) {
+                return;
+            }
+
+            // Remove feedback popups
+            document.querySelectorAll('div[style*="position: fixed"]').forEach(el => el.remove());
+
+            hk2State.currentPassageIndex = newIndex;
+            document.getElementById('questionCounter').textContent = `Passage ${newIndex + 1}/${hk2State.shuffledPassages.length}`;
+            displayHK2Passage();
         }
 
         function proceedToNextPassage() {
-            // Remove feedback
-            document.querySelectorAll('div[style*="position: fixed"]').forEach(el => el.remove());
-
-            // Add questions from current passage to counter before moving to next
-            const currentPassage = hk2State.shuffledPassages[hk2State.currentPassageIndex];
-            hk2State.questionCounter += currentPassage.questions.length;
-
-            hk2State.currentPassageIndex++;
-
-            if (hk2State.currentPassageIndex < hk2State.shuffledPassages.length) {
-                document.getElementById('questionCounter').textContent = `Passage ${hk2State.currentPassageIndex + 1}/${hk2State.shuffledPassages.length}`;
-                displayHK2Passage();
+            const nextIndex = hk2State.currentPassageIndex + 1;
+            if (nextIndex < hk2State.shuffledPassages.length) {
+                goToHK2Passage(nextIndex);
             } else {
                 finishHK2Quiz();
             }
@@ -1937,9 +1997,11 @@
                 passage.questions.forEach(q => {
                     const answerKey = `p${pIdx}_q${q.number}`;
                     const userAnswer = hk2State.passageAnswers[answerKey];
-                    const correctIdx = typeof q.correctAnswer === 'string' 
-                        ? q.correctAnswer.charCodeAt(0) - 65 
-                        : q.correctAnswer;
+                    const correctIdx = q.correctAnswerIndex !== undefined
+                        ? q.correctAnswerIndex
+                        : (typeof q.correctAnswer === 'string'
+                            ? q.correctAnswer.charCodeAt(0) - 65
+                            : q.correctAnswer);
                     if (userAnswer === correctIdx) {
                         totalCorrect++;
                     }

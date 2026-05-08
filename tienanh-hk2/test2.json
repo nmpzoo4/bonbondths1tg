@@ -1,0 +1,112 @@
+{
+  "testName": "Test 2",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: Stress Management Tips",
+      "text": "Stress Management Tips\n\nFeeling overwhelmed? Managing stress is crucial for maintaining both mental and physical health. (1) _____ people experience stress in their daily lives, especially due to work and family pressure.\n\nStress Facts: Did you know that over 50% of people (2) _____ from high levels of stress? (3) _____ prolonged stress, many individuals feel exhausted and lose motivation. Chronic stress can affect your overall well-being and lead to fatigue.\n\nSteps to Manage Stress:\n- Practice deep breathing! This simple technique can promote calmness and lower anxiety.\n- Stay active! Exercise helps reduce stress by (4) _____ endorphins and boosting overall mood.\n- Get organized! Instead of letting stress build up, manage your time and tasks effectively to avoid feeling overwhelmed.\n- Seek support! Talk to friends or a counsellor if you're feeling defeated by stress.",
+      "questions": [
+        {"number": 1, "difficulty": "B", "options": ["A. Much", "B. Many", "C. A little", "D. Few"], "correctAnswer": "B"},
+        {"number": 2, "difficulty": "B", "options": ["A. suffer", "B. enjoy", "C. prevent", "D. escape"], "correctAnswer": "A"},
+        {"number": 3, "difficulty": "B", "options": ["A. Having experience", "B. Have experienced", "C. Having experienced", "D. Experiencing"], "correctAnswer": "C"},
+        {"number": 4, "difficulty": "H", "options": ["A. creating", "B. releasing", "C. controlling", "D. reducing"], "correctAnswer": "B"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: English Speaking Competition",
+      "text": "ANNOUNCEMENT OF ENGLISH SPEAKING COMPETITION\n\nThe school youth union would like to announce:\n\n- We are hosting an English Speaking Competition in a couple of weeks to help boost your (5)_________ in speaking English.\n- We encourage all students to be interested in improving their (6)_________ to take part in this exciting contest!\n- It's a fun opportunity (7)_________ help you refine your speaking abilities and express your ideas confidently. (8) _________, you will build your self-assurance in using English.\n- Get ready to share your thoughts and enjoy the friendly atmosphere.\n\nKeep an eye out for more details on how to participate!",
+      "questions": [
+        {"number": 5, "difficulty": "B", "options": ["A. confidence", "B. confident", "C. confidences", "D. confidently"], "correctAnswer": "A"},
+        {"number": 6, "difficulty": "H", "options": ["A. English speaking skills", "B. speaking skills English", "C. English skills speaking", "D. speaking English skills"], "correctAnswer": "A"},
+        {"number": 7, "difficulty": "B", "options": ["A. who", "B. whose", "C. which", "D. that"], "correctAnswer": "D"},
+        {"number": 8, "difficulty": "B", "options": ["A. However", "B. Though", "C. Therefore", "D. In addition to"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Arrange the following conversations or sentences in correct order.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Liam: Hi Emma! I'm going to the park. Do you want to come?",
+            "b": "Emma: Hi Liam! What are you doing this weekend?",
+            "c": "Emma: Yes! What will we do there?"
+          },
+          "options": ["A. a-b-c", "B. b-a-c", "C. c-a-b", "D. b-c-a"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 10,
+          "difficulty": "B",
+          "letters": {
+            "a": "Tom: He is two years old. He's brown and white.",
+            "b": "Sophie: Hi Tom! Do you have a pet?",
+            "c": "Sophie: That's nice!",
+            "d": "Sophie: How old is Max?",
+            "e": "Tom: Yes, I have a dog. His name is Max."
+          },
+          "options": ["A. b-d-e-c-a", "B. c-b-a-d-e", "C. a-b-d-e-c", "D. b-e-d-a-c"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 11,
+          "difficulty": "H",
+          "letters": {
+            "a": "Every morning, I walk in the forest. I see many beautiful animals. There are colorful birds in the trees. I also see small rabbits playing in the grass.",
+            "b": "The forest is always full of white mist. It looks like soft clouds on the ground.",
+            "c": "Would you like to visit the Cloud Forest with me? We can watch the animals and enjoy nature together.",
+            "d": "I am writing about my adventure in the Cloud Forest. It is a magical place!",
+            "e": "The best part is the waterfall! It makes rainbow colors in the mist. I like to sit near it and listen to the water."
+          },
+          "options": ["A. d-b-a-e-c", "B. a-e-b-d-c", "C. c-d-b-e-a", "D. e-b-a-d-c"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 12,
+          "difficulty": "H",
+          "letters": {
+            "a": "Afterward, they often participate in group discussions, which allow them to share ideas and learn from one another.",
+            "b": "At school, students engage in various activities that enhance their learning experience.",
+            "c": "First, they attend lectures, where teachers explain new concepts and encourage questions.",
+            "d": "In short, extracurricular activities such as sports and clubs provide opportunities for teamwork and personal growth, making school life both educational and enjoyable.",
+            "e": "Additionally, students may work on projects together, combining their skills and creativity to produce impressive results."
+          },
+          "options": ["A. a-c-e-b-d", "B. b-c-a-e-d", "C. d-c-a-e-b", "D. c-a-e-b-d"],
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Social Issues",
+      "text": "In recent years, many countries have faced serious (13) _____ issues such as environmental pollution, unemployment, and climate change. These problems have a strong impact on people's daily lives and future development. It is environmental pollution that (14) _____ many young people the most today. Air and water pollution affect public health and reduce the quality of life in many cities. Young people play an important role in dealing with these issues by raising (15) _____ and taking action. Through education and community activities, students can contribute (16) _____ solving social problems.",
+      "questions": [
+        {"number": 13, "difficulty": "H", "options": ["A. modern", "B. present", "C. current", "D. recent"], "correctAnswer": "C"},
+        {"number": 14, "difficulty": "B", "options": ["A. worried", "B. worry", "C. worries", "D. are worrying"], "correctAnswer": "C"},
+        {"number": 15, "difficulty": "B", "options": ["A. aware", "B. awareness", "C. awaring", "D. awarenesses"], "correctAnswer": "B"},
+        {"number": 16, "difficulty": "B", "options": ["A. for", "B. with", "C. to", "D. in"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Life in Earth's Harshest Ecosystem",
+      "text": "In the world's hottest deserts, amazing creatures called desert dragons make their home. These small lizards live in places where temperatures can reach 45 degrees Celsius during the day. Despite the harsh conditions, they have found clever ways to survive. Desert dragons spend most of their time looking for food and hiding from the strong sun. They live in many desert areas across Africa and Australia, moving carefully between rocks.\n\nDesert dragons have special features that help them live in the desert. Their thick scales protect their skin from the burning sand and hot sun. They have special eyelids that keep sand out of their eyes. Their wide feet help them walk on hot sand without getting hurt. Most importantly, their nostrils can close to stop sand from getting in when they breathe. The scales on their body are very hard and reflect sunlight well.\n\nThese remarkable animals are most active during the early morning and late evening when it's cooler. During the hottest part of the day, they dig holes in the sand to stay cool. They eat small insects and plants that they find in the desert. When danger comes, they can run very fast across the sand to escape from birds and other predators. They use their excellent eyesight to spot tiny insects moving in the sand.\n\nDesert dragons show us how animals can adapt to live in difficult places. They sleep during the day and wake up when it's cool. Their bodies are perfect for desert life, and they know exactly when to be active or rest. These amazing lizards prove that life can survive even in Earth's harshest places. Scientists study these special creatures to learn about surviving in extreme temperatures.",
+      "questions": [
+        {"number": 17, "difficulty": "VD", "questionText": "What is the main idea of the passage?", "options": ["A. Desert dragons are dangerous animals living in hot deserts.", "B. Desert dragons have become extinct due to climate change.", "C. Desert dragons have special adaptations that help them survive in harsh desert environments.", "D. Desert dragons live only in Africa and Australia."], "correctAnswer": "C"},
+        {"number": 18, "difficulty": "B", "questionText": "According to paragraph 2, which of these is NOT mentioned as a feature of desert dragons?", "options": ["A. Special eyelids that keep sand out", "B. Ability to change color for camouflage", "C. Wide feet for walking on hot sand", "D. Closable nostrils to prevent sand intake"], "correctAnswer": "B"},
+        {"number": 19, "difficulty": "H", "questionText": "The word \"harsh\" in paragraph 1 is closest in meaning to:", "options": ["A. comfortable", "B. difficult", "C. peaceful", "D. normal"], "correctAnswer": "B"},
+        {"number": 20, "difficulty": "H", "questionText": "The word \"clever\" in paragraph 1 is OPPOSITE in meaning to _________.", "options": ["A. foolish", "B. resourceful", "C. innovative", "D. skillful"], "correctAnswer": "A"},
+        {"number": 21, "difficulty": "B", "questionText": "The word \"their\" in paragraph 2 refers to _________.", "options": ["A. scales", "B. eyelids", "C. desert dragons", "D. feet"], "correctAnswer": "C"},
+        {"number": 22, "difficulty": "H", "questionText": "According to the passage, when are desert dragons most active?", "options": ["A. During the hottest part of the day", "B. In the early morning and late evening", "C. Only at night", "D. All day long"], "correctAnswer": "B"},
+        {"number": 23, "difficulty": "H", "questionText": "Which of the following is TRUE according to the passage?", "options": ["A. These lizards maintain constant body temperature through specialized internal organs", "B. Desert dragons feed exclusively on small insects found beneath the sand", "C. Scientists study these creatures to develop new desert navigation techniques", "D. Desert dragons remain active during morning hours and after sunset daily"], "correctAnswer": "D"},
+        {"number": 24, "difficulty": "VD", "questionText": "What can be inferred from the passage about desert dragons?", "options": ["A. They need water every few hours to survive.", "B. They are active mainly at night to hunt large animals.", "C. They depend on their physical adaptations and behavior to survive extreme heat.", "D. They cannot survive if the temperature drops suddenly."], "correctAnswer": "C"}
+      ]
+    }
+  ]
+}
