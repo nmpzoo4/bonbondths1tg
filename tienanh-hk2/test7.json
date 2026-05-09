@@ -1,0 +1,114 @@
+{
+  "testName": "Test 7",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: Mastering Public Speaking",
+      "text": "Mastering Public Speaking\n\nWant to improve your public speaking skills and speak with confidence? Here are (1) ________ expert tips to help you succeed. Common Challenges: Public speaking is a fear that many people struggle with, with 70% of adults feeling anxious when speaking in front of others. However, with practice, anyone can improve their communication skills.\n\nSteps to Overcome Public Speaking Anxiety:\n- Prepare ahead! The more you prepare, the more (2) ________ you will feel during your presentation.\n- Practice often! Practicing a speech in front of a mirror or friends helps (3) ________ confidence.\n- Focus on your audience! In case of worrying about yourself, concentrate (4) ________ on delivering value to your listeners.",
+      "questions": [
+        {"number": 1, "difficulty": "B", "options": ["A. another", "B. some", "C. every", "D. much"], "correctAnswer": "B"},
+        {"number": 2, "difficulty": "B", "options": ["A. comfortable", "B. comfort", "C. comfortably", "D. uncomfortable"], "correctAnswer": "A"},
+        {"number": 3, "difficulty": "B", "options": ["A. take", "B. make", "C. give", "D. build"], "correctAnswer": "D"},
+        {"number": 4, "difficulty": "B", "options": ["A. for", "B. of", "C. in", "D. on"], "correctAnswer": "D"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: Your Next Chapter Starts With a Choice",
+      "text": "Your Next Chapter Starts With a Choice, Not a Grade\n\nThe successful transformation from student to professional requires dedication and persistence. The innovative career counseling program helps shape your future. After (5) _________ from their course, the students received priority access to our mentorship network. It is our mentors (6) _________ share their expertise with students.\n\nThe world is your oyster in this new chapter of your life. We encourage exploring (7) _________ and making informed decisions. Take control of your journey today. Your potential extends far beyond academic (8) _________. Let us help you transform your aspirations into reality.",
+      "questions": [
+        {"number": 5, "difficulty": "B", "options": ["A. having graduated", "B. graduate", "C. to graduate", "D. graduated"], "correctAnswer": "A"},
+        {"number": 6, "difficulty": "B", "options": ["A. who", "B. which", "C. whom", "D. what"], "correctAnswer": "A"},
+        {"number": 7, "difficulty": "B", "options": ["A. career paths different", "B. career different paths", "C. career different paths", "D. different career paths"], "correctAnswer": "D"},
+        {"number": 8, "difficulty": "B", "options": ["A. achievements", "B. campaign", "C. programmes", "D. education"], "correctAnswer": "A"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct arrangement.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Nam: Hi! How are you today?",
+            "b": "Nam: I'm doing well, just enjoying the weather!",
+            "c": "Mark: I'm good, thanks! And you?"
+          },
+          "options": ["A. a-b-c", "B. b-c-a", "C. c-b-a", "D. a-c-b"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 10,
+          "difficulty": "B",
+          "letters": {
+            "a": "First, it might be subtle, like when friends suggest things to do or ways to act.",
+            "b": "But in the end, giving in to peer pressure without thinking can make you lose control over your own choices. It's important to think for yourself and stand up for what you believe in, even if it's not what everyone else is doing.",
+            "c": "Second, it can be more direct, when friends pressure you to do something you're not comfortable with.",
+            "d": "Also, peer pressure can make you feel like you belong when you do what everyone else is doing.",
+            "e": "Peer pressure, a common influence among friends, comes in different forms."
+          },
+          "options": ["A. e-a-c-d-b", "B. a-c-e-d-b", "C. e-a-c-b-d", "D. a-c-d-e-b"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 11,
+          "difficulty": "B",
+          "letters": {
+            "a": "Sue: I'm just watching a movie. Which subject are you studying?",
+            "b": "Sue: Hi! What are you doing?",
+            "c": "Alex: I'm studying for my exam. How about you?",
+            "d": "Sue: Sure! I'd love to help you out.",
+            "e": "Alex: I'm studying math. Do you want to join me later?"
+          },
+          "options": ["A. b-e-c-d-a", "B. b-c-e-a-d", "C. b-c-a-e-d", "D. b-c-d-a-e"],
+          "correctAnswer": "C"
+        },
+        {
+          "number": 12,
+          "difficulty": "B",
+          "letters": {
+            "a": "Hopefully, we can collaborate to address these challenges.",
+            "b": "Dear Mary, I hope you are well! I've been thinking about global issues. In today's world, global issues are becoming increasingly serious.",
+            "c": "Firstly, climate change threatens the lives of millions worldwide.",
+            "d": "Moreover, environmental pollution is worsening, adversely affecting community health.",
+            "e": "Secondly, there's the issue of hunger, poverty, and social inequality, leaving many to face deprivation and suffering.",
+            "f": "Best regards,",
+            "g": "Finally, the intrusion of technology and personal data poses a threat to privacy and individual freedom."
+          },
+          "options": ["A. b-a-c-d-e-g-f", "B. c-b-e-d-a-f-g", "C. a-b-c-e-g-d-f", "D. b-c-e-d-g-a-f"],
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Find Your Direction Today",
+      "text": "Find Your Direction Today\n\nWhile some students choose traditional paths, others prefer innovative learning approaches. (13) _________ our expert counselors that will help you (14) _________ the best educational path for your future. The curriculum encompasses a wide range of subjects, from science to the (15) _________. (16) _________ the challenges in choosing a career path, we provide comprehensive guidance. Our methodology ensures personalized attention to each student's needs. A great deal of our graduates have achieved remarkable success in their chosen fields.",
+      "questions": [
+        {"number": 13, "difficulty": "B", "options": ["A. It was", "B. It are", "C. It is", "D. It were"], "correctAnswer": "C"},
+        {"number": 14, "difficulty": "B", "options": ["A. figure out", "B. work out", "C. hang out", "D. think about"], "correctAnswer": "A"},
+        {"number": 15, "difficulty": "B", "options": ["A. economics", "B. humanities", "C. mathematics", "D. athletics"], "correctAnswer": "B"},
+        {"number": 16, "difficulty": "B", "options": ["A. In addition to", "B. However", "C. In spite of", "D. Because of"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Personal Growth and Independence",
+      "text": "Personal growth and independence are essential parts of human development, helping individuals become more confident and capable in life. Like a bird learning to fly, the journey towards independence begins with small steps. Initially, one must recognize their inherent potential and acknowledge that growth requires stepping out of their comfort zone. The process demands courage, determination, and a clear vision of where one wants to be.\n\nPersonal development includes several important aspects that need to be developed together. Emotional independence involves understanding and managing one's feelings effectively while maintaining healthy relationships. It also requires resilience and the ability to stay positive when facing difficulties. Financial independence requires careful planning, budgeting, and making informed decisions about money management. It's essential to distinguish between needs and wants while building a secure financial foundation.\n\nIntellectual development plays a key role in achieving true independence. Continuous learning, whether through formal education or self-study, expands one's horizons and creates new opportunities. This knowledge acquisition should be complemented by practical skills that enhance daily life and career prospects. Additionally, social independence means maintaining meaningful connections while staying true to oneself, creating a balanced approach to relationships.\n\nAlthough the journey toward independence is challenging, these difficulties help individuals grow stronger. Fear, self-doubt, and pressure from others can slow progress, but they also provide valuable lessons. By embracing difficulties as learning opportunities, individuals can strengthen their resolve and develop greater self-reliance. Remember, independence doesn't mean isolation; it means having the freedom to make choices while maintaining healthy interdependence with others.",
+      "questions": [
+        {"number": 17, "difficulty": "H", "questionText": "Which of the following is NOT mentioned as a dimension of personal development?", "options": ["A. Physical fitness", "B. Emotional independence", "C. Financial independence", "D. Social independence"], "correctAnswer": "A"},
+        {"number": 18, "difficulty": "H", "questionText": "The word \"inherent\" in paragraph 1 is OPPOSITE in meaning to_________.", "options": ["A. natural", "B. external", "C. inborn", "D. basic"], "correctAnswer": "B"},
+        {"number": 19, "difficulty": "H", "questionText": "The word \"distinguish\" in paragraph 2 could be best replaced by_________.", "options": ["A. separate", "B. combine", "C. merge", "D. differentiate"], "correctAnswer": "D"},
+        {"number": 20, "difficulty": "H", "questionText": "What can be inferred from the passage?", "options": ["A. Personal independence can only be achieved through financial success.", "B. Facing challenges is an essential part of developing independence.", "C. Independence means living without any support from others.", "D. Intellectual growth is less important than emotional independence."], "correctAnswer": "B"},
+        {"number": 21, "difficulty": "B", "questionText": "The word \"their\" in paragraph 4 refers to_________.", "options": ["A. obstacles", "B. individuals", "C. difficulties", "D. horizons"], "correctAnswer": "B"},
+        {"number": 22, "difficulty": "H", "questionText": "Which of the following is TRUE according to the passage?", "options": ["A. Independence means avoiding relationships with other people.", "B. Personal growth requires developing only emotional skills.", "C. Financial independence involves planning and managing money wisely.", "D. Challenges should be avoided to achieve independence"], "correctAnswer": "C"},
+        {"number": 23, "difficulty": "VD", "questionText": "What is the main idea of this passage?", "options": ["A. Financial independence is the most important goal in life.", "B. Personal growth and independence develop through nurturing emotional, financial, intellectual, and social aspects while overcoming challenges.", "C. Independence can only be achieved by formal education.", "D. People must avoid relationships in order to become independent."], "correctAnswer": "B"},
+        {"number": 24, "difficulty": "VD", "questionText": "According to the passage, which of the following is required to achieve financial independence?", "options": ["A. Avoiding all personal relationships", "B. Careful planning, budgeting, and informed money management", "C. Depending completely on others for support", "D. Ignoring the difference between needs and want"], "correctAnswer": "B"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "testName": "Test 6",
+  "subject": "English",
+  "passages": [
+    {
+      "id": 1,
+      "title": "Passage 1: Sustainable Tourism at Heritage Sites",
+      "text": "Leaflet: Sustainable Tourism at Heritage Sites\n\nVisiting historical monuments is a great way to learn about the past. However, modernization and urbanization are putting these sites (1) ______ risk.\n\nRespect the Rules: Visitors should learn to appreciate and protect (2) ______ by following all preservation regulations.\n\nEducation: It is important (3) ______ the significance of these traditions so they are not forgotten.\n\nCommunity: (4) ______ local heritage, we can ensure its survival for future generations.",
+      "questions": [
+        {"number": 1, "difficulty": "B", "options": ["A. of", "B. at", "C. by", "D. to"], "correctAnswer": "B"},
+        {"number": 2, "difficulty": "B", "options": ["A. heritage their cultural", "B. cultural their heritage", "C. their cultural heritage", "D. cultural heritage their"], "correctAnswer": "C"},
+        {"number": 3, "difficulty": "B", "options": ["A. to understanding", "B. understand", "C. understanding", "D. to understand"], "correctAnswer": "D"},
+        {"number": 4, "difficulty": "B", "options": ["A. Having preserve", "B. Having preserving", "C. Having preserved", "D. Have preserved"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passage 2: Vocational Excellence Center",
+      "text": "Advertisement: Vocational Excellence Center\n\nAre you ready for your next (5) ______ journey? If you prefer practical skills over theory, choose our Vocational Track!\n\nHands-on experience: We focus (6) ______ practical skills that employers value.\n\nEarn while you learn: Consider an (7) ______ to gain real-world insights.\n\nSuccess: It is the right choice of institution (8) ______ will pave the way for your future career.",
+      "questions": [
+        {"number": 5, "difficulty": "B", "options": ["A. confident", "B. academic", "C. efficient", "D. vocational"], "correctAnswer": "D"},
+        {"number": 6, "difficulty": "B", "options": ["A. in", "B. with", "C. on", "D. from"], "correctAnswer": "C"},
+        {"number": 7, "difficulty": "H", "options": ["A. scholarship", "B. internship", "C. apprenticeship", "D. membership"], "correctAnswer": "C"},
+        {"number": 8, "difficulty": "B", "options": ["A. who", "B. which", "C. whom", "D. that"], "correctAnswer": "D"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Passage 3: Arrangement",
+      "text": "Mark the letter A, B, C, or D to indicate the best arrangement to make a meaningful text.",
+      "isArrangement": true,
+      "questions": [
+        {
+          "number": 9,
+          "difficulty": "B",
+          "letters": {
+            "a": "Tom: Yes, I have a dog. His name is Max.",
+            "b": "Sophie: How old is Max?",
+            "c": "Tom: He is two years old.",
+            "d": "Sophie: Hi Tom! Do you have a pet?"
+          },
+          "options": ["A. b-d-a-c", "B. d-a-b-c", "C. a-b-d-c", "D. b-a-c-d"],
+          "correctAnswer": "B"
+        },
+        {
+          "number": 10,
+          "difficulty": "H",
+          "letters": {
+            "a": "Alex: \"What happened?\"",
+            "b": "Sarah: \"The interviewer asked me if I plan to have children soon, suggesting it might affect my commitment to work.\"",
+            "c": "Sarah: \"Hey Alex, you won't believe what happened at my tech startup interview yesterday!\""
+          },
+          "options": ["A. a-c-b", "B. b-c-a", "C. a-b-c", "D. c-a-b"],
+          "correctAnswer": "D"
+        },
+        {
+          "number": 11,
+          "difficulty": "H",
+          "letters": {
+            "a": "Firstly, smart technologies make people's lives easier by reducing household chores.",
+            "b": "There are some good things of living in a smart city.",
+            "c": "Besides, smart technologies help the city operate more efficiently.",
+            "d": "Finally, the negative impact on the environment is less.",
+            "e": "Secondly, the city infrastructure which includes sensors and cameras collects information about people and their activities, and uses it to provide faster, cheaper, and better services."
+          },
+          "options": ["A. b-a-e-c-d", "B. a-b-e-c-d", "C. b-c-a-e-d", "D. a-c-b-e-d"],
+          "correctAnswer": "A"
+        },
+        {
+          "number": 12,
+          "difficulty": "B",
+          "letters": {
+            "a": "Additionally, I am able to make friends with a lot of students coming from different universities in Hanoi.",
+            "b": "Firstly, this is certainly a chance for me to practise speaking English as much as possible.",
+            "c": "Also, a good thing about joining the club is that I must become more confident when I often present my ideas in front of the crowd.",
+            "d": "All the best.",
+            "e": "It's a good way for me not only to improve my English but to practise my soft skills as well.",
+            "f": "Dear Jason, I hope you are doing well recently. I am writing this letter to let you know about why I have decided to participate in the English speaking club."
+          },
+          "options": ["A. f-e-a-c-b-d", "B. f-c-a-b-e-d", "C. f-b-a-c-e-d", "D. f-a-b-c-e-d"],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Passage 4: Environmental Pollution",
+      "text": "Environmental pollution is one of the most (13) ______ issues today. It is this problem that (14) ______ many young people the most. By raising (15) ______, students can contribute to protecting the planet. Many countries (16) ______ great efforts to promote sustainable development for the future.",
+      "questions": [
+        {"number": 13, "difficulty": "H", "options": ["A. modern", "B. present", "C. current", "D. recent"], "correctAnswer": "C"},
+        {"number": 14, "difficulty": "B", "options": ["A. worried", "B. worry", "C. worries", "D. are worrying"], "correctAnswer": "C"},
+        {"number": 15, "difficulty": "B", "options": ["A. aware", "B. awareness", "C. awaring", "D. awarenesses"], "correctAnswer": "B"},
+        {"number": 16, "difficulty": "H", "options": ["A. do", "B. take", "C. make", "D. give"], "correctAnswer": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Passage 5: Soft Skills for New Graduates",
+      "text": "The Importance of Soft Skills for New Graduates\n\nAfter completing their university degrees, many graduates face a highly competitive job market. While technical knowledge is important, employers today increasingly look for \"soft skills.\" These include communication, teamwork, and problem-solving.\n\nMany graduates feel uncertain about their future when they cannot find a job immediately. Instead of traditional office jobs, some choose to gain real-world experience through internships or freelancing. This flexibility allows them to build their portfolios while exploring different career paths. Additionally, the rise of remote work has given them the freedom to work from anywhere, helping them balance their professional and personal lives. Success for graduates depends on being adaptable and open to new opportunities.",
+      "questions": [
+        {"number": 17, "difficulty": "VD", "questionText": "What is the main idea of the passage?", "options": ["A. Graduates should only focus on technical knowledge.", "B. Remote work is the only way to succeed.", "C. Graduates face various career choices and need soft skills to succeed.", "D. University degrees are no longer useful."], "correctAnswer": "C"},
+        {"number": 18, "difficulty": "B", "questionText": "Which skill is NOT mentioned as a soft skill?", "options": ["A. Communication", "B. Teamwork", "C. Coding", "D. Problem-solving"], "correctAnswer": "C"},
+        {"number": 19, "difficulty": "H", "questionText": "The word \"uncertain\" is OPPOSITE in meaning to:", "options": ["A. confident", "B. excited", "C. doubtful", "D. satisfied"], "correctAnswer": "A"},
+        {"number": 20, "difficulty": "B", "questionText": "The word \"them\" in paragraph 2 refers to:", "options": ["A. employers", "B. graduates", "C. office jobs", "D. skills"], "correctAnswer": "B"},
+        {"number": 21, "difficulty": "B", "questionText": "The word \"flexibility\" could be best replaced by:", "options": ["A. freedom", "B. control", "C. responsibility", "D. difficulty"], "correctAnswer": "A"},
+        {"number": 22, "difficulty": "H", "questionText": "Why do some graduates choose internships?", "options": ["A. They want to avoid work.", "B. They can earn the highest salary.", "C. They want to gain real-world experience and build portfolios.", "D. They are forced by their teachers."], "correctAnswer": "C"},
+        {"number": 23, "difficulty": "H", "questionText": "Which of the following is TRUE according to the passage?", "options": ["A. Finding a job immediately is always easy.", "B. Technical knowledge is the only thing employers value.", "C. Remote work provides graduates with more flexibility.", "D. Soft skills are not important for success."], "correctAnswer": "C"},
+        {"number": 24, "difficulty": "VD", "questionText": "What can be inferred about successful graduates?", "options": ["A. They only apply for office jobs.", "B. They need to be adaptable and open to different paths.", "C. They never experience challenges.", "D. They rely solely on others for their career."], "correctAnswer": "B"}
+      ]
+    }
+  ]
+}
