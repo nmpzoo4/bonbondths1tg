@@ -1,0 +1,763 @@
+{
+  "testName": "Hoa HK2 - De 1",
+  "subject": "Chemistry",
+  "description": "On tap HK2 (63 cau)",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Tên gọi thay thế của dẫn xuất halogen có công thức cấu tạo CH3-CH2-CH2Br là",
+      "options": [
+        "1-bromopropane",
+        "2-bromopropane",
+        "3-bromopropane",
+        "propyl bromide"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Tên gốc - chức của dẫn xuất halogen có công thức cấu tạo C2H5Cl là",
+      "options": [
+        "methyl chloride",
+        "phenyl chloride",
+        "ethyl chloride",
+        "propyl chloride"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Tên thường của CH2=CH-Cl là",
+      "options": [
+        "vinyl chloride",
+        "chloride vinyl",
+        "etene chloride",
+        "phenyl chloride"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "Chloroform có công thức là",
+      "options": [
+        "CH3Cl",
+        "CH2Cl2",
+        "CHCl3",
+        "CCl4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "question": "Tên thường của dẫn xuất halogen thơm C6H5Cl là",
+      "options": [
+        "benzyl chloride",
+        "phenyl chloride",
+        "benzene chloride",
+        "hexane chloride"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "question": "Cho dãy chuyển hóa sau: Benzen + C2H4 --(xúc tác, t°)--> X; X + Br2 --(ánh sáng, 1:1)--> Y; Y + KOH/C2H5OH --(t°)--> Z (trong đó X, Y, Z là sản phẩm chính). Tên gọi của Y, Z lần lượt là",
+      "options": [
+        "1-bromo-1-phenylethane và styren",
+        "benzyl bromide và toluene",
+        "1-bromo-2-phenylethane và styren",
+        "2-bromo-1-phenylbenzene và styren"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "question": "Theo quy tắc Zaitsev, sản phẩm chính của phản ứng tách HCl ra khỏi phân tử 2-chlorobutane là",
+      "options": [
+        "But-2-ene",
+        "But-1-ene",
+        "But-1,3-diene",
+        "But-1-yne"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "question": "Sản phẩm chính theo quy tắc Zaitsev của phản ứng tách HCl ra khỏi phân tử 2-chloro-3-methylbutane là",
+      "options": [
+        "2-methylbut-2-ene",
+        "3-methylbut-2-ene",
+        "3-methylbut-3-ene",
+        "2-methylbut-3-ene"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "question": "Thực hiện phản ứng tách HCl từ dẫn xuất CH3CH2CH2Cl thu được alkene X. Đem alkene X cộng hợp bromine thu được sản phẩm chính nào sau đây?",
+      "options": [
+        "CH3CH2CH2Br",
+        "CH3CHBrCH3",
+        "CH3CH2CHBr2",
+        "CH3CHBrCH2Br"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "question": "Trong thể thao, khi các vận động viên bị chấn thương do va chạm, không gây ra vết thương hở, gãy xương,... thường được nhân viên y tế dùng loại thuốc xịt, xịt vào chỗ bị thương để gây tê cục bộ và vận động viên có thể quay trở lại thi đấu. Hợp chất chính có trong thuốc xịt là",
+      "options": [
+        "carbon dioxide",
+        "hydrogen chloride",
+        "chloromethane",
+        "chloroethane"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "question": "Khi trùng hợp CF2=CF2 sẽ thu được hợp chất có tên gọi là teflon. Hợp chất teflon có đặc tính khá bền vững với nhiệt, không thấm nước và giúp giảm ma sát. Vì vậy người ta ứng dụng làm",
+      "options": [
+        "chất chống dính trên chảo",
+        "thuốc trừ sâu bệnh",
+        "thuốc gây mê trong y học",
+        "thuốc giảm đau"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "question": "Ứng dụng nào sau đây không phải của dẫn xuất halogen?",
+      "options": [
+        "Tác nhân làm lạnh",
+        "Sản xuất dược phẩm",
+        "Sản xuất thuốc kích thích hoa quả chín",
+        "Sản xuất thuốc bảo vệ thực vật"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "question": "Nhiều vụ ngộ độc rượu do sử dụng rượu được pha chế từ cồn công nghiệp có lẫn methanol. Công thức phân tử của methanol là",
+      "options": [
+        "CH3OH",
+        "C2H5OH",
+        "C3H7OH",
+        "C2H4(OH)2"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "question": "Ethyl alcohol có công thức cấu tạo là",
+      "options": [
+        "CH3OCH3",
+        "CH3CH2OH",
+        "HOCH2CH2OH",
+        "CH3CH2CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "question": "Tên thay thế của alcohol có công thức cấu tạo CH3CH2CH2OH là",
+      "options": [
+        "propan-1-ol",
+        "propan-2-ol",
+        "pentan-1-ol",
+        "pentan-2-ol"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "question": "Tên thay thế của alcohol có công thức cấu tạo CH3-CH(CH3)-CH(OH)-CH3 là",
+      "options": [
+        "isobutan-2-ol",
+        "2-methylbutan-2-ol",
+        "3-methylbutan-2-ol",
+        "2-methylbutan-3-ol"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "question": "Công thức nào sau đây là công thức cấu tạo của glycerol",
+      "options": [
+        "CH2OH-CH2OH-CH3",
+        "CH2OH-CHOH-CH2OH",
+        "CH2OH-CH2OH",
+        "CH3-CHOH-CHOH-CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "question": "Alcohol no, đơn chức, mạch hở có công thức chung là",
+      "options": [
+        "CnH2n+1OH (n >= 1)",
+        "CnH2n+2O (n >= 2)",
+        "CnH2nOH (n >= 1)",
+        "CnH2nOH (n >= 2)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "question": "Chất nào sau đây thuộc loại alcohol no, đơn chức, mạch hở?",
+      "options": [
+        "HCHO",
+        "C2H4(OH)2",
+        "CH2=CHCH2OH",
+        "C2H5OH"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "question": "Phenol là hợp chất hữu cơ, trong phân tử có",
+      "options": [
+        "nhóm -OH và vòng benzene",
+        "nhóm -OH liên kết trực tiếp với nguyên tử carbon của vòng benzene",
+        "nhóm -OH liên kết trực tiếp với nguyên tử carbon no",
+        "nhóm -OH liên kết trực tiếp với nguyên tử carbon no và có chứa vòng benzene"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "question": "Phenol là những hợp chất hữu cơ trong phân tử có nhóm ...(1)... liên kết trực tiếp với nguyên tử carbon của vòng benzene. Nội dung phù hợp trong chỗ trống (1) là",
+      "options": [
+        "amino",
+        "hydroxy",
+        "carbonyl",
+        "carboxyl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "question": "Phenol là hợp chất có chứa vòng benzene, công thức cấu tạo của phenol là (C6H5-: phenyl)",
+      "options": [
+        "C6H5OH",
+        "C6H5CH3",
+        "C6H5CH2OH",
+        "C6H5NH2"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "question": "Trong các chất sau, chất nào thuộc loại phenol?",
+      "options": [
+        "CH3-C6H4-OH (methylphenol)",
+        "methylcyclohexanol",
+        "C6H5CH2OH (benzyl alcohol)",
+        "CH3-C6H4-COOH (methylbenzoic acid)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "question": "Chất nào sau đây là chất rắn ở điều kiện thường?",
+      "options": [
+        "Phenol",
+        "Ethanol",
+        "Toluene",
+        "Glycerol"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "question": "Keo dán phenol formaldehyde (PF) có độ kết dính cao, chịu nhiệt và nước, thường dùng để ép gỗ, dán gỗ trong xây dựng (gỗ coppha). PF là sản phẩm trùng ngưng của formaldehyde (HCHO) với",
+      "options": [
+        "ethanol (C2H5OH)",
+        "phenol (C6H5OH)",
+        "toluene (C6H5CH3)",
+        "benzene (C6H6)"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "question": "Liều lượng được tính toán phù hợp của một số hợp chất phenol như: 4-hexylresorcinol được dùng trong thuốc giảm ho, chất trị nấm, butyl paraben (HO-C6H4-COO[CH2]3CH3), BHA, BHT,... được ứng dụng làm chất bảo quản trong chế biến thực phẩm, mỹ phẩm, dược phẩm. Vì đặc điểm của các hợp chất này là",
+      "options": [
+        "dễ bảo quản",
+        "chi phí thấp",
+        "không gây ngộ độc nếu dùng đủ liều lượng",
+        "có hoạt tính sinh học"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "question": "Trong công nghiệp, phenol được điều chế chủ yếu từ chất nào sau đây?",
+      "options": [
+        "Benzene",
+        "Cumene",
+        "Chlorobenzene",
+        "Than đá"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "question": "Aldehyde, ketone thuộc loại hợp chất",
+      "options": [
+        "acid carboxylic",
+        "carbonyl",
+        "hydroxyl",
+        "hydrocarbon"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "question": "Aldehyde no đơn chức mạch hở có công thức phân tử chung là",
+      "options": [
+        "CnH2n+2O (n >= 1)",
+        "CnH2nO (n >= 1)",
+        "CnH2nO2 (n >= 1)",
+        "CnH2n+2O (n >= 3)"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "question": "Chất nào dưới đây không phải là aldehyde?",
+      "options": [
+        "H-CH=O",
+        "(CH3)2CO",
+        "O=HC-CH=O",
+        "CH3-CH=O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "question": "Trong các cặp chất sau đây, cặp chất nào thuộc loại hợp chất carbonyl?",
+      "options": [
+        "CH3OH, C2H5OH",
+        "C6H5OH, C6H5CH2OH",
+        "CH3CHO, CH3OCH3",
+        "CH3CHO, CH3COCH3"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "question": "Ketone là hợp chất hữu cơ có",
+      "options": [
+        "Nhóm -CHO liên kết trực tiếp với nguyên tử carbon hoặc nguyên tử hydrogen",
+        "Nhóm -CHO chỉ liên kết trực tiếp với nguyên tử carbon",
+        "Nhóm -CO liên kết với hai gốc hydrocarbon",
+        "Nhóm -CO chỉ liên kết với một gốc hydrocarbon"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "question": "Dung dịch formalin thu được khi",
+      "options": [
+        "hòa tan formaldehit vào nước để thu được dung dịch có nồng độ 37%",
+        "hóa lỏng formaldehyde",
+        "hòa tan formaldehit vào etanol để thu được dung dịch có nồng độ 30%",
+        "B và C đều đúng"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "question": "Chất nào sau đây là chất khí ở nhiệt độ thường?",
+      "options": [
+        "C2H5CHO",
+        "HCHO",
+        "C3H7CHO",
+        "C6H5CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "question": "Chất nào sau đây là chất khí ở nhiệt độ thường?",
+      "options": [
+        "C2H5CHO",
+        "CH3CHO",
+        "C3H7CHO",
+        "C6H5CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "question": "Ở điều kiện thường, các aldehyde nào sau đây tan tốt trong nước?",
+      "options": [
+        "HCHO, C6H13CHO",
+        "HCHO, CH3CHO",
+        "CH3CHO, C7H15CHO",
+        "C6H13CHO, C7H15CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "question": "Thứ tự tăng dần nhiệt độ sôi của các chất C2H5OH, HCHO, H2O là",
+      "options": [
+        "HCHO, H2O, C2H5OH",
+        "HCHO, C2H5OH, H2O",
+        "H2O, C2H5OH, HCHO",
+        "HCHO, C2H5OH, H2O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "question": "Công thức cấu tạo thu gọn của formaldehyde là",
+      "options": [
+        "OHC-CHO",
+        "HCHO",
+        "CH3CHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "question": "Công thức cấu tạo thu gọn của acetaldehyde là",
+      "options": [
+        "OHC-CHO",
+        "CH3CHO",
+        "HCHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "question": "Công thức cấu tạo thu gọn của acetone là",
+      "options": [
+        "OHC-CHO",
+        "CH3COCH3",
+        "CH3CHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "question": "Tên thay thế của CH3-CH(CH3)-CH2-CHO là",
+      "options": [
+        "2-methylbutan-4-al",
+        "3-methylbutanal",
+        "isopentanal",
+        "pentanal"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 42,
+      "type": "multiple-choice",
+      "question": "Hợp chất nào sau đây có tên gọi là butanal?",
+      "options": [
+        "CH3CH2COCH3",
+        "CH3CH2CHO",
+        "CH3CH2CH2CHO",
+        "(CH3)2CHCHO"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 43,
+      "type": "multiple-choice",
+      "question": "CH3CHO khi phản ứng với dung dịch [Ag(NH3)2]OH thu được muối hữu cơ B là",
+      "options": [
+        "(NH4)2CO3",
+        "CH3COONH4",
+        "CH3COOAg",
+        "NH4NO3"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 44,
+      "type": "multiple-choice",
+      "question": "Khử CH3CHO bằng LiAlH4 thu được sản phẩm là",
+      "options": [
+        "CH3CHOHCH3",
+        "CH3CH2OH",
+        "CH3COOH",
+        "CH3COOCH3"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 45,
+      "type": "multiple-choice",
+      "question": "Khử HCHO bằng LiAlH4 thu được sản phẩm là",
+      "options": [
+        "CH3CHOHCH3",
+        "CH3OH",
+        "CH3COOCH3",
+        "CH3COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 46,
+      "type": "multiple-choice",
+      "question": "Khử CH3COCH3 bằng LiAlH4 thu được sản phẩm là",
+      "options": [
+        "CH3COOCH3",
+        "CH3CHOHCH3",
+        "CH3COOH",
+        "CH3CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 47,
+      "type": "multiple-choice",
+      "question": "Cho 1 mL dung dịch AgNO3 1% vào ống nghiệm sạch, sau đó nhỏ từ từ từng giọt dung dịch NH3 5% và lắc nhẹ cho đến khi kết tủa sinh ra bị hòa tan hết. Nhỏ tiếp 3-5 giọt dung dịch X, đun nóng hỗn hợp ở khoảng 60-70°C trong vài phút, trên thành ống nghiệm xuất hiện lớp bạc sáng như gương. Chất X là chất nào sau đây?",
+      "options": [
+        "Butanone",
+        "Ethanol",
+        "Propanal",
+        "Glycerol"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 48,
+      "type": "multiple-choice",
+      "question": "Có thể dùng một chất nào trong các chất dưới đây để nhận biết được dung dịch các chất: ethanol, glycerol, aldehyde acetic đựng trong ba lọ mất nhãn?",
+      "options": [
+        "Dung dịch AgNO3/NH3",
+        "Cu(OH)2/OH-",
+        "Quỳ tím",
+        "Kim loại Na"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 49,
+      "type": "multiple-choice",
+      "question": "Hợp chất hữu cơ A tác dụng vừa đủ với dung dịch AgNO3/NH3 thu được sản phẩm X. Cho X tác dụng với HCl hoặc NaOH đều thu được khí. Chất A là",
+      "options": [
+        "CH3CHO",
+        "HCHO",
+        "C2H4",
+        "CH3COONa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 50,
+      "type": "multiple-choice",
+      "question": "Phản ứng CH3-CH=O + HCN → CH3CH(OH)CN thuộc loại phản ứng nào sau đây?",
+      "options": [
+        "Phản ứng thế",
+        "Phản ứng cộng",
+        "Phản ứng tách",
+        "Phản ứng oxi hóa - khử"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 51,
+      "type": "multiple-choice",
+      "question": "Nhận xét nào sau đây không đúng?",
+      "options": [
+        "Aldehyde bị khử tạo thành alcohol bậc I.",
+        "Ketone bị khử tạo thành alcohol bậc II.",
+        "Aldehyde phản ứng với thuốc thử Tollens tạo lớp bạc sáng.",
+        "Ketone phản ứng với Cu(OH)2 đun nóng tạo kết tủa màu đỏ gạch."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 52,
+      "type": "multiple-choice",
+      "question": "Hợp chất nào sau đây có phản ứng tạo iodoform?",
+      "options": [
+        "CH2=CH2",
+        "CH3CHO",
+        "C6H5OH",
+        "CH=CH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 53,
+      "type": "multiple-choice",
+      "question": "Công thức cấu tạo thu gọn của acetic acid là",
+      "options": [
+        "HCOOH",
+        "CH3CH=O",
+        "CH3COOH",
+        "C6H5COOH"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 54,
+      "type": "multiple-choice",
+      "question": "Công thức cấu tạo thu gọn của HOOC-COOH gọi tên là",
+      "options": [
+        "Formic acid",
+        "Oxalic acid",
+        "Acetic acid",
+        "Benzoic acid"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 55,
+      "type": "multiple-choice",
+      "question": "Benzoic acid được sử dụng như một chất bảo quản thực phẩm (kí hiệu là E-210) cho xúc xích, nước sốt cà chua, mứt, bơ thực vật ... Nó ức chế sự phát triển của nấm mốc, nấm men và một số vi khuẩn. Công thức phân tử benzoic acid là",
+      "options": [
+        "CH3COOH",
+        "HCOOH",
+        "C6H5COOH",
+        "(COOH)2"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 56,
+      "type": "multiple-choice",
+      "question": "Số đồng phân carboxylic acid ứng với công thức C4H8O2 là",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 57,
+      "type": "multiple-choice",
+      "question": "Hợp chất acid mạch hở có CTPT là C4H6O2 có mấy đồng phân acid?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 58,
+      "type": "multiple-choice",
+      "question": "Chọn câu sai trong các câu dưới đây:",
+      "options": [
+        "Công thức chung của các carboxylic acid no, đơn chức, mạch hở là CnH2n+1COOH; n >= 0.",
+        "Các carboxylic acid là chất lỏng hoặc chất rắn ở điều kiện thường.",
+        "Nhiệt độ sôi của các carboxylic acid cao hơn so với alcohol có cùng phân tử khối.",
+        "Độ tan trong nước của carboxylic acid tăng dần theo chiều tăng phân tử khối."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 59,
+      "type": "multiple-choice",
+      "question": "Cho X, Y, Z là các chất khác nhau trong số 3 chất: methyl alcohol, formaldehyde, formic acid và các tính chất sau: Nhiệt độ sôi (C): X 64.7; Y -21; Z 100.7. pH (0.001 M): X 7.00; Y 7.00; Z 3.47. Nhận xét nào sau đây là đúng:",
+      "options": [
+        "Z là methyl alcohol.",
+        "X là formaldehyde.",
+        "Y là methyl alcohol.",
+        "Z là formic acid."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 60,
+      "type": "multiple-choice",
+      "question": "Acetic acid tan được trong nước vì:",
+      "options": [
+        "Các phân tử acid tạo được liên kết hydro với nhau",
+        "Các phân tử acid tạo được liên kết hydro với các phân tử nước",
+        "Acid ở thể lỏng nên dễ tan",
+        "Acid là chất điện li mạnh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 61,
+      "type": "multiple-choice",
+      "question": "Một thí nghiệm được mô tả như hình sau đây: CH3OH + CH3CH2COOH --(H2SO4 đặc, đun nóng)--> sản phẩm thu hồi ở ống nghiệm B trong nước đá. Chất lỏng thu được ở ống nghiệm B có mùi táo. Công thức cấu tạo của chất lỏng là",
+      "options": [
+        "HCOOC2H5",
+        "C2H5COOCH3",
+        "CH3COOC2H5",
+        "HCOOC3H7"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 62,
+      "type": "multiple-choice",
+      "question": "Cho quả trứng gà ngâm trong dung dịch CH3COOH, sau một thời gian sẽ thấy",
+      "options": [
+        "Vỏ quả trứng mềm ra.",
+        "Vỏ quả trứng rắn lại.",
+        "Quả trứng to hơn",
+        "Quả trứng bị vỡ ra"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 63,
+      "type": "multiple-choice",
+      "question": "Khi vắt chanh vào mắm tôm và dùng đũa đánh mềm tôm thì thấy có hiện tượng sủi bọt là do",
+      "options": [
+        "acid citric trong chanh phản ứng với CaCO3 ở vỏ tôm sinh ra CO2.",
+        "acid citric trong chanh phản ứng với Na2S ở vỏ tôm sinh ra H2S.",
+        "acid citric trong chanh phản ứng với protein ở tôm sinh ra N2.",
+        "acid citric trong chanh phản ứng với chất béo ở tôm sinh ra O2."
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}

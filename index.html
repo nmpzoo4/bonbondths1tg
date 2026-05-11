@@ -1031,7 +1031,7 @@
                     <span class="subject-icon">🧪</span>
                     <h2>Hóa Học</h2>
                     <p>Chemistry Tests</p>
-                    <div class="test-count">6 Tests - Hóa hữu cơ</div>
+                    <div class="test-count">7 Tests - Hóa hữu cơ + HK2</div>
                 </div>
                 <div class="subject-card" onclick="selectSubject('sinh')">
                     <span class="subject-icon">🧬</span>
@@ -1257,7 +1257,8 @@
                 { file: 'chemistry-hydrocarbons', name: '⚗️ Hidrocacbon', desc: '15 câu - Ankan, Anken, Ankin' },
                 { file: 'chemistry-alcohol-phenol', name: '🍷 Ancol - Phenol', desc: '15 câu - Tính chất đặc trưng' },
                 { file: 'chemistry-carbonyl', name: '🔥 Andehit - Xeton - Axit', desc: '15 câu - Hợp chất C=O' },
-                { file: 'chemistry-ester', name: '🍌 Este - Lipit', desc: '15 câu - Ứng dụng thực tế' }
+                { file: 'chemistry-ester', name: '🍌 Este - Lipit', desc: '15 câu - Ứng dụng thực tế' },
+                { file: 'chemistry-hk2-test1', name: '🧪 HK2 - Đề 1', desc: '63 câu - Ôn tập HK2' }
             ];
 
             chemTests.forEach(test => {
@@ -2153,6 +2154,30 @@
             displayChemistryQuestions();
         }
 
+        function formatChemistryText(text) {
+            if (!currentTest || currentTest.subject !== 'Chemistry' || typeof text !== 'string') {
+                return text;
+            }
+
+            const subscriptDigits = {
+                '0': '₀',
+                '1': '₁',
+                '2': '₂',
+                '3': '₃',
+                '4': '₄',
+                '5': '₅',
+                '6': '₆',
+                '7': '₇',
+                '8': '₈',
+                '9': '₉'
+            };
+
+            return text.replace(/([A-Za-z\)\]])(\d+)/g, (match, prefix, digits) => {
+                const subDigits = digits.split('').map(d => subscriptDigits[d] || d).join('');
+                return `${prefix}${subDigits}`;
+            });
+        }
+
         // Display all chemistry questions
         function displayChemistryQuestions() {
             const container = document.getElementById('chemistryQuestions');
@@ -2174,7 +2199,7 @@
                 // Question text
                 const questionText = document.createElement('div');
                 questionText.className = 'chem-question-text';
-                questionText.textContent = q.question;
+                questionText.textContent = formatChemistryText(q.question);
                 card.appendChild(questionText);
 
                 // Different rendering based on question type
@@ -2197,7 +2222,8 @@
                         const statementText = document.createElement('div');
                         statementText.style.flex = '1';
                         statementText.style.fontSize = '1.05em';
-                        statementText.textContent = `${String.fromCharCode(97 + sIndex)}. ${statement}`;
+                        const formattedStatement = formatChemistryText(statement);
+                        statementText.textContent = `${String.fromCharCode(97 + sIndex)}. ${formattedStatement}`;
                         statementRow.appendChild(statementText);
 
                         const inputGroup = document.createElement('div');
@@ -2315,6 +2341,7 @@
                         optionLabel.className = 'chem-option';
 
                         const cleanText = option.text.replace(/^[A-D]\.\s*/, '');
+                        const formattedText = formatChemistryText(cleanText);
                         const radio = document.createElement('input');
                         radio.type = 'radio';
                         radio.name = `question-${qIndex}`;
@@ -2333,7 +2360,7 @@
                         };
 
                         optionLabel.appendChild(radio);
-                        optionLabel.appendChild(document.createTextNode(`${labels[optIndex]}. ${cleanText}`));
+                        optionLabel.appendChild(document.createTextNode(`${labels[optIndex]}. ${formattedText}`));
                         optionsDiv.appendChild(optionLabel);
                     });
 
@@ -2359,8 +2386,8 @@
             answerReveal.classList.remove('correct', 'wrong');
 
             // Lấy text của đáp án đúng
-            const correctAnswerText = q.options[correctAnswerIdx].replace(/^[A-D]\.\s*/, '');
-            const userChoiceText = q.options[userChoiceIndex].replace(/^[A-D]\.\s*/, '');
+            const correctAnswerText = formatChemistryText(q.options[correctAnswerIdx].replace(/^[A-D]\.\s*/, ''));
+            const userChoiceText = formatChemistryText(q.options[userChoiceIndex].replace(/^[A-D]\.\s*/, ''));
 
             // Tìm vị trí của đáp án đúng TRONG shuffled options
             const correctLabelInShuffled = labels[q.shuffledOptions.findIndex(opt => opt.originalIndex === correctAnswerIdx)];

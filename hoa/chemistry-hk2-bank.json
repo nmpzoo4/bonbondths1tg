@@ -1,0 +1,763 @@
+{
+  "testName": "On thi cuoi ki 2 Hoa 11 - Ngan hang",
+  "subject": "Chemistry",
+  "description": "Ngan hang cau hoi HK2 (cau 1-63)",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Ten goi thay the cua dan xuat halogen co cong thuc cau tao CH3-CH2-CH2Br la",
+      "options": [
+        "1-bromopropane",
+        "2-bromopropane",
+        "3-bromopropane",
+        "propyl bromide"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Ten goc - chuc cua dan xuat halogen co cong thuc cau tao C2H5Cl la",
+      "options": [
+        "methyl chloride",
+        "phenyl chloride",
+        "ethyl chloride",
+        "propyl chloride"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "Ten thuong cua CH2=CH-Cl la",
+      "options": [
+        "vinyl chloride",
+        "chloride vinyl",
+        "etene chloride",
+        "phenyl chloride"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "Chloroform co cong thuc la",
+      "options": [
+        "CH3Cl",
+        "CH2Cl2",
+        "CHCl3",
+        "CCl4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "question": "Ten thuong cua dan xuat halogen thom C6H5Cl la",
+      "options": [
+        "benzyl chloride",
+        "phenyl chloride",
+        "benzene chloride",
+        "hexane chloride"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "question": "Cho day chuyen hoa sau: Benzen + C2H4 (xt, t0) -> X; X + Br2 (as, 1:1) -> Y; Y + KOH/C2H5OH (t0) -> Z (trong do X, Y, Z la san pham chinh). Ten goi cua Y, Z lan luot la",
+      "options": [
+        "1-bromo-1-phenylethane va styren",
+        "benzyl bromide va toluene",
+        "1-bromo-2-phenylethane va styren",
+        "2-bromo-1-phenylbenzene va styren"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "question": "Theo quy tac Zaitsev, san pham chinh cua phan ung tach HCl ra khoi phan tu 2-chlorobutane la",
+      "options": [
+        "But-2-ene",
+        "But-1-ene",
+        "But-1,3-diene",
+        "But-1-yne"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "question": "San pham chinh theo quy tac Zaitsev cua phan ung tach HCl ra khoi phan tu 2-chloro-3-methylbutane la",
+      "options": [
+        "2-methylbut-2-ene",
+        "3-methylbut-2-ene",
+        "3-methylbut-3-ene",
+        "2-methylbut-3-ene"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "question": "Thuc hien phan ung tach HCl tu dan xuat CH3CH2CH2Cl thu duoc alkene X. Dem alkene X cong hop bromine thu duoc san pham chinh nao sau day?",
+      "options": [
+        "CH3CH2CH2Br",
+        "CH3CHBrCH3",
+        "CH3CH2CHBr2",
+        "CH3CHBrCH2Br"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "question": "Trong the thao, khi cac van dong vien bi chan thuong do va cham, khong gay ra vet thuong ho, gay xuong,... thuong duoc nhan vien y te dung loai thuoc xit, xit vao cho bi thuong de gay te cuc bo va van dong vien co the quay tro lai thi dau. Hop chat chinh co trong thuoc xit la",
+      "options": [
+        "carbon dioxide",
+        "hydrogen chloride",
+        "chloromethane",
+        "chloroethane"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "question": "Khi trung hop CF2=CF2 se thu duoc hop chat co ten goi la teflon. Hop chat teflon co dac tinh kha ben vung voi nhiet, khong tham nuoc va giup giam ma sat. Vi vay nguoi ta ung dung lam",
+      "options": [
+        "chat chong dinh tren chao",
+        "thuoc tru sau benh",
+        "thuoc gay me trong y hoc",
+        "thuoc giam dau"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "question": "Ung dung nao sau day khong phai cua dan xuat halogen?",
+      "options": [
+        "Tac nhan lam lanh",
+        "San xuat duoc pham",
+        "San xuat thuoc kich thich hoa qua chin",
+        "San xuat thuoc bao ve thuc vat"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "question": "Nhieu vu ngo doc ruou do su dung ruou duoc pha che tu con cong nghiep co lan methanol. Cong thuc phan tu cua methanol la",
+      "options": [
+        "CH3OH",
+        "C2H5OH",
+        "C3H7OH",
+        "C2H4(OH)2"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "question": "Ethyl alcohol co cong thuc cau tao la",
+      "options": [
+        "CH3OCH3",
+        "CH3CH2OH",
+        "HOCH2CH2OH",
+        "CH3CH2CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "question": "Ten thay the cua alcohol co cong thuc cau tao CH3CH2CH2OH la",
+      "options": [
+        "propan-1-ol",
+        "propan-2-ol",
+        "pentan-1-ol",
+        "pentan-2-ol"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "type": "multiple-choice",
+      "question": "Ten thay the cua alcohol co cong thuc cau tao CH3-CH(CH3)-CH(OH)-CH3 la",
+      "options": [
+        "isobutan-2-ol",
+        "2-methylbutan-2-ol",
+        "3-methylbutan-2-ol",
+        "2-methylbutan-3-ol"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "question": "Cong thuc nao sau day la cong thuc cau tao cua glycerol",
+      "options": [
+        "CH2OH-CH2OH-CH3",
+        "CH2OH-CHOH-CH2OH",
+        "CH2OH-CH2OH",
+        "CH3-CHOH-CHOH-CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "question": "Alcohol no, don chuc, mach ho co cong thuc chung la",
+      "options": [
+        "CnH2n+1OH (n >= 1)",
+        "CnH2n+2O (n >= 2)",
+        "CnH2nOH (n >= 1)",
+        "CnH2nOH (n >= 2)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "question": "Chat nao sau day thuoc loai alcohol no, don chuc, mach ho?",
+      "options": [
+        "HCHO",
+        "C2H4(OH)2",
+        "CH2=CHCH2OH",
+        "C2H5OH"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "question": "Phenol la hop chat huu co, trong phan tu co",
+      "options": [
+        "nhom -OH va vong benzene",
+        "nhom -OH lien ket truc tiep voi nguyen tu carbon cua vong benzene",
+        "nhom -OH lien ket truc tiep voi nguyen tu carbon no",
+        "nhom -OH lien ket truc tiep voi nguyen tu carbon no va co chua vong benzene"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 21,
+      "type": "multiple-choice",
+      "question": "Phenol la nhung hop chat huu co trong phan tu co nhom ...(1)... lien ket truc tiep voi nguyen tu carbon cua vong benzene. Noi dung phu hop trong cho trong (1) la",
+      "options": [
+        "amino",
+        "hydroxy",
+        "carbonyl",
+        "carboxyl"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "type": "multiple-choice",
+      "question": "Phenol la hop chat co chua vong benzene, cong thuc cau tao cua phenol la (C6H5-: phenyl)",
+      "options": [
+        "C6H5OH",
+        "C6H5CH3",
+        "C6H5CH2OH",
+        "C6H5NH2"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 23,
+      "type": "multiple-choice",
+      "question": "Trong cac chat sau, chat nao thuoc loai phenol?",
+      "options": [
+        "CH3-C6H4-OH (methylphenol)",
+        "methylcyclohexanol",
+        "C6H5CH2OH (benzyl alcohol)",
+        "CH3-C6H4-COOH (methylbenzoic acid)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 24,
+      "type": "multiple-choice",
+      "question": "Chat nao sau day la chat ran o dieu kien thuong?",
+      "options": [
+        "Phenol",
+        "Ethanol",
+        "Toluene",
+        "Glycerol"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 25,
+      "type": "multiple-choice",
+      "question": "Keo dan phenol formaldehyde (PF) co do ket dinh cao, chiu nhiet va nuoc, thuong dung de ep go, dan go trong xay dung (go coppha). PF la san pham trung ngung cua formaldehyde (HCHO) voi",
+      "options": [
+        "ethanol (C2H5OH)",
+        "phenol (C6H5OH)",
+        "toluene (C6H5CH3)",
+        "benzene (C6H6)"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 26,
+      "type": "multiple-choice",
+      "question": "Lieu luong duoc tinh toan phu hop cua mot so hop chat phenol nhu: 4-hexylresorcinol duoc dung trong thuoc giam ho, chat tri nam, butyl paraben (HO-C6H4-COO[CH2]3CH3), BHA, BHT,... duoc ung dung lam chat bao quan trong che bien thuc pham, mi pham, duoc pham. Vi dac diem cua cac hop chat nay la",
+      "options": [
+        "co hoat tinh sinh hoc",
+        "chi phi thap",
+        "de bao quan",
+        "khong gay ngo doc neu dung du lieu luong"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 27,
+      "type": "multiple-choice",
+      "question": "Trong cong nghiep, phenol duoc dieu che chu yeu tu chat nao sau day?",
+      "options": [
+        "Benzene",
+        "Cumene",
+        "Chlorobenzene",
+        "Than da"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 28,
+      "type": "multiple-choice",
+      "question": "Aldehyde, ketone thuoc loai hop chat",
+      "options": [
+        "acid carboxylic",
+        "carbonyl",
+        "hydroxyl",
+        "hydrocarbon"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 29,
+      "type": "multiple-choice",
+      "question": "Aldehyde no don chuc mach ho co cong thuc phan tu chung la",
+      "options": [
+        "CnH2n+2O (n >= 1)",
+        "CnH2nO (n >= 1)",
+        "CnH2nO2 (n >= 1)",
+        "CnH2n+2O (n >= 3)"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 30,
+      "type": "multiple-choice",
+      "question": "Chat nao duoi day khong phai la aldehyde?",
+      "options": [
+        "H-CH=O",
+        "(CH3)2CO",
+        "O=HC-CH=O",
+        "CH3-CH=O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 31,
+      "type": "multiple-choice",
+      "question": "Trong cac cap chat sau day, cap chat nao thuoc loai hop chat carbonyl?",
+      "options": [
+        "CH3OH, C2H5OH",
+        "C6H5OH, C6H5CH2OH",
+        "CH3CHO, CH3OCH3",
+        "CH3CHO, CH3COCH3"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 32,
+      "type": "multiple-choice",
+      "question": "Ketone la hop chat huu co co",
+      "options": [
+        "Nhom -CHO lien ket truc tiep voi nguyen tu carbon hoac nguyen tu hydrogen",
+        "Nhom -CHO chi lien ket truc tiep voi nguyen tu carbon",
+        "Nhom -CO lien ket voi hai goc hydrocarbon",
+        "Nhom -CO chi lien ket voi mot goc hydrocarbon"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "type": "multiple-choice",
+      "question": "Dung dich formalin thu duoc khi",
+      "options": [
+        "hoa tan formaldehit vao nuoc de thu duoc dung dich co nong do 37%",
+        "hoa long formaldehyde",
+        "hoa tan formaldehit vao etanol de thu duoc dung dich co nong do 30%",
+        "B va C deu dung"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "type": "multiple-choice",
+      "question": "Chat nao sau day la chat khi o nhiet do thuong?",
+      "options": [
+        "C2H5CHO",
+        "HCHO",
+        "C3H7CHO",
+        "C6H5CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 35,
+      "type": "multiple-choice",
+      "question": "Chat nao sau day la chat khi o nhiet do thuong?",
+      "options": [
+        "C2H5CHO",
+        "CH3CHO",
+        "C3H7CHO",
+        "C6H5CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 36,
+      "type": "multiple-choice",
+      "question": "O dieu kien thuong, cac aldehyde nao sau day tan tot trong nuoc?",
+      "options": [
+        "HCHO, C6H13CHO",
+        "HCHO, CH3CHO",
+        "CH3CHO, C7H15CHO",
+        "C6H13CHO, C7H15CHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 37,
+      "type": "multiple-choice",
+      "question": "Thu tu tang dan nhiet do soi cua cac chat C2H5OH, HCHO, H2O la",
+      "options": [
+        "HCHO, H2O, C2H5OH",
+        "HCHO, C2H5OH, H2O",
+        "H2O, C2H5OH, HCHO",
+        "HCHO, C2H5OH, H2O"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 38,
+      "type": "multiple-choice",
+      "question": "Cong thuc cau tao thu gon cua formaldehyde la",
+      "options": [
+        "OHC-CHO",
+        "HCHO",
+        "CH3CHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 39,
+      "type": "multiple-choice",
+      "question": "Cong thuc cau tao thu gon cua acetaldehyde la",
+      "options": [
+        "OHC-CHO",
+        "CH3CHO",
+        "HCHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 40,
+      "type": "multiple-choice",
+      "question": "Cong thuc cau tao thu gon cua acetone la",
+      "options": [
+        "OHC-CHO",
+        "CH3COCH3",
+        "CH3CHO",
+        "CH2=CHCHO"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 41,
+      "type": "multiple-choice",
+      "question": "Ten thay the cua CH3-CH(CH3)-CH2-CHO la",
+      "options": [
+        "2-methylbutan-4-al",
+        "3-methylbutanal",
+        "isopentanal",
+        "pentanal"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 42,
+      "type": "multiple-choice",
+      "question": "Hop chat nao sau day co ten goi la butanal?",
+      "options": [
+        "CH3CH2COCH3",
+        "CH3CH2CHO",
+        "CH3CH2CH2CHO",
+        "(CH3)2CHCHO"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 43,
+      "type": "multiple-choice",
+      "question": "CH3CHO khi phan ung voi dung dich [Ag(NH3)2]OH thu duoc muoi huu co B la",
+      "options": [
+        "(NH4)2CO3",
+        "CH3COONH4",
+        "CH3COOAg",
+        "NH4NO3"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 44,
+      "type": "multiple-choice",
+      "question": "Khu CH3CHO bang LiAlH4 thu duoc san pham la",
+      "options": [
+        "CH3CHOHCH3",
+        "CH3CH2OH",
+        "CH3COOH",
+        "CH3COOCH3"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 45,
+      "type": "multiple-choice",
+      "question": "Khu HCHO bang LiAlH4 thu duoc san pham la",
+      "options": [
+        "CH3CHOHCH3",
+        "CH3OH",
+        "CH3COOCH3",
+        "CH3COOH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 46,
+      "type": "multiple-choice",
+      "question": "Khu CH3COCH3 bang LiAlH4 thu duoc san pham la",
+      "options": [
+        "CH3COOCH3",
+        "CH3CHOHCH3",
+        "CH3COOH",
+        "CH3CH2OH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 47,
+      "type": "multiple-choice",
+      "question": "Cho 1 mL dung dich AgNO3 1% vao ong nghiem sach, sau do nho tu tu tung giot dung dich NH3 5% va lac nhe cho den khi ket tua sinh ra bi hoa tan het. Nho tiep 3-5 giot dung dich X, dun nong hon hop o khoang 60C - 70C trong vai phut, tren thanh ong nghiem xuat hien lop bac sang nhu guong. Chat X la chat nao sau day?",
+      "options": [
+        "Butanone",
+        "Ethanol",
+        "Propanal",
+        "Glycerol"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 48,
+      "type": "multiple-choice",
+      "question": "Co the dung mot chat nao trong cac chat duoi day de nhan biet duoc dung dich cac chat: ethanol, glycerol, aldehyde acetic dung trong ba lo mat nhan?",
+      "options": [
+        "Dung dich AgNO3/NH3",
+        "Cu(OH)2/OH-",
+        "Quy tim",
+        "Kim loai Na"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 49,
+      "type": "multiple-choice",
+      "question": "Hop chat huu co A tac dung vua du voi dung dich AgNO3/NH3 thu duoc san pham X. Cho X tac dung voi HCl hoac NaOH deu thu duoc khi. Chat A la",
+      "options": [
+        "CH3CHO",
+        "HCHO",
+        "C2H4",
+        "CH3COONa"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 50,
+      "type": "multiple-choice",
+      "question": "Phan ung CH3-CH=O + HCN -> CH3CH(OH)CN thuoc loai phan ung nao sau day?",
+      "options": [
+        "Phan ung the",
+        "Phan ung cong",
+        "Phan ung tach",
+        "Phan ung oxi hoa - khu"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 51,
+      "type": "multiple-choice",
+      "question": "Nhan xet nao sau day khong dung?",
+      "options": [
+        "Aldehyde bi khu tao thanh alcohol bac I.",
+        "Ketone bi khu tao thanh alcohol bac II.",
+        "Aldehyde phan ung voi thuoc thu Tollens tao lop bac sang.",
+        "Ketone phan ung voi Cu(OH)2 dun nong tao ket tua mau do gach."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 52,
+      "type": "multiple-choice",
+      "question": "Hop chat nao sau day co phan ung tao iodoform?",
+      "options": [
+        "CH2=CH2",
+        "CH3CHO",
+        "C6H5OH",
+        "CH=CH"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 53,
+      "type": "multiple-choice",
+      "question": "Cong thuc cau tao thu gon cua acetic acid la",
+      "options": [
+        "HCOOH",
+        "CH3CH=O",
+        "CH3COOH",
+        "C6H5COOH"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 54,
+      "type": "multiple-choice",
+      "question": "Cong thuc cau tao thu gon cua HOOC-COOH goi ten la",
+      "options": [
+        "Formic acid",
+        "Oxalic acid",
+        "Acetic acid",
+        "Benzoic acid"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 55,
+      "type": "multiple-choice",
+      "question": "Benzoic acid duoc su dung nhu mot chat bao quan thuc pham (ki hieu la E-210) cho xuc xich, nuoc sot ca chua, mut, bo thuc vat ... No uc che su phat trien cua nam moc, nam men va mot so vi khuan. Cong thuc phan tu benzoic acid la",
+      "options": [
+        "CH3COOH",
+        "HCOOH",
+        "C6H5COOH",
+        "(COOH)2"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 56,
+      "type": "multiple-choice",
+      "question": "So dong phan carboxylic acid ung voi cong thuc C4H8O2 la",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 57,
+      "type": "multiple-choice",
+      "question": "Hop chat acid mach ho co CTPT la C4H6O2 co may dong phan acid?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 58,
+      "type": "multiple-choice",
+      "question": "Chon cau sai trong cac cau duoi day:",
+      "options": [
+        "Cong thuc chung cua cac carboxylic acid no, don chuc, mach ho la CnH2n+1COOH; n >= 0.",
+        "Cac carboxylic acid la chat long hoac chat ran o dieu kien thuong.",
+        "Nhiet do soi cua cac carboxylic acid cao hon so voi alcohol co cung phan tu khoi.",
+        "Do tan trong nuoc cua carboxylic acid tang dan theo chieu tang phan tu khoi."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 59,
+      "type": "multiple-choice",
+      "question": "Cho X, Y, Z la cac chat khac nhau trong so 3 chat: methyl alcohol, formaldehyde, formic acid va cac tinh chat sau: Nhiet do soi (C): X 64.7; Y -21; Z 100.7. pH (0.001 M): X 7.00; Y 7.00; Z 3.47. Nhan xet nao sau day la dung:",
+      "options": [
+        "Z la methyl alcohol.",
+        "X la formaldehyde.",
+        "Y la methyl alcohol.",
+        "Z la formic acid."
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 60,
+      "type": "multiple-choice",
+      "question": "Acetic acid tan duoc trong nuoc vi:",
+      "options": [
+        "Cac phan tu acid tao duoc lien ket hydro voi nhau",
+        "Cac phan tu acid tao duoc lien ket hydro voi cac phan tu nuoc",
+        "Acid o the long nen de tan",
+        "Acid la chat dien li manh"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 61,
+      "type": "multiple-choice",
+      "question": "Mot thi nghiem duoc mo ta nhu hinh sau day: CH3OH va CH3CH2COOH (H2SO4 dac), dun nong va thu hoi san pham o ong nghiem B trong nuoc da. Chat long thu duoc o ong nghiem B co mui tao. Cong thuc cau tao cua chat long la",
+      "options": [
+        "HCOOC2H5",
+        "C2H5COOCH3",
+        "CH3COOC2H5",
+        "HCOOC3H7"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 62,
+      "type": "multiple-choice",
+      "question": "Cho qua trung ga ngam trong dung dich CH3COOH, sau mot thoi gian se thay",
+      "options": [
+        "Vo qua trung mem ra.",
+        "Vo qua trung ran lai.",
+        "Qua trung to hon",
+        "Qua trung bi vo ra"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 63,
+      "type": "multiple-choice",
+      "question": "Khi vat chanh vao mam tom va dung dua danh mem tom thi thay co hien tuong sui bot la do",
+      "options": [
+        "acid citric trong chanh phan ung voi CaCO3 o vo tom sinh ra CO2.",
+        "acid citric trong chanh phan ung voi Na2S o vo tom sinh ra H2S.",
+        "acid citric trong chanh phan ung voi protein o tom sinh ra N2.",
+        "acid citric trong chanh phan ung voi chat beo o tom sinh ra O2."
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
